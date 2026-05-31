@@ -1,0 +1,19 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local backups
+*.bak
+*.orig
+*~
+
+# Don't ever commit a populated talent-pool JSON export
+rq_talent_pool_backup.json
+rq_talent_pool.csv

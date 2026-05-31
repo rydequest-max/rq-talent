@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0a1e5e" />
+<title>RQ Talent · Careers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0..1,0&display=swap" rel="stylesheet">
+<style>
+:root {
+  --background: #faf8ff; --surface-lowest: #ffffff;
+  --surface-low: #f2f3ff; --surface: #eaedff; --surface-high: #e2e7ff;
+  --on-surface: #131b2e; --on-variant: #434656; --secondary: #505f76;
+  --outline: #737688; --outline-v: #c3c5d9;
+  --primary: #003ec7; --primary-strong: #0052ff; --on-primary: #ffffff;
+  --primary-fixed: #dde1ff;
+  --good: #1f8a4c; --good-fixed: #d0eedb;
+  --warn: #952200; --warn-fixed: #ffdbd2;
+  --error: #ba1a1a;
+  --r-md: 8px; --r-lg: 12px; --r-xl: 16px; --r-2xl: 24px; --r-full: 9999px;
+  --ambient: 0 4px 20px rgba(15,23,42,0.08);
+  --elevated: 0 12px 40px rgba(15,23,42,0.16);
+  --rail-w: 80px; --rail-w-open: 256px; --topbar-h: 64px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 16px; line-height: 1.6;
+  color: var(--on-surface); background: var(--background);
+  -webkit-font-smoothing: antialiased; overflow-x: hidden;
+}
+button { font-family: inherit; cursor: pointer; }
+input, select, textarea { font-family: inherit; }
+.material-symbols-outlined { font-variation-settings: 'opsz' 24, 'wght' 300, 'FILL' 0; vertical-align: middle; }
+
+.app { min-height: 100vh; }
+aside.rail {
+  position: fixed; left: 0; top: 0; height: 100vh; width: var(--rail-w);
+  background: var(--surface-low); z-index: 40;
+  box-shadow: 0 0 1px rgba(15,23,42,0.06), 4px 0 12px rgba(15,23,42,0.03);
+  display: flex; flex-direction: column; padding: 32px 0;
+  transition: width 280ms cubic-bezier(.2,.8,.2,1); overflow: hidden;
+}
+aside.rail:hover, aside.rail.open { width: var(--rail-w-open); }
+aside.rail .label { opacity: 0; transition: opacity 200ms ease; white-space: nowrap; }
+aside.rail:hover .label, aside.rail.open .label { opacity: 1; }
+.brand { display: flex; align-items: center; gap: 16px; padding: 0 24px 64px; color: inherit; text-decoration: none; }
+.brand-mark { width: 40px; height: 40px; background: var(--primary); color: #fff; border-radius: var(--r-lg);
+  display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-family: 'JetBrains Mono', monospace; font-size: 16px; letter-spacing: -0.04em; flex-shrink: 0; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
+.brand-text strong { font-size: 22px; font-weight: 700; color: var(--primary); }
+.brand-text small { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--secondary); margin-top: 4px; }
+.nav { display: flex; flex-direction: column; gap: 4px; padding: 0 12px; flex: 1; }
+.nav-item {
+  display: flex; align-items: center; gap: 16px; padding: 12px;
+  color: var(--secondary); border-radius: var(--r-lg);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  background: none; border: none; text-align: left; white-space: nowrap;
+  transition: all 200ms ease; cursor: pointer;
+}
+.nav-item:hover { color: var(--primary); background: var(--surface-high); }
+.nav-item.active { color: var(--primary); background: rgba(208,225,251,0.5); font-weight: 700; }
+.nav-item .material-symbols-outlined { font-size: 22px; }
+
+main.main { margin-left: var(--rail-w); display: flex; flex-direction: column; min-height: 100vh; }
+header.topbar {
+  height: var(--topbar-h); background: var(--surface-lowest);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 24px; box-shadow: 0 1px 0 rgba(15,23,42,0.04);
+  position: sticky; top: 0; z-index: 30;
+}
+.tb-title { font-weight: 600; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--secondary); }
+.tb-menu { display: none; background: transparent; border: none; padding: 8px; border-radius: var(--r-lg); color: var(--secondary); }
+
+.canvas { max-width: 1100px; margin: 0 auto; padding: 40px 24px; flex: 1; width: 100%; }
+
+.page-head { margin-bottom: 40px; }
+.eyebrow { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--secondary); margin-bottom: 12px; font-family: 'JetBrains Mono', monospace; }
+.page-title { font-size: 56px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em;
+  margin: 0 0 12px; color: var(--on-surface); }
+.page-title .accent { color: var(--primary); }
+.page-sub { font-size: 18px; color: var(--on-variant); margin: 0; max-width: 640px; }
+
+.card { background: var(--surface-lowest); border-radius: var(--r-xl); padding: 24px; box-shadow: var(--ambient); }
+.card.lg { border-radius: var(--r-2xl); padding: 40px; box-shadow: var(--elevated); }
+
+.step-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 12px; flex-wrap: wrap; }
+.step { display: flex; align-items: center; gap: 8px; font-family: 'JetBrains Mono', monospace;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--secondary); }
+.step-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--primary); }
+.pill { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: var(--r-full);
+  font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  background: var(--surface); color: var(--secondary); }
+.pill.primary { background: var(--primary-fixed); color: var(--primary); }
+
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field.full { grid-column: 1 / -1; }
+.field label { font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--secondary); }
+.field label .req { color: var(--error); margin-left: 2px; }
+.field input, .field select, .field textarea {
+  padding: 12px 14px; border-radius: var(--r-lg); border: 1px solid var(--outline-v);
+  background: var(--surface-lowest); font-size: 14px; color: var(--on-surface);
+  transition: all 200ms ease; width: 100%;
+}
+.field input:focus, .field select:focus, .field textarea:focus {
+  outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(0,62,199,0.12);
+}
+.field textarea { min-height: 96px; resize: vertical; }
+.field .hint { font-size: 11px; color: var(--outline); }
+
+.photo-upload { display: flex; align-items: center; gap: 16px; }
+.photo-preview { width: 80px; height: 80px; border-radius: 50%; background: var(--primary-fixed);
+  display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 24px;
+  color: var(--primary); overflow: hidden; flex-shrink: 0; }
+.photo-preview img { width: 100%; height: 100%; object-fit: cover; }
+.photo-upload button { background: transparent; border: 1px solid var(--outline-v); padding: 10px 14px;
+  border-radius: var(--r-lg); font-size: 12px; font-weight: 600; color: var(--secondary); }
+.photo-upload button:hover { border-color: var(--primary); color: var(--primary); }
+
+.dropzone.hero { padding: 56px 24px; border-radius: var(--r-2xl); border: 3px dashed var(--outline-v);
+  text-align: center; cursor: pointer; background: var(--surface-low); transition: all 200ms ease; }
+.dropzone.hero:hover, .dropzone.hero.drag { border-color: var(--primary); background: var(--primary-fixed); }
+.dropzone.hero .ico-big {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 96px; height: 96px; border-radius: 50%;
+  background: var(--primary-fixed); margin-bottom: 16px;
+}
+.dropzone.hero .ico-big .material-symbols-outlined { font-size: 48px; color: var(--primary); }
+.dropzone.hero h3 { font-size: 22px; font-weight: 700; margin: 0 0 6px; }
+.dropzone.hero p { font-size: 14px; margin: 0; color: var(--on-variant); }
+.dz-supports { display: flex; justify-content: center; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+
+.pulse-icon-big {
+  position: relative; flex-shrink: 0; width: 80px; height: 80px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%; background: var(--primary-fixed);
+}
+.pulse-icon-big::before, .pulse-icon-big::after {
+  content: ''; position: absolute; inset: 0; border-radius: 50%;
+  background: var(--primary); opacity: 0.25; animation: rqPulse 1.6s ease-out infinite;
+}
+.pulse-icon-big::after { animation-delay: 0.8s; }
+.pulse-icon-big .material-symbols-outlined { position: relative; z-index: 2; color: var(--primary); font-size: 40px; font-variation-settings: 'opsz' 24, 'wght' 400, 'FILL' 1; }
+@keyframes rqPulse { 0% { transform: scale(1); opacity: 0.35; } 100% { transform: scale(1.8); opacity: 0; } }
+
+.processing-steps { list-style: none; margin: 0; padding: 0; }
+.processing-steps li { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--on-variant);
+  margin-bottom: 6px; opacity: 0; animation: rqFadeUp 0.5s ease forwards; }
+.processing-steps li:nth-child(1) { animation-delay: 0.0s; }
+.processing-steps li:nth-child(2) { animation-delay: 0.8s; }
+.processing-steps li:nth-child(3) { animation-delay: 1.6s; }
+.processing-steps li:nth-child(4) { animation-delay: 2.4s; }
+.processing-steps .material-symbols-outlined { color: var(--primary); font-size: 16px; animation: rqSpin 1.4s linear infinite; }
+@keyframes rqFadeUp { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@keyframes rqSpin { to { transform: rotate(360deg); } }
+
+.review-banner { display: flex; gap: 12px; align-items: center; padding: 16px; border-radius: var(--r-lg);
+  background: linear-gradient(135deg, var(--good-fixed), var(--surface-high)); margin-bottom: 24px; flex-wrap: wrap; }
+.review-banner > .material-symbols-outlined { color: var(--good); font-size: 28px; font-variation-settings: 'opsz' 24, 'wght' 400, 'FILL' 1; flex-shrink: 0; }
+.review-banner strong { display: block; font-size: 14px; color: var(--good); }
+.review-banner p { margin: 4px 0 0; font-size: 13px; color: var(--on-variant); }
+
+.cv-attached { display: flex; align-items: center; gap: 12px; padding: 12px 14px; margin-top: 20px;
+  background: var(--surface-low); border: 1px solid var(--surface); border-radius: var(--r-lg); }
+.cv-attached > .material-symbols-outlined { color: var(--primary); }
+.cv-attached .meta { flex: 1; }
+.cv-attached strong { font-size: 14px; font-weight: 600; display: block; }
+.cv-attached small { font-size: 12px; color: var(--on-variant); }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 12px 20px; border-radius: var(--r-xl);
+  font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  border: none; transition: all 200ms ease; text-decoration: none; }
+.btn.primary { background: var(--primary); color: #fff; box-shadow: 0 4px 14px rgba(0,62,199,0.25); }
+.btn.primary:hover:not(:disabled) { background: var(--primary-strong); transform: translateY(-1px); }
+.btn.primary:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn.ghost { background: transparent; color: var(--secondary); }
+.btn.ghost:hover { background: var(--surface); color: var(--primary); }
+.btn.sm { padding: 8px 14px; font-size: 11px; }
+.btn.block { width: 100%; }
+.btn.lg { padding: 16px 24px; font-size: 14px; }
+
+.notice { padding: 12px 14px; border-radius: var(--r-lg); font-size: 13px; margin-top: 12px; }
+.notice.warn { background: var(--warn-fixed); color: var(--warn); }
+
+.confirm { text-align: center; padding: 40px 24px; }
+.confirm .ring { width: 80px; height: 80px; border-radius: 50%; background: var(--good-fixed);
+  display: inline-flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+.confirm .ring .material-symbols-outlined { font-size: 40px; color: var(--good);
+  font-variation-settings: 'opsz' 24, 'wght' 400, 'FILL' 1; }
+.confirm h2 { font-size: 28px; font-weight: 700; margin: 0 0 8px; }
+.confirm p { color: var(--on-variant); margin: 0 0 24px; }
+
+/* Application ID block on confirmation */
+.appid-box { display: inline-flex; flex-direction: column; align-items: center; gap: 10px;
+  padding: 20px 28px; margin: 8px 0 24px;
+  background: var(--surface-low); border: 1px dashed var(--outline-v); border-radius: var(--r-xl); }
+.appid-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--secondary); }
+.appid-value { font-family: 'JetBrains Mono', monospace; font-size: 28px; font-weight: 700;
+  letter-spacing: 0.08em; color: var(--primary); display: inline-flex; align-items: center; gap: 10px; }
+.appid-copy { background: transparent; border: none; padding: 6px; border-radius: var(--r-md);
+  color: var(--secondary); cursor: pointer; transition: all 160ms ease; }
+.appid-copy:hover { background: var(--surface); color: var(--primary); }
+.appid-copy .material-symbols-outlined { font-size: 20px; }
+.appid-copy.copied { color: var(--good); }
+.appid-hint { font-size: 12px; color: var(--on-variant); max-width: 320px; text-align: center; }
+.confirm-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+/* Status check stage */
+.status-check-form { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+.status-check-form .field { display: flex; flex-direction: column; gap: 6px; }
+.status-check-form label { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--secondary); }
+.status-check-form input { padding: 12px 14px; border-radius: var(--r-lg); border: 1px solid var(--outline-v);
+  background: var(--surface-lowest); font-size: 14px; font-family: inherit; }
+.status-check-form input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(0,62,199,0.12); }
+.status-check-form input#scAppId { font-family: 'JetBrains Mono', monospace; letter-spacing: 0.06em; text-transform: uppercase; }
+.status-result { margin-top: 24px; padding: 24px; border-radius: var(--r-xl); display: none; }
+.status-result.show { display: block; }
+.status-result.found { background: linear-gradient(135deg, var(--primary-fixed), var(--surface-high)); }
+.status-result.missing { background: var(--warn-fixed); color: var(--warn); }
+.status-result h3 { margin: 0 0 8px; font-size: 18px; font-weight: 700; }
+.status-result .stage-badge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px;
+  border-radius: var(--r-full); font-size: 12px; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; background: var(--primary); color: #fff; margin: 8px 0 12px; }
+.status-result .stage-badge[data-stage="placed"] { background: var(--good); }
+.status-result .stage-badge[data-stage="archived"] { background: var(--secondary); }
+.status-result .stage-msg { font-size: 14px; color: var(--on-surface); line-height: 1.6; margin: 0; }
+.status-result .stage-meta { font-size: 12px; color: var(--secondary); margin-top: 12px; }
+@media (max-width: 540px) {
+  .status-check-form { grid-template-columns: 1fr; }
+}
+
+.app-footer { display: flex; justify-content: space-between; align-items: center; padding: 24px;
+  border-top: 1px solid var(--surface); color: var(--secondary); font-size: 11px;
+  letter-spacing: 0.04em; text-transform: uppercase; gap: 16px; flex-wrap: wrap; }
+.app-footer .links { display: flex; gap: 20px; flex-wrap: wrap; }
+.app-footer a { color: var(--secondary); text-decoration: none; }
+.app-footer a:hover { color: var(--primary); }
+
+.stage { display: none; }
+.stage.on { display: block; }
+
+@media (max-width: 1024px) {
+  .form-grid { grid-template-columns: 1fr; }
+  .page-title { font-size: 44px; }
+}
+@media (max-width: 700px) {
+  :root { --rail-w: 0px; }
+  aside.rail { transform: translateX(-100%); transition: transform 280ms ease, width 280ms ease; }
+  aside.rail.open { transform: translateX(0); width: var(--rail-w-open); }
+  main.main { margin-left: 0; }
+  .tb-menu { display: inline-flex; }
+  .canvas { padding: 24px 16px; }
+  .page-title { font-size: 32px; line-height: 1.1; }
+  .page-sub { font-size: 15px; }
+  .card.lg { padding: 24px; border-radius: var(--r-xl); }
+  .photo-upload { flex-direction: column; align-items: flex-start; }
+}
+
+.scrim { display: none; position: fixed; inset: 0; background: rgba(15,23,42,0.4); z-index: 35; }
+.scrim.show { display: block; }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="rail" id="rail">
+    <a class="brand" href="#">
+      <span class="brand-mark">RQ</span>
+      <span class="brand-text label">
+        <strong>RQ Talent</strong>
+        <small>Careers Portal</small>
+      </span>
+    </a>
+    <nav class="nav">
+      <button class="nav-item active" id="navSubmit" onclick="goSubmit()">
+        <span class="material-symbols-outlined">upload_file</span>
+        <span class="label">Submit CV</span>
+      </button>
+      <button class="nav-item" id="navStatus" onclick="showStage('statusCheck')">
+        <span class="material-symbols-outlined">fact_check</span>
+        <span class="label">Check status</span>
+      </button>
+      <button class="nav-item" onclick="showAbout()">
+        <span class="material-symbols-outlined">help</span>
+        <span class="label">About</span>
+      </button>
+    </nav>
+  </aside>
+  <div class="scrim" id="scrim" onclick="document.getElementById('rail').classList.remove('open');document.getElementById('scrim').classList.remove('show');"></div>
+  <main class="main">
+    <header class="topbar">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <button class="tb-menu" onclick="document.getElementById('rail').classList.add('open');document.getElementById('scrim').classList.add('show');" aria-label="Menu">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <span class="tb-title">Careers · Middle East &amp; Beyond</span>
+      </div>
+    </header>
+    <div class="canvas">
+      <header class="page-head">
+        <span class="eyebrow">Careers · GCC and Beyond</span>
+        <h1 class="page-title">Your next role, <span class="accent">across the GCC and beyond.</span></h1>
+        <p class="page-sub">Drop your CV once. We match strong candidates with hiring teams across the GCC and beyond — leadership in Riyadh, Doha and Dubai, specialist roles across MENA, Africa and South Asia. Great roles are opening across the region — let's find yours.</p>
+      </header>
+
+      <!-- STAGE 1 -->
+      <div class="card lg" id="stageUpload">
+        <div class="step-row">
+          <div class="step"><span class="step-dot"></span>One step — drop your CV</div>
+          <span class="pill primary">Confidential</span>
+        </div>
+        <div class="dropzone hero" id="cvHeroDrop" tabindex="0" role="button" aria-label="Upload CV">
+          <div class="ico-big"><span class="material-symbols-outlined">cloud_upload</span></div>
+          <h3>Drop your CV here</h3>
+          <p>or tap to browse — that's everything we need</p>
+          <input type="file" id="cvHeroInput" accept=".pdf,.doc,.docx,.txt" hidden>
+          <div class="dz-supports">
+            <span class="pill">PDF</span><span class="pill">DOCX</span><span class="pill">TXT</span>
+            <span class="pill" style="background:transparent;color:var(--outline);">under 2 MB</span>
+          </div>
+        </div>
+        <div id="uploadErr" class="notice warn" style="display:none;"></div>
+        <div style="text-align:center;margin-top:20px;">
+          <button class="btn ghost sm" type="button" onclick="showManualForm()">No CV? Fill in manually →</button>
+        </div>
+      </div>
+
+      <!-- STAGE 2 -->
+      <div class="card lg stage" id="stageProcessing">
+        <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
+          <div class="pulse-icon-big"><span class="material-symbols-outlined">visibility</span></div>
+          <div style="flex:1;min-width:240px;">
+            <h2 style="margin:0 0 4px;font-size:20px;font-weight:600;">Reading your CV…</h2>
+            <p style="color:var(--on-variant);margin:0 0 16px;font-size:14px;">Building your profile — this takes a few seconds.</p>
+            <ul class="processing-steps">
+              <li><span class="material-symbols-outlined">progress_activity</span> Opening your CV…</li>
+              <li><span class="material-symbols-outlined">progress_activity</span> Picking up your contact details…</li>
+              <li><span class="material-symbols-outlined">progress_activity</span> Mapping your experience &amp; skills…</li>
+              <li><span class="material-symbols-outlined">progress_activity</span> Putting your profile together…</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- STAGE 3 -->
+      <div class="card lg stage" id="stageReview">
+        <div class="review-banner" id="reviewBanner">
+          <span class="material-symbols-outlined">task_alt</span>
+          <div style="flex:1;">
+            <strong>Your profile is ready.</strong>
+            <p>Have a quick look. Edit anything that needs adjusting, then submit. Required fields marked <span class="req" style="color:var(--error);">*</span>.</p>
+          </div>
+          <button type="button" class="btn ghost sm" onclick="changeFile()">
+            <span class="material-symbols-outlined">swap_horiz</span>
+            Different CV
+          </button>
+        </div>
+        <form id="candForm" autocomplete="on" novalidate>
+          <div class="field full">
+            <label>Profile photo <span class="hint" style="text-transform:none;letter-spacing:0;font-weight:400;">(optional)</span></label>
+            <div class="photo-upload">
+              <div class="photo-preview" id="photoPreview"><span id="photoInitial">R</span></div>
+              <div style="display:flex;flex-direction:column;gap:6px;">
+                <button type="button" onclick="document.getElementById('photoInput').click()">Choose photo</button>
+                <span class="hint">JPG or PNG · under 1 MB</span>
+              </div>
+              <input type="file" id="photoInput" accept="image/*" hidden>
+            </div>
+          </div>
+          <div class="form-grid" style="margin-top:24px;">
+            <div class="field"><label>Full name <span class="req">*</span></label><input type="text" id="fName" placeholder="Aisha El-Sayed" required></div>
+            <div class="field"><label>Email <span class="req">*</span></label><input type="email" id="fEmail" placeholder="you@example.com" required></div>
+            <div class="field"><label>Phone <span class="req">*</span></label><input type="tel" id="fPhone" placeholder="+971 50 123 4567" required></div>
+            <div class="field"><label>Country <span class="req">*</span></label><select id="fCountry" required><option value="">— Select country —</option></select></div>
+            <div class="field"><label>City</label><input type="text" id="fCity" placeholder="Dubai"></div>
+            <div class="field"><label>LinkedIn / Portfolio</label><input type="url" id="fLinked" placeholder="linkedin.com/in/..."></div>
+            <div class="field"><label>Industry <span class="req">*</span></label><select id="fIndustry" required><option value="">— Select industry —</option></select></div>
+            <div class="field"><label>Current job title <span class="req">*</span></label><input type="text" id="fJob" placeholder="Senior Solutions Architect" required></div>
+            <div class="field"><label>Years of experience</label>
+              <select id="fYears">
+                <option value="0-2">0–2 years</option>
+                <option value="3-5">3–5 years</option>
+                <option value="6-10" selected>6–10 years</option>
+                <option value="11-15">11–15 years</option>
+                <option value="16+">16+ years</option>
+              </select>
+            </div>
+            <div class="field"><label>Seniority</label>
+              <select id="fSeniority">
+                <option value="Entry">Entry-level</option>
+                <option value="Mid" selected>Mid-level</option>
+                <option value="Senior">Senior</option>
+                <option value="Lead">Lead / Principal</option>
+                <option value="Manager">Manager</option>
+                <option value="Director">Director</option>
+                <option value="Executive">VP / C-suite</option>
+              </select>
+            </div>
+            <div class="field full"><label>Key skills <span class="req">*</span></label><input type="text" id="fSkills" placeholder="AWS, Kubernetes, Python, Arabic" required><span class="hint">Separate with commas.</span></div>
+            <div class="field full"><label>Short bio</label><textarea id="fBio" placeholder="A 2–3 sentence summary."></textarea></div>
+          </div>
+          <div class="cv-attached" id="cvAttachedRow" style="display:none;">
+            <span class="material-symbols-outlined">description</span>
+            <div class="meta">
+              <strong id="cvAttachedName">cv.pdf</strong>
+              <small id="cvAttachedSize">attached</small>
+            </div>
+            <button type="button" class="btn ghost sm" onclick="changeFile()">Replace</button>
+          </div>
+          <div id="errBox" class="notice warn" style="display:none;"></div>
+          <button type="submit" class="btn primary lg block" id="submitBtn" style="margin-top:24px;">
+            <span class="material-symbols-outlined">send</span>
+            Submit application
+          </button>
+          <p class="hint" style="text-align:center;margin-top:12px;">
+            Your information is stored privately. Only the RQ Talent team will see it.
+          </p>
+        </form>
+      </div>
+
+      <!-- CONFIRMATION -->
+      <div class="card lg confirm stage" id="confirmCard">
+        <div class="ring"><span class="material-symbols-outlined">check_circle</span></div>
+        <h2>Application received.</h2>
+        <p>Thank you, <span id="confirmName">friend</span>. Strong fits hear from us within a week.</p>
+        <div class="appid-box">
+          <span class="appid-label">Your application ID</span>
+          <span class="appid-value">
+            <span id="confirmAppId">RQ-XXXXX</span>
+            <button type="button" class="appid-copy" id="appIdCopyBtn" onclick="copyAppId()" title="Copy ID">
+              <span class="material-symbols-outlined">content_copy</span>
+            </button>
+          </span>
+          <span class="appid-hint">Save this ID. Use it with your email to check your status anytime — no account needed.</span>
+        </div>
+        <div class="confirm-actions">
+          <button class="btn primary" onclick="goCheckMyStatus()">
+            <span class="material-symbols-outlined">fact_check</span>
+            Check my status
+          </button>
+          <button class="btn ghost" onclick="resetForm()">
+            <span class="material-symbols-outlined">add</span>
+            Submit another
+          </button>
+        </div>
+      </div>
+
+      <!-- STATUS CHECK -->
+      <div class="card lg stage" id="stageStatusCheck">
+        <div class="step-row">
+          <div class="step"><span class="step-dot"></span>Check your application status</div>
+        </div>
+        <p style="color:var(--on-variant);margin:0 0 0;font-size:14px;">
+          Enter the application ID we showed you when you applied, plus the email on your CV. Your details stay private.
+        </p>
+        <div class="status-check-form">
+          <div class="field">
+            <label for="scAppId">Application ID</label>
+            <input type="text" id="scAppId" placeholder="RQ-XXXXX" maxlength="10" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="scEmail">Email on your CV</label>
+            <input type="email" id="scEmail" placeholder="you@example.com" autocomplete="email">
+          </div>
+        </div>
+        <button class="btn primary lg block" onclick="checkStatus()" style="margin-top:20px;">
+          <span class="material-symbols-outlined">search</span>
+          Check status
+        </button>
+        <div class="status-result" id="statusResult"></div>
+      </div>
+    </div>
+    <footer class="app-footer">
+      <span>© 2026 RQ Talent</span>
+      <div class="links">
+        <a href="#" onclick="showAbout();return false;">About</a>
+      </div>
+    </footer>
+  </main>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════════════════
+ * CONFIG — change these before deploying
+ * ═══════════════════════════════════════════════════════════════════════════ */
+const CONFIG = {
+  // Sign up at https://formspree.io, create a form, paste the form ID here
+  // (e.g. "xpzgkrqe") to have every submission emailed to you.
+  FORMSPREE_ID: "",
+  // Shared with admin.html — keep identical so the admin page sees these submissions.
+  STORAGE_KEY: "rq_talent_pool_v1",
+  // Optional: paste an Anthropic API key to use Claude for CV parsing.
+  // WARNING: the key is visible in the browser. Use only for personal demos.
+  ANTHROPIC_API_KEY: "",
+};
+
+/* Country list (ISO + common dependencies) */
+const COUNTRIES = ["Afghanistan","Albania","Algeria","Andorra","Angola","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo (Brazzaville)","Congo (DRC)","Costa Rica","Côte d'Ivoire","Croatia","Cuba","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macao","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Korea","North Macedonia","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"];
+
+const INDUSTRIES = [
+  "Technology / Software","Financial Services / Fintech","Energy / Oil & Gas","Renewables / Cleantech",
+  "Construction / Infrastructure","Real Estate / PropTech","Healthcare / Pharma","Education / EdTech",
+  "Manufacturing / Industrial","Logistics / Supply Chain","Retail / E-commerce","Hospitality / Tourism",
+  "Telecommunications","Media / Marketing / Advertising","Aviation / Aerospace","Public Sector / Government",
+  "NGO / Development","Consulting / Professional Services","Agriculture / Food","Legal","Other",
+];
+
+/* Dropdown population */
+function populateSelect(id, items) {
+  const el = document.getElementById(id);
+  items.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; el.appendChild(o); });
+}
+populateSelect('fCountry', COUNTRIES);
+populateSelect('fIndustry', INDUSTRIES);
+
+/* Stage manager */
+const STAGE_IDS = {
+  upload: 'stageUpload',
+  processing: 'stageProcessing',
+  review: 'stageReview',
+  confirm: 'confirmCard',
+  statusCheck: 'stageStatusCheck',
+};
+function showStage(name) {
+  Object.values(STAGE_IDS).forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
+  const target = document.getElementById(STAGE_IDS[name]);
+  if (target) target.style.display = 'block';
+  // Sync the nav rail active state.
+  const navSubmit = document.getElementById('navSubmit');
+  const navStatus = document.getElementById('navStatus');
+  if (navSubmit && navStatus) {
+    navSubmit.classList.toggle('active', name !== 'statusCheck');
+    navStatus.classList.toggle('active', name === 'statusCheck');
+  }
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+// Init: only stageUpload visible
+Object.values(STAGE_IDS).forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
+document.getElementById('stageUpload').style.display = 'block';
+
+function showUploadErr(msg) {
+  const n = document.getElementById('uploadErr');
+  if (!msg) { n.style.display='none'; n.textContent=''; return; }
+  n.style.display='block'; n.textContent=msg;
+}
+function showErr(msg) {
+  const box = document.getElementById('errBox');
+  box.style.display = 'block'; box.textContent = msg;
+  box.scrollIntoView({behavior:'smooth', block:'center'});
+}
+function clearErr() { document.getElementById('errBox').style.display = 'none'; }
+
+function changeFile() {
+  cvData = { name:'', data:'' };
+  showUploadErr('');
+  showStage('upload');
+}
+function showManualForm() {
+  cvData = { name:'', data:'' };
+  document.getElementById('reviewBanner').innerHTML = `
+    <span class="material-symbols-outlined" style="color:var(--primary);">edit_note</span>
+    <div style="flex:1;"><strong>Fill in your details.</strong><p>You can upload a CV later to attach to your application.</p></div>
+    <button type="button" class="btn ghost sm" onclick="changeFile()"><span class="material-symbols-outlined">upload</span> Upload CV instead</button>`;
+  document.getElementById('cvAttachedRow').style.display = 'none';
+  showStage('review');
+}
+
+/* Photo + CV state */
+let photoData = "";
+let cvData = { name:"", data:"" };
+document.getElementById('photoInput').addEventListener('change', (e) => {
+  const f = e.target.files?.[0]; if (!f) return;
+  if (f.size > 1024*1024) return showErr('Photo must be under 1 MB.');
+  const r = new FileReader();
+  r.onload = () => { photoData = r.result; document.getElementById('photoPreview').innerHTML = `<img src="${photoData}" alt="">`; };
+  r.readAsDataURL(f);
+});
+
+const cvHeroDrop = document.getElementById('cvHeroDrop');
+const cvHeroInput = document.getElementById('cvHeroInput');
+cvHeroDrop.addEventListener('click', e => { if (!e.target.closest('button')) cvHeroInput.click(); });
+cvHeroDrop.addEventListener('keydown', e => { if (e.key==='Enter'||e.key===' ') { e.preventDefault(); cvHeroInput.click(); } });
+cvHeroDrop.addEventListener('dragover', e => { e.preventDefault(); cvHeroDrop.classList.add('drag'); });
+cvHeroDrop.addEventListener('dragleave', () => cvHeroDrop.classList.remove('drag'));
+cvHeroDrop.addEventListener('drop', e => { e.preventDefault(); cvHeroDrop.classList.remove('drag'); processCV(e.dataTransfer.files?.[0]); });
+cvHeroInput.addEventListener('change', e => processCV(e.target.files?.[0]));
+
+async function processCV(file) {
+  showUploadErr('');
+  if (!file) return;
+  if (!/\.(pdf|docx?|txt)$/i.test(file.name)) return showUploadErr('CV must be PDF, DOCX, or TXT.');
+  if (file.size > 2*1024*1024) return showUploadErr('CV must be under 2 MB.');
+  cvData = { name: file.name, data: await readAsDataURL(file) };
+  showStage('processing');
+  const minDelay = new Promise(r => setTimeout(r, 2500));
+  try {
+    const [text] = await Promise.all([extractCVText(file), minDelay]);
+    if (!text || text.trim().length < 30) {
+      showStage('upload');
+      return showUploadErr("Couldn't read enough text from this CV. Try a different file, or fill in manually.");
+    }
+    let profile;
+    const useClaude = CONFIG.ANTHROPIC_API_KEY && CONFIG.ANTHROPIC_API_KEY.length > 10;
+    if (useClaude) {
+      try { profile = await extractProfileClaude(text); }
+      catch (e) { console.warn('Hosted extraction failed, using local:', e); profile = extractProfileLocal(text); }
+    } else {
+      profile = extractProfileLocal(text);
+    }
+    populateReview(profile, file);
+    showStage('review');
+  } catch (e) {
+    console.error(e);
+    showStage('upload');
+    showUploadErr("Couldn't read this CV: " + (e.message || 'unknown error'));
+  }
+}
+
+const readAsDataURL = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsDataURL(file); });
+const readAsArrayBuffer = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsArrayBuffer(file); });
+const readAsText = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsText(file); });
+const loadScript = src => new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
+
+async function extractCVText(file) {
+  const ext = file.name.split('.').pop().toLowerCase();
+  if (ext === 'txt') return await readAsText(file);
+  if (ext === 'pdf') {
+    if (!window.pdfjsLib) {
+      await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js');
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.js';
+    }
+    const buf = await readAsArrayBuffer(file);
+    const pdf = await window.pdfjsLib.getDocument({ data: buf }).promise;
+    const parts = [];
+    for (let i = 1; i <= pdf.numPages; i++) {
+      const page = await pdf.getPage(i);
+      const c = await page.getTextContent();
+      parts.push(c.items.map(it => it.str).join(' '));
+    }
+    return parts.join('\n');
+  }
+  if (ext === 'docx' || ext === 'doc') {
+    if (!window.mammoth) await loadScript('https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js');
+    const buf = await readAsArrayBuffer(file);
+    const result = await window.mammoth.extractRawText({ arrayBuffer: buf });
+    return result.value || '';
+  }
+  return '';
+}
+
+/* Local heuristic CV parser */
+const KNOWN_SKILLS = ["AWS","GCP","Azure","Kubernetes","Docker","Terraform","Ansible","Python","Java","Go","JavaScript","TypeScript","React","Next.js","Node.js","Vue","Swift","Kotlin","SQL","PostgreSQL","MySQL","MongoDB","Snowflake","BigQuery","dbt","Airflow","TensorFlow","PyTorch","LLM","LLMs","Selenium","Cypress","Playwright","Git","Linux","Prometheus","Grafana","Datadog","Tableau","Power BI","Looker","SAP","Salesforce","HubSpot","Workday","Oracle","R","Excel","Figma","Sketch","BIM","AutoCAD","Revit","Tekla","Petrel","ECLIPSE","NEBOSH","IOSA","PCI-DSS","SOC 2","HIPAA","GDPR","AML","KYC","CFA","CPA","ACCA","PMP","Prince2","PRINCE2","Scrum","Agile","Lean","Six Sigma","Reservoir engineering","Process safety","LNG","Solar PV","Wind","Renewable","Project finance","Programme management","Project management","Operations","Supply chain","Procurement","Logistics","Last-mile","P&L","M&A","Corporate finance","Equity","Treasury","FX","Risk","Compliance","Sanctions","Payments","Cards","Stripe","Paystack","Flutterwave","M-Pesa","Mobile money","Performance marketing","Meta Ads","Google Ads","SEO","SEM","Brand","CRM","Marketing automation","D2C","Shopify","Salesforce CRM","Arabic","French","Spanish","German","Italian","Portuguese","Mandarin","Cantonese","Hindi","Urdu","Bengali","Tamil","Swahili","Yoruba","Hausa","Igbo","Amharic","Farsi","Turkish","Hebrew","Russian","Japanese","Korean","Vietnamese","Thai","Malay","Indonesian"];
+const INDUSTRY_KEYWORDS = {
+  "Technology / Software": ["software","engineer","developer","programmer","architect","aws","kubernetes","cloud","backend","frontend","full-stack","devops","sre","machine learning","ml engineer","data scientist","ai","tech lead","cto"],
+  "Financial Services / Fintech": ["fintech","payments","banking","bank","trading","quant","credit","loans","compliance","aml","kyc","cfa","wealth","insurance","actuary","treasury","investment"],
+  "Energy / Oil & Gas": ["oil","gas","petroleum","upstream","downstream","drilling","reservoir","lng","refinery","hse","permit-to-work","wellhead","subsea"],
+  "Renewables / Cleantech": ["renewable","solar","wind","cleantech","photovoltaic","pv","green hydrogen","carbon","sustainability","ev","battery"],
+  "Construction / Infrastructure": ["construction","civil engineer","structural","contractor","fidic","tekla","autocad","revit","bim","mega-project","infrastructure","concrete","quantity surveyor","qs"],
+  "Real Estate / PropTech": ["real estate","property","leasing","valuation","brokerage","reit","proptech"],
+  "Healthcare / Pharma": ["medical","doctor","physician","nurse","clinical","pharmacy","pharmacist","pharma","hospital","gcp","trial","biotech","healthcare"],
+  "Education / EdTech": ["teacher","educator","curriculum","instructional","university","school","edtech","faculty","lecturer","training"],
+  "Manufacturing / Industrial": ["manufacturing","production","plant","factory","lean","six sigma","quality engineer","industrial","assembly"],
+  "Logistics / Supply Chain": ["logistics","supply chain","warehouse","procurement","fleet","last-mile","freight","forwarding","sap"],
+  "Retail / E-commerce": ["retail","e-commerce","ecommerce","d2c","shopify","store manager","merchandising","buying","wholesale"],
+  "Hospitality / Tourism": ["hospitality","hotel","resort","food & beverage","f&b","tourism","concierge","chef","restaurant"],
+  "Telecommunications": ["telecom","telco","5g","4g","ran","fiber","fttx","network engineer","optical"],
+  "Media / Marketing / Advertising": ["marketing","advertising","brand","creative","copywriter","social media","seo","sem","performance marketing","content","journalist","editor"],
+  "Aviation / Aerospace": ["pilot","airline","aviation","aerospace","aircraft","cabin crew","iosa","flight"],
+  "Public Sector / Government": ["government","ministry","public sector","policy","civil service","municipality"],
+  "NGO / Development": ["ngo","non-profit","nonprofit","development","unicef","unhcr","humanitarian","cso"],
+  "Consulting / Professional Services": ["consultant","consulting","strategy","advisory","big four","big 4","mckinsey","bcg","bain","ey","kpmg","pwc","deloitte"],
+  "Agriculture / Food": ["agriculture","agritech","farming","crops","livestock","food production"],
+  "Legal": ["lawyer","attorney","solicitor","barrister","paralegal","counsel","llb","jd"],
+};
+const DEMONYM_TO_COUNTRY = {"emirati":"United Arab Emirates","saudi":"Saudi Arabia","qatari":"Qatar","kuwaiti":"Kuwait","bahraini":"Bahrain","omani":"Oman","egyptian":"Egypt","moroccan":"Morocco","tunisian":"Tunisia","nigerian":"Nigeria","ghanaian":"Ghana","kenyan":"Kenya","ethiopian":"Ethiopia","cameroonian":"Cameroon","south african":"South Africa","lebanese":"Lebanon","jordanian":"Jordan","indian":"India","pakistani":"Pakistan","british":"United Kingdom","american":"United States","german":"Germany","italian":"Italy","singaporean":"Singapore","malaysian":"Malaysia"};
+const MAJOR_CITY_TO_COUNTRY = {"dubai":"United Arab Emirates","abu dhabi":"United Arab Emirates","sharjah":"United Arab Emirates","riyadh":"Saudi Arabia","jeddah":"Saudi Arabia","dammam":"Saudi Arabia","doha":"Qatar","ras laffan":"Qatar","kuwait city":"Kuwait","manama":"Bahrain","muscat":"Oman","cairo":"Egypt","alexandria":"Egypt","casablanca":"Morocco","rabat":"Morocco","marrakech":"Morocco","tunis":"Tunisia","khartoum":"Sudan","lagos":"Nigeria","abuja":"Nigeria","accra":"Ghana","dakar":"Senegal","douala":"Cameroon","nairobi":"Kenya","mombasa":"Kenya","addis ababa":"Ethiopia","kampala":"Uganda","dar es salaam":"Tanzania","johannesburg":"South Africa","cape town":"South Africa","durban":"South Africa","beirut":"Lebanon","amman":"Jordan","mumbai":"India","new delhi":"India","delhi":"India","bengaluru":"India","bangalore":"India","chennai":"India","hyderabad":"India","pune":"India","karachi":"Pakistan","lahore":"Pakistan","london":"United Kingdom","manchester":"United Kingdom","new york":"United States","san francisco":"United States","berlin":"Germany","hamburg":"Germany","paris":"France","rome":"Italy","madrid":"Spain","amsterdam":"Netherlands","singapore":"Singapore","kuala lumpur":"Malaysia"};
+
+function extractProfileLocal(text) {
+  const t = text.replace(/\r/g, '').replace(/ /g, ' ');
+  const lower = t.toLowerCase();
+  const p = { name:'', email:'', phone:'', country:'', city:'', linkedin:'', industry:'', job:'', years:'6-10', seniority:'Mid', skills:[], bio:'' };
+  const em = t.match(/[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}/); if (em) p.email = em[0];
+  const ph = t.match(/(\+?\d[\d\s\-().]{8,}\d)/); if (ph) p.phone = ph[0].replace(/\s+/g, ' ').trim();
+  const li = t.match(/(?:https?:\/\/)?(?:www\.)?linkedin\.com\/in\/[A-Za-z0-9_-]+/i); if (li) p.linkedin = li[0].replace(/^https?:\/\/(www\.)?/, '');
+  const lines = t.split('\n').map(l => l.trim()).filter(Boolean);
+  for (let i = 0; i < Math.min(12, lines.length); i++) {
+    const L = lines[i]; if (L.length > 60) continue;
+    if (/@|\+?\d{7,}|linkedin|www\./i.test(L)) continue;
+    if (/^(cv|curriculum vitae|resume|profile)$/i.test(L)) continue;
+    const cleaned = L.replace(/^(?:Dr|Mr|Ms|Mrs|Eng|Prof|Capt|Captain)\.?\s+/i, '');
+    const m = cleaned.match(/^([\p{Lu}][\p{L}'\-]+(?:\s+[\p{Lu}][\p{L}'\-]+){1,3})$/u);
+    if (m) { p.name = m[1]; break; }
+  }
+  const headText = lines.slice(0, 6).join('\n');
+  const findCity = (txt) => { for (const [c, co] of Object.entries(MAJOR_CITY_TO_COUNTRY)) if (new RegExp('\\b' + c + '\\b', 'i').test(txt)) return { city: c.replace(/\b\w/g, x => x.toUpperCase()), country: co }; return null; };
+  const findCountry = (txt) => { for (const c of COUNTRIES) if (new RegExp('\\b' + c.replace(/[^\w\s]/g, '.?') + '\\b', 'i').test(txt)) return c; return null; };
+  const findDemonym = (txt) => { for (const [d, c] of Object.entries(DEMONYM_TO_COUNTRY)) if (new RegExp('\\b' + d + '\\b', 'i').test(txt)) return c; return null; };
+  const hc = findCity(headText); if (hc) { p.city = hc.city; p.country = hc.country; }
+  else {
+    const cc = findCountry(headText); if (cc) p.country = cc;
+    else {
+      const tc = findCity(t); if (tc) { p.city = tc.city; p.country = tc.country; }
+      else { const x = findCountry(t) || findDemonym(t); if (x) p.country = x; }
+    }
+  }
+  let bestScore = 0, bestInd = '';
+  for (const [ind, kws] of Object.entries(INDUSTRY_KEYWORDS)) {
+    let s = 0; for (const kw of kws) { const re = new RegExp('\\b' + kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'gi'); const m = lower.match(re); if (m) s += m.length; }
+    if (s > bestScore) { bestScore = s; bestInd = ind; }
+  }
+  if (bestInd) p.industry = bestInd;
+  const titlePat = /\b((?:Senior |Sr\.? |Lead |Principal |Staff |Chief |Head of |VP |Vice President |Director of |Director, |Junior |Jr\.? )?(?:Solutions Architect|Software Engineer|Backend Engineer|Frontend Engineer|Full[- ]?Stack Engineer|Data Engineer|Data Scientist|ML Engineer|DevOps Engineer|SRE|Site Reliability Engineer|Cloud Engineer|Mobile Developer|iOS Developer|Android Developer|QA Engineer|Test Engineer|Product Manager|Project Manager|Programme Manager|Program Manager|Engineering Manager|Operations Manager|Operations Director|Marketing Manager|Brand Manager|Sales Manager|Account Manager|Account Executive|Business Development|Financial Analyst|Quantitative Analyst|Compliance Officer|HR Manager|Talent Acquisition|Recruiter|Designer|UX Designer|UI Designer|Architect|Civil Engineer|Structural Engineer|Mechanical Engineer|Electrical Engineer|Petroleum Engineer|Process Engineer|HSE Manager|Quantity Surveyor|Plant Manager|Warehouse Manager|Supply Chain Analyst|Network Engineer|CTO|CFO|CEO|COO|General Manager|Medical Director|Curriculum Designer|Buying Manager|Hotel General Manager|Airline Operations Manager))\b/i;
+  const tm = t.match(titlePat); if (tm) p.job = tm[1].replace(/\s+/g, ' ').trim();
+  let yrs = null;
+  const ym1 = t.match(/(\d{1,2})\s*\+?\s*(?:years?|yrs?)\s+(?:of\s+)?experience/i); if (ym1) yrs = parseInt(ym1[1]);
+  if (yrs === null) { const ym2 = t.match(/(\d{1,2})\s*\+?\s*(?:years?|yrs?)\s+(?:across|in|building|leading|of|developing|with)/i); if (ym2) yrs = parseInt(ym2[1]); }
+  if (yrs !== null) {
+    p.years = yrs <= 2 ? '0-2' : yrs <= 5 ? '3-5' : yrs <= 10 ? '6-10' : yrs <= 15 ? '11-15' : '16+';
+    p.seniority = yrs <= 2 ? 'Entry' : yrs <= 5 ? 'Mid' : yrs <= 10 ? 'Senior' : yrs <= 15 ? 'Lead' : 'Director';
+  }
+  if (/\b(cto|ceo|cfo|coo|chief|vp |vice president)\b/i.test(t)) p.seniority = 'Executive';
+  else if (/\b(director)\b/i.test(t)) p.seniority = 'Director';
+  else if (/\b(head of)\b/i.test(t)) p.seniority = 'Director';
+  else if (/\b(manager|programme manager|program manager)\b/i.test(t) && p.seniority === 'Mid') p.seniority = 'Manager';
+  else if (/\b(lead|principal|staff)\b/i.test(t) && (p.seniority === 'Mid' || p.seniority === 'Senior')) p.seniority = 'Lead';
+  else if (/\b(senior|sr\.)\b/i.test(t) && p.seniority === 'Mid') p.seniority = 'Senior';
+  const sk = new Set();
+  for (const s of KNOWN_SKILLS) if (new RegExp('\\b' + s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i').test(t)) sk.add(s);
+  const skillsSec = t.match(/skills?\s*[:\n]([^\n]+(?:\n[^\n]+){0,4})/i);
+  if (skillsSec) skillsSec[1].split(/[,•|·\n]/).map(s=>s.trim()).filter(s=>s.length>1 && s.length<40).forEach(s=>sk.add(s));
+  p.skills = [...sk].slice(0, 15);
+  const sm = t.match(/(?:^|\n)\s*(?:professional summary|career summary|summary|profile|about(?:\s+me)?)\s*[:\n]+\s*([\s\S]{40,500}?)(?:\n\s*\n|\n[A-Z][A-Z\s]{4,}\s*[:\n]|\nEXPERIENCE|\nEDUCATION|\nSKILLS|\nWORK|$)/i);
+  if (sm) p.bio = sm[1].replace(/\s+/g, ' ').trim().slice(0, 400);
+  else {
+    const paras = t.slice(0, 2000).split(/\n\s*\n/).map(x => x.replace(/\s+/g, ' ').trim()).filter(x => x.length > 50 && x.length < 500 && /[a-z]/.test(x) && !/@|\+\d|linkedin|http/i.test(x));
+    if (paras.length) p.bio = paras[0].slice(0, 400);
+  }
+  return p;
+}
+
+async function extractProfileClaude(text) {
+  const system = `You extract structured candidate profiles from CV text. Output STRICT JSON only.
+Schema: { "name", "email", "phone", "country", "city", "linkedin", "industry" (one of: ${INDUSTRIES.join(' | ')}), "job", "years" (0-2|3-5|6-10|11-15|16+), "seniority" (Entry|Mid|Senior|Lead|Manager|Director|Executive), "skills" [array], "bio" }
+Pick closest enum match. Empty string if missing. Never invent.`;
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method:'POST',
+    headers:{'content-type':'application/json','x-api-key':CONFIG.ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+    body: JSON.stringify({ model:'claude-haiku-4-5-20251001', max_tokens:1200, system, messages:[{role:'user', content:text.slice(0, 16000)}] })
+  });
+  if (!res.ok) throw new Error('API error');
+  const j = await res.json();
+  let raw = (j.content && j.content[0] && j.content[0].text || '').trim();
+  if (raw.startsWith('```')) raw = raw.replace(/^```(?:json)?/, '').replace(/```$/, '').trim();
+  return JSON.parse(raw);
+}
+
+function populateReview(profile, file) {
+  const set = (id, v) => { const el = document.getElementById(id); if (el && v !== undefined && v !== null) el.value = v; };
+  set('fName', profile.name); set('fEmail', profile.email); set('fPhone', profile.phone);
+  set('fCity', profile.city); set('fLinked', profile.linkedin); set('fJob', profile.job); set('fBio', profile.bio);
+  if (profile.skills && profile.skills.length) set('fSkills', profile.skills.join(', '));
+  const country = document.getElementById('fCountry');
+  if (profile.country) for (let i = 0; i < country.options.length; i++) if (country.options[i].value === profile.country) { country.selectedIndex = i; break; }
+  const ind = document.getElementById('fIndustry');
+  if (profile.industry) for (let i = 0; i < ind.options.length; i++) if (ind.options[i].value === profile.industry) { ind.selectedIndex = i; break; }
+  if (profile.years) document.getElementById('fYears').value = profile.years;
+  if (profile.seniority) document.getElementById('fSeniority').value = profile.seniority;
+  document.getElementById('cvAttachedRow').style.display = 'flex';
+  document.getElementById('cvAttachedName').textContent = file.name;
+  document.getElementById('cvAttachedSize').textContent = `${(file.size/1024).toFixed(0)} KB · attached`;
+  updateInitial();
+}
+function updateInitial() {
+  if (photoData) return;
+  const name = (document.getElementById('fName').value || '').trim();
+  document.getElementById('photoInitial').textContent = name ? name[0].toUpperCase() : 'R';
+}
+document.getElementById('fName').addEventListener('input', updateInitial);
+
+/* Application ID — short, human-readable, unique within the pool. */
+function generateAppId(existing) {
+  const taken = new Set((existing || []).map(c => (c.appId || '').toUpperCase()));
+  // Skip ambiguous chars (0/O, 1/I, etc.) so an applicant can read this aloud or type it back.
+  const chars = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
+  for (let attempt = 0; attempt < 50; attempt++) {
+    let id = 'RQ-';
+    for (let i = 0; i < 5; i++) id += chars[Math.floor(Math.random() * chars.length)];
+    if (!taken.has(id)) return id;
+  }
+  // Fall back to a longer ID in the unlikely case of repeated collisions.
+  return 'RQ-' + Date.now().toString(36).toUpperCase();
+}
+
+/* Submit handler */
+document.getElementById('candForm').addEventListener('submit', async (e) => {
+  e.preventDefault(); clearErr();
+  const get = id => document.getElementById(id).value.trim();
+  if (!get('fName') || !get('fEmail') || !get('fPhone') || !get('fCountry') || !get('fIndustry') || !get('fJob') || !get('fSkills'))
+    return showErr('Please fill in all required fields.');
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(get('fEmail'))) return showErr('Please enter a valid email address.');
+  const skills = get('fSkills').split(',').map(s => s.trim()).filter(Boolean);
+
+  // Read existing pool first, so the appId stays unique.
+  let existing = [];
+  try { existing = JSON.parse(localStorage.getItem(CONFIG.STORAGE_KEY) || '[]'); } catch (err) {}
+  const appId = generateAppId(existing);
+
+  const record = {
+    id: 'c_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2,6),
+    appId,
+    name: get('fName'), email: get('fEmail'), phone: get('fPhone'),
+    country: get('fCountry'), city: get('fCity'), linkedin: get('fLinked'),
+    industry: get('fIndustry'), job: get('fJob'),
+    years: get('fYears'), seniority: get('fSeniority'),
+    skills, bio: get('fBio'),
+    photo: photoData, cv: cvData,
+    appliedAt: Date.now(),
+    status: 'New',
+  };
+
+  // Persist locally
+  try {
+    existing.unshift(record);
+    localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(existing));
+  } catch (err) { console.warn('Storage error:', err); }
+
+  // Forward to Formspree (if configured)
+  if (CONFIG.FORMSPREE_ID) {
+    try {
+      const fd = new FormData();
+      Object.entries({
+        appId: record.appId,
+        name: record.name, email: record.email, phone: record.phone,
+        country: record.country, city: record.city, linkedin: record.linkedin,
+        industry: record.industry, job: record.job, years: record.years, seniority: record.seniority,
+        skills: skills.join(', '), bio: record.bio,
+      }).forEach(([k,v]) => fd.append(k, v || ''));
+      // Attach the CV file if present
+      if (cvData.data && cvData.name) {
+        try {
+          const res = await fetch(cvData.data); const blob = await res.blob();
+          fd.append('cv', new File([blob], cvData.name));
+        } catch (e) {}
+      }
+      await fetch('https://formspree.io/f/' + CONFIG.FORMSPREE_ID, { method:'POST', body: fd, headers: { Accept:'application/json' } });
+    } catch (err) { console.warn('Formspree forward failed:', err); }
+  }
+
+  document.getElementById('confirmName').textContent = record.name.split(' ')[0];
+  document.getElementById('confirmAppId').textContent = record.appId;
+  // Stash the ID + email so 'Check my status' can prefill them.
+  window._lastSubmittedAppId = record.appId;
+  window._lastSubmittedEmail = record.email;
+  showStage('confirm');
+});
+
+/* Confirmation actions */
+function copyAppId() {
+  const id = document.getElementById('confirmAppId').textContent.trim();
+  const btn = document.getElementById('appIdCopyBtn');
+  const done = () => {
+    btn.classList.add('copied');
+    btn.querySelector('.material-symbols-outlined').textContent = 'check';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.querySelector('.material-symbols-outlined').textContent = 'content_copy';
+    }, 1600);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(id).then(done).catch(() => { fallbackCopy(id); done(); });
+  } else {
+    fallbackCopy(id); done();
+  }
+}
+function fallbackCopy(text) {
+  const ta = document.createElement('textarea'); ta.value = text;
+  ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand('copy'); } catch (e) {}
+  document.body.removeChild(ta);
+}
+function goCheckMyStatus() {
+  showStage('statusCheck');
+  if (window._lastSubmittedAppId) document.getElementById('scAppId').value = window._lastSubmittedAppId;
+  if (window._lastSubmittedEmail) document.getElementById('scEmail').value = window._lastSubmittedEmail;
+  // Auto-run the lookup since we already have the inputs.
+  if (window._lastSubmittedAppId && window._lastSubmittedEmail) setTimeout(checkStatus, 100);
+}
+
+/* Status check — find by appId + email, show a friendly stage. */
+const FRIENDLY_STATUS = {
+  New:          { label: 'Application received', stage: 'new',     msg: "Thanks — we have your application. Our team reviews new applications within a few working days." },
+  Screening:    { label: 'In review',            stage: 'review',  msg: "A recruiter is reading your CV right now. If your background fits something open, we'll reach out." },
+  Shortlisted:  { label: 'Shortlisted',          stage: 'review',  msg: "Good news — you've been shortlisted for a role. We'll be in touch about next steps." },
+  Submitted:    { label: 'Shared with a client', stage: 'review',  msg: "We've shared your profile with the hiring team for a role. Waiting on their feedback." },
+  Interviewing: { label: 'Interviewing',         stage: 'review',  msg: "You're in interviews. We're cheering for you — let us know how it goes." },
+  Placed:       { label: 'Placed',               stage: 'placed',  msg: "Congratulations on the new role! 🎉 We're keeping your profile on file for the future." },
+  Archived:     { label: 'Not a match this round', stage: 'archived', msg: "We don't have a fit for you at the moment, but we're keeping your CV on file for future opportunities." },
+};
+function checkStatus() {
+  const id = (document.getElementById('scAppId').value || '').trim().toUpperCase();
+  const email = (document.getElementById('scEmail').value || '').trim().toLowerCase();
+  const out = document.getElementById('statusResult');
+  out.className = 'status-result'; // reset
+  if (!id || !email) {
+    out.classList.add('show', 'missing');
+    out.innerHTML = `<h3>Both fields are required</h3><p class="stage-msg">Enter the application ID we showed you, plus the email on your CV.</p>`;
+    return;
+  }
+  let pool = [];
+  try { pool = JSON.parse(localStorage.getItem(CONFIG.STORAGE_KEY) || '[]'); } catch (e) {}
+  const match = pool.find(c => (c.appId || '').toUpperCase() === id && (c.email || '').toLowerCase() === email);
+  if (!match) {
+    out.classList.add('show', 'missing');
+    out.innerHTML = `<h3>We couldn't find that application</h3>
+      <p class="stage-msg">Double-check your application ID and the email on your CV. If you've recently applied from a different device, the lookup may not be available there — try the one you applied from, or email us at <a href="mailto:careers@rqtalent.example" style="color:var(--warn);text-decoration:underline;">careers@rqtalent.example</a>.</p>`;
+    return;
+  }
+  const status = match.status || 'New';
+  const fs = FRIENDLY_STATUS[status] || FRIENDLY_STATUS.New;
+  const applied = new Date(match.appliedAt);
+  out.classList.add('show', 'found');
+  out.innerHTML = `
+    <h3>${escapeHtml(match.name.split(' ')[0])}, here's where things stand</h3>
+    <span class="stage-badge" data-stage="${fs.stage}">${escapeHtml(fs.label)}</span>
+    <p class="stage-msg">${escapeHtml(fs.msg)}</p>
+    <div class="stage-meta">Application <strong>${escapeHtml(match.appId || '—')}</strong> · submitted ${applied.toLocaleDateString([], { day:'numeric', month:'long', year:'numeric' })}</div>
+  `;
+}
+function escapeHtml(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+// Allow Enter in either field to submit
+['scAppId','scEmail'].forEach(id => {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); checkStatus(); }});
+});
+
+function resetForm() {
+  document.getElementById('candForm').reset();
+  photoData = ''; cvData = { name:'', data:'' };
+  document.getElementById('photoPreview').innerHTML = '<span id="photoInitial">R</span>';
+  showUploadErr(''); clearErr(); showStage('upload');
+}
+/* Smart "Submit CV" nav: don't blow away an in-progress review by reverting to upload.
+   If the user is mid-form (review/processing), keep them there. Otherwise show upload. */
+function goSubmit() {
+  const inReview = document.getElementById('stageReview').style.display === 'block';
+  const inProcessing = document.getElementById('stageProcessing').style.display === 'block';
+  if (inReview) return showStage('review');
+  if (inProcessing) return showStage('processing');
+  showStage('upload');
+}
+
+function showAbout() {
+  alert("RQ Talent — Careers Portal\n\nA careers portal for opportunities across the GCC and beyond.\n\nDrop your CV — we'll consider you for roles across the Gulf, MENA, Africa and South Asia. Strong fits hear from us within a week.\n\nQuestions? Contact careers@rqtalent.example");
+}
+</script>
+</body>
+</html>
