@@ -876,7 +876,7 @@ select.lj-chip { appearance:none; padding-right:28px; }
         <a onclick="document.getElementById('brandLogoInput').click()" id="brandLogoLink">Set RydeQuest logo</a>
         <input type="file" id="brandLogoInput" accept="image/png,image/jpeg,image/svg+xml" style="display:none" onchange="setBrandLogo(this.files[0])">
         <a onclick="exportAll()">Export all (JSON)</a>
-        <a onclick="confirmReset()">Reset to seed</a>
+        <a onclick="confirmReset()">Clear all candidates</a>
       </div>
     </footer>
   </main>
@@ -1280,7 +1280,7 @@ function loadAll() {
     if (raw) list = JSON.parse(raw);
   } catch (e) {}
   if (!list) {
-    list = seedCandidates();
+    list = [];   // start empty — real applicants come from the portal (no demo seeds)
   }
   // Foundation for analytics: every candidate gets a statusHistory[] of
   // {from, to, ts} transitions. Backfill once for legacy / seed records.
@@ -2759,8 +2759,8 @@ function exportAll() {
   URL.revokeObjectURL(url);
 }
 function confirmReset() {
-  if (!confirm('Reset to seed candidates? This wipes all data stored on this device.')) return;
-  localStorage.removeItem(CONFIG.STORAGE_KEY);
+  if (!confirm('Clear ALL candidates from this device? This cannot be undone.')) return;
+  localStorage.setItem(CONFIG.STORAGE_KEY, '[]');
   CANDIDATES = loadAll();
   renderAdmin();
 }
