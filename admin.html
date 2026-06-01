@@ -927,6 +927,8 @@ select.lj-chip { appearance:none; padding-right:28px; }
       <div class="links">
         <a onclick="document.getElementById('brandLogoInput').click()" id="brandLogoLink">Set RydeQuest logo</a>
         <input type="file" id="brandLogoInput" accept="image/png,image/jpeg,image/svg+xml" style="display:none" onchange="setBrandLogo(this.files[0])">
+        <a onclick="document.getElementById('cvBulkInput').click()" id="cvBulkLink">Attach original CVs</a>
+        <input type="file" id="cvBulkInput" accept=".pdf,.doc,.docx" multiple style="display:none" onchange="bulkAttachCvs(this.files)">
         <a onclick="exportAll()">Export all (JSON)</a>
         <a onclick="confirmReset()">Clear all candidates</a>
       </div>
@@ -3279,6 +3281,34 @@ function setBrandLogo(file) {
     if (link) { link.textContent = 'Logo set ✓'; setTimeout(() => { link.textContent = 'Set RydeQuest logo'; }, 2500); }
   };
   r.readAsDataURL(file);
+}
+
+/* Attach original CV files to existing candidates, matched by filename. */
+async function bulkAttachCvs(files) {
+  if (!files || !files.length) return;
+  const link = document.getElementById('cvBulkLink');
+  if (link) link.textContent = 'Attaching…';
+  const norm = s => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const pool = loadAll();
+  let n = 0;
+  for (const f of files) {
+    const data = await new Promise(res => { const r = new FileReader(); r.onload = () => res(r.result); r.onerror = () => res(''); r.readAsDataURL(f); });
+    if (!data) continue;
+    const fn = norm(f.name);
+    let c = pool.find(x => x.cv && norm(x.cv.name) === fn);
+    if (!c) {  // fall back to first+last name appearing in the filename
+      c = pool.find(x => {
+        const parts = String(x.name || '').split(/\s+/).map(norm).filter(Boolean);
+        return parts.length && fn.includes(parts[0]) && fn.includes(parts[parts.length - 1]);
+      });
+    }
+    if (c) { c.cv = { name: f.name, data }; n++; }
+  }
+  saveAll(pool); CANDIDATES = pool;
+  if (link) { link.textContent = 'Attached ' + n + ' CV' + (n === 1 ? '' : 's'); setTimeout(() => { link.textContent = 'Attach original CVs'; }, 3000); }
+  if (currentProfileId) openProfile(currentProfileId);
+  renderAdmin();
+  document.getElementById('cvBulkInput').value = '';
 }
 
 function init() {
