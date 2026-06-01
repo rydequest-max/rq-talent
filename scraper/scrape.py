@@ -303,12 +303,18 @@ def adapter_jooble(cfg):
     # One keyword string for the API. Prefer an explicit broad query (incl. HR) if set.
     keywords = cfg.get("jooble_query") or " OR ".join(cfg["keywords"][:8])
     pages = max(1, int(cfg.get("jooble_pages", 1)))   # each page = 1 API request
+    # (query, pages) list. A dedicated narrow query (e.g. HR) guarantees those roles
+    # surface instead of being crowded out of the broad query's first pages.
+    queries = [(keywords, pages)]
+    if cfg.get("jooble_hr_query"):
+        queries.append((cfg["jooble_hr_query"], max(1, int(cfg.get("jooble_hr_pages", 1)))))
     for loc in locations:
-      for page in range(1, pages + 1):
-        try:
+      for qstr, qpages in queries:
+        for page in range(1, qpages + 1):
+          try:
             body = http_post_json(
                 f"https://jooble.org/api/{key}",
-                {"keywords": keywords, "location": loc, "page": str(page)},
+                {"keywords": qstr, "location": loc, "page": str(page)},
                 timeout,
             )
             data = json.loads(body)
@@ -325,7 +331,7 @@ def adapter_jooble(cfg):
                     cfg=cfg,
                 ))
             time.sleep(1)
-        except Exception as e:
+          except Exception as e:
             print(f"  jooble[{loc}] error: {type(e).__name__}: {e}", file=sys.stderr)
     return out, f"Jooble ({len(out)})"
 
