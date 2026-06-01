@@ -709,6 +709,13 @@ select.lj-chip { appearance:none; padding-right:28px; }
 .lj-match .rl { font-size:12px; color:var(--secondary); }
 .lj-pill { font-weight:800; font-size:13px; padding:5px 11px; border-radius:var(--r-full); min-width:38px; text-align:center; }
 .lj-nomatch { font-size:13px; color:var(--secondary); font-style:italic; }
+.lj-skillmatch { font-size:12px; color:var(--good); margin-top:3px; font-weight:600; }
+.lj-skillmatch .material-symbols-outlined { font-size:13px; vertical-align:-2px; }
+.aj-form { display:grid; gap:10px; }
+.aj-form input, .aj-form select, .aj-form textarea { width:100%; padding:10px 12px; border:1px solid var(--outline-v); border-radius:var(--r-md); font-size:14px; font-family:inherit; background:var(--surface-lowest); color:var(--on-surface); box-sizing:border-box; }
+.aj-form textarea { resize:vertical; }
+.aj-row { display:flex; gap:10px; }
+.aj-row > * { flex:1; min-width:0; }
 </style>
 </head>
 <body>
@@ -860,14 +867,59 @@ select.lj-chip { appearance:none; padding-right:28px; }
         <button class="lj-chip" data-ind="Healthcare / Pharma" onclick="ljSetIndustry(this,'Healthcare / Pharma')">Healthcare</button>
         <button class="lj-chip" data-ind="Technology / Software" onclick="ljSetIndustry(this,'Technology / Software')">Technology</button>
         <button class="lj-chip" data-ind="Energy / Oil & Gas" onclick="ljSetIndustry(this,'Energy / Oil &amp; Gas')">Energy</button>
+        <button class="lj-chip hot" id="ljBestFitChip" onclick="ljToggleBestFit(this)" title="Only show jobs where someone in your pool is a 60%+ match"><span class="material-symbols-outlined" style="font-size:16px;">star</span> Best fit for my pool</button>
         <select class="lj-chip" id="ljSort" onchange="renderLiveJobs()">
           <option value="new">Newest</option>
           <option value="match">Best candidate match</option>
         </select>
+        <button class="btn primary sm" onclick="openAddJob()"><span class="material-symbols-outlined" style="font-size:16px;">add</span> Add job</button>
         <button class="btn ghost sm" onclick="loadLiveJobs(true)"><span class="material-symbols-outlined" style="font-size:16px;">refresh</span> Reload</button>
       </div>
 
       <div class="lj-grid" id="ljGrid"></div>
+    </div>
+
+    <!-- Add job modal -->
+    <div class="modal" id="addJobModal" onclick="if(event.target===this)closeAddJob()">
+      <div class="modal-card" id="addJobCard">
+        <h2 style="margin:0 0 4px;">Add a job</h2>
+        <p style="margin:0 0 14px; color:var(--secondary); font-size:13px;">For roles you get directly from a company. It's added to your board and persists across the daily scraper.</p>
+        <div class="aj-form">
+          <input id="ajTitle" placeholder="Job title *">
+          <input id="ajCompany" placeholder="Company *">
+          <div class="aj-row">
+            <input id="ajCity" placeholder="City (e.g. Dubai)">
+            <select id="ajIndustry">
+              <option value="">Industry…</option>
+              <option>Hospitality / Tourism</option>
+              <option>Construction / Infrastructure</option>
+              <option>Financial Services / Fintech</option>
+              <option>Healthcare / Pharma</option>
+              <option>Technology / Software</option>
+              <option>Energy / Oil &amp; Gas</option>
+              <option>Manufacturing / Industrial</option>
+              <option>Logistics / Supply Chain</option>
+              <option>Consulting / Professional Services</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="aj-row">
+            <select id="ajSeniority">
+              <option value="">Seniority…</option>
+              <option>Entry</option><option>Mid</option><option>Senior</option>
+              <option>Lead</option><option>Manager</option><option>Director</option><option>Executive</option>
+            </select>
+            <input id="ajUrl" placeholder="Apply link or contact email">
+          </div>
+          <input id="ajSkills" placeholder="Key skills (comma separated)">
+          <textarea id="ajDesc" rows="5" placeholder="Job description / requirements (helps candidate matching)"></textarea>
+          <div id="ajErr" style="color:var(--error); font-size:13px; display:none;"></div>
+          <div style="display:flex; gap:10px; justify-content:flex-end; margin-top:4px;">
+            <button class="btn ghost" onclick="closeAddJob()">Cancel</button>
+            <button class="btn primary" onclick="saveManualJob()"><span class="material-symbols-outlined" style="font-size:18px;">add</span> Add to board</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer class="app-footer">
@@ -1179,7 +1231,7 @@ function adminLogout() {
 }
 document.addEventListener('keydown', e => {
   if (e.key === 'Enter' && document.getElementById('loginModal').classList.contains('show')) tryLogin();
-  if (e.key === 'Escape') { closeProfile(); closeChat(); closeMatchModal(); closeAnalyticsModal(); }
+  if (e.key === 'Escape') { closeProfile(); closeChat(); closeMatchModal(); closeAnalyticsModal(); if (typeof closeAddJob === 'function') closeAddJob(); }
   // Cmd/Ctrl+Enter inside the JD textarea triggers Match
   if ((e.metaKey || e.ctrlKey) && e.key === 'Enter' && e.target && e.target.id === 'matchJD') {
     e.preventDefault(); runMatch();
@@ -2954,7 +3006,8 @@ function askSuggest(text) { document.getElementById('chatInput').value = text; a
  * using the SAME engine as "Match a job" (parseJD + scoreCandidate + tierFor).
  * ═══════════════════════════════════════════════════════════════════════════ */
 let LJ_DATA = { jobs: [] }, LJ_LOADED = false, LJ_ERROR = false;
-let LJ_FILTER = { industry: '' };
+let LJ_FILTER = { industry: '', bestfit: false };
+const LJ_FIT_THRESHOLD = 0.60;   // 60%+ counts as a strong/good fit
 
 function showSection(name) {
   const isJobs = name === 'jobs';
@@ -2994,6 +3047,9 @@ async function loadLiveJobs(force) {
     LJ_DATA = LJ_ERROR ? { jobs: [] } : data;
     LJ_LOADED = true;
   }
+  // Merge in manually-added jobs (persist across scraper runs)
+  const manual = ljManualJobs();
+  LJ_DATA.jobs = manual.concat((LJ_DATA.jobs || []).filter(j => String(j.id || '').indexOf('manual_') !== 0));
   CANDIDATES = loadAll();
   renderLiveJobsStats();
   renderLiveJobs();
@@ -3028,17 +3084,34 @@ function jobToJDText(j) {
   ].join('\n');
 }
 
+/* Which of the candidate's skills are actually referenced in the job? */
+function ljSkillInText(skill, text) {
+  const s = String(skill || '').toLowerCase().trim();
+  if (s.length < 2) return false;
+  if (/[^a-z0-9 ]/.test(s)) return text.includes(s);          // c++, qa/qc, etc.
+  return new RegExp('\\b' + s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b').test(text);
+}
+function ljMatchedSkills(job, c) {
+  const text = (job.title + ' ' + (job.description || '') + ' ' + (job.skills || []).join(' ')).toLowerCase();
+  return (c.skills || []).filter(s => ljSkillInText(s, text));
+}
+
 /* Match one job against the pool, reusing the portal's scoring engine. */
 function matchJobToCandidates(j) {
   const jd = parseJD(jobToJDText(j));
   const maxScore = maxPossibleScore(jd);
   const scored = CANDIDATES
-    .map(c => { const r = scoreCandidate(c, jd); return { c, ...r, tier: tierFor(r.score, maxScore) }; })
+    .map(c => {
+      const r = scoreCandidate(c, jd);
+      const pct = maxScore > 0 ? r.score / maxScore : 0;
+      const matched = ljMatchedSkills(j, c);   // candidate skills the job references
+      return { c, ...r, tier: tierFor(r.score, maxScore), pct, matched };
+    })
     .sort((a, b) => b.score - a.score);
   const cleared = scored.filter(x => x.tier);
-  if (cleared.length) return { list: cleared.slice(0, 4), below: false, cleared: cleared.length };
+  if (cleared.length) return { list: cleared.slice(0, 4), below: false, cleared: cleared.length, top: cleared[0] };
   // Nothing clears the bar — show the 3 closest, greyed, so it's never blank.
-  return { list: scored.slice(0, 3).filter(x => x.score > 0), below: true, cleared: 0 };
+  return { list: scored.slice(0, 3).filter(x => x.score > 0), below: true, cleared: 0, top: scored[0] };
 }
 
 function ljFmtDate(d) { try { return new Date(d).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); } catch (e) { return ''; } }
@@ -3064,10 +3137,17 @@ function renderLiveJobs() {
 
   list.forEach(j => j._m = matchJobToCandidates(j));
 
-  if (sort === 'match') list.sort((a, b) => (b._m.list[0]?.score || 0) - (a._m.list[0]?.score || 0));
+  if (LJ_FILTER.bestfit) list = list.filter(j => j._m.top && !j._m.below && j._m.top.pct >= LJ_FIT_THRESHOLD);
+
+  if (sort === 'match' || LJ_FILTER.bestfit) list.sort((a, b) => (b._m.top ? b._m.top.pct : 0) - (a._m.top ? a._m.top.pct : 0));
   else list.sort((a, b) => String(b.first_seen || b.posted || '').localeCompare(String(a.first_seen || a.posted || '')));
 
-  if (!list.length) { grid.innerHTML = `<div class="empty" style="display:block;"><span class="material-symbols-outlined">filter_alt_off</span><h3 style="margin:12px 0 6px;">No roles match these filters</h3></div>`; return; }
+  if (!list.length) {
+    grid.innerHTML = `<div class="empty" style="display:block;"><span class="material-symbols-outlined">filter_alt_off</span>
+      <h3 style="margin:12px 0 6px;">${LJ_FILTER.bestfit ? 'No 60%+ matches for your current pool' : 'No roles match these filters'}</h3>
+      ${LJ_FILTER.bestfit ? '<p style="margin:0;font-size:14px;">Add more candidates, or turn off the “Best fit” filter to see all roles.</p>' : ''}</div>`;
+    return;
+  }
 
   grid.innerHTML = list.map(j => {
     const m = j._m;
@@ -3075,11 +3155,14 @@ function renderLiveJobs() {
       ? (m.below ? '<div class="lj-nomatch" style="margin-bottom:8px;">No candidate clears the bar — closest in your pool:</div>' : '')
         + m.list.map(x => {
             const tier = x.tier || { key: 't-weak', label: 'below bar' };
+            const pctNum = Math.round((x.pct || 0) * 100);
+            const showSkills = (x.pct >= LJ_FIT_THRESHOLD) && x.matched && x.matched.length;
             return `<div class="lj-match ${m.below ? 'below' : ''}" onclick="showSection('pool');openProfile('${x.c.id}')">
-              <span class="lj-pill match-score-pill ${tier.key}">${Math.min(x.score, 100)}</span>
+              <span class="lj-pill match-score-pill ${tier.key}">${pctNum}%</span>
               <div class="who">
                 <div class="nm">${escape(x.c.name)} <span class="rl">· ${escape(tier.label)}</span></div>
-                <div class="rl">${escape(x.c.job || '')} · ${escape(x.c.country || '')}${x.reasons && x.reasons.good.length ? ' · ' + escape(x.reasons.good.slice(0, 2).join(', ')) : ''}</div>
+                <div class="rl">${escape(x.c.job || '')} · ${escape(x.c.country || '')}</div>
+                ${showSkills ? `<div class="lj-skillmatch"><span class="material-symbols-outlined">check_circle</span> Matches: ${escape(x.matched.slice(0, 6).join(', '))}</div>` : ''}
               </div>
               <span class="material-symbols-outlined" style="color:var(--outline)">arrow_outward</span>
             </div>`;
@@ -3102,11 +3185,70 @@ function renderLiveJobs() {
         ${j.url ? `<a class="btn primary sm" href="${escape(j.url)}" target="_blank" rel="noopener"><span class="material-symbols-outlined" style="font-size:16px;">open_in_new</span> View / Apply</a>` : ''}
         ${j.contact ? `<a class="btn ghost sm" href="mailto:${escape(j.contact)}"><span class="material-symbols-outlined" style="font-size:16px;">mail</span> ${escape(j.contact)}</a>` : ''}
         ${j.description ? `<button class="btn ghost sm" onclick="this.closest('.lj-job').querySelector('.lj-jd').classList.toggle('open')"><span class="material-symbols-outlined" style="font-size:16px;">notes</span> JD</button>` : ''}
+        ${j.source === 'Manual' ? `<button class="btn ghost sm" onclick="removeManualJob('${j.id}')" style="color:var(--warn);margin-left:auto;"><span class="material-symbols-outlined" style="font-size:16px;">delete</span> Remove</button>` : ''}
       </div>
       ${j.description ? `<div class="lj-jd">${escape(j.description)}</div>` : ''}
       <div class="lj-matches"><h4>Best-fit candidates</h4>${matchHtml}</div>
     </div>`;
   }).join('');
+}
+
+/* ── Manual jobs + best-fit filter ── */
+function ljManualJobs() {
+  try { return JSON.parse(localStorage.getItem('rq_manual_jobs') || '[]'); } catch (e) { return []; }
+}
+function ljSaveManualJobs(arr) {
+  try { localStorage.setItem('rq_manual_jobs', JSON.stringify(arr)); }
+  catch (e) { alert('Could not save the job — browser storage is full.'); }
+}
+function ljToggleBestFit(el) {
+  LJ_FILTER.bestfit = !LJ_FILTER.bestfit;
+  el.classList.toggle('active', LJ_FILTER.bestfit);
+  renderLiveJobs();
+}
+function openAddJob() {
+  ['ajTitle', 'ajCompany', 'ajCity', 'ajUrl', 'ajSkills', 'ajDesc'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('ajIndustry').value = '';
+  document.getElementById('ajSeniority').value = '';
+  document.getElementById('ajErr').style.display = 'none';
+  document.getElementById('addJobModal').classList.add('show');
+  setTimeout(() => document.getElementById('ajTitle').focus(), 80);
+}
+function closeAddJob() { document.getElementById('addJobModal').classList.remove('show'); }
+function saveManualJob() {
+  const v = id => document.getElementById(id).value.trim();
+  const title = v('ajTitle'), company = v('ajCompany');
+  if (!title || !company) {
+    const e = document.getElementById('ajErr');
+    e.textContent = 'Job title and company are required.'; e.style.display = 'block'; return;
+  }
+  const city = v('ajCity'), url = v('ajUrl');
+  const isEmail = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(url);
+  const nowISO = new Date().toISOString();
+  const job = {
+    id: 'manual_' + Date.now().toString(36),
+    title, company,
+    location: (city ? city + ', ' : '') + 'United Arab Emirates',
+    country: 'United Arab Emirates', city: city || '',
+    description: v('ajDesc'),
+    url: (url && !isEmail) ? url : '',
+    contact: isEmail ? url : null,
+    source: 'Manual', company_type: 'employer',
+    industry: v('ajIndustry') || 'Other', salary: null,
+    skills: v('ajSkills').split(',').map(s => s.trim()).filter(Boolean),
+    seniority: v('ajSeniority') || 'Mid', shutdown: false,
+    posted: nowISO.slice(0, 10), first_seen: nowISO, last_seen: nowISO,
+  };
+  const arr = ljManualJobs(); arr.unshift(job); ljSaveManualJobs(arr);
+  LJ_DATA.jobs = [job].concat(LJ_DATA.jobs || []);
+  closeAddJob();
+  renderLiveJobsStats(); renderLiveJobs();
+}
+function removeManualJob(id) {
+  if (!confirm('Remove this job from your board?')) return;
+  ljSaveManualJobs(ljManualJobs().filter(j => j.id !== id));
+  LJ_DATA.jobs = (LJ_DATA.jobs || []).filter(j => j.id !== id);
+  renderLiveJobsStats(); renderLiveJobs();
 }
 
 /* ── Branded ATS CV (PDF + Word), via cv-generator.js ── */
