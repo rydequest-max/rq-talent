@@ -48,6 +48,12 @@
   ],
   "smartrecruiters_max_per_board": 50,
 
+  "_comment_agencies": "Recruitment agency portals scraped from server-rendered HTML (no key). NADIA's homepage lists newest-first jobs.",
+  "nadia_enabled": true,
+  "nadia_max": 40,
+  "adecco_enabled": true,
+  "adecco_max": 50,
+
   "_comment_hospitality": "Hospitality has no clean open feed in the UAE (Marriott/Hilton/Jumeirah use closed ATSes). It comes through the Jooble/Careerjet aggregator keys, which are sector-agnostic.",
 
   "_comment_ats": "Open ATS APIs (no key). Entries can be a plain token or {token, company, industry}. Verify a Greenhouse token at https://boards-api.greenhouse.io/v1/boards/TOKEN/jobs or a Lever one at https://api.lever.co/v0/postings/TOKEN?mode=json. Most UAE banks/hospitality use closed ATSes (no open feed) — those come via the aggregator keys.",

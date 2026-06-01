@@ -630,8 +630,142 @@ def adapter_smartrecruiters(cfg):
     return out, f"SmartRecruiters ({len(out)})"
 
 
+BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
+
+EXP_TO_SENIORITY = [  # (min_years_in_band, label) — matched by the band's lower bound
+    (20, "Executive"), (15, "Director"), (10, "Lead"), (5, "Senior"), (2, "Mid"), (0, "Entry"),
+]
+
+
+def exp_to_seniority(exp_text):
+    m = re.search(r"(\d{1,2})", exp_text or "")
+    yrs = int(m.group(1)) if m else 0
+    for lo, label in EXP_TO_SENIORITY:
+        if yrs >= lo:
+            return label
+    return "Mid"
+
+
+def adapter_nadia(cfg):
+    """NADIA Global recruitment agency (nadia-me.com). The homepage is server-rendered
+    HTML with the full job list (newest-first by ID), so a plain GET + parse works."""
+    import html as htmllib
+    if not cfg.get("nadia_enabled", True):
+        return [], "NADIA (disabled)"
+    out, timeout = [], cfg.get("request_timeout", 20)
+    cap = cfg.get("nadia_max", 40)
+    targets = cfg.get("target_countries", []) or ["United Arab Emirates"]
+    want_uae = "United Arab Emirates" in targets
+    try:
+        page = http_get("https://www.nadia-me.com/", timeout, headers={"User-Agent": BROWSER_UA})
+    except Exception as e:
+        return [], f"NADIA (error: {type(e).__name__})"
+    for blk in page.split("job-scroll-tmb")[1:]:
+        if len(out) >= cap:
+            break
+        blk = blk[:1400]
+        mt = re.search(r"<h5>\s*(.*?)\s*</h5>", blk, re.S)
+        if not mt:
+            continue
+        title = htmllib.unescape(re.sub(r"\s+", " ", mt.group(1))).strip()
+        title = re.sub(r"\s*[-–(]?\s*ID\s*[-–(]?\s*\d{3,6}\)?.*$", "", title).strip()
+        if not title:
+            continue
+        locm = re.search(r"location\.svg[^>]*>\s*</label>\s*([^<]+)", blk)
+        loc = re.sub(r"\s+", " ", htmllib.unescape(locm.group(1))).strip() if locm else ""
+        # location looks like "UAE / Abu Dhabi" or "GCC / Saudi Arabia"
+        if want_uae and not loc.upper().startswith("UAE"):
+            continue
+        city = loc.split("/")[-1].strip() if "/" in loc else ""
+        expm = re.search(r"experience\.svg[^>]*>\s*</label>\s*([^<]+?experience)", blk)
+        exp = expm.group(1).strip() if expm else ""
+        apm = re.search(r'href="(https://www\.nadia-me\.com/job/apply/\d+)"', blk)
+        url = apm.group(1) if apm else "https://www.nadia-me.com/"
+        out.append(normalize(
+            source="NADIA Global", title=title, company="NADIA Global (agency)",
+            location=(city + ", United Arab Emirates") if city else "United Arab Emirates",
+            description="Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
+            url=url, company_type="agency", cfg=cfg))
+        out[-1]["seniority"] = exp_to_seniority(exp)
+    return out, f"NADIA ({len(out)})"
+
+
+def adapter_adecco(cfg):
+    """Adecco Middle East (adecco.com/en-ae). Jobs load from a JSON POST API
+    (/api/data/jobs/summarized) that accepts requests from any IP — verified Jun 2026.
+    Returns ~50 UAE roles, 10 per page, with posted dates."""
+    if not cfg.get("adecco_enabled", True):
+        return [], "Adecco (disabled)"
+    if "United Arab Emirates" not in (cfg.get("target_countries", []) or ["United Arab Emirates"]):
+        return [], "Adecco (skipped: UAE not targeted)"
+    out, timeout = [], cfg.get("request_timeout", 20)
+    cap = cfg.get("adecco_max", 50)
+    api = "https://www.adecco.com/api/data/jobs/summarized"
+    hdr = {"User-Agent": BROWSER_UA, "Content-Type": "application/json",
+           "Accept": "application/json", "Origin": "https://www.adecco.com",
+           "Referer": "https://www.adecco.com/en-ae/middle-east-jobs"}
+
+    def fetch(offset):
+        body = json.dumps({"brand": "adecco", "countryCode": "AE",
+                           "languageCode": "en-AE", "siteName": "adecco",
+                           "range": offset, "queryString": "", "filtersToDisplay": ""}).encode()
+        req = urllib.request.Request(api, data=body, method="POST", headers=hdr)
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read().decode("utf-8", "replace"))
+
+    seen, offset, pages_done = set(), 0, 0
+    try:
+        while len(out) < cap and pages_done < 8:
+            d = fetch(offset)
+            jobs = d.get("jobs") or []
+            if not jobs:
+                break
+            for j in jobs:
+                jid = j.get("jobId")
+                if jid in seen:
+                    continue
+                seen.add(jid)
+                title = (j.get("jobTitle") or "").strip()
+                if not title:
+                    continue
+                cat = " ".join(x for x in [j.get("jobCategoryTitle"),
+                                           j.get("jobSubCategoryTitle"),
+                                           j.get("employmentTypeTitle"),
+                                           j.get("contractTypeTitle")]
+                               if x and x not in ("NA", "N/A"))
+                desc = (f"{title}. {cat}. Location: {j.get('jobLocation','')}. "
+                        "Listed via Adecco Middle East recruitment agency — full JD & apply via the link.")
+                sal = None
+                mn, mx, cur = j.get("minsalary") or 0, j.get("maxsalary") or 0, j.get("salaryCurrency")
+                if (mn or mx) and cur:
+                    sal = f"{cur} {mn:,}–{mx:,}" if mx else f"{cur} {mn:,}+"
+                out.append(normalize(
+                    source="Adecco", title=title, company="Adecco Middle East (agency)",
+                    location=j.get("jobLocation") or "United Arab Emirates",
+                    description=desc, url=j.get("applyUri") or "https://www.adecco.com/en-ae/middle-east-jobs",
+                    salary=sal, posted=j.get("postedDate") or j.get("jobCreationDate"),
+                    company_type="agency",
+                    industry=j.get("industryTypeTitle") or None, cfg=cfg))
+                lvl = j.get("exeprienceLevel")
+                if lvl:
+                    out[-1]["seniority"] = lvl
+                if len(out) >= cap:
+                    break
+            pag = d.get("pagination") or {}
+            nxt = pag.get("nextRange")
+            if not nxt or nxt <= offset:
+                break
+            offset, pages_done = nxt, pages_done + 1
+    except Exception as e:
+        if not out:
+            return [], f"Adecco (error: {type(e).__name__})"
+    return out, f"Adecco ({len(out)})"
+
+
 ADAPTERS = [adapter_jooble, adapter_careerjet, adapter_workday,
-            adapter_smartrecruiters, adapter_greenhouse, adapter_lever, adapter_rss]
+            adapter_smartrecruiters, adapter_nadia, adapter_adecco,
+            adapter_greenhouse, adapter_lever, adapter_rss]
 
 
 # ════════════════════════════════════════════════════════════════════════════
