@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-01T06:52:46.088053+00:00",
-  "count": 128,
-  "shutdown_count": 19,
+  "generated_at": "2026-06-01T07:11:07.314658+00:00",
+  "count": 154,
+  "shutdown_count": 20,
   "by_country": {
-    "United Arab Emirates": 128
+    "United Arab Emirates": 154
   },
   "by_industry": {
-    "Financial Services / Fintech": 56,
-    "Construction / Infrastructure": 52,
-    "Technology / Software": 7,
-    "Energy / Oil & Gas": 7,
-    "Other": 3,
-    "Hospitality / Tourism": 2,
-    "Healthcare / Pharma": 1
+    "Financial Services / Fintech": 67,
+    "Construction / Infrastructure": 53,
+    "Technology / Software": 16,
+    "Other": 8,
+    "Energy / Oil & Gas": 6,
+    "Healthcare / Pharma": 2,
+    "Hospitality / Tourism": 2
   },
   "sources": [
-    "Jooble (9)",
+    "Jooble (30)",
     "Careerjet (skipped: no CAREERJET_API_KEY)",
     "Workday (53)",
     "SmartRecruiters (50)",
@@ -25,14 +25,415 @@
   ],
   "jobs": [
     {
-      "id": "jooble_a413b9723e80fb",
-      "title": "Application Engineer- UAE or Saudi Arabia",
-      "company": "Litmus Automation",
+      "id": "jooble_6a859d62b622be",
+      "title": "Senior Treasury Manager",
+      "company": "OKX",
       "location": "United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "",
-      "description": "...experience, dreams and goals with us. About the Role – Application Engineer The Application Engineer works with prospective and existing... ...provides Level 3 support to existing customers via the Litmus Service Desk. Finally, the Application Engineer works closely with...",
-      "url": "https://jooble.org/jdp/6888671851113151129",
+      "description": "..., and the developer of OKX Wallet... ...to crypto markets. We are... ...planning, and banking ... ...treasury partner for regional Finance Directors... ...Beyond BAU operations, you'll play... ...growth and development Various... ...Comprehensive healthcare schemes for... ...part of the recruitment process of...",
+      "url": "https://jooble.org/jdp/-7086176549047828685",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "posted": "2026-05-15T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_dd1ea41b82ce0b",
+      "title": "Learning & Development Specialist - Inside Sales",
+      "company": "Bayut | dubizzle",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...brands in the market. With a collective... .... As a Learning & Development Specialist, you... ..., designing, developing, and delivering... ...Inside Sales employees and... ...access to training resources. Track and... ...goals and making data- driven enhancements... .... Partner with Business...",
+      "url": "https://jooble.org/jdp/-7306885467987653187",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "posted": "2025-08-13T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_c599368f77c64b",
+      "title": "HR Administrator",
+      "company": "Bayut | dubizzle",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...classified brands in the market. With a collective... ...needs. As the HR Administrator, your primary... ...is to support the HR Operations team with a primary... ...payment with the Finance department. Payroll... ...Rewards & Recognitions Learning & Development Bayut & dubizzle...",
+      "url": "https://jooble.org/jdp/-4738708925084990212",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2026-02-27T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_6af76db99da1cf",
+      "title": "Forward Deployed Software Engineer",
+      "company": "Palantir Technologies",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...world’s leading software for data- driven decisions and operations. By bringing the... ...right data to the people who need it, our... ...platforms empower our partners to develop lifesaving drugs,... ...Software Engineers (FDSEs) work directly... ...colleagues — to learn how. You’ll learn...",
+      "url": "https://jooble.org/jdp/-2602073820224835642",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2025-06-23T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_4468f39fb596c2",
+      "title": "VP, Sales (Financing)",
+      "company": "Hex Trust",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...use to operate in crypto... ...capital markets, investment... ..., financing, and tokenization... ...-shop partner. We... ...offices, banks, foundations... ...is P&L- accountable from day... .... Develop and own... ...institutional sales team to... ...that people are our... ...Professional Learning and Development ...",
+      "url": "https://jooble.org/jdp/-8188106360065335032",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "posted": "2026-05-18T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_eb4b3a416b615b",
+      "title": "Software Development Engineer, Security",
+      "company": "Binance",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...+ million people in 100+ countries... ..., trading engine speed,... ...and finance to education... ...world. As a Software Development Engineer (... ..., all operating at massive... ...work with data scientists... ...to design, develop, test, and... ...world-class talent in a user-... ... learning • Competitive...",
+      "url": "https://jooble.org/jdp/-399654156235250555",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2026-05-22T14:16:19.4400000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_e7c282e76ed19e",
+      "title": "Senior DevOps Engineer",
+      "company": "Yassir",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...provided. It currently operates in 45 cities across... ...not just about serving people - we’re about creating... ...and experienced DevOps Engineer to join our Cloud Operations... ...and diverse team, learning and helping others to... ...needs Develop infrastructure as code...",
+      "url": "https://jooble.org/jdp/4695752186995486105",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "posted": "2025-07-22T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_949da40dd88646",
+      "title": "Quantitative Researcher & Developer - Data Science",
+      "company": "Abu Dhabi Investment Authority",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...ADIA’s Quantitative Research & Development team works in a... ...practice. Our team leverages data to enable the research, development... ...Data Ingestion & Cleansing : Develop pipelines to clean, tag and integrate... ...: Curiosity and desire to learn new methods and technologies....",
+      "url": "https://jooble.org/jdp/-7649450695518098719",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "pipeline"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2025-08-13T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_7fc9eddc305fba",
+      "title": "Senior Growth Manager, Paid Search (Dubai)",
+      "company": "Crypto Com",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...product development and client acquisition. We... ...prediction markets. We... ... talent in Paid... ...Search accounts globally... ...ASA engines have no... ...and resources, internally... ...and operational models... ...with data ... ...Making: Partner with data... ...Business, Finance, or a... ... learning, and driving...",
+      "url": "https://jooble.org/jdp/3624161780563893991",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "posted": "2026-04-29T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_12c03007a943c4",
+      "title": "Senior Compliance Analyst, Dubai",
+      "company": "OKX",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...the developer of OKX... ...crypto markets. We... ...regulatory operations, ... ... Financing (CTF)... ...continuous learning and... ...Policy Development :... ...and resources to employees... ... data to identify... ...and partner with... ...and Engineering to... ...Central Bank, or... ...Comprehensive healthcare ... ...the recruitment ...",
+      "url": "https://jooble.org/jdp/-6365252289816333386",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "posted": "2025-08-25T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_0e11a583f568b6",
+      "title": "BPO Senior Manager",
+      "company": "NTT DATA, Inc.",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...127 NTT DATA strives to... ...Manager – Operations is responsible... ...and accountability. Lead workforce... ..., and resource allocation... .... Develop and execute... ...start-up partners. NTT DATA... ...NTT DATA recruiters will never... ...payment or banking information... ....com and @ talent. nttdataservices...",
+      "url": "https://jooble.org/jdp/-3558733527690726737",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": true,
+      "posted": "2026-05-18T07:23:11.4230000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_c286e98ce6a3ff",
+      "title": "Web3 / Full-stack Software Engineer",
+      "company": "Stakefish",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": ".../ Full-stack Software Engineer, you will be designing, developing, and deploying... ...with a group of talented engineers,... ...other modern development techniques.... ...understanding of data structures and... ...meet interesting people from different... ...etc. You can learn and debate everything...",
+      "url": "https://jooble.org/jdp/1026049991888467834",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2026-05-18T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_52fadc069fa5c4",
+      "title": "EMEA Legal Counsel",
+      "company": "Insight",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...provider of hardware, software, cloud, and service... ...stakeholders across Sales, HR, Finance, Operations, and leadership... ...across EMEA, including data protection (GDPR and... ...to adapt Support development and implementation of... ...A collaborative partner to the business with...",
+      "url": "https://jooble.org/jdp/-8744888985274229259",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2026-05-21T07:42:55.3030000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_94c7b89dae5ed1",
+      "title": "Field Service Engineer II, UAE",
+      "company": "Ultima Genomics",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...that is developing ground... ...in human health... ...from healthcare and life... ...sciences, to engineering, to... ...and software and... ..., and operations and commercial... ... account and... ...research and development groups... ...) ~ Talented at... ...good people skills... ...domestic partner status... ... recruiting@ ultimagen...",
+      "url": "https://jooble.org/jdp/5792765586867618216",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Healthcare / Pharma",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2025-07-26T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_e2975668bc373a",
+      "title": "ElectronJS + TypeScript Developer",
+      "company": "Brixio",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...What You Will Do: As a key member of our software development team, you will join a project for a client in the automotive industry .... ...working with ElectronJS and TypeScript . Track record of developing and deploying desktop applications. Strong Architectural...",
+      "url": "https://jooble.org/jdp/8051944166435804676",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2025-08-13T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_863f4c29564014",
+      "title": "Staff Backend Engineer (NodeJS/Go)",
+      "company": "Yassir",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...It currently operates in 45 cities... ...serving people - we’re about... ...Backend Staff Engineer, you will be... ...and feature development and release... ...mentoring junior developers and... ...and onboard talented engineers.... ...distributed software search applications... ...experiments and a data- driven...",
+      "url": "https://jooble.org/jdp/8294768772508862910",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2025-08-15T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_045c4eebd66ab5",
+      "title": "Dean of the College of Computing and Informatics",
+      "company": "University Of Sharjah",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...areas such as AI, data science,... ...experts, and strategic partners to enhance academic... ...academic program development and curriculum innovation... ...in teaching, learning outcomes, and... ...administration, human resources, and financial management... .... # Ability to operate effectively in a...",
+      "url": "https://jooble.org/jdp/5901792286335927404",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2026-04-23T10:43:41.5570000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_452862504bbcf7",
+      "title": "Product Growth Hacker: Exchange & Main App",
+      "company": "Crypto.com",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...trading) we’re hiring a Growth Marketing Hacker to lead on our go-to-... ...the intersection of product, data, and creative execution:... ...Strategy & Positioning Partner up with product and strategy... ...app (Mainstream) verticals. Develop value propositions that differentiate...",
+      "url": "https://jooble.org/jdp/-7237221851894728950",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2025-06-23T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_f13abc859ae92c",
+      "title": "Senior Operations Manager",
+      "company": "Keller Executive Search",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...the Senior Operations Manager in... ...role is accountable for shaping... ...position partners closely with... ...Build data‑ driven operating... ...with Sales, Marketing, and People Operations... ...memos. To learn more about... ... development. Company... ...solely for recruitment and employment...",
+      "url": "https://jooble.org/jdp/-1570790680736296128",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "posted": "2025-09-17T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_4a58f4fc9bd556",
+      "title": "Performance Marketing Executive (Arabic Speaker)",
+      "company": "Bayut | dubizzle",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...classified brands in the market. With a collective... ...marketing, design and development to create and execute... ...strategies Analyze data to identify problems and... ...company at the forefront of developments in digital marketing... ...& Recognitions Learning & Development Bayut...",
+      "url": "https://jooble.org/jdp/3231805035860465133",
       "source": "Jooble",
       "company_type": "unknown",
       "industry": "Other",
@@ -41,9 +442,167 @@
       "skills": [],
       "seniority": "Mid",
       "shutdown": false,
+      "posted": "2025-08-13T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_b5a3ed3f34f20c",
+      "title": "Head of Quality Management",
+      "company": "Keller Executive Search",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...senior role is accountable for... ...position partners closely with... ...leaders, drives operational excellence... ...Build data‑ driven... ...Partner with Sales, Marketing, and People Operations... ...memos. To learn more about... ... development. Company... ...solely for recruitment and employment...",
+      "url": "https://jooble.org/jdp/3513242989057283463",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "posted": "2025-09-12T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_7247c6e8cb0d2f",
+      "title": "Senior Management Manager",
+      "company": "Keller Executive Search",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...senior role is accountable for... ...position partners closely with... ...leaders, drives operational excellence... ...Build data‑ driven... ...Partner with Sales, Marketing, and People Operations... ...memos. To learn more about... ... development. Company... ...solely for recruitment and employment...",
+      "url": "https://jooble.org/jdp/-5404744734994680733",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "posted": "2025-09-17T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_4b33f28ab3334e",
+      "title": "Marketing Executive",
+      "company": "Luxury Dubai Cars Rental",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "We are seeking a dynamic and creative Marketing Executive to join our luxury car rental... ...candidate will be responsible for developing and implementing effective marketing strategies... ...and website content.Collaborate with sales and operations teams to create promotional offers and...",
+      "url": "https://jooble.org/jdp/-3871108039213038873",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2026-03-12T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_cb10eca84116a3",
+      "title": "Lifecycle Marketing Executive/Specialist",
+      "company": "Bayut | dubizzle",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...strongest classified brands in the market. With a collective strength... ...In this role, you will: Developing a strategy to engage, retain... ...insight segmentation and data analysis Leading new... ...Rewards & Recognitions Learning & Development Bayut & dubizzle is an equal...",
+      "url": "https://jooble.org/jdp/-5106842900101875817",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "posted": "2025-08-13T00:00:00.0000000",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "smartrecruiters_8040835f7c30d0",
+      "title": "Resident Engineer",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "Leads the delivery (time, cost, quality) of assigned package. Supervise the contractors to ensure the works are constructed as per specification and to established milestone dates. Manage and direct the supervision team to undertake day to day inspections of the works. Maintain a very high level of Safety awareness and ensure the contractor complies with his obligations.&#xa0; Capable of administering the FIDIC based contract or standalone Contracts Resolves site issues &#xa0; Presents progress and package issues to client team.&#xa0;&#xa0; Discuss changes to the scope of work with the Client and key subcontractors. Responsible for following up on instructions & commitments associated with the project Establishes Project Execution Plan, Health & Safety Plan, Quality Control Plan and other documents in relation to our scope Establishes the program requirements for all areas of the project and monitors site staff performance Plans, directs, supervises and controls the execution of all technical, fiscal and administrative functions of the project and the site team Assigns responsibility to key subordinates in their respective fields of expertise Provides input to performance reviews and develop plans for subordinates Work with other managers, project engineers and discipline Heads to develop budgets, schedules and plans for the various elements of the project Monitors and reports to management on the progress of all project activities within the program, including significant milestones and any conditions, which would affect project cost, schedule, performance or Client relation Establishes internal weekly meetings to review project status and formulate action items Performs other responsibilities associated with this position in line with AECOM policies and procedures Represent the company in Client meetings. Monitor Health and Safety of the construction works and lead to address violations Bachelor's degree in Civil Engineering or related field; Master's degree preferred Minimum of 20 years of experience in building engineering, with a focus on managing large-scale projects Proven track record in overseeing complex building projects in the Middle East In-depth knowledge of UAE construction standards, regulations, and best practices Strong understanding of building development, construction methodologies, and quality control processes Excellent project management skills, including budget and schedule management Advanced problem-solving and analytical abilities, with a keen eye for detail Outstanding leadership and team management skills Strong technical report writing and communication abilities Experience working in a fast-paced environment and managing multiple projects simultaneously Willingness to work on-site and travel as required for project needs Familiarity with local building codes and regulations in the UAE Ability to adapt to changing project requirements and implement innovative solutions",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129407918-resident-engineer",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "quality control",
+        "civil",
+        "project management",
+        "contracts",
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "posted": "2026-06-01T07:06:11.734Z",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "smartrecruiters_62e754fb96e410",
+      "title": "Project Controls Manager - Rail",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "Role Overview We are seeking an experienced Project Controls Manager to lead and oversee all project controls functions for a major rail infrastructure project. This role will be responsible for ensuring robust planning, scheduling, cost control, risk management, and performance reporting across the full project lifecycle. The successful candidate will bring extensive experience in the management of design and or construction phases of large scale rail projects, with a strong preference for High Speed Rail project exposure. Key Responsibilities • Lead the development and implementation of project controls frameworks, processes, and systems across the project • Oversee planning and scheduling activities, ensuring alignment with project milestones and delivery objectives • Manage cost control, budgeting, forecasting, and financial reporting • Establish and monitor project KPIs, dashboards, and performance metrics • Lead risk management activities, including risk identification, analysis, mitigation, and reporting • Ensure effective change management and claims support in coordination with commercial teams • Provide strategic oversight on progress measurement and reporting to senior stakeholders • Coordinate with engineering, construction, and commercial teams to ensure integrated project delivery • Ensure compliance with client, regulatory, and governance requirements • Lead and mentor the project controls team Minimum Requirements • Minimum of fifteen (15) years of experience in project controls&#xa0; • Proven experience in a Project Controls Manager or equivalent role on at least one project of similar size and complexity • Demonstrated experience of minimum 5 years in railway projects with High Speed Rail (HSR) projects being highly preferred&#xa0;&#xa0; • Strong expertise in planning, cost management, risk management, and reporting • Proficiency in industry standard tools such as Primavera P6, cost management systems, and reporting platforms • Experience in the Middle East, particularly the UAE, is highly advantageous Key Competencies • Strong leadership and stakeholder management skills • Strategic thinking with strong analytical capability • Excellent communication and reporting skills • Ability to operate in a complex, multi stakeholder environment • High attention to detail with a proactive approach to problem solving • University degree in Engineering or a related discipline. A Master’s degree is preferred • Chartered Engineer status or equivalent professional accreditation is highly desirable",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129404819-project-controls-manager-rail",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "primavera",
+        "p6",
+        "cost control",
+        "construction"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "posted": "2026-06-01T06:55:18.116Z",
+      "first_seen": "2026-06-01T07:11:07.314658+00:00",
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
+    },
+    {
+      "id": "jooble_a413b9723e80fb",
+      "title": "Application Engineer- UAE or Saudi Arabia",
+      "company": "Litmus Automation",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...stage software ... ...machine data to improve... ... operations. Our... ...Series B financing round... ...most talented and... ...as we partner to help... ... learning and other... ... people in the... ...Litmus marketing team... ...Application Engineer ... ...customers to develop ... ...the development and configuration... ...the Sales ... ... Account Manager...",
+      "url": "https://jooble.org/jdp/6888671851113151129",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
       "posted": "2025-07-16T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "jooble_1b06efd945415c",
@@ -52,7 +611,7 @@
       "location": "United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "",
-      "description": "...the best platform for their needs. As an Application Security Engineer, you will work closely with the Head of Group IT and with the... ...recommendations to mitigate risks across a broad range of applications and services. In this role you will: Collaborate with internal teams...",
+      "description": "...classified brands in the market. With a collective... ...Security Engineer, you will work closely... ...from the IT and development teams to ensure that... ...by external partners. Ensure identified... ...ISO 27001, NIST and Data Protection. ~... ...skills. ~ Continuous learning mindset to stay on...",
       "url": "https://jooble.org/jdp/7388616861140313734",
       "source": "Jooble",
       "company_type": "unknown",
@@ -64,7 +623,7 @@
       "shutdown": false,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "jooble_6587dfb501edd5",
@@ -73,11 +632,11 @@
       "location": "United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "",
-      "description": "...Solana or EVM. Practical experience with staking across blockchains. ~ Strong communication to bridge between end-users and the engineering team such as ability to distill complex application/blockchain/DApps issues into clear, empathetic updates for users, while...",
+      "description": "...and dynamic learning. The... ...in secure development, confidential... ...users and the engineering team such as... ...root-cause data to engineers... ...working with a talented, ambitious... ...We help to develop new skill-... ...our talent acquisition team.... ...be used for recruitment purposes only...",
       "url": "https://jooble.org/jdp/-7943515867973466734",
       "source": "Jooble",
       "company_type": "unknown",
-      "industry": "Construction / Infrastructure",
+      "industry": "Technology / Software",
       "salary": null,
       "contact": null,
       "skills": [],
@@ -85,7 +644,7 @@
       "shutdown": false,
       "posted": "2026-05-08T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "jooble_b2e4e3914179a5",
@@ -94,7 +653,7 @@
       "location": "United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "",
-      "description": "...providing exceptional customer service and ensuring the smooth... ...you are passionate about the hospitality industry and ready to take on... ...Collaborate with the Head Chef and Restaurant Manager to develop... ...depending on the experience. Plus 375 Food allowance + 350 to 500 (Service...",
+      "description": "...At Apt Resources, we are looking for a highly experienced... ...ensuring the smooth operations of our trendy... ...passionate about the hospitality industry and ready to... ...safety regulations Develop and implement strategies... ...restaurant management software Flexible schedule,...",
       "url": "https://jooble.org/jdp/-5018136318404309904",
       "source": "Jooble",
       "company_type": "unknown",
@@ -106,7 +665,7 @@
       "shutdown": false,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "jooble_d563948a964ad5",
@@ -136,7 +695,7 @@
       "location": "United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "",
-      "description": "...operations, ensuring excellent service, and maintaining high-quality food standards. As the... ...that resonates with our guests. The ideal candidate... ...experience in food and beverage operations. Excellent... ...holidays. A degree in Hospitality Management or a related...",
+      "description": "...Apt Resources is looking for a motivated and experienced... ...for managing daily operations, ensuring excellent... ...reporting. Recruit, train, and develop team members to ensure... ...restaurant management software and POS systems.... ...holidays. A degree in Hospitality Management or a...",
       "url": "https://jooble.org/jdp/-880599497902603084",
       "source": "Jooble",
       "company_type": "unknown",
@@ -148,7 +707,7 @@
       "shutdown": false,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "jooble_f423e88e180b3f",
@@ -199,11 +758,11 @@
       "location": "United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "",
-      "description": "...s near real-time data creates a tactical advantage for mission-critical operations. Designed for dual use, the platform also serves civil protection and commercial users for natural-catastrophe intelligence, insurance, maritime monitoring (including oil-spill detection)...",
+      "description": "...highlights: Marketing &... ... partner for defense... ...-time data ... ...critical operations. Designed... ... civil protection... ..., and finance, contributing... ...great people we can... ... Development, and... ...for a talented marketeer... ..., developing, and implementing... ...with sales and... ... healthcare and life...",
       "url": "https://jooble.org/jdp/679395808004558184",
       "source": "Jooble",
       "company_type": "unknown",
-      "industry": "Energy / Oil & Gas",
+      "industry": "Financial Services / Fintech",
       "salary": null,
       "contact": null,
       "skills": [
@@ -213,7 +772,7 @@
       "shutdown": false,
       "posted": "2025-09-09T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_bc2546e7092d2d",
@@ -237,7 +796,7 @@
       "shutdown": false,
       "posted": "2026-04-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_40ec30ea38df3a",
@@ -260,7 +819,7 @@
       "shutdown": false,
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_ff72511a9250d6",
@@ -283,7 +842,7 @@
       "shutdown": false,
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_37079cdf2f5daf",
@@ -307,7 +866,7 @@
       "shutdown": false,
       "posted": "2026-05-29",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_f8c3cf7c8ca8d8",
@@ -331,7 +890,7 @@
       "shutdown": false,
       "posted": "2026-05-29",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_974901cd5b0a51",
@@ -354,7 +913,7 @@
       "shutdown": false,
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_a6122c9a9c4767",
@@ -378,7 +937,7 @@
       "shutdown": false,
       "posted": "2026-05-29",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_d25655fd9c0a2b",
@@ -401,7 +960,7 @@
       "shutdown": false,
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_290437f5e43310",
@@ -422,7 +981,7 @@
       "shutdown": false,
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_6d39c57160084d",
@@ -445,7 +1004,7 @@
       "shutdown": false,
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_a6cbffcd12d07d",
@@ -469,7 +1028,7 @@
       "shutdown": false,
       "posted": "2026-05-07",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_d6c31878b74d0f",
@@ -492,7 +1051,7 @@
       "shutdown": false,
       "posted": "2024-12-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_a81ffc2a760d08",
@@ -513,7 +1072,7 @@
       "shutdown": false,
       "posted": "2026-05-05",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_7b0a1a709619bd",
@@ -536,7 +1095,7 @@
       "shutdown": false,
       "posted": "2025-10-24",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_533e141f6ae318",
@@ -559,7 +1118,7 @@
       "shutdown": false,
       "posted": "2026-03-31",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_c8d5363f798de9",
@@ -582,7 +1141,7 @@
       "shutdown": false,
       "posted": "2026-05-12",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_a20a95e9df745c",
@@ -605,7 +1164,7 @@
       "shutdown": false,
       "posted": "2026-05-15",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_3dc8df76b4752e",
@@ -628,7 +1187,7 @@
       "shutdown": false,
       "posted": "2026-05-15",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_1398f568e8321d",
@@ -651,7 +1210,7 @@
       "shutdown": false,
       "posted": "2026-03-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_2e900db633242a",
@@ -674,7 +1233,7 @@
       "shutdown": false,
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_901bc06aa9af13",
@@ -695,7 +1254,7 @@
       "shutdown": false,
       "posted": "2026-02-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_6a1e6799a5ef9a",
@@ -716,7 +1275,7 @@
       "shutdown": false,
       "posted": "2026-02-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_6693bfd640583f",
@@ -739,7 +1298,7 @@
       "shutdown": false,
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_91b10e96ab9b5a",
@@ -760,7 +1319,7 @@
       "shutdown": false,
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_3a525e2a9d65dc",
@@ -781,7 +1340,7 @@
       "shutdown": false,
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_827bb63b97613b",
@@ -804,7 +1363,7 @@
       "shutdown": false,
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_5f58b859c36016",
@@ -827,7 +1386,7 @@
       "shutdown": false,
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_bb0a3503297dad",
@@ -848,7 +1407,7 @@
       "shutdown": false,
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_ca3cccc0fa1308",
@@ -871,7 +1430,7 @@
       "shutdown": false,
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_fef46ed4c4c569",
@@ -892,7 +1451,7 @@
       "shutdown": false,
       "posted": "2026-03-10",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_89a426dcf4127b",
@@ -913,7 +1472,7 @@
       "shutdown": false,
       "posted": "2026-03-10",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_03a6e5f8299469",
@@ -937,7 +1496,7 @@
       "shutdown": false,
       "posted": "2026-03-10",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_bd528dc7f6425c",
@@ -960,7 +1519,7 @@
       "shutdown": false,
       "posted": "2026-03-17",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_76e85c2d75109f",
@@ -984,7 +1543,7 @@
       "shutdown": false,
       "posted": "2026-05-05",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_5ebf2b8e043507",
@@ -1005,7 +1564,7 @@
       "shutdown": false,
       "posted": "2026-03-26",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_a0a65580f359c4",
@@ -1028,7 +1587,7 @@
       "shutdown": false,
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_521266935a56c1",
@@ -1051,7 +1610,7 @@
       "shutdown": false,
       "posted": "2026-04-17",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_11c755489d27a2",
@@ -1074,7 +1633,7 @@
       "shutdown": false,
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_10c421094d5cfe",
@@ -1095,7 +1654,7 @@
       "shutdown": false,
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_c34b409a3438f1",
@@ -1119,7 +1678,7 @@
       "shutdown": false,
       "posted": "2026-02-22",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_72b9a39d9c3419",
@@ -1144,7 +1703,7 @@
       "shutdown": true,
       "posted": "2026-04-30",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_92304d427ec50d",
@@ -1168,7 +1727,7 @@
       "shutdown": false,
       "posted": "2026-05-19",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_242b1ee6b3823e",
@@ -1191,7 +1750,7 @@
       "shutdown": false,
       "posted": "2026-05-19",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_99dec7042644dd",
@@ -1217,7 +1776,7 @@
       "shutdown": false,
       "posted": "2026-05-26T08:01:31.937Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_9a2d79a004747a",
@@ -1243,7 +1802,7 @@
       "shutdown": false,
       "posted": "2026-05-25T13:34:05.271Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_a51d5e64f47866",
@@ -1274,7 +1833,7 @@
       "shutdown": true,
       "posted": "2026-05-22T13:47:56.122Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_92103366911b03",
@@ -1301,7 +1860,7 @@
       "shutdown": false,
       "posted": "2026-05-22T10:32:02.419Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_21ed9d16530fe5",
@@ -1325,7 +1884,7 @@
       "shutdown": false,
       "posted": "2026-05-22T06:09:34.332Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_2086867d915a89",
@@ -1349,7 +1908,7 @@
       "shutdown": false,
       "posted": "2026-05-22T05:53:26.505Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_0b273d9487ce66",
@@ -1373,7 +1932,7 @@
       "shutdown": false,
       "posted": "2026-05-22T05:47:18.926Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_695f2d8c43d589",
@@ -1400,7 +1959,7 @@
       "shutdown": false,
       "posted": "2026-05-21T13:45:08.409Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_1ef22f4e53eab7",
@@ -1426,7 +1985,7 @@
       "shutdown": true,
       "posted": "2026-05-21T13:34:59.887Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_7e94c66d4d4ccd",
@@ -1451,7 +2010,7 @@
       "shutdown": false,
       "posted": "2026-05-21T12:02:58.873Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_8b03210a344f4b",
@@ -1483,7 +2042,7 @@
       "shutdown": true,
       "posted": "2026-05-21T11:16:56.907Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_4d0e55b0aa82ae",
@@ -1510,7 +2069,7 @@
       "shutdown": false,
       "posted": "2026-05-20T09:37:26.515Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_32aa0a25106eb1",
@@ -1536,7 +2095,7 @@
       "shutdown": false,
       "posted": "2026-05-20T07:58:27.217Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_b4bbcf03c24a81",
@@ -1562,7 +2121,7 @@
       "shutdown": false,
       "posted": "2026-05-20T07:56:00.945Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_a13c67562d914d",
@@ -1588,7 +2147,7 @@
       "shutdown": true,
       "posted": "2026-05-19T17:37:51.428Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_61819872c2caf9",
@@ -1614,7 +2173,7 @@
       "shutdown": false,
       "posted": "2026-05-19T07:44:36.221Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_46f688757311c5",
@@ -1637,7 +2196,7 @@
       "shutdown": true,
       "posted": "2026-05-18T13:53:57.788Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_74243c8d079ac2",
@@ -1664,7 +2223,7 @@
       "shutdown": true,
       "posted": "2026-05-18T13:15:14.969Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_2e17f89cff4b10",
@@ -1693,7 +2252,7 @@
       "shutdown": true,
       "posted": "2026-05-18T13:05:47.232Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_1db857b3c876f1",
@@ -1716,7 +2275,7 @@
       "shutdown": true,
       "posted": "2026-05-18T11:50:03.192Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_fa089e7e27fa64",
@@ -1743,7 +2302,7 @@
       "shutdown": true,
       "posted": "2026-05-18T11:42:36.897Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_00b916a9ee09fd",
@@ -1769,7 +2328,7 @@
       "shutdown": false,
       "posted": "2026-05-18T10:56:32.605Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_1524dae70d0250",
@@ -1796,7 +2355,7 @@
       "shutdown": false,
       "posted": "2026-05-18T10:26:04.471Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_b90fd6d04ef553",
@@ -1823,7 +2382,7 @@
       "shutdown": true,
       "posted": "2026-05-18T10:08:56.370Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_ad34e4c604a3a5",
@@ -1851,7 +2410,7 @@
       "shutdown": true,
       "posted": "2026-05-18T10:03:23.592Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_77d1cdd94efa4f",
@@ -1878,7 +2437,7 @@
       "shutdown": false,
       "posted": "2026-05-18T09:53:03.431Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_3ae4f6a0b751c2",
@@ -1902,7 +2461,7 @@
       "shutdown": false,
       "posted": "2026-05-18T09:44:55.203Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_11f5812b25271c",
@@ -1931,7 +2490,7 @@
       "shutdown": false,
       "posted": "2026-05-18T09:10:59.915Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_0ae607eaaf343d",
@@ -1957,7 +2516,7 @@
       "shutdown": false,
       "posted": "2026-05-18T07:57:04.105Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_42cc259d6972ad",
@@ -1983,7 +2542,7 @@
       "shutdown": true,
       "posted": "2026-05-18T07:22:57.864Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_c2132e623a3d57",
@@ -2008,7 +2567,7 @@
       "shutdown": true,
       "posted": "2026-05-18T07:02:17.055Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_be4f0bbb294501",
@@ -2033,7 +2592,7 @@
       "shutdown": false,
       "posted": "2026-05-15T13:15:49.876Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_2c24d4242a6ef2",
@@ -2057,7 +2616,7 @@
       "shutdown": false,
       "posted": "2026-05-15T13:09:08.857Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_6d420c775247f0",
@@ -2081,7 +2640,7 @@
       "shutdown": false,
       "posted": "2026-05-15T12:49:15.262Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_2c08e94235aa0e",
@@ -2106,7 +2665,7 @@
       "shutdown": false,
       "posted": "2026-05-15T12:36:07.645Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_20a1bb5d15655c",
@@ -2130,7 +2689,7 @@
       "shutdown": false,
       "posted": "2026-05-15T12:19:02.881Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_186e47a4a38451",
@@ -2154,7 +2713,7 @@
       "shutdown": false,
       "posted": "2026-05-15T12:11:13.293Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_96241ca81d4612",
@@ -2180,7 +2739,7 @@
       "shutdown": true,
       "posted": "2026-05-15T11:50:41.396Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_888af6fa0b3811",
@@ -2204,7 +2763,7 @@
       "shutdown": false,
       "posted": "2026-05-15T11:19:28.182Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_f96975c5e1ee7a",
@@ -2228,7 +2787,7 @@
       "shutdown": false,
       "posted": "2026-05-14T10:57:00.233Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_c1082c8c2098f9",
@@ -2253,7 +2812,7 @@
       "shutdown": false,
       "posted": "2026-05-14T06:58:19.960Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_b37ba0fae63a50",
@@ -2279,7 +2838,7 @@
       "shutdown": false,
       "posted": "2026-05-14T06:34:10.152Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_8809fab1feeb26",
@@ -2305,7 +2864,7 @@
       "shutdown": false,
       "posted": "2026-05-14T04:43:28.998Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_77e85bb49ad54f",
@@ -2329,7 +2888,7 @@
       "shutdown": false,
       "posted": "2026-05-13T10:51:08.049Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_81bef8d95f8492",
@@ -2354,7 +2913,7 @@
       "shutdown": true,
       "posted": "2026-05-13T09:00:52.027Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_6363ce5e24b347",
@@ -2423,7 +2982,7 @@
       "shutdown": false,
       "posted": "2026-05-21T07:23:49-04:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "greenhouse_d1594d18aef61c",
@@ -2444,7 +3003,7 @@
       "shutdown": false,
       "posted": "2026-05-21T07:26:41-04:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "greenhouse_0af7a03442a354",
@@ -2467,7 +3026,7 @@
       "shutdown": false,
       "posted": "2026-05-21T07:20:49-04:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_617788203b6d7d",
@@ -2488,7 +3047,7 @@
       "shutdown": false,
       "posted": "2026-01-08T10:52:50.276000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_750bf541ff338b",
@@ -2509,7 +3068,7 @@
       "shutdown": false,
       "posted": "2026-04-30T00:04:54.901000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_8439b329cbd978",
@@ -2530,7 +3089,7 @@
       "shutdown": false,
       "posted": "2026-05-08T11:08:02.572000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_8a5aa1882a4c15",
@@ -2551,7 +3110,7 @@
       "shutdown": false,
       "posted": "2026-02-24T11:50:33.800000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_aafe800effb202",
@@ -2572,7 +3131,7 @@
       "shutdown": false,
       "posted": "2025-10-28T08:25:03.147000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_48416f7c1a3d60",
@@ -2593,7 +3152,7 @@
       "shutdown": false,
       "posted": "2026-04-28T04:12:28.967000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_7b55916e9ee362",
@@ -2614,7 +3173,7 @@
       "shutdown": false,
       "posted": "2026-04-24T00:35:24.753000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_e221566f13ae47",
@@ -2635,7 +3194,7 @@
       "shutdown": false,
       "posted": "2026-01-27T12:18:33.960000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_82851af1acd12f",
@@ -2656,7 +3215,7 @@
       "shutdown": false,
       "posted": "2023-09-26T10:25:53.978000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_7cf8e1576ad8ef",
@@ -2677,7 +3236,7 @@
       "shutdown": false,
       "posted": "2025-08-13T07:48:44.165000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_042ad586e345e3",
@@ -2698,7 +3257,7 @@
       "shutdown": false,
       "posted": "2026-03-27T09:30:48.869000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "lever_b1be16fd91ddf4",
@@ -2719,7 +3278,7 @@
       "shutdown": false,
       "posted": "2026-01-12T17:42:16.181000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_8616fb3d50f949",
@@ -2743,7 +3302,7 @@
       "shutdown": false,
       "posted": "2026-04-15",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_5c87f40917af87",
@@ -2766,7 +3325,7 @@
       "shutdown": false,
       "posted": "2025-01-16",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_757f013b931820",
@@ -2787,7 +3346,7 @@
       "shutdown": false,
       "posted": "2026-05-22",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_dfcc065ef363d3",
@@ -2811,7 +3370,7 @@
       "shutdown": false,
       "posted": "2026-05-19",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_e374b862eea26f",
@@ -2836,7 +3395,7 @@
       "shutdown": false,
       "posted": "2026-05-20",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_cb2a4ffbfaafec",
@@ -2862,7 +3421,7 @@
       "shutdown": false,
       "posted": "2026-04-19",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_540531d44b0712",
@@ -2883,7 +3442,7 @@
       "shutdown": false,
       "posted": "2026-03-26",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_1d11b00553cb82",
@@ -2908,7 +3467,7 @@
       "shutdown": true,
       "posted": "2026-05-19",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_731bc47689b2f1",
@@ -2931,7 +3490,7 @@
       "shutdown": false,
       "posted": "2026-05-20",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "workday_f06f48fffb4fdf",
@@ -2954,7 +3513,7 @@
       "shutdown": false,
       "posted": "2026-05-13",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_ba7b11f2c9f08a",
@@ -2979,7 +3538,7 @@
       "shutdown": true,
       "posted": "2026-05-31T13:12:36.882Z",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_839e7d3f0b1914",
@@ -3003,7 +3562,7 @@
       "shutdown": true,
       "posted": "2026-05-29T11:16:47.050Z",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     },
     {
       "id": "smartrecruiters_4b59170d229614",
@@ -3057,7 +3616,7 @@
       "shutdown": false,
       "posted": "2026-05-29T06:45:50.606Z",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-01T06:52:46.088053+00:00"
+      "last_seen": "2026-06-01T07:11:07.314658+00:00"
     }
   ]
 }
