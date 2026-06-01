@@ -1,0 +1,49 @@
+name: Scrape UAE jobs
+
+# Runs hourly + on manual trigger. Writes scraper output to jobs.json and
+# commits it back to the repo so the portal (GitHub Pages) can fetch it.
+on:
+  schedule:
+    - cron: "0 2 * * *"   # once daily at 02:00 UTC (06:00 Gulf time). Keeps Jooble's
+                          # free 500-request tier alive ~16 months. GitHub cron is best-effort.
+  workflow_dispatch: {}    # lets you run it on demand from the Actions tab
+
+# Allow the workflow to push the updated jobs.json
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-jobs
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper
+        env:
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+          CAREERJET_API_KEY: ${{ secrets.CAREERJET_API_KEY }}
+          CAREERJET_PROXY: ${{ secrets.CAREERJET_PROXY }}
+        run: python scraper/scrape.py
+
+      - name: Commit updated jobs.json
+        run: |
+          git config user.name  "rq-talent-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- jobs.json; then
+            echo "No change in jobs.json — nothing to commit."
+          else
+            git add jobs.json
+            git commit -m "chore: refresh jobs.json [skip ci] ($(date -u +%FT%TZ))"
+            git push
+          fi
