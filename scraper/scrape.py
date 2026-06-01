@@ -302,15 +302,20 @@ def adapter_jooble(cfg):
     locations = cfg.get("target_countries", []) or ["United Arab Emirates"]
     # One keyword string for the API. Prefer an explicit broad query (incl. HR) if set.
     keywords = cfg.get("jooble_query") or " OR ".join(cfg["keywords"][:8])
+    pages = max(1, int(cfg.get("jooble_pages", 1)))   # each page = 1 API request
     for loc in locations:
+      for page in range(1, pages + 1):
         try:
             body = http_post_json(
                 f"https://jooble.org/api/{key}",
-                {"keywords": keywords, "location": loc, "page": "1"},
+                {"keywords": keywords, "location": loc, "page": str(page)},
                 timeout,
             )
             data = json.loads(body)
-            for j in data.get("jobs", []):
+            jobs = data.get("jobs", [])
+            if not jobs:
+                break  # no more results — stop paging this location
+            for j in jobs:
                 out.append(normalize(
                     source="Jooble",
                     title=j.get("title"), company=j.get("company"),

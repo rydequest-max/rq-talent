@@ -20,6 +20,8 @@
   "careerjet_enabled": true,
   "_comment_jooble_query": "Single broad query string Jooble searches (UAE). Includes HR/HRBP/recruitment plus the main sectors so the feed spans everything. Edit freely.",
   "jooble_query": "HR OR HRBP OR human resources OR talent acquisition OR recruitment OR people partner OR learning and development OR finance OR accountant OR banking OR construction OR civil engineer OR quantity surveyor OR software OR developer OR data OR nurse OR healthcare OR hospitality OR hotel OR sales OR marketing OR operations",
+  "_comment_jooble_pages": "How many result pages to pull from Jooble per run. Each page = 1 of your free 500 API requests. At 1 run/day: 3 pages -> ~166 days, 5 -> ~100, 10 -> ~50.",
+  "jooble_pages": 3,
   "_comment_careerjet": "Careerjet v4 needs the API key as secret CAREERJET_API_KEY. It ALSO requires you to pre-declare the calling server's IP in your Careerjet publisher dashboard — so it only works from a fixed IP (static host/proxy), not GitHub Actions. careerjet_referer must match your declared publisher site.",
   "careerjet_referer": "https://www.rydequest.com/find-jobs/",
   "careerjet_max": 100,
