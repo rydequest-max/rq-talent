@@ -676,6 +676,39 @@ header.topbar {
   .modal { padding: 0; align-items: flex-end; }
   .modal-card { border-radius: var(--r-2xl) var(--r-2xl) 0 0; max-height: 95vh; }
 }
+
+/* ── Live Jobs module ── */
+.lj-toolbar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:18px 0; }
+.lj-search { flex:1; min-width:200px; display:flex; align-items:center; gap:8px; background:var(--surface-lowest); border:1px solid var(--outline-v); border-radius:var(--r-full); padding:8px 14px; }
+.lj-search input { border:none; outline:none; background:transparent; flex:1; font-size:14px; color:var(--on-surface); font-family:inherit; }
+.lj-chip { border:1px solid var(--outline-v); background:var(--surface-lowest); padding:7px 13px; border-radius:var(--r-full); font-weight:600; font-size:13px; color:var(--on-variant); cursor:pointer; font-family:inherit; display:inline-flex; align-items:center; gap:5px; }
+.lj-chip:hover { background:var(--surface-low); }
+.lj-chip.active { background:var(--primary); color:var(--on-primary); border-color:var(--primary); }
+.lj-chip.hot.active { background:var(--warn); border-color:var(--warn); }
+select.lj-chip { appearance:none; padding-right:28px; }
+.lj-grid { display:grid; gap:14px; }
+.lj-job { background:var(--surface-lowest); border:1px solid var(--outline-v); border-radius:var(--r-xl); padding:18px 20px; }
+.lj-job h3 { margin:0 0 4px; font-size:17px; }
+.lj-sub { color:var(--secondary); font-size:13px; display:flex; flex-wrap:wrap; gap:6px 14px; align-items:center; }
+.lj-sub b { color:var(--on-variant); font-weight:600; }
+.lj-badge { display:inline-flex; align-items:center; gap:4px; padding:3px 10px; border-radius:var(--r-full); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; }
+.lj-badge.shut { background:var(--warn-fixed); color:var(--warn); }
+.lj-badge.ind { background:var(--primary-fixed); color:var(--primary); }
+.lj-badge.src { background:var(--surface); color:var(--secondary); }
+.lj-skills { display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 4px; }
+.lj-jd { font-size:13px; color:var(--on-variant); margin:10px 0 0; max-height:0; overflow:hidden; transition:max-height .2s; }
+.lj-jd.open { max-height:700px; }
+.lj-row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top:12px; }
+.lj-matches { margin-top:14px; border-top:1px dashed var(--outline-v); padding-top:12px; }
+.lj-matches h4 { margin:0 0 10px; font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--secondary); }
+.lj-match { display:flex; align-items:center; gap:12px; padding:8px 10px; border-radius:var(--r-md); background:var(--surface-low); margin-bottom:7px; cursor:pointer; }
+.lj-match:hover { background:var(--surface); }
+.lj-match.below { opacity:.62; }
+.lj-match .who { flex:1; }
+.lj-match .nm { font-weight:600; font-size:14px; }
+.lj-match .rl { font-size:12px; color:var(--secondary); }
+.lj-pill { font-weight:800; font-size:13px; padding:5px 11px; border-radius:var(--r-full); min-width:38px; text-align:center; }
+.lj-nomatch { font-size:13px; color:var(--secondary); font-style:italic; }
 </style>
 </head>
 <body>
@@ -689,9 +722,13 @@ header.topbar {
       </span>
     </a>
     <nav class="nav">
-      <button class="nav-item active">
+      <button class="nav-item active" id="navPool" onclick="showSection('pool')">
         <span class="material-symbols-outlined">dashboard</span>
         <span class="label">Talent pool</span>
+      </button>
+      <button class="nav-item" id="navJobs" onclick="showSection('jobs')">
+        <span class="material-symbols-outlined">work</span>
+        <span class="label">Live jobs</span>
       </button>
       <a class="nav-item" href="index.html">
         <span class="material-symbols-outlined">arrow_outward</span>
@@ -717,7 +754,7 @@ header.topbar {
         <button onclick="adminLogout()">Lock</button>
       </div>
     </header>
-    <div class="canvas">
+    <div class="canvas" id="poolCanvas">
       <header class="page-head">
         <span class="eyebrow">RQ Talent · internal</span>
         <h1 class="page-title">Talent pool, <span class="accent">by industry &amp; role.</span></h1>
@@ -795,9 +832,49 @@ header.topbar {
         <p style="margin:0;font-size:14px;">Applications submitted via the portal appear here automatically.</p>
       </div>
     </div>
+
+    <!-- ═══ LIVE JOBS canvas ═══ -->
+    <div class="canvas" id="jobsCanvas" style="display:none;">
+      <header class="page-head">
+        <span class="eyebrow">RQ Talent · internal</span>
+        <h1 class="page-title">Live jobs, <span class="accent">UAE — every sector.</span></h1>
+        <p class="page-sub">Auto-scraped UAE roles across hospitality, construction, finance, healthcare, technology &amp; energy, refreshed daily. Each posting is matched against your talent pool using the same engine as “Match a job”.</p>
+      </header>
+
+      <div class="kpi-grid">
+        <div class="kpi"><div class="kpi-label">Open roles</div><div class="kpi-value" id="ljTotal">0</div><div class="kpi-trend">in feed</div></div>
+        <div class="kpi"><div class="kpi-label">Companies</div><div class="kpi-value" id="ljCompanies">0</div><div class="kpi-trend">hiring now</div></div>
+        <div class="kpi"><div class="kpi-label">Sectors</div><div class="kpi-value" id="ljSectors">0</div><div class="kpi-trend">represented</div></div>
+        <div class="kpi"><div class="kpi-label">Last updated</div><div class="kpi-value" id="ljUpdated" style="font-size:15px;">—</div><div class="kpi-trend" id="ljSources">—</div></div>
+      </div>
+
+      <div class="lj-toolbar">
+        <div class="lj-search">
+          <span class="material-symbols-outlined" style="color:var(--outline)">search</span>
+          <input id="ljQ" placeholder="Search title, company, skill…" oninput="renderLiveJobs()">
+        </div>
+        <button class="lj-chip active" data-ind="" onclick="ljSetIndustry(this,'')">All sectors</button>
+        <button class="lj-chip" data-ind="Hospitality / Tourism" onclick="ljSetIndustry(this,'Hospitality / Tourism')">Hospitality</button>
+        <button class="lj-chip" data-ind="Construction / Infrastructure" onclick="ljSetIndustry(this,'Construction / Infrastructure')">Construction</button>
+        <button class="lj-chip" data-ind="Financial Services / Fintech" onclick="ljSetIndustry(this,'Financial Services / Fintech')">Finance</button>
+        <button class="lj-chip" data-ind="Healthcare / Pharma" onclick="ljSetIndustry(this,'Healthcare / Pharma')">Healthcare</button>
+        <button class="lj-chip" data-ind="Technology / Software" onclick="ljSetIndustry(this,'Technology / Software')">Technology</button>
+        <button class="lj-chip" data-ind="Energy / Oil & Gas" onclick="ljSetIndustry(this,'Energy / Oil &amp; Gas')">Energy</button>
+        <select class="lj-chip" id="ljSort" onchange="renderLiveJobs()">
+          <option value="new">Newest</option>
+          <option value="match">Best candidate match</option>
+        </select>
+        <button class="btn ghost sm" onclick="loadLiveJobs(true)"><span class="material-symbols-outlined" style="font-size:16px;">refresh</span> Reload</button>
+      </div>
+
+      <div class="lj-grid" id="ljGrid"></div>
+    </div>
+
     <footer class="app-footer">
       <span>© 2026 RQ Talent · Internal</span>
       <div class="links">
+        <a onclick="document.getElementById('brandLogoInput').click()" id="brandLogoLink">Set RydeQuest logo</a>
+        <input type="file" id="brandLogoInput" accept="image/png,image/jpeg,image/svg+xml" style="display:none" onchange="setBrandLogo(this.files[0])">
         <a onclick="exportAll()">Export all (JSON)</a>
         <a onclick="confirmReset()">Reset to seed</a>
       </div>
@@ -919,6 +996,9 @@ header.topbar {
         <a class="btn primary" id="pmEmailBtn" href="#">
           <span class="material-symbols-outlined">mail</span> Email candidate
         </a>
+        <button class="btn" id="pmAtsBtn" onclick="generateAtsCv()" title="Reformat into a branded, ATS-friendly Word CV (.docx)">
+          <span class="material-symbols-outlined">auto_awesome</span> RydeQuest CV (Word)
+        </button>
         <button class="btn ghost" onclick="deleteCandidate()" style="color:var(--warn);margin-left:auto;">
           <span class="material-symbols-outlined">delete</span> Delete
         </button>
@@ -1044,6 +1124,7 @@ header.topbar {
   </div>
 </aside>
 
+<script src="cv-generator.js"></script>
 <script>
 /* ═══════════════════════════════════════════════════════════════════════════
  * CONFIG
@@ -2868,6 +2949,196 @@ function askSuggest(text) { document.getElementById('chatInput').value = text; a
 /* ═══════════════════════════════════════════════════════════════════════════
  * INIT
  * ═══════════════════════════════════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════════════════════════════════════
+ * LIVE JOBS  — Gulf O&G / shutdown feed (jobs.json), matched against the pool
+ * using the SAME engine as "Match a job" (parseJD + scoreCandidate + tierFor).
+ * ═══════════════════════════════════════════════════════════════════════════ */
+let LJ_DATA = { jobs: [] }, LJ_LOADED = false, LJ_ERROR = false;
+let LJ_FILTER = { industry: '' };
+
+function showSection(name) {
+  const isJobs = name === 'jobs';
+  document.getElementById('poolCanvas').style.display = isJobs ? 'none' : 'block';
+  document.getElementById('jobsCanvas').style.display = isJobs ? 'block' : 'none';
+  document.getElementById('navPool').classList.toggle('active', !isJobs);
+  document.getElementById('navJobs').classList.toggle('active', isJobs);
+  document.getElementById('rail').classList.remove('open');
+  document.getElementById('scrim').classList.remove('show');
+  window.scrollTo(0, 0);
+  if (isJobs) loadLiveJobs();
+}
+
+function loadJobsFallback() {
+  // file:// can't fetch — fall back to window.RQ_JOBS, loaded from jobs.js
+  return new Promise(resolve => {
+    if (window.RQ_JOBS) return resolve(window.RQ_JOBS);
+    const s = document.createElement('script');
+    s.src = 'jobs.js';
+    s.onload = () => resolve(window.RQ_JOBS || null);
+    s.onerror = () => resolve(null);
+    document.head.appendChild(s);
+  });
+}
+
+async function loadLiveJobs(force) {
+  const grid = document.getElementById('ljGrid');
+  if (!LJ_LOADED || force) {
+    grid.innerHTML = '<div class="lj-nomatch" style="padding:24px;">Loading live jobs…</div>';
+    let data = null;
+    try {
+      const res = await fetch('jobs.json' + (force ? ('?t=' + Date.now()) : ''), { cache: force ? 'reload' : 'default' });
+      if (res.ok) data = await res.json();
+    } catch (e) { /* file:// or offline — fall through */ }
+    if (!data || !Array.isArray(data.jobs)) data = await loadJobsFallback();
+    LJ_ERROR = !data || !Array.isArray(data.jobs);
+    LJ_DATA = LJ_ERROR ? { jobs: [] } : data;
+    LJ_LOADED = true;
+  }
+  CANDIDATES = loadAll();
+  renderLiveJobsStats();
+  renderLiveJobs();
+}
+
+function renderLiveJobsStats() {
+  const jobs = LJ_DATA.jobs || [];
+  document.getElementById('ljTotal').textContent = jobs.length;
+  document.getElementById('ljCompanies').textContent = new Set(jobs.map(j => j.company)).size;
+  document.getElementById('ljSectors').textContent =
+    new Set(jobs.map(j => j.industry).filter(i => i && i !== 'Other')).size;
+  document.getElementById('ljUpdated').textContent =
+    LJ_DATA.generated_at ? new Date(LJ_DATA.generated_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '—';
+  document.getElementById('ljSources').textContent = (LJ_DATA.sources || []).join(' · ') || 'no source info';
+}
+
+function ljSetIndustry(el, ind) {
+  LJ_FILTER.industry = ind;
+  document.querySelectorAll('.lj-chip[data-ind]').forEach(x => x.classList.remove('active'));
+  el.classList.add('active');
+  renderLiveJobs();
+}
+
+/* Build JD-style text the existing parseJD() understands. */
+function jobToJDText(j) {
+  return [
+    j.title || '',
+    (j.seniority ? j.seniority + ' level role.' : ''),
+    'Location: ' + (j.location || j.country || '') + '.',
+    j.description || '',
+    'Key skills required: ' + (j.skills || []).join(', ') + '.'
+  ].join('\n');
+}
+
+/* Match one job against the pool, reusing the portal's scoring engine. */
+function matchJobToCandidates(j) {
+  const jd = parseJD(jobToJDText(j));
+  const maxScore = maxPossibleScore(jd);
+  const scored = CANDIDATES
+    .map(c => { const r = scoreCandidate(c, jd); return { c, ...r, tier: tierFor(r.score, maxScore) }; })
+    .sort((a, b) => b.score - a.score);
+  const cleared = scored.filter(x => x.tier);
+  if (cleared.length) return { list: cleared.slice(0, 4), below: false, cleared: cleared.length };
+  // Nothing clears the bar — show the 3 closest, greyed, so it's never blank.
+  return { list: scored.slice(0, 3).filter(x => x.score > 0), below: true, cleared: 0 };
+}
+
+function ljFmtDate(d) { try { return new Date(d).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); } catch (e) { return ''; } }
+
+function renderLiveJobs() {
+  const grid = document.getElementById('ljGrid');
+  const jobs = LJ_DATA.jobs || [];
+  if (!jobs.length) {
+    grid.innerHTML = `<div class="empty" style="display:block;">
+      <span class="material-symbols-outlined">${LJ_ERROR ? 'cloud_off' : 'work_off'}</span>
+      <h3 style="margin:12px 0 6px;">${LJ_ERROR ? 'Could not load jobs.json' : 'No jobs in the feed yet'}</h3>
+      <p style="margin:0;font-size:14px;">${LJ_ERROR
+        ? 'If you opened this file directly from your computer, the browser blocks loading jobs.json. View the deployed GitHub Pages URL, or make sure jobs.json / jobs.js sit next to admin.html.'
+        : 'The daily scraper writes roles here once it runs. The bundled sample data should appear after you commit jobs.json.'}</p></div>`;
+    return;
+  }
+
+  const q = document.getElementById('ljQ').value.toLowerCase().trim();
+  const sort = document.getElementById('ljSort').value;
+  let list = jobs.slice();
+  if (LJ_FILTER.industry) list = list.filter(j => j.industry === LJ_FILTER.industry);
+  if (q) list = list.filter(j => (j.title + ' ' + j.company + ' ' + j.location + ' ' + (j.skills || []).join(' ') + ' ' + (j.description || '')).toLowerCase().includes(q));
+
+  list.forEach(j => j._m = matchJobToCandidates(j));
+
+  if (sort === 'match') list.sort((a, b) => (b._m.list[0]?.score || 0) - (a._m.list[0]?.score || 0));
+  else list.sort((a, b) => String(b.first_seen || b.posted || '').localeCompare(String(a.first_seen || a.posted || '')));
+
+  if (!list.length) { grid.innerHTML = `<div class="empty" style="display:block;"><span class="material-symbols-outlined">filter_alt_off</span><h3 style="margin:12px 0 6px;">No roles match these filters</h3></div>`; return; }
+
+  grid.innerHTML = list.map(j => {
+    const m = j._m;
+    const matchHtml = m.list.length
+      ? (m.below ? '<div class="lj-nomatch" style="margin-bottom:8px;">No candidate clears the bar — closest in your pool:</div>' : '')
+        + m.list.map(x => {
+            const tier = x.tier || { key: 't-weak', label: 'below bar' };
+            return `<div class="lj-match ${m.below ? 'below' : ''}" onclick="showSection('pool');openProfile('${x.c.id}')">
+              <span class="lj-pill match-score-pill ${tier.key}">${Math.min(x.score, 100)}</span>
+              <div class="who">
+                <div class="nm">${escape(x.c.name)} <span class="rl">· ${escape(tier.label)}</span></div>
+                <div class="rl">${escape(x.c.job || '')} · ${escape(x.c.country || '')}${x.reasons && x.reasons.good.length ? ' · ' + escape(x.reasons.good.slice(0, 2).join(', ')) : ''}</div>
+              </div>
+              <span class="material-symbols-outlined" style="color:var(--outline)">arrow_outward</span>
+            </div>`;
+          }).join('')
+      : '<div class="lj-nomatch">No candidates in the pool to match yet.</div>';
+
+    return `<div class="lj-job">
+      <h3>${escape(j.title)}</h3>
+      <div class="lj-sub">
+        <b>${escape(j.company)}</b>
+        <span><span class="material-symbols-outlined" style="font-size:15px;">location_on</span> ${escape(j.location || j.country || '')}</span>
+        ${j.seniority ? `<span>${escape(j.seniority)}</span>` : ''}
+        ${j.posted ? `<span>${ljFmtDate(j.posted)}</span>` : ''}
+        ${j.industry && j.industry !== 'Other' ? `<span class="lj-badge ind">${escape(shortIndustry(j.industry))}</span>` : ''}
+        ${j.shutdown ? '<span class="lj-badge shut"><span class="material-symbols-outlined" style="font-size:13px;">local_fire_department</span> Shutdown</span>' : ''}
+        <span class="lj-badge src">${escape((j.source || '').split(':')[0])}</span>
+      </div>
+      ${(j.skills && j.skills.length) ? `<div class="lj-skills">${j.skills.slice(0, 10).map(s => `<span class="chip">${escape(s)}</span>`).join('')}</div>` : ''}
+      <div class="lj-row">
+        ${j.url ? `<a class="btn primary sm" href="${escape(j.url)}" target="_blank" rel="noopener"><span class="material-symbols-outlined" style="font-size:16px;">open_in_new</span> View / Apply</a>` : ''}
+        ${j.contact ? `<a class="btn ghost sm" href="mailto:${escape(j.contact)}"><span class="material-symbols-outlined" style="font-size:16px;">mail</span> ${escape(j.contact)}</a>` : ''}
+        ${j.description ? `<button class="btn ghost sm" onclick="this.closest('.lj-job').querySelector('.lj-jd').classList.toggle('open')"><span class="material-symbols-outlined" style="font-size:16px;">notes</span> JD</button>` : ''}
+      </div>
+      ${j.description ? `<div class="lj-jd">${escape(j.description)}</div>` : ''}
+      <div class="lj-matches"><h4>Best-fit candidates</h4>${matchHtml}</div>
+    </div>`;
+  }).join('');
+}
+
+/* ── Branded ATS CV (PDF + Word), via cv-generator.js ── */
+async function generateAtsCv() {
+  const c = CANDIDATES.find(x => x.id === currentProfileId);
+  if (!c) return;
+  if (typeof RQCV === 'undefined') { alert('CV generator not loaded.'); return; }
+  const btn = document.getElementById('pmAtsBtn');
+  const prev = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '<span class="material-symbols-outlined">progress_activity</span> Building Word CV…';
+  try {
+    await RQCV.generate(c, { download: true });
+    btn.innerHTML = '<span class="material-symbols-outlined">check_circle</span> Word CV downloaded';
+    setTimeout(() => { btn.innerHTML = prev; btn.disabled = false; }, 2200);
+  } catch (e) {
+    console.error(e);
+    alert('Could not generate the CV: ' + (e.message || e));
+    btn.innerHTML = prev; btn.disabled = false;
+  }
+}
+function setBrandLogo(file) {
+  if (!file || typeof RQCV === 'undefined') return;
+  const r = new FileReader();
+  r.onload = () => {
+    RQCV.setLogo(r.result);
+    const link = document.getElementById('brandLogoLink');
+    if (link) { link.textContent = 'Logo set ✓'; setTimeout(() => { link.textContent = 'Set RydeQuest logo'; }, 2500); }
+  };
+  r.readAsDataURL(file);
+}
+
 function init() {
   // Restore last view preference
   try {

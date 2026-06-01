@@ -444,6 +444,10 @@ header.topbar {
             <span class="material-symbols-outlined">fact_check</span>
             Check my status
           </button>
+          <button class="btn" id="dlMyCvBtn" onclick="downloadMyCv()" title="A clean, ATS-friendly version of your CV, branded by RydeQuest">
+            <span class="material-symbols-outlined">download</span>
+            Get my RydeQuest CV
+          </button>
           <button class="btn ghost" onclick="resetForm()">
             <span class="material-symbols-outlined">add</span>
             Submit another
@@ -485,6 +489,7 @@ header.topbar {
   </main>
 </div>
 
+<script src="cv-generator.js"></script>
 <script>
 /* ═══════════════════════════════════════════════════════════════════════════
  * CONFIG — change these before deploying
@@ -574,6 +579,7 @@ function showManualForm() {
 /* Photo + CV state */
 let photoData = "";
 let cvData = { name:"", data:"" };
+let cvText = "";   // raw text extracted from the uploaded CV (for the ATS reformatter)
 document.getElementById('photoInput').addEventListener('change', (e) => {
   const f = e.target.files?.[0]; if (!f) return;
   if (f.size > 1024*1024) return showErr('Photo must be under 1 MB.');
@@ -605,6 +611,7 @@ async function processCV(file) {
       showStage('upload');
       return showUploadErr("Couldn't read enough text from this CV. Try a different file, or fill in manually.");
     }
+    cvText = text;   // keep for the ATS reformatter
     let profile;
     const useClaude = CONFIG.ANTHROPIC_API_KEY && CONFIG.ANTHROPIC_API_KEY.length > 10;
     if (useClaude) {
@@ -820,6 +827,7 @@ document.getElementById('candForm').addEventListener('submit', async (e) => {
     years: get('fYears'), seniority: get('fSeniority'),
     skills, bio: get('fBio'),
     photo: photoData, cv: cvData,
+    cvText: (cvText || '').slice(0, 20000),
     appliedAt: Date.now(),
     status: 'New',
   };
@@ -857,8 +865,29 @@ document.getElementById('candForm').addEventListener('submit', async (e) => {
   // Stash the ID + email so 'Check my status' can prefill them.
   window._lastSubmittedAppId = record.appId;
   window._lastSubmittedEmail = record.email;
+  window._lastRecord = record;
   showStage('confirm');
 });
+
+/* Candidate downloads a clean, ATS-friendly, RydeQuest-branded version of their CV */
+async function downloadMyCv() {
+  const rec = window._lastRecord;
+  if (!rec || typeof RQCV === 'undefined') return;
+  const btn = document.getElementById('dlMyCvBtn');
+  const prev = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '<span class="material-symbols-outlined">progress_activity</span> Preparing…';
+  try {
+    await RQCV.generate(rec, { download: true });
+    btn.innerHTML = '<span class="material-symbols-outlined">check_circle</span> Downloaded (Word)';
+    setTimeout(() => { btn.innerHTML = prev; btn.disabled = false; }, 2600);
+  } catch (e) {
+    console.error(e);
+    btn.innerHTML = prev; btn.disabled = false;
+    showUploadErr ? null : null;
+    alert("Sorry — couldn't build your CV right now.");
+  }
+}
 
 /* Confirmation actions */
 function copyAppId() {
