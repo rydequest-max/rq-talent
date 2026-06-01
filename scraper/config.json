@@ -1,0 +1,59 @@
+{
+  "_comment": "RQ Talent job scraper config. Edit this file to add/remove sources. No code changes needed.",
+
+  "_comment_region": "UAE-focused, all sectors. To also pull Qatar/KSA, add them back to target_countries.",
+  "target_countries": ["United Arab Emirates"],
+
+  "_comment_keywords": "Used only by the aggregator APIs (Jooble/Careerjet). Broad + sector-agnostic so the feed spans hospitality, construction, finance, healthcare, technology, energy.",
+  "keywords": [
+    "hotel", "hospitality", "guest services", "chef", "food and beverage",
+    "construction", "civil engineer", "site engineer", "quantity surveyor", "MEP",
+    "bank", "finance", "accountant", "relationship manager", "compliance",
+    "nurse", "physician", "clinical", "pharmacist", "healthcare",
+    "software engineer", "developer", "data", "cloud", "IT support",
+    "oil and gas", "energy", "mechanical", "electrical", "HSE",
+    "sales", "marketing", "operations", "manager", "administrator"
+  ],
+
+  "_comment_aggregators": "Aggregator APIs cover the Gulf and return JSON. Get free keys (see INTEGRATION.md) and set them as GitHub repo secrets. Left blank = adapter skipped.",
+  "jooble_enabled": true,
+  "careerjet_enabled": true,
+  "_comment_careerjet": "Careerjet v4 needs the API key as secret CAREERJET_API_KEY. It ALSO requires you to pre-declare the calling server's IP in your Careerjet publisher dashboard — so it only works from a fixed IP (static host/proxy), not GitHub Actions. careerjet_referer must match your declared publisher site.",
+  "careerjet_referer": "https://www.rydequest.com/find-jobs/",
+  "careerjet_max": 100,
+
+  "_comment_workday": "Workday job API — OPEN, NO KEY. The big oilfield-services / energy firms use this. Each entry was verified to return real Gulf roles (Jun 2026). To add a company: open its careers page, note the URL host + the path segment after the language code (e.g. https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes -> host=bakerhughes.wd5.myworkdayjobs.com, tenant=bakerhughes, site=BakerHughes).",
+  "workday_boards": [
+    { "host": "citi.wd5.myworkdayjobs.com", "tenant": "citi", "site": "2", "company": "Citi", "type": "employer", "industry": "Financial Services / Fintech" },
+    { "host": "mastercard.wd1.myworkdayjobs.com", "tenant": "mastercard", "site": "CorporateCareers", "company": "Mastercard", "type": "employer", "industry": "Financial Services / Fintech" },
+    { "host": "cisco.wd5.myworkdayjobs.com", "tenant": "cisco", "site": "Cisco_Careers", "company": "Cisco", "type": "employer", "industry": "Technology / Software" },
+    { "host": "ccf.wd1.myworkdayjobs.com", "tenant": "ccf", "site": "ClevelandClinicCareers", "company": "Cleveland Clinic", "type": "employer", "industry": "Healthcare / Pharma" },
+    { "host": "bakerhughes.wd5.myworkdayjobs.com", "tenant": "bakerhughes", "site": "BakerHughes", "company": "Baker Hughes", "type": "service", "industry": "Energy / Oil & Gas" },
+    { "host": "aggreko.wd3.myworkdayjobs.com", "tenant": "aggreko", "site": "Aggreko_Careers_1", "company": "Aggreko", "type": "service", "industry": "Energy / Oil & Gas" }
+  ],
+  "workday_max_pages": 20,
+  "workday_max_per_board": 40,
+
+  "_comment_smartrecruiters": "SmartRecruiters postings API — OPEN, NO KEY. Filtered server-side to your target countries. AECOM (construction) verified with 140+ live UAE roles (Jun 2026). company = the id in the careers URL careers.smartrecruiters.com/<id>.",
+  "smartrecruiters_boards": [
+    { "company": "AECOM2", "display": "AECOM", "industry": "Construction / Infrastructure" }
+  ],
+  "smartrecruiters_max_per_board": 50,
+
+  "_comment_hospitality": "Hospitality has no clean open feed in the UAE (Marriott/Hilton/Jumeirah use closed ATSes). It comes through the Jooble/Careerjet aggregator keys, which are sector-agnostic.",
+
+  "_comment_ats": "Open ATS APIs (no key). Entries can be a plain token or {token, company, industry}. Verify a Greenhouse token at https://boards-api.greenhouse.io/v1/boards/TOKEN/jobs or a Lever one at https://api.lever.co/v0/postings/TOKEN?mode=json. Most UAE banks/hospitality use closed ATSes (no open feed) — those come via the aggregator keys.",
+  "greenhouse_boards": [
+    { "token": "careem", "company": "Careem", "industry": "Technology / Software" }
+  ],
+  "lever_boards": [
+    { "token": "binance", "company": "Binance", "industry": "Financial Services / Fintech" }
+  ],
+
+  "_comment_rss": "Optional RSS/Atom job feeds. Best-effort; may be IP-blocked. Add full feed URLs.",
+  "rss_feeds": [],
+
+  "retention_days": 21,
+  "max_description_chars": 4000,
+  "request_timeout": 20
+}
