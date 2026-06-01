@@ -300,7 +300,8 @@ def adapter_jooble(cfg):
     out = []
     timeout = cfg.get("request_timeout", 20)
     locations = cfg.get("target_countries", []) or ["United Arab Emirates"]
-    keywords = " OR ".join(cfg["keywords"][:8])  # API takes one keyword string
+    # One keyword string for the API. Prefer an explicit broad query (incl. HR) if set.
+    keywords = cfg.get("jooble_query") or " OR ".join(cfg["keywords"][:8])
     for loc in locations:
         try:
             body = http_post_json(
