@@ -634,6 +634,27 @@ const readAsArrayBuffer = file => new Promise((res, rej) => { const r=new FileRe
 const readAsText = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsText(file); });
 const loadScript = src => new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = () => rej(new Error('Could not load a required component (' + src.split('/').pop() + '). Check your connection and retry.')); document.head.appendChild(s); });
 
+/* pdf.js returns text items in PDF content-stream order, which on designed CVs
+   (sidebars, headers, two-column layouts) is jumbled. Reconstruct visual reading
+   order from each item's x/y position so the name/header lands at the top. */
+function itemsToReadingOrder(items) {
+  const pts = items
+    .filter(it => it.str && it.str.trim())
+    .map(it => ({ s: it.str, x: it.transform[4], y: it.transform[5], h: it.height || Math.abs(it.transform[3]) || 10 }));
+  if (!pts.length) return '';
+  pts.sort((a, b) => (b.y - a.y) || (a.x - b.x));   // top-to-bottom, then left-to-right
+  const lines = []; let cur = null, curY = null;
+  for (const p of pts) {
+    const tol = Math.max(2, (p.h || 10) * 0.6);
+    if (curY === null || Math.abs(p.y - curY) > tol) { cur = []; lines.push(cur); curY = p.y; }
+    cur.push(p);
+  }
+  return lines
+    .map(line => { line.sort((a, b) => a.x - b.x); return line.map(p => p.s).join(' ').replace(/\s+/g, ' ').trim(); })
+    .filter(Boolean)
+    .join('\n');
+}
+
 async function extractCVText(file) {
   const ext = file.name.split('.').pop().toLowerCase();
   if (ext === 'txt') return await readAsText(file);
@@ -650,7 +671,7 @@ async function extractCVText(file) {
     for (let i = 1; i <= pdf.numPages; i++) {
       const page = await pdf.getPage(i);
       const c = await page.getTextContent();
-      parts.push(c.items.map(it => it.str).join(' '));
+      parts.push(itemsToReadingOrder(c.items));
     }
     return parts.join('\n');
   }
@@ -693,7 +714,7 @@ const MAJOR_CITY_TO_COUNTRY = {"dubai":"United Arab Emirates","abu dhabi":"Unite
 /* Words that are never part of a person's name — job titles, CV section headers,
    contact labels. Used to stop name detection from swallowing the role that often
    sits right after the name on the same line (e.g. "SEYED HIFAZ Materials Planner"). */
-const NAME_STOP = new Set(['curriculum','vitae','resume','cv','profile','personal','contact','address','phone','email','mobile','tel','telephone','nationality','dob','date','birth','gender','objective','summary','professional','career','experience','education','skills','skill','work','employment','history','references','reference','certification','certifications','certificate','languages','language','projects','project','achievements','interests','hobbies','declaration','technical','key','areas','area','expertise','competencies','competency','about','me','manager','engineer','senior','junior','lead','principal','staff','director','officer','specialist','analyst','consultant','developer','designer','executive','coordinator','supervisor','technician','administrator','accountant','architect','planner','materials','operations','sales','marketing','finance','financial','procurement','logistics','programme','program','head','chief','president','vice','assistant','associate','intern','trainee','nurse','doctor','physician','teacher','professor','driver','agent','representative','surveyor','quantity','civil','mechanical','electrical','process','petroleum','chemical','structural','site','field','plant','warehouse','supply','chain','business','development','human','resources','talent','acquisition','recruiter','recruitment']);
+const NAME_STOP = new Set(['curriculum','vitae','resume','cv','profile','personal','contact','address','phone','email','mobile','tel','telephone','nationality','dob','date','birth','gender','objective','summary','professional','career','experience','education','skills','skill','work','employment','history','references','reference','certification','certifications','certificate','languages','language','projects','project','achievements','interests','hobbies','declaration','technical','key','areas','area','expertise','competencies','competency','about','me','manager','engineer','senior','junior','lead','principal','staff','director','officer','specialist','analyst','consultant','developer','designer','executive','coordinator','supervisor','technician','administrator','accountant','architect','planner','materials','operations','sales','marketing','finance','financial','procurement','logistics','programme','program','head','chief','president','vice','assistant','associate','intern','trainee','nurse','doctor','physician','teacher','professor','driver','agent','representative','surveyor','quantity','civil','mechanical','electrical','process','petroleum','chemical','structural','site','field','plant','warehouse','supply','chain','business','development','human','resources','talent','acquisition','recruiter','recruitment','operator','floorman','roustabout','derrickman','rigger','welder','fabricator','fitter','foreman','station','acting','attendant','cashier','receptionist','waiter','steward','storekeeper','helper','labourer','laborer','controller','consulting','solutions','solution','partner','partnerships']);
 
 function guessName(t, email) {
   const lines = t.split('\n').map(l => l.trim()).filter(Boolean);
@@ -707,7 +728,7 @@ function guessName(t, email) {
     if (/@|\+?\d{7,}|linkedin|www\./i.test(L)) continue;
     if (/^(cv|curriculum vitae|resume|profile)$/i.test(L)) continue;
     const cleaned = L.replace(/^(?:Dr|Mr|Ms|Mrs|Eng|Prof|Capt|Captain)\.?\s+/i, '');
-    const m = cleaned.match(/^([\p{Lu}][\p{L}'\-]+(?:\s+[\p{Lu}][\p{L}'\-]+){1,3})$/u);
+    const m = cleaned.match(/^([\p{Lu}][\p{L}'\-]+(?:\s+[\p{Lu}](?:[\p{L}'\-]*\.?)){1,3})$/u);  // allow initials e.g. "Ajith V Gopal"
     if (m && m[1].split(/\s+/).every(isNameWord)) return toTitle(m[1]);
   }
   // (2) Leading name words at the start of an early line, even if the role / contact
