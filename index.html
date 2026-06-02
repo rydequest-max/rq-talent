@@ -659,11 +659,15 @@ function topBiggestLine(items) {
   const ys = lines.map(l => l.y), maxY = Math.max(...ys), minY = Math.min(...ys);
   const cut = maxY - (maxY - minY) * 0.45;
   const pool = lines.filter(l => l.y >= cut);
-  (pool.length ? pool : lines.slice(0, 3)).sort((a, b) => b.h - a.h);
-  const best = (pool.length ? pool : lines.slice(0, 3))[0];
+  const use = pool.length ? pool : lines.slice(0, 3);
+  use.sort((a, b) => b.h - a.h);
+  const best = use[0];
   if (!best) return '';
-  best.items.sort((a, b) => a.x - b.x);
-  return best.items.map(p => p.s).join(' ').replace(/\s+/g, ' ').trim();
+  // Keep only the largest-font fragments on that line — drops a smaller location or
+  // contact prefix sharing the same baseline (e.g. "Doha, Qatar  HATZIDI RIVAS").
+  const big = best.items.filter(p => p.h >= best.h * 0.82);
+  const keep = (big.length ? big : best.items).slice().sort((a, b) => a.x - b.x);
+  return keep.map(p => p.s).join(' ').replace(/\s+/g, ' ').trim();
 }
 
 /* pdf.js returns text items in PDF content-stream order, which on designed CVs
