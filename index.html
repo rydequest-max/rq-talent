@@ -634,6 +634,38 @@ const readAsArrayBuffer = file => new Promise((res, rej) => { const r=new FileRe
 const readAsText = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsText(file); });
 const loadScript = src => new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = () => rej(new Error('Could not load a required component (' + src.split('/').pop() + '). Check your connection and retry.')); document.head.appendChild(s); });
 
+/* Set during PDF extraction: the text of the largest-font line near the top of
+   page 1. On almost every CV template that line is the candidate's name. */
+let cvNameHint = '';
+
+function groupLines(items) {
+  const pts = items
+    .filter(it => it.str && it.str.trim())
+    .map(it => ({ s: it.str, x: it.transform[4], y: it.transform[5], h: it.height || Math.abs(it.transform[3]) || 10 }));
+  pts.sort((a, b) => (b.y - a.y) || (a.x - b.x));
+  const lines = []; let cur = null, curY = null;
+  for (const p of pts) {
+    const tol = Math.max(2, (p.h || 10) * 0.6);
+    if (curY === null || Math.abs(p.y - curY) > tol) { cur = { items: [], y: p.y, h: 0 }; lines.push(cur); curY = p.y; }
+    cur.items.push(p); cur.h = Math.max(cur.h, p.h);
+  }
+  return lines;
+}
+
+/* The biggest-font line in the top ~45% of the page — the name on most CVs. */
+function topBiggestLine(items) {
+  const lines = groupLines(items);
+  if (!lines.length) return '';
+  const ys = lines.map(l => l.y), maxY = Math.max(...ys), minY = Math.min(...ys);
+  const cut = maxY - (maxY - minY) * 0.45;
+  const pool = lines.filter(l => l.y >= cut);
+  (pool.length ? pool : lines.slice(0, 3)).sort((a, b) => b.h - a.h);
+  const best = (pool.length ? pool : lines.slice(0, 3))[0];
+  if (!best) return '';
+  best.items.sort((a, b) => a.x - b.x);
+  return best.items.map(p => p.s).join(' ').replace(/\s+/g, ' ').trim();
+}
+
 /* pdf.js returns text items in PDF content-stream order, which on designed CVs
    (sidebars, headers, two-column layouts) is jumbled. Reconstruct visual reading
    order from each item's x/y position so the name/header lands at the top. */
@@ -668,9 +700,11 @@ async function extractCVText(file) {
     const buf = await readAsArrayBuffer(file);
     const pdf = await window.pdfjsLib.getDocument({ data: buf }).promise;
     const parts = [];
+    cvNameHint = '';
     for (let i = 1; i <= pdf.numPages; i++) {
       const page = await pdf.getPage(i);
       const c = await page.getTextContent();
+      if (i === 1) cvNameHint = topBiggestLine(c.items);
       parts.push(itemsToReadingOrder(c.items));
     }
     return parts.join('\n');
@@ -722,6 +756,22 @@ function guessName(t, email) {
     ? (w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()) : w;   // SEYED -> Seyed, keep McDonald
   const toTitle = s => s.split(/\s+/).map(p => p.split('-').map(titleWord).join('-')).join(' ');
   const isNameWord = w => /^[\p{Lu}][\p{L}'\-]*$/u.test(w) && !NAME_STOP.has(w.toLowerCase());
+  const leadingName = L => {                 // take 2-4 leading name words off a line
+    const got = []; let caseClass = null;
+    for (const tok of (L || '').replace(/^(?:Dr|Mr|Ms|Mrs|Eng|Prof|Capt|Captain)\.?\s+/i, '').split(/\s+/)) {
+      if (!isNameWord(tok)) break;
+      const isUpper = tok === tok.toUpperCase();
+      if (tok.length > 1) {
+        if (got.length >= 2 && caseClass !== null && isUpper !== caseClass) break;
+        if (caseClass === null) caseClass = isUpper;
+      }
+      got.push(tok);
+      if (got.length >= 4) break;
+    }
+    return (got.length >= 2 && got.length <= 4) ? toTitle(got.join(' ')) : '';
+  };
+  // (0) The largest-font line near the top of the page — the name on most CV templates.
+  if (typeof cvNameHint === 'string' && cvNameHint) { const h = leadingName(cvNameHint); if (h) return h; }
   // (1) A line that is ENTIRELY a name (well-formatted CVs).
   for (let i = 0; i < Math.min(12, lines.length); i++) {
     const L = lines[i]; if (L.length > 60) continue;
