@@ -632,15 +632,17 @@ async function processCV(file) {
 const readAsDataURL = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsDataURL(file); });
 const readAsArrayBuffer = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsArrayBuffer(file); });
 const readAsText = file => new Promise((res, rej) => { const r=new FileReader(); r.onload=()=>res(r.result); r.onerror=rej; r.readAsText(file); });
-const loadScript = src => new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
+const loadScript = src => new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = () => rej(new Error('Could not load a required component (' + src.split('/').pop() + '). Check your connection and retry.')); document.head.appendChild(s); });
 
 async function extractCVText(file) {
   const ext = file.name.split('.').pop().toLowerCase();
   if (ext === 'txt') return await readAsText(file);
   if (ext === 'pdf') {
     if (!window.pdfjsLib) {
-      await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js');
-      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.js';
+      // pdf.js v4+ is ESM-only (no pdf.min.js UMD build on cdnjs -> 404). Pin to the
+      // last v3 release, which ships the classic script that exposes window.pdfjsLib.
+      await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
     }
     const buf = await readAsArrayBuffer(file);
     const pdf = await window.pdfjsLib.getDocument({ data: buf }).promise;
