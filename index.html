@@ -690,6 +690,54 @@ const INDUSTRY_KEYWORDS = {
 const DEMONYM_TO_COUNTRY = {"emirati":"United Arab Emirates","saudi":"Saudi Arabia","qatari":"Qatar","kuwaiti":"Kuwait","bahraini":"Bahrain","omani":"Oman","egyptian":"Egypt","moroccan":"Morocco","tunisian":"Tunisia","nigerian":"Nigeria","ghanaian":"Ghana","kenyan":"Kenya","ethiopian":"Ethiopia","cameroonian":"Cameroon","south african":"South Africa","lebanese":"Lebanon","jordanian":"Jordan","indian":"India","pakistani":"Pakistan","british":"United Kingdom","american":"United States","german":"Germany","italian":"Italy","singaporean":"Singapore","malaysian":"Malaysia"};
 const MAJOR_CITY_TO_COUNTRY = {"dubai":"United Arab Emirates","abu dhabi":"United Arab Emirates","sharjah":"United Arab Emirates","riyadh":"Saudi Arabia","jeddah":"Saudi Arabia","dammam":"Saudi Arabia","doha":"Qatar","ras laffan":"Qatar","kuwait city":"Kuwait","manama":"Bahrain","muscat":"Oman","cairo":"Egypt","alexandria":"Egypt","casablanca":"Morocco","rabat":"Morocco","marrakech":"Morocco","tunis":"Tunisia","khartoum":"Sudan","lagos":"Nigeria","abuja":"Nigeria","accra":"Ghana","dakar":"Senegal","douala":"Cameroon","nairobi":"Kenya","mombasa":"Kenya","addis ababa":"Ethiopia","kampala":"Uganda","dar es salaam":"Tanzania","johannesburg":"South Africa","cape town":"South Africa","durban":"South Africa","beirut":"Lebanon","amman":"Jordan","mumbai":"India","new delhi":"India","delhi":"India","bengaluru":"India","bangalore":"India","chennai":"India","hyderabad":"India","pune":"India","karachi":"Pakistan","lahore":"Pakistan","london":"United Kingdom","manchester":"United Kingdom","new york":"United States","san francisco":"United States","berlin":"Germany","hamburg":"Germany","paris":"France","rome":"Italy","madrid":"Spain","amsterdam":"Netherlands","singapore":"Singapore","kuala lumpur":"Malaysia"};
 
+/* Words that are never part of a person's name — job titles, CV section headers,
+   contact labels. Used to stop name detection from swallowing the role that often
+   sits right after the name on the same line (e.g. "SEYED HIFAZ Materials Planner"). */
+const NAME_STOP = new Set(['curriculum','vitae','resume','cv','profile','personal','contact','address','phone','email','mobile','tel','telephone','nationality','dob','date','birth','gender','objective','summary','professional','career','experience','education','skills','skill','work','employment','history','references','reference','certification','certifications','certificate','languages','language','projects','project','achievements','interests','hobbies','declaration','technical','key','areas','area','expertise','competencies','competency','about','me','manager','engineer','senior','junior','lead','principal','staff','director','officer','specialist','analyst','consultant','developer','designer','executive','coordinator','supervisor','technician','administrator','accountant','architect','planner','materials','operations','sales','marketing','finance','financial','procurement','logistics','programme','program','head','chief','president','vice','assistant','associate','intern','trainee','nurse','doctor','physician','teacher','professor','driver','agent','representative','surveyor','quantity','civil','mechanical','electrical','process','petroleum','chemical','structural','site','field','plant','warehouse','supply','chain','business','development','human','resources','talent','acquisition','recruiter','recruitment']);
+
+function guessName(t, email) {
+  const lines = t.split('\n').map(l => l.trim()).filter(Boolean);
+  const titleWord = w => (w === w.toUpperCase() || w === w.toLowerCase())
+    ? (w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()) : w;   // SEYED -> Seyed, keep McDonald
+  const toTitle = s => s.split(/\s+/).map(p => p.split('-').map(titleWord).join('-')).join(' ');
+  const isNameWord = w => /^[\p{Lu}][\p{L}'\-]*$/u.test(w) && !NAME_STOP.has(w.toLowerCase());
+  // (1) A line that is ENTIRELY a name (well-formatted CVs).
+  for (let i = 0; i < Math.min(12, lines.length); i++) {
+    const L = lines[i]; if (L.length > 60) continue;
+    if (/@|\+?\d{7,}|linkedin|www\./i.test(L)) continue;
+    if (/^(cv|curriculum vitae|resume|profile)$/i.test(L)) continue;
+    const cleaned = L.replace(/^(?:Dr|Mr|Ms|Mrs|Eng|Prof|Capt|Captain)\.?\s+/i, '');
+    const m = cleaned.match(/^([\p{Lu}][\p{L}'\-]+(?:\s+[\p{Lu}][\p{L}'\-]+){1,3})$/u);
+    if (m && m[1].split(/\s+/).every(isNameWord)) return toTitle(m[1]);
+  }
+  // (2) Leading name words at the start of an early line, even if the role / contact
+  //     details got flattened onto the same line (common after PDF text extraction).
+  for (let i = 0; i < Math.min(4, lines.length); i++) {
+    const L = lines[i].replace(/^(?:Dr|Mr|Ms|Mrs|Eng|Prof|Capt|Captain)\.?\s+/i, '');
+    const got = []; let caseClass = null;   // names are one case style; a switch to
+    for (const tok of L.split(/\s+/)) {      // ALL-CAPS often marks the role that follows
+      if (!isNameWord(tok)) break;
+      const isUpper = tok === tok.toUpperCase();
+      if (tok.length > 1) {                  // ignore single-letter initials (e.g. "V")
+        if (got.length >= 2 && caseClass !== null && isUpper !== caseClass) break;
+        if (caseClass === null) caseClass = isUpper;
+      }
+      got.push(tok);
+      if (got.length >= 4) break;
+    }
+    if (got.length >= 2 && got.length <= 4) return toTitle(got.join(' '));
+  }
+  // (3) Last resort: derive from a first.last / first_last email local-part.
+  if (email) {
+    const lp = email.split('@')[0].replace(/\d+/g, '');
+    if (/[._]/.test(lp)) {
+      const parts = lp.split(/[._]+/).filter(p => p.length > 1);
+      if (parts.length >= 2 && parts.length <= 3) return parts.map(toTitle).join(' ');
+    }
+  }
+  return '';
+}
+
 function extractProfileLocal(text) {
   const t = text.replace(/\r/g, '').replace(/ /g, ' ');
   const lower = t.toLowerCase();
@@ -698,14 +746,7 @@ function extractProfileLocal(text) {
   const ph = t.match(/(\+?\d[\d\s\-().]{8,}\d)/); if (ph) p.phone = ph[0].replace(/\s+/g, ' ').trim();
   const li = t.match(/(?:https?:\/\/)?(?:www\.)?linkedin\.com\/in\/[A-Za-z0-9_-]+/i); if (li) p.linkedin = li[0].replace(/^https?:\/\/(www\.)?/, '');
   const lines = t.split('\n').map(l => l.trim()).filter(Boolean);
-  for (let i = 0; i < Math.min(12, lines.length); i++) {
-    const L = lines[i]; if (L.length > 60) continue;
-    if (/@|\+?\d{7,}|linkedin|www\./i.test(L)) continue;
-    if (/^(cv|curriculum vitae|resume|profile)$/i.test(L)) continue;
-    const cleaned = L.replace(/^(?:Dr|Mr|Ms|Mrs|Eng|Prof|Capt|Captain)\.?\s+/i, '');
-    const m = cleaned.match(/^([\p{Lu}][\p{L}'\-]+(?:\s+[\p{Lu}][\p{L}'\-]+){1,3})$/u);
-    if (m) { p.name = m[1]; break; }
-  }
+  p.name = guessName(t, p.email);
   const headText = lines.slice(0, 6).join('\n');
   const findCity = (txt) => { for (const [c, co] of Object.entries(MAJOR_CITY_TO_COUNTRY)) if (new RegExp('\\b' + c + '\\b', 'i').test(txt)) return { city: c.replace(/\b\w/g, x => x.toUpperCase()), country: co }; return null; };
   const findCountry = (txt) => { for (const c of COUNTRIES) if (new RegExp('\\b' + c.replace(/[^\w\s]/g, '.?') + '\\b', 'i').test(txt)) return c; return null; };
