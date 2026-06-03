@@ -1965,12 +1965,29 @@ const LOCATION_TERMS = new Set(['saudi arabia','united arab emirates','qatar','k
 /* Title cleaning — strip seniority/role-level words so the comparison is
    about the FUNCTION, not the level (which is already a separate dimension). */
 const TITLE_STOPWORDS = new Set(['senior','sr','jr','junior','lead','principal','staff','chief','head','vp','vice','president','director','of','the','and','an','a','&','/','-','at','for','to','in','on','with','by','manager','officer']);
+/* Role-word synonyms so "Developer" and "Software Engineer" share a token, etc.
+   Alias on the left → canonical on the right (applied token-by-token). */
+const TITLE_SYNONYMS = {
+  developer:'engineer', programmer:'engineer', coder:'engineer', dev:'engineer', sde:'engineer', engineer:'engineer',
+  administrator:'admin', admin:'admin', administration:'admin', administrative:'admin',
+  representative:'rep', rep:'rep',
+  coordinator:'coordination', coordinating:'coordination', coordination:'coordination',
+  technician:'technician',
+  accountant:'accounts', accounting:'accounts', accounts:'accounts',
+  procurement:'procurement', purchasing:'procurement', buyer:'procurement', buying:'procurement',
+  marketing:'marketing', marketer:'marketing',
+  analyst:'analyst', analytics:'analyst', analysis:'analyst',
+  nurse:'nursing', nursing:'nursing',
+  consultant:'consulting', consultancy:'consulting', consulting:'consulting',
+  technologist:'technician',
+};
 function titleTokens(s) {
   return String(s||'').toLowerCase()
     .replace(/[^\w\s&/+#.-]/g, ' ')
     .split(/[\s/&,]+/)
     .map(t => t.replace(/^[-.]+|[-.]+$/g, ''))
-    .filter(t => t.length >= 2 && !TITLE_STOPWORDS.has(t));
+    .filter(t => t.length >= 2 && !TITLE_STOPWORDS.has(t))
+    .map(t => TITLE_SYNONYMS[t] || t);
 }
 function jaccard(setA, setB) {
   if (!setA.size || !setB.size) return 0;
@@ -1978,6 +1995,25 @@ function jaccard(setA, setB) {
   setA.forEach(x => { if (setB.has(x)) inter++; });
   const union = setA.size + setB.size - inter;
   return union ? inter / union : 0;
+}
+/* Length-tolerant title similarity: blends Jaccard with the overlap coefficient
+   so a longer, more specific candidate title isn't penalised for extra tokens. */
+function titleSim(setA, setB) {
+  if (!setA.size || !setB.size) return 0;
+  let inter = 0;
+  setA.forEach(x => { if (setB.has(x)) inter++; });
+  if (!inter) return 0;
+  const jac = inter / (setA.size + setB.size - inter);
+  const overlap = inter / Math.min(setA.size, setB.size);
+  return 0.5 * jac + 0.5 * overlap;
+}
+/* Word-boundary skill match (so "go"/"sql"/"ios" don't substring-match inside
+   "good"/"mysql"/"kiosk"). Multi-symbol skills (c++, qa/qc) fall back to includes. */
+function skillInText(skill, text) {
+  const s = String(skill || '').toLowerCase().trim();
+  if (s.length < 2) return false;
+  if (/[^a-z0-9 ]/.test(s)) return text.includes(s);
+  return new RegExp('\\b' + s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b').test(text);
 }
 
 /* Bio tokenization — strip stopwords, return content tokens. */
@@ -2046,6 +2082,34 @@ function inferTitleFromJD(text) {
   return '';
 }
 
+/* Filler / soft-skill words that should not be harvested as concrete skills. */
+const HARVEST_STOP = new Set(['and','or','the','a','an','of','in','on','with','for','to','as','at','by','from','strong','excellent','good','great','proven','solid','deep','hands','experience','knowledge','skills','skill','ability','able','work','working','team','teams','player','oriented','focused','detail','results','driven','self','starter','motivated','communication','interpersonal','organizational','organisational','time','management','problem','solving','solver','fast','paced','environment','etc','years','year','minimum','plus','related','field','similar','relevant','understanding','familiarity','familiar','exposure','proficiency','proficient','expertise','expert','required','preferred','must','have','degree','bachelor','master','mba','diploma','certification','certificate','responsible','responsibilities','requirements','qualifications','including','include','various','multiple','other','new','existing','using','use','within','across','will','candidate','role','position','company','business','our','their','you','your','strong','ensure','ensuring','support','manage','managing','provide','providing','maintain','maintaining']);
+
+/* Widen skill recall beyond the alias dictionary: pull short phrases out of
+   skill / requirement / responsibility lists. Returned phrases that aren't in the
+   known vocabulary are treated as NICE-to-have signals (never must), so they add
+   recall without triggering the must-have gap penalty. */
+function harvestSkillPhrases(text) {
+  const out = new Set();
+  const CUE = /(skills?|requirements?|proficien|experience (?:with|in|of)|knowledge of|expertise in|familiar(?:ity)? with|competenc|qualifications?|responsibilit)/i;
+  String(text).split(/\n|•|•|‣|·|;|:/).forEach(seg => {
+    const cue = CUE.test(seg);
+    const parts = seg.split(/,|\/|\||–|—|\band\b|&/).map(s => s.trim()).filter(Boolean);
+    if (parts.length < 2 && !cue) return;        // only mine list-like or explicitly-cued text
+    parts.forEach(p => {
+      const cleaned = p.toLowerCase().replace(/[^a-z0-9+#.\- ]/g, ' ').replace(/\s+/g, ' ').trim();
+      if (cleaned.length < 3 || cleaned.length > 28) return;
+      const words = cleaned.split(' ').filter(Boolean);
+      if (!words.length || words.length > 3) return;
+      if (LANGUAGE_NAMES.has(cleaned) || LOCATION_TERMS.has(cleaned)) return;
+      if (!words.some(w => w.length >= 3 && !HARVEST_STOP.has(w))) return;   // pure filler
+      const n = normSkill(cleaned);
+      if (n) out.add(n);
+    });
+  });
+  return out;
+}
+
 function splitMustNiceSkills(text) {
   /* Walk through the JD sentence by sentence, classify each as must/nice, and
      collect skill mentions per bucket. A sentence with a NICE phrase puts its
@@ -2060,10 +2124,12 @@ function splitMustNiceSkills(text) {
   });
   // If a skill appears in both, must wins.
   nice.forEach(sk => { if (must.has(sk)) nice.delete(sk); });
-  // If no must/nice phrases found anywhere, treat everything as must-have (default).
+  // If no known-vocabulary skills found at all, treat everything as must-have (default).
   if (!must.size && !nice.size) {
     extractSkillsFromText(text).forEach(sk => must.add(sk));
   }
+  // Add out-of-vocabulary phrases as nice-to-have signals (low weight, no penalty).
+  harvestSkillPhrases(text).forEach(sk => { if (sk && !must.has(sk)) nice.add(sk); });
   return { must, nice };
 }
 
@@ -2143,11 +2209,15 @@ function seniorityScore(cand, requiredSet) {
   if (!cand) return 0;
   if (requiredSet.has(cand)) return MATCH_WEIGHTS.seniority;
   const idx = SENIORITY_ORDER.indexOf(cand);
+  let best = 0;
   for (const r of requiredSet) {
     const ri = SENIORITY_ORDER.indexOf(r);
-    if (idx >= 0 && ri >= 0 && Math.abs(idx - ri) === 1) return Math.round(MATCH_WEIGHTS.seniority * 0.55);
+    if (idx < 0 || ri < 0) continue;
+    const d = Math.abs(idx - ri);
+    if (d === 1) best = Math.max(best, Math.round(MATCH_WEIGHTS.seniority * 0.55));
+    else if (d === 2) best = Math.max(best, Math.round(MATCH_WEIGHTS.seniority * 0.3));
   }
-  return 0;
+  return best;
 }
 
 function maxPossibleScore(jd) {
@@ -2167,10 +2237,14 @@ function maxPossibleScore(jd) {
 function scoreCandidate(c, jd) {
   const reasons = { good: [], miss: [] };
   let score = 0;
-  // Industry
+  // Industry — exact = full; related sector = half; unknown/"Other" = neutral partial
+  // (so a noisily-classified candidate isn't slammed with the full 20-pt cliff).
   if (jd.industry) {
-    if (c.industry === jd.industry) { score += MATCH_WEIGHTS.industry; reasons.good.push(`industry: ${shortIndustry(c.industry)}`); }
-    else reasons.miss.push(`industry mismatch (${shortIndustry(c.industry)} vs ${shortIndustry(jd.industry)})`);
+    const ci = c.industry;
+    if (ci === jd.industry) { score += MATCH_WEIGHTS.industry; reasons.good.push(`industry: ${shortIndustry(ci)}`); }
+    else if (!ci || ci === 'Other') { score += Math.round(MATCH_WEIGHTS.industry * 0.25); reasons.miss.push('industry unspecified'); }
+    else if (industriesRelated(ci, jd.industry)) { score += Math.round(MATCH_WEIGHTS.industry * 0.5); reasons.good.push(`related sector (${shortIndustry(ci)})`); }
+    else reasons.miss.push(`industry mismatch (${shortIndustry(ci)} vs ${shortIndustry(jd.industry)})`);
   }
   // Seniority
   if (jd.seniorities.size) {
@@ -2184,38 +2258,33 @@ function scoreCandidate(c, jd) {
     if (ys) { score += ys; reasons.good.push(`${(c.years||'').replace('-','–')} yrs (target ${jd.years})`); }
     else reasons.miss.push(`years off (target ${jd.years}, has ${(c.years||'?').replace('-','–')})`);
   }
-  // Title (Jaccard on cleaned tokens)
+  // Title (length-tolerant similarity on synonym-normalized tokens)
   if (jd.titleTokens.size && c.job) {
     const candTokens = new Set(titleTokens(c.job));
-    const sim = jaccard(jd.titleTokens, candTokens);
+    const sim = titleSim(jd.titleTokens, candTokens);
     if (sim > 0) {
-      const pts = Math.round(MATCH_WEIGHTS.title * sim);
-      score += pts;
+      score += Math.round(MATCH_WEIGHTS.title * sim);
       if (sim >= 0.5) reasons.good.push(`role match: ${escape(c.job)}`);
       else if (sim >= 0.25) reasons.good.push(`partial role match`);
     } else {
       reasons.miss.push(`role mismatch (${escape(c.job)})`);
     }
   }
-  // Skills — canonicalised on both sides
+  // Skills — canonicalised on both sides, word-boundary matched in bio/title
   const candSkills = normSkillSet(c.skills || []);
   const candHay = ((c.bio||'') + ' ' + (c.job||'')).toLowerCase();
+  const hasSkill = s => candSkills.has(s) || skillInText(s, candHay);
   let mustMatched = [], mustMissed = [];
-  jd.mustSkills.forEach(s => {
-    if (candSkills.has(s) || candHay.includes(s)) mustMatched.push(s);
-    else mustMissed.push(s);
-  });
+  jd.mustSkills.forEach(s => { (hasSkill(s) ? mustMatched : mustMissed).push(s); });
   let niceMatched = [], niceMissed = [];
-  jd.niceSkills.forEach(s => {
-    if (candSkills.has(s) || candHay.includes(s)) niceMatched.push(s);
-    else niceMissed.push(s);
-  });
+  jd.niceSkills.forEach(s => { (hasSkill(s) ? niceMatched : niceMissed).push(s); });
   if (jd.mustSkills.size) {
     const ratio = mustMatched.length / jd.mustSkills.size;
     score += Math.round(MATCH_WEIGHTS.mustSkills * ratio);
-    // Hard penalty per missing must-have
-    const missingPenalty = Math.min(20, mustMissed.length * 5);
-    score -= missingPenalty;
+    // Gap penalty: scaled to the FRACTION missing and capped at half the dimension's
+    // weight, so missing skills can never cost more than the skills could earn.
+    const missRatio = mustMissed.length / jd.mustSkills.size;
+    score -= Math.round(MATCH_WEIGHTS.mustSkills * missRatio * 0.5);
     if (mustMatched.length) reasons.good.push(`${mustMatched.length}/${jd.mustSkills.size} must: ${mustMatched.slice(0,4).join(', ')}${mustMatched.length>4?'…':''}`);
     if (mustMissed.length) reasons.miss.push(`missing must-have: ${mustMissed.slice(0,3).join(', ')}${mustMissed.length>3?` (+${mustMissed.length-3})`:''}`);
   }
@@ -2230,7 +2299,7 @@ function scoreCandidate(c, jd) {
     let overlap = 0;
     jd.bioTokens.forEach(t => { if (candBioToks.has(t)) overlap++; });
     const ratio = overlap / jd.bioTokens.size;
-    const pts = Math.min(MATCH_WEIGHTS.bio, Math.round(ratio * MATCH_WEIGHTS.bio * 3));  // amplify since exact token overlap is hard
+    const pts = Math.min(MATCH_WEIGHTS.bio, Math.round(ratio * MATCH_WEIGHTS.bio * 2));  // modest amplification
     if (pts > 0) { score += pts; reasons.good.push(`bio signals: ${overlap} keyword match${overlap===1?'':'es'}`); }
   }
   // Location
@@ -2256,14 +2325,16 @@ function scoreCandidate(c, jd) {
       reasons.miss.push(`no language match`);
     }
   }
-  // Modifiers
+  // ── Fit score is final here. Recency and pipeline status are PIPELINE signals,
+  //    not fit — they bias ranking only, so the fit % stays stable over time. ──
+  const fit = Math.max(0, Math.round(score));
+  let rank = fit;
   const daysAgo = Math.floor((Date.now() - (c.appliedAt||0)) / 86400000);
-  if (daysAgo <= 7) score += 5;
-  else if (daysAgo <= 30) score += 3;
-  if (isCold(c)) { score -= 3; reasons.miss.push(`going cold`); }
-  if ((c.status||'New') === 'Archived') { score -= 15; reasons.miss.push('archived'); }
-  if ((c.status||'New') === 'Placed') { score -= 8; reasons.miss.push('already placed'); }
-  return { score: Math.max(0, Math.round(score)), reasons, mustMatched, mustMissed, niceMatched, niceMissed };
+  if (daysAgo <= 7) rank += 5; else if (daysAgo <= 30) rank += 3;
+  if (isCold(c)) { rank -= 3; reasons.miss.push(`going cold`); }
+  if ((c.status||'New') === 'Archived') { rank -= 15; reasons.miss.push('archived'); }
+  if ((c.status||'New') === 'Placed') { rank -= 8; reasons.miss.push('already placed'); }
+  return { score: fit, rankScore: Math.max(0, Math.round(rank)), reasons, mustMatched, mustMissed, niceMatched, niceMissed };
 }
 
 function describeJD(jd) {
@@ -2523,7 +2594,7 @@ async function runMatch() {
       const t = tierFor(x.score, maxScore);
       return t !== null; // hide weak-fit and below
     })
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => b.rankScore - a.rankScore);
   let top = scored.slice(0, 15);
 
   // Optional Claude rerank — when API key is set and the toggle is on
@@ -2847,6 +2918,31 @@ const INDUSTRY_SYNONYMS = {
   "consulting":"Consulting / Professional Services","consultant":"Consulting / Professional Services","legal":"Legal",
 };
 const SENIORITY_SYNONYMS = { "entry":"Entry","junior":"Entry","mid":"Mid","senior":"Senior","sr":"Senior","lead":"Lead","principal":"Lead","staff":"Lead","manager":"Manager","director":"Director","executive":"Executive","vp":"Executive","chief":"Executive","cto":"Executive","ceo":"Executive","cfo":"Executive" };
+/* Related sectors get partial industry credit (50%) instead of the full miss. */
+const INDUSTRY_ADJACENCY = {
+  "Energy / Oil & Gas": ["Renewables / Cleantech","Manufacturing / Industrial","Construction / Infrastructure"],
+  "Renewables / Cleantech": ["Energy / Oil & Gas","Manufacturing / Industrial"],
+  "Construction / Infrastructure": ["Real Estate / PropTech","Energy / Oil & Gas","Manufacturing / Industrial"],
+  "Real Estate / PropTech": ["Construction / Infrastructure"],
+  "Manufacturing / Industrial": ["Energy / Oil & Gas","Logistics / Supply Chain","Construction / Infrastructure"],
+  "Logistics / Supply Chain": ["Manufacturing / Industrial","Retail / E-commerce","Aviation / Aerospace"],
+  "Retail / E-commerce": ["Logistics / Supply Chain","Media / Marketing / Advertising"],
+  "Financial Services / Fintech": ["Consulting / Professional Services","Technology / Software"],
+  "Technology / Software": ["Financial Services / Fintech","Telecommunications","Media / Marketing / Advertising"],
+  "Telecommunications": ["Technology / Software"],
+  "Media / Marketing / Advertising": ["Retail / E-commerce","Technology / Software"],
+  "Healthcare / Pharma": ["Manufacturing / Industrial"],
+  "Consulting / Professional Services": ["Financial Services / Fintech","Public Sector / Government"],
+  "Aviation / Aerospace": ["Logistics / Supply Chain","Manufacturing / Industrial"],
+  "Public Sector / Government": ["Consulting / Professional Services","NGO / Development"],
+  "NGO / Development": ["Public Sector / Government"],
+  "Hospitality / Tourism": ["Retail / E-commerce"],
+  "Education / EdTech": ["Technology / Software"],
+  "Agriculture / Food": ["Manufacturing / Industrial","Logistics / Supply Chain"],
+};
+function industriesRelated(a, b) {
+  return (INDUSTRY_ADJACENCY[a] || []).includes(b) || (INDUSTRY_ADJACENCY[b] || []).includes(a);
+}
 const DEMONYMS = { "emirati":"United Arab Emirates","uae":"United Arab Emirates","saudi":"Saudi Arabia","ksa":"Saudi Arabia","qatari":"Qatar","kuwaiti":"Kuwait","bahraini":"Bahrain","omani":"Oman","egyptian":"Egypt","moroccan":"Morocco","nigerian":"Nigeria","ghanaian":"Ghana","kenyan":"Kenya","ethiopian":"Ethiopia","south african":"South Africa","lebanese":"Lebanon","jordanian":"Jordan","indian":"India","pakistani":"Pakistan","british":"United Kingdom","american":"United States","german":"Germany","italian":"Italy","singaporean":"Singapore","malaysian":"Malaysia","mexican":"Mexico" };
 
 function parseQuery(q) {
@@ -3087,12 +3183,7 @@ function jobToJDText(j) {
 }
 
 /* Which of the candidate's skills are actually referenced in the job? */
-function ljSkillInText(skill, text) {
-  const s = String(skill || '').toLowerCase().trim();
-  if (s.length < 2) return false;
-  if (/[^a-z0-9 ]/.test(s)) return text.includes(s);          // c++, qa/qc, etc.
-  return new RegExp('\\b' + s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b').test(text);
-}
+function ljSkillInText(skill, text) { return skillInText(skill, text); }
 function ljMatchedSkills(job, c) {
   const text = (job.title + ' ' + (job.description || '') + ' ' + (job.skills || []).join(' ')).toLowerCase();
   return (c.skills || []).filter(s => ljSkillInText(s, text));
@@ -3109,7 +3200,7 @@ function matchJobToCandidates(j) {
       const matched = ljMatchedSkills(j, c);   // candidate skills the job references
       return { c, ...r, tier: tierFor(r.score, maxScore), pct, matched };
     })
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => b.rankScore - a.rankScore);
   const cleared = scored.filter(x => x.tier);
   if (cleared.length) return { list: cleared.slice(0, 4), below: false, cleared: cleared.length, top: cleared[0] };
   // Nothing clears the bar — show the 3 closest, greyed, so it's never blank.
@@ -3139,7 +3230,10 @@ function renderLiveJobs() {
 
   list.forEach(j => j._m = matchJobToCandidates(j));
 
-  if (LJ_FILTER.bestfit) list = list.filter(j => j._m.top && !j._m.below && j._m.top.pct >= LJ_FIT_THRESHOLD);
+  // Best-fit gate uses the calibrated tier (which carries absolute-score floors),
+  // not raw % — so a sparse JD can't inflate a thin match into a "60%+" badge.
+  const ljStrong = x => x && x.tier && x.tier.key !== 't-weak' && x.pct >= LJ_FIT_THRESHOLD;
+  if (LJ_FILTER.bestfit) list = list.filter(j => j._m.top && !j._m.below && ljStrong(j._m.top));
 
   if (sort === 'match' || LJ_FILTER.bestfit) list.sort((a, b) => (b._m.top ? b._m.top.pct : 0) - (a._m.top ? a._m.top.pct : 0));
   else list.sort((a, b) => String(b.first_seen || b.posted || '').localeCompare(String(a.first_seen || a.posted || '')));
@@ -3158,7 +3252,7 @@ function renderLiveJobs() {
         + m.list.map(x => {
             const tier = x.tier || { key: 't-weak', label: 'below bar' };
             const pctNum = Math.round((x.pct || 0) * 100);
-            const showSkills = (x.pct >= LJ_FIT_THRESHOLD) && x.matched && x.matched.length;
+            const showSkills = ljStrong(x) && x.matched && x.matched.length;
             return `<div class="lj-match ${m.below ? 'below' : ''}" onclick="showSection('pool');openProfile('${x.c.id}')">
               <span class="lj-pill match-score-pill ${tier.key}">${pctNum}%</span>
               <div class="who">
