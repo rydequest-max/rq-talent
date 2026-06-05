@@ -26,6 +26,20 @@
   --elevated: 0 12px 40px rgba(15,23,42,0.16);
   --rail-w: 80px; --rail-w-open: 256px; --topbar-h: 64px;
 }
+html[data-theme="dark"] {
+  --background: #0e1016; --surface-lowest: #171a22;
+  --surface-low: #1d212b; --surface: #272c39; --surface-high: #313747;
+  --on-surface: #e8eaf2; --on-variant: #c2c6d3; --secondary: #9aa3b6;
+  --outline: #8b90a2; --outline-v: #3a4150;
+  --primary: #7aa2ff; --primary-strong: #5b86ff; --on-primary: #0b1020;
+  --primary-fixed: #20294a;
+  --good: #4ecb86; --good-fixed: #163420;
+  --warn: #ff9470; --warn-fixed: #3a2018;
+  --error: #ff6b6b;
+  --ambient: 0 4px 20px rgba(0,0,0,0.45);
+  --elevated: 0 12px 40px rgba(0,0,0,0.6);
+  color-scheme: dark;
+}
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
@@ -717,6 +731,7 @@ select.lj-chip { appearance:none; padding-right:28px; }
 .aj-row { display:flex; gap:10px; }
 .aj-row > * { flex:1; min-width:0; }
 </style>
+<script>try{document.documentElement.setAttribute('data-theme', localStorage.getItem('rq_theme')||'light');}catch(e){}</script>
 </head>
 <body>
 <div class="app" id="app" style="display:none;">
@@ -757,6 +772,7 @@ select.lj-chip { appearance:none; padding-right:28px; }
         <span class="tb-title">RQ Talent · Internal</span>
       </div>
       <div class="tb-actions">
+        <button onclick="toggleTheme()" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode"><span class="material-symbols-outlined">dark_mode</span></button>
         <a href="index.html">View portal ↗</a>
         <button onclick="adminLogout()">Lock</button>
       </div>
@@ -1217,6 +1233,23 @@ let _sbSignedIn = false;
 let _sbShadow = {};   // id -> JSON string of last-synced candidate (for diffing uploads)
 if (sb) { sb.auth.onAuthStateChange((_e, session) => { _sbSignedIn = !!session; }); }
 
+/* AI runs through a Supabase Edge Function that holds the Anthropic key server-side
+   (never in this page). Only signed-in recruiters can call it. */
+const AI_ENABLED = !!sb;
+async function claudeProxy(payload) {
+  if (!sb) throw new Error('AI unavailable');
+  let token = '';
+  try { const { data } = await sb.auth.getSession(); token = data && data.session ? data.session.access_token : ''; } catch (e) {}
+  if (!token) throw new Error('not signed in');
+  const res = await fetch(SB_URL + '/functions/v1/claude-chat', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'authorization': 'Bearer ' + token, 'apikey': SB_KEY },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) { let m = ''; try { m = (await res.json()).error || ''; } catch (e) {} throw new Error('AI proxy error ' + res.status + (m ? ': ' + m : '')); }
+  return res.json();
+}
+
 /* Pull the shared pool, MERGE with anything only on this device (so the first
    sign-in migrates existing local candidates up instead of wiping them), and
    refresh the local mirror. Remote wins on id conflicts. */
@@ -1262,6 +1295,19 @@ async function sbSyncUp(list) {
 /* ═══════════════════════════════════════════════════════════════════════════
  * AUTH GATE
  * ═══════════════════════════════════════════════════════════════════════════ */
+/* ── Theme (light/dark) ── */
+function applyTheme(t) {
+  document.documentElement.setAttribute('data-theme', t);
+  const ic = document.querySelector('#themeToggle .material-symbols-outlined');
+  if (ic) ic.textContent = (t === 'dark') ? 'light_mode' : 'dark_mode';
+}
+function toggleTheme() {
+  const next = (document.documentElement.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+  try { localStorage.setItem('rq_theme', next); } catch (e) {}
+  applyTheme(next);
+}
+applyTheme((() => { try { return localStorage.getItem('rq_theme') || 'light'; } catch (e) { return 'light'; } })());
+
 async function sha256Hex(text) {
   const buf = new TextEncoder().encode(String(text));
   const hash = await crypto.subtle.digest('SHA-256', buf);
@@ -1761,7 +1807,7 @@ const NBA_RULES = [
   {
     test: c => (c.status||'New') === 'New' && daysInStatus(c) >= 3,
     build: c => ({ prio:1, icon:'rate_review',
-      text:`<strong>Triage ${escape(firstName(c))}</strong> — first review overdue`,
+      text:`<strong>Review ${escape(firstName(c))}</strong> — first look overdue`,
       sub:`Applied ${daysInStatus(c)} days ago, still in New` })
   },
   {
@@ -2422,7 +2468,7 @@ function openMatchModal() {
   document.getElementById('matchModal').classList.add('show');
   // Toggle Claude rerank visibility based on API key
   const aiToggle = document.getElementById('aiRerankWrap');
-  if (aiToggle) aiToggle.style.display = (CONFIG.ANTHROPIC_API_KEY && CONFIG.ANTHROPIC_API_KEY.length > 10) ? 'inline-flex' : 'none';
+  if (aiToggle) aiToggle.style.display = AI_ENABLED ? 'inline-flex' : 'none';
   setTimeout(() => document.getElementById('matchJD').focus(), 100);
   try {
     const last = localStorage.getItem('rq_last_jd');
@@ -2442,13 +2488,7 @@ async function claudeRerank(jd, topResults) {
     heuristic_score: r.score,
   }));
   const system = `You are a senior technical recruiter. Re-rank these candidates against the job description by their TRUE fit (skills overlap, role-equivalence, seniority, location, language). Reply with strict JSON only: {"ranked":[{"id":"<id>","score":<0-100>,"why":"<one short sentence>"}, ...]}. Include only candidates worth interviewing for this role. JSON only.`;
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method:'POST',
-    headers:{'content-type':'application/json','x-api-key':CONFIG.ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
-    body: JSON.stringify({ model:'claude-haiku-4-5-20251001', max_tokens:1400, system, messages:[{role:'user', content:`JD:\n${document.getElementById('matchJD').value}\n\nCandidates: ${JSON.stringify(slim)}`}] })
-  });
-  if (!res.ok) throw new Error('API error');
-  const data = await res.json();
+  const data = await claudeProxy({ model:'claude-haiku-4-5-20251001', max_tokens:1400, system, messages:[{role:'user', content:`JD:\n${document.getElementById('matchJD').value}\n\nCandidates: ${JSON.stringify(slim)}`}] });
   let txt = (data.content && data.content[0] && data.content[0].text || '').trim();
   if (txt.startsWith('```')) txt = txt.replace(/^```(?:json)?/,'').replace(/```$/,'').trim();
   const parsed = JSON.parse(txt);
@@ -2660,8 +2700,7 @@ async function runMatch() {
   let top = scored.slice(0, 15);
 
   // Optional Claude rerank — when API key is set and the toggle is on
-  const useAI = document.getElementById('aiRerankToggle')?.checked
-    && CONFIG.ANTHROPIC_API_KEY && CONFIG.ANTHROPIC_API_KEY.length > 10;
+  const useAI = document.getElementById('aiRerankToggle')?.checked && AI_ENABLED;
   let aiBadge = '';
   if (useAI && scored.length) {
     runBtn.disabled = true; runBtn.innerHTML = '<span class="material-symbols-outlined">progress_activity</span> AI re-ranking…';
@@ -3083,13 +3122,7 @@ function searchLocal(query) {
 async function searchClaude(query) {
   const slim = CANDIDATES.map(c => ({ id:c.id, name:c.name, country:c.country, industry:c.industry, job:c.job, seniority:c.seniority, years:c.years, skills:c.skills, bio:(c.bio||'').slice(0,240) }));
   const system = `You are a talent search assistant for the RQ Talent pool. Given a JSON array of candidates and a recruiter's query, return JSON with "ids" (max 10 matching IDs, best-fit first) and "summary" (one sentence). JSON only.`;
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method:'POST',
-    headers:{'content-type':'application/json','x-api-key':CONFIG.ANTHROPIC_API_KEY,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
-    body: JSON.stringify({ model:'claude-haiku-4-5-20251001', max_tokens:700, system, messages:[{role:'user', content:`Query: ${query}\n\nCandidates: ${JSON.stringify(slim)}`}] })
-  });
-  if (!res.ok) throw new Error('API error');
-  const data = await res.json();
+  const data = await claudeProxy({ model:'claude-haiku-4-5-20251001', max_tokens:700, system, messages:[{role:'user', content:`Query: ${query}\n\nCandidates: ${JSON.stringify(slim)}`}] });
   let txt = (data.content && data.content[0] && data.content[0].text || '').trim();
   if (txt.startsWith('```')) txt = txt.replace(/^```(?:json)?/,'').replace(/```$/,'').trim();
   const p = JSON.parse(txt);
@@ -3140,7 +3173,7 @@ async function askChat() {
   input.value = '';
   appendMsg(escape(q), 'user');
   appendTyping();
-  const useClaude = CONFIG.ANTHROPIC_API_KEY && CONFIG.ANTHROPIC_API_KEY.length > 10;
+  const useClaude = AI_ENABLED;
   try {
     const fn = useClaude ? searchClaude : searchLocal;
     const [{ results, summary }] = await Promise.all([fn(q), new Promise(r => setTimeout(r, 400))]);

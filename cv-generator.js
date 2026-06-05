@@ -76,6 +76,73 @@
     return svgToDataUrl(DEFAULT_LOGO_SVG);
   }
 
+  // ── CV-section parsing ───────────────────────────────────────────────────────
+  // Map common CV headings → a clean display title (or a control token).
+  const HEADING_MAP = {
+    "experience": "Experience", "work experience": "Experience", "professional experience": "Experience",
+    "employment": "Experience", "employment history": "Experience", "work history": "Experience",
+    "career history": "Experience", "career summary": "__summary__", "professional background": "Experience",
+    "education": "Education", "academic": "Education", "academic background": "Education",
+    "education and qualifications": "Education", "educational qualifications": "Education", "qualifications": "Education",
+    "certifications": "Certifications", "certification": "Certifications", "certificates": "Certifications",
+    "licenses": "Certifications", "licences": "Certifications", "training": "Training & Certifications",
+    "courses": "Training & Certifications", "professional development": "Training & Certifications",
+    "projects": "Projects", "key projects": "Projects", "selected projects": "Projects",
+    "achievements": "Achievements", "accomplishments": "Achievements", "key achievements": "Achievements", "awards": "Achievements",
+    "languages": "Languages",
+    "summary": "__summary__", "professional summary": "__summary__", "profile": "__summary__",
+    "personal profile": "__summary__", "about": "__summary__", "about me": "__summary__",
+    "objective": "__summary__", "career objective": "__summary__",
+    "skills": "__skip__", "technical skills": "__skip__", "key skills": "__skip__", "core skills": "__skip__",
+    "core competencies": "__skip__", "competencies": "__skip__", "areas of expertise": "__skip__", "expertise": "__skip__",
+    "references": "__skip__", "personal details": "__skip__", "personal information": "__skip__",
+    "contact": "__skip__", "contact details": "__skip__", "declaration": "__skip__", "interests": "__skip__",
+    "hobbies": "__skip__", "nationality": "__skip__",
+  };
+  function headingOf(line) {
+    const norm = clean(line).toLowerCase().replace(/[:|.–—-]+\s*$/, "").replace(/[^a-z &]/g, " ").replace(/\s+/g, " ").trim();
+    if (!norm || norm.length > 36) return null;
+    return HEADING_MAP[norm] || null;
+  }
+
+  // Split the extracted CV text into clean, headed sections of bullet lines.
+  function parseSections(cvText, excludeStrings) {
+    const raw = String(cvText || "").replace(/\r/g, "");
+    let lines = raw.split(/\n+/).map(l => clean(l)).filter(Boolean);
+    // Flattened text (e.g. migrated single-line records) → break into chunks.
+    if (lines.length <= 2) {
+      let parts = raw.split(/\s*[•·▪‣|]\s*|\s{3,}/).map(s => clean(s)).filter(Boolean);
+      if (parts.length <= 2) parts = raw.split(/(?<=[.;])\s+(?=[A-Z0-9])/).map(s => clean(s)).filter(Boolean);
+      lines = parts;
+    }
+    const ex = (excludeStrings || []).map(s => s.toLowerCase()).filter(s => s.length > 3);
+    const isNoise = (l) => {
+      const low = l.toLowerCase();
+      if (l.length < 3) return true;
+      if (/^[\d\W_]+$/.test(l)) return true;                  // pure numbers/symbols
+      if (ex.some(x => low === x || low.includes(x))) return true;  // echoed contact info
+      if (/^(curriculum vitae|resume|cv)$/i.test(l)) return true;
+      return false;
+    };
+
+    const sections = []; let cur = null; const preamble = []; let summaryText = "";
+    for (const l of lines) {
+      const h = headingOf(l);
+      if (h === "__skip__") { cur = { skip: true, bullets: [] }; continue; }
+      if (h === "__summary__") { cur = { summary: true, bullets: [] }; continue; }
+      if (h) { cur = { title: h, bullets: [] }; sections.push(cur); continue; }
+      if (cur && cur.skip) continue;
+      if (isNoise(l)) continue;
+      if (cur && cur.summary) { summaryText += (summaryText ? " " : "") + l; continue; }
+      if (cur) cur.bullets.push(l); else preamble.push(l);
+    }
+    // Trim/cap each section's bullets.
+    const tidy = (arr) => arr.map(b => b.replace(/^[•·▪‣*\-\s]+/, "").trim()).filter(b => b.length > 1).slice(0, 14);
+    const real = sections.map(s => ({ title: s.title, bullets: tidy(s.bullets) })).filter(s => s.bullets.length);
+
+    return { sections: real, preamble: tidy(preamble), summaryText: clean(summaryText) };
+  }
+
   // ── shape the candidate into ATS sections ───────────────────────────────────
   function prepareData(c) {
     const contact = [
@@ -88,19 +155,27 @@
       c.job, c.seniority, c.years ? (c.years.replace("-", "–") + " yrs") : "", c.industry,
     ].map(clean).filter(Boolean).join("  ·  ");
 
-    // Experience/background: prefer the extracted CV text, cleaned into paragraphs.
-    let bodyParas = [];
-    if (c.cvText && c.cvText.trim().length > 40) {
-      bodyParas = c.cvText
-        .replace(/\r/g, "")
-        .split(/\n{2,}|(?<=\.)\s*\n/)        // blank lines / hard breaks after sentences
-        .map(p => clean(p.replace(/\n/g, " ")))
-        .filter(p => p.length > 1);
-    } else {
-      bodyParas = [
+    // Parse the raw CV text into structured, de-duplicated sections.
+    const exclude = [c.name, c.email, c.phone, c.linkedin, c.city, c.country].map(s => clean(s || "")).filter(Boolean);
+    const parsed = (c.cvText && c.cvText.trim().length > 40)
+      ? parseSections(c.cvText, exclude)
+      : { sections: [], preamble: [], summaryText: "" };
+
+    // Summary: candidate bio, else a summary heading from the CV, else nothing.
+    let summary = clean(c.bio) || parsed.summaryText || "";
+
+    // Build the section list. If headings were detected, use them; otherwise put
+    // the cleaned content under a single "Experience & Background" section.
+    let sections = parsed.sections;
+    if (!sections.length) {
+      const fallback = parsed.preamble.length ? parsed.preamble : [
         `Most recent role: ${clean(c.job) || "—"}${c.industry ? " (" + clean(c.industry) + ")" : ""}.`,
         c.years ? `Experience: ${clean(c.years).replace("-", "–")} years${c.seniority ? ", " + clean(c.seniority) + " level" : ""}.` : "",
       ].filter(Boolean);
+      if (fallback.length) sections = [{ title: "Experience & Background", bullets: fallback }];
+    } else if (parsed.preamble.length && !summary) {
+      // Loose lines before the first heading become the summary when we lack a bio.
+      summary = parsed.preamble.join(" ").slice(0, 600);
     }
 
     return {
@@ -108,9 +183,9 @@
       name: clean(c.name) || "Candidate",
       roleLine,
       contact,
-      summary: clean(c.bio),
+      summary,
       skills: (c.skills || []).map(clean).filter(Boolean),
-      body: bodyParas,
+      sections,
       date: new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }),
     };
   }
@@ -145,9 +220,14 @@
       doc.setFont("helvetica", opts.bold ? "bold" : "normal");
       doc.setFontSize(opts.size || 10.5);
       doc.setTextColor(...(opts.color || DARK));
-      const lines = doc.splitTextToSize(t, PW - 2 * M);
+      const indent = opts.indent || 0;
+      const lines = doc.splitTextToSize(t, PW - 2 * M - indent);
       const lh = (opts.size || 10.5) * 1.4;
-      lines.forEach(line => { need(lh); doc.text(line, M, y); y += lh; });
+      lines.forEach((line, i) => {
+        need(lh);
+        if (opts.bullet && i === 0) { doc.setTextColor(...BLUE); doc.text("•", M, y); doc.setTextColor(...(opts.color || DARK)); }
+        doc.text(line, M + indent, y); y += lh;
+      });
     }
 
     watermark();
@@ -167,7 +247,12 @@
 
     if (data.summary) { heading("Professional Summary"); para(data.summary); y += 4; }
     if (data.skills.length) { heading("Core Skills"); para(data.skills.join("   ·   ")); y += 4; }
-    if (data.body.length) { heading("Experience & Background"); data.body.forEach(p => { para(p); y += 6; }); }
+    (data.sections || []).forEach(sec => {
+      if (!sec.bullets || !sec.bullets.length) return;
+      heading(sec.title);
+      sec.bullets.forEach(b => { para(b, { bullet: true, indent: 14 }); y += 3; });
+      y += 4;
+    });
 
     // footer on every page
     const pages = doc.internal.getNumberOfPages();
@@ -193,19 +278,29 @@
     if (data.roleLine) children.push(new Paragraph({ children: [new TextRun({ text: data.roleLine, size: 22, color: GREY })] }));
     if (data.contact.length) children.push(new Paragraph({ children: [new TextRun({ text: data.contact.join("   ·   "), size: 18, color: GREY })], spacing: { after: 160 } }));
 
-    function section(title, paras) {
+    function sectionHead(title) {
       children.push(new Paragraph({
         spacing: { before: 200, after: 80 },
         border: { bottom: { color: BLUE, style: BorderStyle.SINGLE, size: 6 } },
         children: [new TextRun({ text: title.toUpperCase(), bold: true, color: BLUE, size: 20 })],
       }));
+    }
+    function section(title, paras) {
+      sectionHead(title);
       paras.forEach(p => children.push(new Paragraph({
         spacing: { after: 100 }, children: [new TextRun({ text: p, size: 21, color: "191E30" })],
       })));
     }
+    function bulletSection(title, bullets) {
+      sectionHead(title);
+      bullets.forEach(b => children.push(new Paragraph({
+        bullet: { level: 0 }, spacing: { after: 60 },
+        children: [new TextRun({ text: b, size: 21, color: "191E30" })],
+      })));
+    }
     if (data.summary) section("Professional Summary", [data.summary]);
     if (data.skills.length) section("Core Skills", [data.skills.join("   ·   ")]);
-    if (data.body.length) section("Experience & Background", data.body);
+    (data.sections || []).forEach(sec => { if (sec.bullets && sec.bullets.length) bulletSection(sec.title, sec.bullets); });
 
     // header logo (branding on every page)
     const headerChildren = [];
