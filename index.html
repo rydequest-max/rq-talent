@@ -490,6 +490,7 @@ header.topbar {
 </div>
 
 <script src="cv-generator.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* ═══════════════════════════════════════════════════════════════════════════
  * CONFIG — change these before deploying
@@ -504,6 +505,14 @@ const CONFIG = {
   // WARNING: the key is visible in the browser. Use only for personal demos.
   ANTHROPIC_API_KEY: "",
 };
+
+/* Shared cloud pool — applicants are written into the same Supabase table the
+   recruiter portal reads from. The publishable key is browser-safe: the table's
+   row-level rules allow anonymous INSERT (submit) but block anonymous reads. */
+const SB_URL = "https://hundybfgojzrtdmxvskf.supabase.co";
+const SB_KEY = "sb_publishable_xX0Brj_T3iyV8KiSPwEM_A_o3p4SCEH";
+const sb = (window.supabase && window.supabase.createClient)
+  ? window.supabase.createClient(SB_URL, SB_KEY) : null;
 
 /* Country list (ISO + common dependencies) */
 const COUNTRIES = ["Afghanistan","Albania","Algeria","Andorra","Angola","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo (Brazzaville)","Congo (DRC)","Costa Rica","Côte d'Ivoire","Croatia","Cuba","Cyprus","Czech Republic","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macao","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Mauritania","Mauritius","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","Myanmar","Namibia","Nauru","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Korea","North Macedonia","Norway","Oman","Pakistan","Palau","Palestine","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Tonga","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan","Vanuatu","Vatican City","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"];
@@ -955,6 +964,12 @@ document.getElementById('candForm').addEventListener('submit', async (e) => {
     existing.unshift(record);
     localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(existing));
   } catch (err) { console.warn('Storage error:', err); }
+
+  // Submit into the shared recruiter pool (Supabase). Best-effort: if it fails,
+  // the application is still saved locally and forwarded by email below.
+  try {
+    if (sb) await sb.from('candidates').insert({ id: record.id, data: record, updated_at: new Date().toISOString() });
+  } catch (err) { console.warn('Cloud submit failed (kept locally):', err.message); }
 
   // Forward to Formspree (if configured)
   if (CONFIG.FORMSPREE_ID) {

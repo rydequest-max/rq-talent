@@ -1121,12 +1121,13 @@ select.lj-chip { appearance:none; padding-right:28px; }
   <div class="modal-card">
     <div class="login-body">
       <div class="lock"><span class="material-symbols-outlined">lock</span></div>
-      <h3>Restricted access</h3>
-      <p>Enter the passcode to view the talent pool.</p>
-      <input type="password" id="loginInput" placeholder="••••••••" autocomplete="current-password">
+      <h3>Recruiter sign-in</h3>
+      <p>Sign in with your recruiter account to view the shared talent pool.</p>
+      <input type="email" id="loginEmail" placeholder="you@rydequest.com" autocomplete="username" style="margin-bottom:8px;">
+      <input type="password" id="loginInput" placeholder="Password" autocomplete="current-password">
       <div class="err" id="loginErr">&nbsp;</div>
       <button class="btn primary block" onclick="tryLogin()">
-        <span class="material-symbols-outlined">login</span> Unlock
+        <span class="material-symbols-outlined">login</span> Sign in
       </button>
       <a class="btn ghost block" href="index.html" style="margin-top:8px;">
         <span class="material-symbols-outlined">arrow_back</span> Back to careers portal
@@ -1179,6 +1180,7 @@ select.lj-chip { appearance:none; padding-right:28px; }
 </aside>
 
 <script src="cv-generator.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* ═══════════════════════════════════════════════════════════════════════════
  * CONFIG
@@ -1202,6 +1204,62 @@ const CONFIG = {
 };
 
 /* ═══════════════════════════════════════════════════════════════════════════
+ * SHARED CLOUD POOL (Supabase) — candidates live in a hosted Postgres table so
+ * every signed-in recruiter sees the same pool. localStorage is a local mirror /
+ * offline cache. The public CV page inserts applicants; only signed-in recruiters
+ * can read. The publishable key below is browser-safe (security = login + RLS).
+ * ═══════════════════════════════════════════════════════════════════════════ */
+const SB_URL = "https://hundybfgojzrtdmxvskf.supabase.co";
+const SB_KEY = "sb_publishable_xX0Brj_T3iyV8KiSPwEM_A_o3p4SCEH";
+const sb = (window.supabase && window.supabase.createClient)
+  ? window.supabase.createClient(SB_URL, SB_KEY) : null;
+let _sbSignedIn = false;
+let _sbShadow = {};   // id -> JSON string of last-synced candidate (for diffing uploads)
+if (sb) { sb.auth.onAuthStateChange((_e, session) => { _sbSignedIn = !!session; }); }
+
+/* Pull the shared pool, MERGE with anything only on this device (so the first
+   sign-in migrates existing local candidates up instead of wiping them), and
+   refresh the local mirror. Remote wins on id conflicts. */
+async function syncFromSupabase() {
+  if (!sb) return;
+  try {
+    const { data, error } = await sb.from('candidates').select('id,data');
+    if (error) throw error;
+    const remote = (data || []).map(r => r.data).filter(Boolean);
+    const remoteIds = new Set(remote.map(c => c.id));
+    const localOnly = loadAll().filter(c => c && c.id && !remoteIds.has(c.id));
+    if (localOnly.length) {
+      const rows = localOnly.map(c => ({ id: c.id, data: c, updated_at: new Date().toISOString() }));
+      try { await sb.from('candidates').upsert(rows); } catch (e) { console.warn('upload local-only failed:', e.message); }
+    }
+    const merged = remote.concat(localOnly);
+    localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(merged));
+    _sbShadow = {}; merged.forEach(c => { _sbShadow[c.id] = JSON.stringify(c); });
+    CANDIDATES = loadAll();
+  } catch (e) { console.warn('Supabase pull failed, using local cache:', e.message); }
+}
+
+/* Push local changes up: upsert only candidates whose JSON changed, delete any
+   removed. Fire-and-forget from saveAll so the UI stays snappy. */
+async function sbSyncUp(list) {
+  if (!sb || !_sbSignedIn) return;
+  const cur = {}; (list || []).forEach(c => { if (c && c.id) cur[c.id] = JSON.stringify(c); });
+  const changed = [], removed = [];
+  for (const id in cur) { if (_sbShadow[id] !== cur[id]) changed.push(id); }
+  for (const id in _sbShadow) { if (!(id in cur)) removed.push(id); }
+  try {
+    if (changed.length) {
+      const rows = list.filter(c => changed.includes(c.id)).map(c => ({ id: c.id, data: c, updated_at: new Date().toISOString() }));
+      const { error } = await sb.from('candidates').upsert(rows); if (error) throw error;
+    }
+    if (removed.length) {
+      const { error } = await sb.from('candidates').delete().in('id', removed); if (error) throw error;
+    }
+    _sbShadow = cur;
+  } catch (e) { console.warn('Supabase sync up failed:', e.message); }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
  * AUTH GATE
  * ═══════════════════════════════════════════════════════════════════════════ */
 async function sha256Hex(text) {
@@ -1209,27 +1267,31 @@ async function sha256Hex(text) {
   const hash = await crypto.subtle.digest('SHA-256', buf);
   return [...new Uint8Array(hash)].map(b => b.toString(16).padStart(2, '0')).join('');
 }
-function isLoggedIn() { return sessionStorage.getItem('rq_hr_unlocked') === '1'; }
 async function tryLogin() {
-  const v = document.getElementById('loginInput').value;
-  let hashed = '';
-  try { hashed = await sha256Hex(v); } catch (e) {}
-  if (hashed && hashed === CONFIG.HR_PASSCODE_HASH) {
-    sessionStorage.setItem('rq_hr_unlocked', '1');
-    document.getElementById('loginModal').classList.remove('show');
-    document.getElementById('app').style.display = 'block';
-    document.getElementById('chatFab').style.display = 'inline-flex';
-    init();
-  } else {
-    document.getElementById('loginErr').textContent = 'Wrong passcode. Try again.';
-    document.getElementById('loginInput').select();
-  }
+  const email = (document.getElementById('loginEmail').value || '').trim();
+  const pass = document.getElementById('loginInput').value;
+  const errEl = document.getElementById('loginErr');
+  if (!sb) { errEl.textContent = 'Sign-in service did not load — check your connection and refresh.'; return; }
+  if (!email || !pass) { errEl.textContent = 'Enter your email and password.'; return; }
+  errEl.textContent = 'Signing in…';
+  try {
+    const { error } = await sb.auth.signInWithPassword({ email, password: pass });
+    if (error) { errEl.textContent = 'Sign-in failed: ' + error.message; document.getElementById('loginInput').select(); return; }
+    await enterApp();
+  } catch (e) { errEl.textContent = 'Sign-in error: ' + (e.message || 'unknown'); }
 }
-// Expose for the DevTools snippet noted in CONFIG above
 window.sha256Hex = sha256Hex;
-function adminLogout() {
-  sessionStorage.removeItem('rq_hr_unlocked');
+async function adminLogout() {
+  try { if (sb) await sb.auth.signOut(); } catch (e) {}
   location.reload();
+}
+/* Reveal the app, pull the shared pool, then render. */
+async function enterApp() {
+  document.getElementById('loginModal').classList.remove('show');
+  document.getElementById('app').style.display = 'block';
+  document.getElementById('chatFab').style.display = 'inline-flex';
+  await syncFromSupabase();
+  init();
 }
 document.addEventListener('keydown', e => {
   if (e.key === 'Enter' && document.getElementById('loginModal').classList.contains('show')) tryLogin();
@@ -1349,7 +1411,7 @@ function loadAll() {
   if (mutated) { try { localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(list)); } catch (e) {} }
   return list;
 }
-function saveAll(list) { localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(list)); }
+function saveAll(list) { localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(list)); sbSyncUp(list); }
 
 /* Record a status transition on a candidate (in-place). Returns true if recorded. */
 function recordStatusChange(c, newStatus, when) {
@@ -2884,8 +2946,8 @@ function exportAll() {
   URL.revokeObjectURL(url);
 }
 function confirmReset() {
-  if (!confirm('Clear ALL candidates from this device? This cannot be undone.')) return;
-  localStorage.setItem(CONFIG.STORAGE_KEY, '[]');
+  if (!confirm('Clear ALL candidates from the shared pool? This removes them for everyone and cannot be undone.')) return;
+  saveAll([]);   // clears local mirror AND the shared cloud pool
   CANDIDATES = loadAll();
   renderAdmin();
 }
@@ -3421,15 +3483,17 @@ function init() {
   renderAdmin();
 }
 
-// Force login on entry — block the app until passcode is right
-if (isLoggedIn()) {
-  document.getElementById('app').style.display = 'block';
-  document.getElementById('chatFab').style.display = 'inline-flex';
-  init();
-} else {
-  document.getElementById('loginModal').classList.add('show');
-  setTimeout(() => document.getElementById('loginInput').focus(), 100);
-}
+// Force sign-in on entry — block the app until a valid Supabase session exists.
+(async () => {
+  let session = null;
+  try { if (sb) { const r = await sb.auth.getSession(); session = r.data && r.data.session; } } catch (e) {}
+  if (session) {
+    await enterApp();
+  } else {
+    document.getElementById('loginModal').classList.add('show');
+    setTimeout(() => { const el = document.getElementById('loginEmail'); if (el) el.focus(); }, 100);
+  }
+})();
 </script>
 </body>
 </html>
