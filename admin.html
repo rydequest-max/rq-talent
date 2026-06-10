@@ -1102,7 +1102,7 @@ select.lj-chip { appearance:none; padding-right:28px; }
         <span class="match-meta" id="matchMeta">Type or paste, then hit <strong>Match</strong>. Cmd/Ctrl+Enter also works.</span>
         <div style="display:flex;align-items:center;gap:12px;">
           <label class="ai-toggle" id="aiRerankWrap" style="display:none;">
-            <input type="checkbox" id="aiRerankToggle">
+            <input type="checkbox" id="aiRerankToggle" checked>
             <span><span class="material-symbols-outlined">auto_awesome</span> AI re-rank</span>
           </label>
           <button class="btn primary" onclick="runMatch()" id="matchRunBtn">
@@ -2082,6 +2082,57 @@ const SKILL_ALIASES = {
   'welding inspection':'welding inspection', 'welding':'welding', 'piping':'piping', 'structural':'structural',
   'mechanical':'mechanical', 'hydrotest':'hydrotest', 'hydrostatic test':'hydrotest',
   'shutdown':'shutdown', 'turnaround':'turnaround', 'pressure vessel':'pressure vessel', 'heat treatment':'heat treatment',
+  // ── Cross-sector vocabulary (so the keyword pass is sharp beyond oil & gas) ──
+  // Construction / civil / MEP
+  'civil engineering':'civil engineering', 'structural engineering':'structural engineering',
+  'quantity surveying':'quantity surveying', 'quantity surveyor':'quantity surveying', 'qs':'quantity surveying',
+  'estimation':'estimation', 'estimator':'estimation', 'mep':'mep', 'hvac':'hvac', 'plumbing':'plumbing',
+  'site supervision':'site supervision', 'site engineer':'site engineering', 'primavera':'primavera', 'primavera p6':'primavera',
+  'ms project':'ms project', 'staad pro':'staad pro', 'etabs':'etabs', 'revit mep':'revit',
+  'snagging':'snagging', 'rics':'rics', 'leed':'leed', 'estidama':'estidama', 'reinforcement':'reinforcement',
+  'concrete':'concrete', 'formwork':'formwork', 'building surveying':'building surveying',
+  // Finance / accounting / banking
+  'ifrs':'ifrs', 'gaap':'gaap', 'financial modelling':'financial modelling', 'financial modeling':'financial modelling',
+  'fp&a':'fp&a', 'accounts payable':'accounts payable', 'accounts receivable':'accounts receivable',
+  'reconciliation':'reconciliation', 'audit':'audit', 'internal audit':'internal audit', 'external audit':'audit',
+  'vat':'vat', 'taxation':'taxation', 'credit analysis':'credit analysis', 'underwriting':'underwriting',
+  'budgeting':'budgeting', 'forecasting':'forecasting', 'quickbooks':'quickbooks', 'tally':'tally',
+  'xero':'xero', 'sap fico':'sap fico', 'relationship manager':'relationship management', 'wealth management':'wealth management',
+  // Healthcare / medical
+  'nursing':'nursing', 'registered nurse':'nursing', 'patient care':'patient care', 'bls':'bls', 'acls':'acls',
+  'phlebotomy':'phlebotomy', 'pharmacy':'pharmacy', 'radiology':'radiology', 'physiotherapy':'physiotherapy',
+  'dha':'dha license', 'dha license':'dha license', 'haad':'haad license', 'doh license':'haad license',
+  'moh license':'moh license', 'medical coding':'medical coding', 'icd-10':'medical coding', 'infection control':'infection control',
+  // Hospitality / F&B
+  'food and beverage':'food and beverage', 'f&b':'food and beverage', 'front office':'front office',
+  'housekeeping':'housekeeping', 'opera pms':'opera pms', 'micros':'micros', 'culinary':'culinary',
+  'barista':'barista', 'guest relations':'guest relations', 'concierge':'concierge', 'banquet':'banquet',
+  'haccp':'haccp', 'food safety':'food safety', 'scommis':'culinary', 'chef de partie':'culinary',
+  // Logistics / supply chain
+  'warehouse management':'warehouse management', 'wms':'warehouse management', 'inventory management':'inventory management',
+  'freight forwarding':'freight forwarding', 'customs clearance':'customs clearance', '3pl':'3pl',
+  'demand planning':'demand planning', 'incoterms':'incoterms', 'fleet management':'fleet management', 'cold chain':'cold chain',
+  'materials planning':'materials planning', 'mrp':'mrp', 'erp':'erp',
+  // Aviation / aerospace
+  'aircraft maintenance':'aircraft maintenance', 'easa':'easa', 'faa':'faa', 'part 145':'part 145',
+  'avionics':'avionics', 'ground handling':'ground handling', 'load control':'load control', 'iata':'iata', 'ramp operations':'ramp operations',
+  // HR / recruitment
+  'talent acquisition':'talent acquisition', 'recruitment':'recruitment', 'hrbp':'hrbp', 'payroll':'payroll',
+  'onboarding':'onboarding', 'employee relations':'employee relations', 'performance management':'performance management',
+  'hris':'hris', 'successfactors':'successfactors', 'oracle hcm':'oracle hcm', 'compensation and benefits':'compensation and benefits', 'c&b':'compensation and benefits',
+  // Sales / marketing
+  'business development':'business development', 'account management':'account management', 'key account':'account management',
+  'lead generation':'lead generation', 'b2b sales':'b2b sales', 'b2c':'b2c sales', 'digital marketing':'digital marketing',
+  'social media marketing':'social media marketing', 'content marketing':'content marketing', 'google analytics':'google analytics', 'ppc':'ppc',
+  // Manufacturing / industrial / instrumentation
+  'production planning':'production planning', 'quality management':'quality management', 'iso 9001':'iso 9001',
+  'iso 14001':'iso 14001', 'tpm':'tpm', '5s':'5s', 'kaizen':'kaizen', 'oee':'oee', 'plc':'plc', 'scada':'scada',
+  'instrumentation':'instrumentation', 'calibration':'calibration', 'maintenance planning':'maintenance planning',
+  'root cause analysis':'root cause analysis', 'rca':'root cause analysis', 'predictive maintenance':'predictive maintenance',
+  // Tech (augment)
+  'data analysis':'data analysis', 'etl':'etl', 'spark':'spark', 'hadoop':'hadoop', 'rest api':'rest api',
+  'microservices':'microservices', 'flutter':'flutter', '.net':'.net', 'php':'php', 'laravel':'laravel',
+  'django':'django', 'angular':'angular', 'power platform':'power platform',
 };
 function normSkill(s) {
   const k = String(s||'').trim().toLowerCase().replace(/[.,;:]+$/,'').replace(/\s+/g,' ').replace(/\s*\([^)]*\)\s*/g, ' ').trim();
