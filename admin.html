@@ -3523,8 +3523,10 @@ async function bulkAddCandidates(files) {
         photo: '', cv: { name: f.name }, cvText: (text || '').slice(0, 20000),
         appliedAt: Date.now(), status: 'New', statusHistory: [{ from: null, to: 'New', ts: Date.now() }],
       };
-      // original file → side-table (keeps the pool light)
+      // Insert the candidate row FIRST (the file table has a foreign key to it),
+      // then store the original file in the side-table (keeps the pool light).
       if (sb) {
+        try { await sb.from('candidates').insert({ id, data: rec, updated_at: new Date().toISOString() }); } catch (e) { console.warn('cloud add failed:', e.message); }
         const dataUrl = await readDataUrl(f);
         if (dataUrl) { try { await sb.from('candidate_files').insert({ candidate_id: id, data: dataUrl, updated_at: new Date().toISOString() }); } catch (e) { console.warn('CV file upload failed:', e.message); } }
       }
