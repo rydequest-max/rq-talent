@@ -965,10 +965,19 @@ document.getElementById('candForm').addEventListener('submit', async (e) => {
     localStorage.setItem(CONFIG.STORAGE_KEY, JSON.stringify(existing));
   } catch (err) { console.warn('Storage error:', err); }
 
-  // Submit into the shared recruiter pool (Supabase). Best-effort: if it fails,
-  // the application is still saved locally and forwarded by email below.
+  // Submit into the shared recruiter pool (Supabase). The candidate record stays
+  // lightweight (CV file goes to the candidate_files side-table, keeping the pool
+  // small and scalable). Best-effort: if it fails, the application is still saved
+  // locally and forwarded by email below.
   try {
-    if (sb) await sb.from('candidates').insert({ id: record.id, data: record, updated_at: new Date().toISOString() });
+    if (sb) {
+      const slim = Object.assign({}, record, { cv: { name: (cvData && cvData.name) || '' } });
+      await sb.from('candidates').insert({ id: record.id, data: slim, updated_at: new Date().toISOString() });
+      if (cvData && cvData.data) {
+        try { await sb.from('candidate_files').insert({ candidate_id: record.id, data: cvData.data, updated_at: new Date().toISOString() }); }
+        catch (e) { console.warn('CV file upload failed:', e.message); }
+      }
+    }
   } catch (err) { console.warn('Cloud submit failed (kept locally):', err.message); }
 
   // Forward to Formspree (if configured)

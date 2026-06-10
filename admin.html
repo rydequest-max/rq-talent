@@ -1258,9 +1258,10 @@ async function syncFromSupabase() {
   try {
     const { data, error } = await sb.from('candidates').select('id,data');
     if (error) throw error;
-    const remote = (data || []).map(r => r.data).filter(Boolean);
+    const isDemo = c => /@example\.com$/i.test((c && c.email) || '');   // old built-in sample data
+    const remote = (data || []).map(r => r.data).filter(Boolean).filter(c => !isDemo(c));
     const remoteIds = new Set(remote.map(c => c.id));
-    const localOnly = loadAll().filter(c => c && c.id && !remoteIds.has(c.id));
+    const localOnly = loadAll().filter(c => c && c.id && !remoteIds.has(c.id) && !isDemo(c));
     if (localOnly.length) {
       const rows = localOnly.map(c => ({ id: c.id, data: c, updated_at: new Date().toISOString() }));
       try { await sb.from('candidates').upsert(rows); } catch (e) { console.warn('upload local-only failed:', e.message); }
@@ -2831,26 +2832,40 @@ function openProfile(id) {
   const cvDl = document.getElementById('pmCvDownload');
   const cvOpen = document.getElementById('pmCvOpen');
   if (c.cv && c.cv.data) {
-    cvHeading.style.display = 'block';
-    cvPrev.style.display = 'block';
-    document.getElementById('pmCvNameLabel').textContent = c.cv.name || 'cv';
-    cvDl.href = c.cv.data; cvDl.download = c.cv.name || 'cv';
-    cvOpen.href = c.cv.data;
-    const isPdf = /\.pdf$|application\/pdf/i.test((c.cv.name || '') + ';' + c.cv.data.slice(0, 80));
-    if (isPdf) {
-      cvFrame.style.display = 'block';
-      cvFallback.style.display = 'none';
-      cvFrame.src = c.cv.data;
-    } else {
-      cvFrame.style.display = 'none';
-      cvFrame.removeAttribute('src');
-      cvFallback.style.display = 'block';
-    }
+    renderCvPreview(c.cv.name, c.cv.data);       // legacy/in-memory data URL
+  } else if (c.cv && c.cv.name) {
+    loadCvFromCloud(c.id, c.cv.name);            // fetch the original from the side-table
   } else {
     cvHeading.style.display = 'none'; cvPrev.style.display = 'none';
     cvFrame.removeAttribute('src');
   }
   document.getElementById('profileModal').classList.add('show');
+}
+/* Render a CV data URL into the profile preview (PDF inline, others as download). */
+function renderCvPreview(name, dataUrl) {
+  document.getElementById('pmCvHeading').style.display = 'block';
+  document.getElementById('pmCvPreview').style.display = 'block';
+  document.getElementById('pmCvNameLabel').textContent = name || 'cv';
+  const cvFrame = document.getElementById('pmCvFrame'), cvFallback = document.getElementById('pmCvFallback');
+  const cvDl = document.getElementById('pmCvDownload'), cvOpen = document.getElementById('pmCvOpen');
+  cvDl.href = dataUrl; cvDl.download = name || 'cv'; cvOpen.href = dataUrl;
+  const isPdf = /\.pdf$|application\/pdf/i.test((name || '') + ';' + String(dataUrl).slice(0, 80));
+  if (isPdf) { cvFrame.style.display = 'block'; cvFallback.style.display = 'none'; cvFrame.src = dataUrl; }
+  else { cvFrame.style.display = 'none'; cvFrame.removeAttribute('src'); cvFallback.style.display = 'block'; }
+}
+/* Originals live in the candidate_files side-table (keeps the pool lightweight).
+   Fetch on demand when a profile is opened. */
+async function loadCvFromCloud(id, name) {
+  const heading = document.getElementById('pmCvHeading'), prev = document.getElementById('pmCvPreview');
+  heading.style.display = 'block'; prev.style.display = 'block';
+  document.getElementById('pmCvNameLabel').textContent = (name || 'cv') + ' · loading…';
+  document.getElementById('pmCvFrame').removeAttribute('src');
+  try {
+    if (!sb) throw new Error('offline');
+    const { data, error } = await sb.from('candidate_files').select('data').eq('candidate_id', id).maybeSingle();
+    if (error || !data || !data.data) { heading.style.display = 'none'; prev.style.display = 'none'; return; }
+    renderCvPreview(name, data.data);
+  } catch (e) { heading.style.display = 'none'; prev.style.display = 'none'; }
 }
 function closeProfile() {
   document.getElementById('profileModal').classList.remove('show');
@@ -3491,7 +3506,11 @@ async function bulkAttachCvs(files) {
         return parts.length && fn.includes(parts[0]) && fn.includes(parts[parts.length - 1]);
       });
     }
-    if (c) { c.cv = { name: f.name, data }; n++; }
+    if (c) {
+      c.cv = { name: f.name };   // keep the pool light — the blob goes to the side-table
+      try { if (sb) await sb.from('candidate_files').upsert({ candidate_id: c.id, data, updated_at: new Date().toISOString() }); } catch (e) { console.warn('CV upload failed:', e.message); }
+      n++;
+    }
   }
   saveAll(pool); CANDIDATES = pool;
   if (link) { link.textContent = 'Attached ' + n + ' CV' + (n === 1 ? '' : 's'); setTimeout(() => { link.textContent = 'Attach original CVs'; }, 3000); }
