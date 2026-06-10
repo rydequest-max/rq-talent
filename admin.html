@@ -2051,6 +2051,37 @@ const SKILL_ALIASES = {
   // Construction
   'bim':'bim', 'autocad':'autocad', 'revit':'revit', 'tekla':'tekla',
   'fidic':'fidic',
+  // Turbomachinery / rotating equipment
+  'turbomachinery':'turbomachinery', 'turbo machinery':'turbomachinery',
+  'turbine':'turbine', 'gas turbine':'turbine', 'steam turbine':'turbine', 'turbines':'turbine',
+  'compressor':'compressor', 'compressors':'compressor', 'centrifugal compressor':'compressor', 'reciprocating compressor':'compressor',
+  'rotating equipment':'rotating equipment', 'rotor':'rotating equipment', 'impeller':'rotating equipment',
+  'pump':'pump', 'pumps':'pump', 'centrifugal pump':'pump',
+  // QA/QC & NDT
+  'qa/qc':'qa/qc', 'qaqc':'qa/qc', 'qa qc':'qa/qc',
+  'quality control':'quality control', 'quality assurance':'quality assurance',
+  'ndt':'ndt', 'ndt level ii':'asnt level ii', 'asnt':'asnt level ii', 'asnt level ii':'asnt level ii',
+  'rt':'radiographic testing', 'radiography':'radiographic testing', 'radiographic testing':'radiographic testing',
+  'ut':'ultrasonic testing', 'ultrasonic testing':'ultrasonic testing',
+  'mt':'magnetic particle testing', 'magnetic particle':'magnetic particle testing', 'mpi':'magnetic particle testing',
+  'pt':'dye penetrant testing', 'dye penetrant':'dye penetrant testing', 'penetrant testing':'dye penetrant testing', 'dpt':'dye penetrant testing',
+  'cswip':'cswip', 'cswip 3.1':'cswip', 'cswip 3.2':'cswip', 'bgas':'bgas', 'pcn':'pcn',
+  'aws cwi':'aws cwi', 'cwi':'aws cwi', 'nace':'nace', 'bgas painting':'coating inspection', 'coating inspection':'coating inspection',
+  'visual inspection':'visual inspection', 'dimensional inspection':'dimensional inspection', 'dimensional':'dimensional inspection',
+  // Machine shop / metrology
+  'cmm':'cmm', 'coordinate measuring machine':'cmm', 'faro':'faro', 'faro arm':'faro',
+  'micrometer':'micrometer', 'vernier':'micrometer', 'fits and tolerances':'fits and tolerances',
+  'machining':'machining', 'machined':'machining', 'cnc':'cnc', 'machine shop':'machine shop', 'lathe':'machining',
+  'precision inspection':'precision inspection', 'pmi':'pmi', 'hardness testing':'hardness testing',
+  // Codes / standards
+  'api 5ct':'api 5ct', 'api 5b':'api 5b', 'api 7-1':'api 7-1', 'api 7-2':'api 7-2',
+  'api 510':'api 510', 'api 570':'api 570', 'api 653':'api 653', 'api 1104':'api 1104',
+  'asme':'asme', 'asme ix':'asme ix', 'asme b31.3':'asme b31.3', 'thread inspection':'thread inspection',
+  'wps':'wps', 'pqr':'pqr', 'itp':'itp', 'wpqr':'pqr',
+  // Mechanical disciplines
+  'welding inspection':'welding inspection', 'welding':'welding', 'piping':'piping', 'structural':'structural',
+  'mechanical':'mechanical', 'hydrotest':'hydrotest', 'hydrostatic test':'hydrotest',
+  'shutdown':'shutdown', 'turnaround':'turnaround', 'pressure vessel':'pressure vessel', 'heat treatment':'heat treatment',
 };
 function normSkill(s) {
   const k = String(s||'').trim().toLowerCase().replace(/[.,;:]+$/,'').replace(/\s+/g,' ').replace(/\s*\([^)]*\)\s*/g, ' ').trim();
@@ -2382,9 +2413,10 @@ function scoreCandidate(c, jd) {
       reasons.miss.push(`role mismatch (${escape(c.job)})`);
     }
   }
-  // Skills — canonicalised on both sides, word-boundary matched in bio/title
+  // Skills — canonicalised on both sides; match against the candidate's listed
+  // skills plus the full CV text (so evidence buried in the CV body still counts).
   const candSkills = normSkillSet(c.skills || []);
-  const candHay = ((c.bio||'') + ' ' + (c.job||'')).toLowerCase();
+  const candHay = ((c.bio||'') + ' ' + (c.job||'') + ' ' + (c.cvText||'')).toLowerCase();
   const hasSkill = s => candSkills.has(s) || skillInText(s, candHay);
   let mustMatched = [], mustMissed = [];
   jd.mustSkills.forEach(s => { (hasSkill(s) ? mustMatched : mustMissed).push(s); });
@@ -3026,6 +3058,8 @@ const INDUSTRY_SYNONYMS = {
   "tech":"Technology / Software","software":"Technology / Software","developer":"Technology / Software","ml":"Technology / Software",
   "fintech":"Financial Services / Fintech","finance":"Financial Services / Fintech","banking":"Financial Services / Fintech","payments":"Financial Services / Fintech",
   "oil":"Energy / Oil & Gas","gas":"Energy / Oil & Gas","petroleum":"Energy / Oil & Gas","lng":"Energy / Oil & Gas","energy":"Energy / Oil & Gas",
+  "turbine":"Energy / Oil & Gas","compressor":"Energy / Oil & Gas","rotating equipment":"Energy / Oil & Gas","turbomachinery":"Energy / Oil & Gas","refinery":"Energy / Oil & Gas","petrochemical":"Energy / Oil & Gas",
+  "machining":"Manufacturing / Industrial","machine shop":"Manufacturing / Industrial","fabrication":"Manufacturing / Industrial","cnc":"Manufacturing / Industrial","precision":"Manufacturing / Industrial",
   "renewable":"Renewables / Cleantech","solar":"Renewables / Cleantech","wind":"Renewables / Cleantech","cleantech":"Renewables / Cleantech",
   "construction":"Construction / Infrastructure","infrastructure":"Construction / Infrastructure","civil":"Construction / Infrastructure",
   "real estate":"Real Estate / PropTech","healthcare":"Healthcare / Pharma","pharma":"Healthcare / Pharma","clinical":"Healthcare / Pharma",
