@@ -943,6 +943,8 @@ select.lj-chip { appearance:none; padding-right:28px; }
       <div class="links">
         <a onclick="document.getElementById('brandLogoInput').click()" id="brandLogoLink">Set RydeQuest logo</a>
         <input type="file" id="brandLogoInput" accept="image/png,image/jpeg,image/svg+xml" style="display:none" onchange="setBrandLogo(this.files[0])">
+        <a onclick="document.getElementById('cvAddInput').click()" id="cvAddLink"><strong>＋ Bulk add from CVs</strong></a>
+        <input type="file" id="cvAddInput" accept=".pdf,.doc,.docx,.txt" multiple style="display:none" onchange="bulkAddCandidates(this.files)">
         <a onclick="document.getElementById('cvBulkInput').click()" id="cvBulkLink">Attach original CVs</a>
         <input type="file" id="cvBulkInput" accept=".pdf,.doc,.docx" multiple style="display:none" onchange="bulkAttachCvs(this.files)">
         <a onclick="exportAll()">Export all (JSON)</a>
@@ -1196,6 +1198,7 @@ select.lj-chip { appearance:none; padding-right:28px; }
 </aside>
 
 <script src="cv-generator.js"></script>
+<script src="cv-parser.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -3485,6 +3488,56 @@ function setBrandLogo(file) {
     if (link) { link.textContent = 'Logo set ✓'; setTimeout(() => { link.textContent = 'Set RydeQuest logo'; }, 2500); }
   };
   r.readAsDataURL(file);
+}
+
+/* Bulk-add NEW candidates from a batch of CV files: parse each into a profile,
+   create the candidate, store the original in the side-table. De-dupes by email. */
+async function bulkAddCandidates(files) {
+  if (!files || !files.length) return;
+  const link = document.getElementById('cvAddLink');
+  const setLink = t => { if (link) link.innerHTML = t; };
+  if (!window.RQParse) { alert('CV parser is still loading — please try again in a moment.'); return; }
+  const total = files.length;
+  const pool = loadAll();
+  const seenEmail = new Set(pool.map(c => (c.email || '').toLowerCase()).filter(Boolean));
+  const takenIds = new Set(pool.map(c => (c.appId || '').toUpperCase()));
+  const newAppId = () => { const ch = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ'; for (let a = 0; a < 50; a++) { let id = 'RQ-'; for (let i = 0; i < 5; i++) id += ch[Math.floor(Math.random() * ch.length)]; if (!takenIds.has(id)) { takenIds.add(id); return id; } } return 'RQ-' + Date.now().toString(36).toUpperCase(); };
+  const readDataUrl = f => new Promise(res => { const r = new FileReader(); r.onload = () => res(r.result); r.onerror = () => res(''); r.readAsDataURL(f); });
+  let added = 0, dup = 0, failed = 0, i = 0;
+  for (const f of Array.from(files)) {
+    i++; setLink(`Parsing ${i}/${total}…`);
+    try {
+      const text = await window.RQParse.extractCVText(f);
+      if (!text || text.trim().length < 30) { failed++; continue; }
+      const p = window.RQParse.parseProfile(text) || {};
+      const email = (p.email || '').toLowerCase();
+      if (email && seenEmail.has(email)) { dup++; continue; }
+      if (email) seenEmail.add(email);
+      const id = 'c_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6);
+      const rec = {
+        id, appId: newAppId(),
+        name: p.name || f.name.replace(/\.[^.]+$/, ''), email: p.email || '', phone: p.phone || '',
+        country: p.country || '', city: p.city || '', linkedin: p.linkedin || '',
+        industry: p.industry || '', job: p.job || '', years: p.years || '6-10', seniority: p.seniority || 'Mid',
+        skills: p.skills || [], bio: p.bio || '',
+        photo: '', cv: { name: f.name }, cvText: (text || '').slice(0, 20000),
+        appliedAt: Date.now(), status: 'New', statusHistory: [{ from: null, to: 'New', ts: Date.now() }],
+      };
+      // original file → side-table (keeps the pool light)
+      if (sb) {
+        const dataUrl = await readDataUrl(f);
+        if (dataUrl) { try { await sb.from('candidate_files').insert({ candidate_id: id, data: dataUrl, updated_at: new Date().toISOString() }); } catch (e) { console.warn('CV file upload failed:', e.message); } }
+      }
+      pool.unshift(rec); added++;
+    } catch (e) { console.warn('Bulk add failed for', f.name, e.message || e); failed++; }
+  }
+  setLink('Saving…');
+  saveAll(pool); CANDIDATES = pool;     // pushes the light records to the shared pool
+  try { await syncFromSupabase(); } catch (e) {}
+  renderAdmin();
+  setLink(`Added ${added}${dup ? ` · ${dup} duplicate` : ''}${failed ? ` · ${failed} unreadable` : ''} ✓`);
+  setTimeout(() => setLink('<strong>＋ Bulk add from CVs</strong>'), 6000);
+  document.getElementById('cvAddInput').value = '';
 }
 
 /* Attach original CV files to existing candidates, matched by filename. */
