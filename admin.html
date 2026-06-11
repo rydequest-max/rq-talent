@@ -1071,6 +1071,23 @@ select.lj-chip { appearance:none; padding-right:28px; }
         <button class="btn" id="pmAtsBtn" onclick="generateAtsCv()" title="Reformat into a branded, ATS-friendly Word CV (.docx)">
           <span class="material-symbols-outlined">auto_awesome</span> RydeQuest CV (Word)
         </button>
+        <div id="pmPackWrap" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+          <label style="display:flex;align-items:center;gap:5px;font-size:12px;color:var(--secondary);cursor:pointer;" title="Hide the candidate's name and nationality for a blind submission">
+            <input type="checkbox" id="pmPackAnon"> Anonymize
+          </label>
+          <select id="pmPackSub" title="Submission context — who the pack is for" style="font-size:12px;padding:5px 6px;border-radius:8px;border:1px solid var(--surface);background:var(--surface-low);color:inherit;">
+            <option value="general" selected>General</option>
+            <option value="operator">Operator</option>
+            <option value="epc">EPC</option>
+          </select>
+          <select id="pmPackEng" title="Engagement type" style="font-size:12px;padding:5px 6px;border-radius:8px;border:1px solid var(--surface);background:var(--surface-low);color:inherit;">
+            <option value="staff" selected>Staff</option>
+            <option value="contract">Contract</option>
+          </select>
+          <button class="btn" id="pmPackBtn" onclick="generateRqPack()" title="Generate a branded, client-ready candidate pack (PDF) via PackGen running on your Mac">
+            <span class="material-symbols-outlined">picture_as_pdf</span> RydeQuest Pack (PDF)
+          </button>
+        </div>
         <button class="btn ghost" onclick="deleteCandidate()" style="color:var(--warn);margin-left:auto;">
           <span class="material-symbols-outlined">delete</span> Delete
         </button>
@@ -3562,6 +3579,71 @@ async function generateAtsCv() {
     console.error(e);
     alert('Could not generate the CV: ' + (e.message || e));
     btn.innerHTML = prev; btn.disabled = false;
+  }
+}
+
+/* Build a branded candidate pack (PDF) by POSTing the candidate's stored
+   original CV to PackGen (the local Flask app at localhost:5071). Takes
+   ~15-30s; returns the PDF directly, which we download. */
+async function generateRqPack() {
+  const c = CANDIDATES.find(x => x.id === currentProfileId);
+  if (!c) return;
+  if (!c.cv || !c.cv.name) { alert('This candidate has no original CV on file to build a pack from.'); return; }
+  const btn = document.getElementById('pmPackBtn');
+  const prev = btn.innerHTML;
+  const stop = () => { btn.innerHTML = prev; btn.disabled = false; };
+  btn.disabled = true;
+  btn.innerHTML = '<span class="material-symbols-outlined">progress_activity</span> Building pack… (15-30s)';
+  try {
+    // Get the original CV as a data URL: in-memory (legacy) or the side-table.
+    let dataUrl = (c.cv && c.cv.data) || null;
+    if (!dataUrl) {
+      if (!sb) throw new Error('NO_CV');
+      const { data, error } = await sb.from('candidate_files').select('data').eq('candidate_id', c.id).maybeSingle();
+      if (error || !data || !data.data) throw new Error('NO_CV');
+      dataUrl = data.data;
+    }
+    const fileBlob = await (await fetch(dataUrl)).blob();
+    const cvFile = new File([fileBlob], c.cv.name, { type: fileBlob.type || 'application/octet-stream' });
+
+    const fd = new FormData();
+    fd.append('cv', cvFile);
+    if (document.getElementById('pmPackAnon').checked) fd.append('anonymize', 'true');
+    fd.append('submission_type', document.getElementById('pmPackSub').value);
+    fd.append('engagement_type', document.getElementById('pmPackEng').value);
+
+    let resp;
+    try {
+      resp = await fetch('http://localhost:5071/api/generate', { method: 'POST', body: fd });
+    } catch (netErr) {
+      throw new Error('PACKGEN_DOWN');  // server unreachable → fetch rejects
+    }
+    if (!resp.ok) {
+      let msg = 'PackGen returned an error (' + resp.status + ').';
+      try { const j = await resp.json(); if (j && j.error) msg = j.error; } catch (e) {}
+      throw new Error(msg);
+    }
+
+    const pdfBlob = await resp.blob();
+    const safeName = String(c.name || 'Candidate').replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '_') || 'Candidate';
+    const url = URL.createObjectURL(pdfBlob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'RydeQuest_Pack_' + safeName + '.pdf';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 4000);
+
+    btn.innerHTML = '<span class="material-symbols-outlined">check_circle</span> Pack downloaded';
+    setTimeout(stop, 2400);
+  } catch (e) {
+    if (e.message === 'PACKGEN_DOWN') {
+      alert("PackGen isn't running — start it on your Mac and try again.");
+    } else if (e.message === 'NO_CV') {
+      alert("Could not load this candidate's original CV file to build a pack from.");
+    } else {
+      console.error(e);
+      alert('Could not generate the pack: ' + (e.message || e));
+    }
+    stop();
   }
 }
 function setBrandLogo(file) {
