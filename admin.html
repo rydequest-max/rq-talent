@@ -375,6 +375,14 @@ header.topbar {
   padding: 6px 10px; background: linear-gradient(135deg, rgba(111,60,255,0.06), rgba(163,102,255,0.10));
   border-radius: var(--r-md); font-size: 12px; line-height: 1.4; color: var(--on-surface); font-style: italic; }
 .mc-why .material-symbols-outlined { font-size: 14px; color: #6f3cff; flex-shrink: 0; margin-top: 1px; }
+.mc-elig { display: flex; flex-direction: column; gap: 4px; margin-top: 6px; }
+.mc-elig-chip { display: inline-flex; align-items: center; gap: 5px; padding: 4px 9px;
+  background: #fde2e1; color: #b42318; border: 1px solid #f7c5c2; border-radius: var(--r-md);
+  font-size: 11px; font-weight: 600; line-height: 1.3; }
+.mc-elig-chip .material-symbols-outlined { font-size: 14px; flex-shrink: 0; }
+.lj-elig { font-size: 11px; color: #b42318; font-weight: 600; margin-top: 3px; display: flex; align-items: center; gap: 4px; }
+.lj-elig .material-symbols-outlined { font-size: 13px; vertical-align: -2px; }
+.lj-status { font-size: 12px; color: var(--secondary); font-weight: 600; align-self: center; }
 
 /* Today panel — NBA + dedup warnings */
 .today-panel { background: var(--surface-lowest); border-radius: var(--r-xl); box-shadow: var(--ambient);
@@ -884,6 +892,8 @@ select.lj-chip { appearance:none; padding-right:28px; }
         <button class="lj-chip" data-ind="Technology / Software" onclick="ljSetIndustry(this,'Technology / Software')">Technology</button>
         <button class="lj-chip" data-ind="Energy / Oil & Gas" onclick="ljSetIndustry(this,'Energy / Oil &amp; Gas')">Energy</button>
         <button class="lj-chip hot" id="ljBestFitChip" onclick="ljToggleBestFit(this)" title="Only show jobs where someone in your pool is a 60%+ match"><span class="material-symbols-outlined" style="font-size:16px;">star</span> Best fit for my pool</button>
+        <button class="lj-chip" id="ljSemChip" onclick="ljToggleSemantic(this)" title="Rank candidates per job by meaning, not just keywords. Loads a small model in your browser the first time (~23MB, then cached)."><span class="material-symbols-outlined" style="font-size:16px;">hub</span> Semantic</button>
+        <span id="ljStatus" class="lj-status"></span>
         <select class="lj-chip" id="ljSort" onchange="renderLiveJobs()">
           <option value="new">Newest</option>
           <option value="match">Best candidate match</option>
@@ -947,6 +957,7 @@ select.lj-chip { appearance:none; padding-right:28px; }
         <input type="file" id="cvAddInput" accept=".pdf,.doc,.docx,.txt" multiple style="display:none" onchange="bulkAddCandidates(this.files)">
         <a onclick="document.getElementById('cvBulkInput').click()" id="cvBulkLink">Attach original CVs</a>
         <input type="file" id="cvBulkInput" accept=".pdf,.doc,.docx" multiple style="display:none" onchange="bulkAttachCvs(this.files)">
+        <a onclick="aiEnrichPool()" id="aiEnrichLink" title="Re-structure existing candidates with AI from their stored CV text — upgrades older records to the richer schema (skills, nationality, seniority).">✦ AI-enrich pool</a>
         <a onclick="exportAll()">Export all (JSON)</a>
         <a onclick="confirmReset()">Clear all candidates</a>
       </div>
@@ -1118,6 +1129,10 @@ select.lj-chip { appearance:none; padding-right:28px; }
       <div class="match-bar">
         <span class="match-meta" id="matchMeta">Type or paste, then hit <strong>Match</strong>. Cmd/Ctrl+Enter also works.</span>
         <div style="display:flex;align-items:center;gap:12px;">
+          <label class="ai-toggle" id="semWrap" title="Rank by meaning, not just keywords. Loads a small model in your browser the first time (~23MB, then cached).">
+            <input type="checkbox" id="semToggle" onchange="onSemToggle(this)">
+            <span><span class="material-symbols-outlined">hub</span> Semantic</span>
+          </label>
           <label class="ai-toggle" id="aiRerankWrap" style="display:none;">
             <input type="checkbox" id="aiRerankToggle" checked>
             <span><span class="material-symbols-outlined">auto_awesome</span> AI re-rank</span>
@@ -2392,6 +2407,9 @@ function parseJD(text) {
   ['arabic','french','spanish','german','italian','portuguese','mandarin','hindi','urdu','farsi','swahili','yoruba','english','turkish','malay'].forEach(l => {
     if (new RegExp('\\b' + l + '\\b').test(lower)) out.languages.add(l);
   });
+  // Eligibility constraints (nationality rule + mandatory location).
+  out.natRule = detectNationalityRule(lower);
+  out.locationMandatory = /\b(must be (?:based|located)|based in|locally (?:available|based)|local candidates|no relocation|candidates? must be (?:in|based))\b/.test(lower);
   // Bio token set (for keyword overlap scoring)
   out.bioTokens = new Set(bioTokens(text));
   return out;
@@ -2445,6 +2463,54 @@ function maxPossibleScore(jd) {
   return m;
 }
 
+/* Detect a nationality rule in a JD ("UAE Nationals Only", "Saudis preferred",
+   "open to GCC nationals"). Returns {country, level:'only'|'preferred', label}
+   or null. Common in GCC postings and currently invisible to scoring. */
+function detectNationalityRule(text) {
+  const NAT = {
+    emirati:'United Arab Emirates', emiratis:'United Arab Emirates', uae:'United Arab Emirates',
+    saudi:'Saudi Arabia', saudis:'Saudi Arabia', ksa:'Saudi Arabia',
+    qatari:'Qatar', qataris:'Qatar', kuwaiti:'Kuwait', kuwaitis:'Kuwait',
+    bahraini:'Bahrain', bahrainis:'Bahrain', omani:'Oman', omanis:'Oman', gcc:'GCC',
+  };
+  let m = text.match(/\b(emiratis?|uae|saudis?|ksa|qataris?|kuwaitis?|bahrainis?|omanis?|gcc)\s+nationals?\b\s*(only|preferred)?/);
+  if (!m) m = text.match(/\b(?:only|open to|reserved for)\s+(emiratis?|uae|saudis?|ksa|qataris?|kuwaitis?|bahrainis?|omanis?|gcc)\s+nationals?\b/);
+  if (!m) return null;
+  const country = NAT[m[1]];
+  if (!country) return null;
+  const level = (m[2] === 'preferred') ? 'preferred' : 'only';
+  return { country, level, label: country === 'GCC' ? 'GCC' : country };
+}
+
+/* Eligibility check — returns {warn:[...], penalty:points}. Never blocks; the
+   penalty just reorders and the warning tells the recruiter to verify. */
+function eligibility(c, jd) {
+  const warn = []; let penalty = 0;
+  const first = (c.name || '').split(/\s+/)[0] || 'this candidate';
+  if (jd.natRule) {
+    const req = jd.natRule.country;
+    // Prefer the candidate's actual nationality (now captured by AI structuring);
+    // fall back to residence country as a proxy when it's unknown.
+    const natCountry = c.nationality ? (DEMONYMS[String(c.nationality).toLowerCase()] || c.country) : c.country;
+    const ok = req === 'GCC' ? (REGION_MAP['GCC'] || []).includes(natCountry) : (natCountry === req);
+    if (!ok) {
+      const verb = c.nationality ? '' : ' — verify';   // if we know nationality, no "verify" hedge
+      if (jd.natRule.level === 'only') { penalty += 15; warn.push(`Role restricted to ${jd.natRule.label} nationals${verb ? verb + ` ${first}'s eligibility` : ` (${first}: ${c.nationality})`}`); }
+      else { penalty += 6; warn.push(`Role prefers ${jd.natRule.label} nationals${verb ? verb + ' eligibility' : ` (${first}: ${c.nationality})`}`); }
+    }
+  }
+  if (jd.locationMandatory && (jd.country || jd.regions.size)) {
+    const inCountry = jd.country && c.country === jd.country;
+    let inRegion = false;
+    for (const r of jd.regions) { if ((REGION_MAP[r] || []).includes(c.country)) { inRegion = true; break; } }
+    if (!inCountry && !inRegion) {
+      penalty += 10;
+      warn.push(`Role requires being based in ${jd.country || [...jd.regions].join('/')} — ${first} is in ${c.country || 'an unknown location'}`);
+    }
+  }
+  return { warn, penalty };
+}
+
 function scoreCandidate(c, jd) {
   const reasons = { good: [], miss: [] };
   let score = 0;
@@ -2457,17 +2523,24 @@ function scoreCandidate(c, jd) {
     else if (industriesRelated(ci, jd.industry)) { score += Math.round(MATCH_WEIGHTS.industry * 0.5); reasons.good.push(`related sector (${shortIndustry(ci)})`); }
     else reasons.miss.push(`industry mismatch (${shortIndustry(ci)} vs ${shortIndustry(jd.industry)})`);
   }
-  // Seniority
+  // Seniority — unknown candidate seniority scores NEUTRALLY (a small partial),
+  // never as a hard mismatch, so an unparsed CV isn't wrongly buried.
   if (jd.seniorities.size) {
-    const ss = seniorityScore(c.seniority, jd.seniorities);
-    if (ss) { score += ss; reasons.good.push(`${c.seniority}-level`); }
-    else reasons.miss.push(`seniority off (${c.seniority || 'n/a'} vs ${[...jd.seniorities].join('/')})`);
+    if (!c.seniority) { score += Math.round(MATCH_WEIGHTS.seniority * 0.4); reasons.miss.push('seniority not stated'); }
+    else {
+      const ss = seniorityScore(c.seniority, jd.seniorities);
+      if (ss) { score += ss; reasons.good.push(`${c.seniority}-level`); }
+      else reasons.miss.push(`seniority off (${c.seniority} vs ${[...jd.seniorities].join('/')})`);
+    }
   }
-  // Years
+  // Years — same: unknown years is neutral, not a penalty.
   if (jd.years != null) {
-    const ys = yearsScore(c.years, jd.years);
-    if (ys) { score += ys; reasons.good.push(`${(c.years||'').replace('-','–')} yrs (target ${jd.years})`); }
-    else reasons.miss.push(`years off (target ${jd.years}, has ${(c.years||'?').replace('-','–')})`);
+    if (!c.years) { score += Math.round(MATCH_WEIGHTS.years * 0.4); reasons.miss.push('years not stated'); }
+    else {
+      const ys = yearsScore(c.years, jd.years);
+      if (ys) { score += ys; reasons.good.push(`${(c.years||'').replace('-','–')} yrs (target ${jd.years})`); }
+      else reasons.miss.push(`years off (target ${jd.years}, has ${(c.years||'?').replace('-','–')})`);
+    }
   }
   // Title (length-tolerant similarity on synonym-normalized tokens)
   if (jd.titleTokens.size && c.job) {
@@ -2537,6 +2610,13 @@ function scoreCandidate(c, jd) {
       reasons.miss.push(`no language match`);
     }
   }
+  // ── Eligibility (nationality restriction / mandatory location). The pool's
+  //    `country` conflates residence and nationality, so this is NEVER a hard
+  //    block — it's a modest rank penalty plus a loud "verify" warning the
+  //    recruiter acts on. Stops "UAE Nationals Only" roles ranking ineligible
+  //    candidates as Strong fit with no flag. ──
+  const elig = eligibility(c, jd);
+  score -= elig.penalty;
   // ── Fit score is final here. Recency and pipeline status are PIPELINE signals,
   //    not fit — they bias ranking only, so the fit % stays stable over time. ──
   const fit = Math.max(0, Math.round(score));
@@ -2546,7 +2626,7 @@ function scoreCandidate(c, jd) {
   if (isCold(c)) { rank -= 3; reasons.miss.push(`going cold`); }
   if ((c.status||'New') === 'Archived') { rank -= 15; reasons.miss.push('archived'); }
   if ((c.status||'New') === 'Placed') { rank -= 8; reasons.miss.push('already placed'); }
-  return { score: fit, rankScore: Math.max(0, Math.round(rank)), reasons, mustMatched, mustMissed, niceMatched, niceMissed };
+  return { score: fit, rankScore: Math.max(0, Math.round(rank)), reasons, elig: elig.warn, mustMatched, mustMissed, niceMatched, niceMissed };
 }
 
 function describeJD(jd) {
@@ -2565,6 +2645,8 @@ function describeJD(jd) {
     [...jd.niceSkills].slice(0,5).forEach(s => parts.push(`<span class="chip" style="background:#fff3cf;color:#7a5700;">nice · ${escape(s)}</span>`));
   }
   [...jd.languages].forEach(l => parts.push(`<span class="chip">${escape(l)}</span>`));
+  if (jd.natRule) parts.push(`<span class="chip" style="background:#fde2e1;color:#b42318;">${escape(jd.natRule.label)} nationals ${jd.natRule.level}</span>`);
+  if (jd.locationMandatory) parts.push(`<span class="chip" style="background:#fde2e1;color:#b42318;">must be on-location</span>`);
   return parts.length ? `<div>I parsed:</div><div class="chips">${parts.join('')}</div>` : `<div>Couldn't pick up strong signals — try a more detailed JD.</div>`;
 }
 
@@ -2583,16 +2665,23 @@ function closeMatchModal() {
   document.getElementById('matchModal').classList.remove('show');
 }
 
-/* Optional Claude rerank — when API key is set and the toggle is on. */
+/* Claude rerank — the precision+recall layer. It now sees a WIDER slate (the
+   top heuristic candidates BEFORE the tier cutoff, so good people the keyword
+   pass under-rates can still be rescued) and REAL evidence per candidate (a CV
+   text excerpt, full skills, and any eligibility warning), not just a 300-char
+   bio. The heuristic only orders who gets sent; Claude decides the final fit. */
 async function claudeRerank(jd, topResults) {
-  const slim = topResults.slice(0, 20).map(r => ({
+  const slim = topResults.slice(0, 30).map(r => ({
     id: r.c.id, name: r.c.name, country: r.c.country, industry: r.c.industry,
-    job: r.c.job, seniority: r.c.seniority, years: r.c.years,
-    skills: r.c.skills, bio: (r.c.bio || '').slice(0, 300),
+    job: r.c.job, seniority: r.c.seniority || 'not stated', years: r.c.years || 'not stated',
+    skills: r.c.skills,
+    bio: (r.c.bio || '').slice(0, 300),
+    cv_excerpt: (r.c.cvText || '').replace(/\s+/g, ' ').slice(0, 700),
+    eligibility_flags: (r.elig && r.elig.length) ? r.elig : undefined,
     heuristic_score: r.score,
   }));
-  const system = `You are a senior technical recruiter. Re-rank these candidates against the job description by their TRUE fit (skills overlap, role-equivalence, seniority, location, language). Reply with strict JSON only: {"ranked":[{"id":"<id>","score":<0-100>,"why":"<one short sentence>"}, ...]}. Include only candidates worth interviewing for this role. JSON only.`;
-  const data = await claudeProxy({ model:'claude-haiku-4-5-20251001', max_tokens:1400, system, messages:[{role:'user', content:`JD:\n${document.getElementById('matchJD').value}\n\nCandidates: ${JSON.stringify(slim)}`}] });
+  const system = `You are a senior technical recruiter screening a talent pool against one job description. Rank candidates by their TRUE fit — weigh skills/tooling overlap, role-equivalence (a "Rotating Equipment Engineer" fits a "Turbomachinery Engineer" role), seniority, years, location and language. Use the cv_excerpt as evidence, not just the listed skills. Treat "not stated" fields as unknown, not as disqualifying. RESPECT eligibility_flags: if a candidate carries a nationality/location restriction flag, only rank them if they could plausibly satisfy it, and say so in "why". Score 0-100 where 75+ = strong, 55-74 = good, below 40 = don't surface. Reply with STRICT JSON only: {"ranked":[{"id":"<id>","score":<0-100>,"why":"<one short, specific sentence>"}, ...]}, best first, excluding anyone not worth interviewing. JSON only.`;
+  const data = await claudeProxy({ model:'claude-haiku-4-5-20251001', max_tokens:2600, system, messages:[{role:'user', content:`JD:\n${document.getElementById('matchJD').value}\n\nCandidates: ${JSON.stringify(slim)}`}] });
   let txt = (data.content && data.content[0] && data.content[0].text || '').trim();
   if (txt.startsWith('```')) txt = txt.replace(/^```(?:json)?/,'').replace(/```$/,'').trim();
   const parsed = JSON.parse(txt);
@@ -2784,6 +2873,70 @@ function tierFor(score, maxPossible) {
   return null;
 }
 
+/* ════════════════════════════════════════════════════════════════════════════
+ *  SEMANTIC EMBEDDINGS — in-browser recall layer (Transformers.js).
+ *  Ranks candidates by MEANING, catching synonyms/paraphrase the keyword scorer
+ *  misses ("container orchestration" ≈ "Kubernetes", "rotating equipment" ≈
+ *  "turbomachinery"). Runs fully client-side — no API key, no server, CV text
+ *  never leaves the browser. Model + vectors are cached; degrades gracefully to
+ *  keyword+AI if it can't load.
+ * ══════════════════════════════════════════════════════════════════════════ */
+let RQ_EMBEDDER = null, RQ_EMBED_LOADING = null, SEM_READY = false;
+const RQ_EMB_KEY = 'rq_emb_v1';
+const RQ_EMB_MODEL = 'Xenova/all-MiniLM-L6-v2';
+
+function semStatus(msg) { const el = document.getElementById('matchMeta'); if (el && msg) el.innerHTML = msg; }
+
+async function loadEmbedder() {
+  if (RQ_EMBEDDER) return RQ_EMBEDDER;
+  if (!RQ_EMBED_LOADING) {
+    RQ_EMBED_LOADING = (async () => {
+      const mod = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
+      mod.env.allowLocalModels = false;
+      const pipe = await mod.pipeline('feature-extraction', RQ_EMB_MODEL, { quantized: true });
+      RQ_EMBEDDER = pipe; SEM_READY = true;
+      return pipe;
+    })();
+  }
+  return RQ_EMBED_LOADING;
+}
+
+async function embedText(text) {
+  const pipe = await loadEmbedder();
+  const out = await pipe(String(text || '').slice(0, 4000), { pooling: 'mean', normalize: true });
+  return Array.from(out.data);   // 384-dim unit vector
+}
+function cosineUnit(a, b) { if (!a || !b || a.length !== b.length) return 0; let s = 0; for (let i = 0; i < a.length; i++) s += a[i] * b[i]; return s; }
+function candEmbedText(c) { return [c.job, (c.skills || []).join(', '), c.bio, (c.cvText || '').slice(0, 1500)].filter(Boolean).join('. '); }
+function strHash(s) { let h = 0; s = String(s || ''); for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return h; }
+function loadEmbCache() { try { return JSON.parse(localStorage.getItem(RQ_EMB_KEY) || '{}'); } catch (e) { return {}; } }
+function saveEmbCache(m) { try { localStorage.setItem(RQ_EMB_KEY, JSON.stringify(m)); } catch (e) {} }
+
+/* Embed the whole pool; cached by text-hash so only changed candidates recompute. */
+async function ensurePoolEmbeddings(onProgress) {
+  await loadEmbedder();
+  const cache = loadEmbCache();
+  const out = {};
+  const pending = [];
+  CANDIDATES.forEach(c => {
+    const t = candEmbedText(c); const h = strHash(t); const hit = cache[c.id];
+    if (hit && hit.h === h) out[c.id] = hit.v; else pending.push({ c, t, h });
+  });
+  let done = 0;
+  for (const { c, t, h } of pending) {
+    try { const v = await embedText(t); cache[c.id] = { h, v }; out[c.id] = v; } catch (e) {}
+    done++; if (onProgress && (done % 5 === 0 || done === pending.length)) onProgress(`Embedding candidates ${done}/${pending.length}…`);
+  }
+  if (pending.length) saveEmbCache(cache);
+  return out;
+}
+
+async function onSemToggle(el) {
+  if (!el.checked) return;
+  try { semStatus('Loading semantic model (one-time ~23MB, then cached)…'); await loadEmbedder(); semStatus('Semantic matching ready — hit <strong>Match</strong>.'); }
+  catch (e) { console.warn('embedder load failed', e); el.checked = false; semStatus('Couldn\'t load the semantic model — check your connection. Keyword matching still works.'); }
+}
+
 async function runMatch() {
   const text = (document.getElementById('matchJD').value || '').trim();
   const out = document.getElementById('matchResults');
@@ -2795,26 +2948,53 @@ async function runMatch() {
   try { localStorage.setItem('rq_last_jd', text); } catch(e) {}
   const jd = parseJD(text);
   const maxScore = maxPossibleScore(jd);
-  let scored = CANDIDATES.map(c => ({ c, ...scoreCandidate(c, jd) }))
-    .filter(x => {
-      const t = tierFor(x.score, maxScore);
-      return t !== null; // hide weak-fit and below
-    })
+  // Score everyone, ranked. `allScored` keeps sub-tier candidates so the AI
+  // layer can rescue good people the keyword pass under-rated; `scored` is the
+  // heuristic-visible set (tier bar) shown when AI is off.
+  const allScored = CANDIDATES.map(c => ({ c, ...scoreCandidate(c, jd) }))
     .sort((a, b) => b.rankScore - a.rankScore);
+  let scored = allScored.filter(x => tierFor(x.score, maxScore) !== null);
   let top = scored.slice(0, 15);
+
+  // Semantic blend (in-browser embeddings) — recall layer. Lifts candidates
+  // whose MEANING matches even when keywords don't, and rescues strong semantic
+  // matches that missed the keyword tier bar entirely.
+  const useSem = document.getElementById('semToggle')?.checked;
+  let semBadge = '';
+  if (useSem) {
+    runBtn.disabled = true; runBtn.innerHTML = '<span class="material-symbols-outlined">progress_activity</span> Embedding…';
+    try {
+      const embMap = await ensurePoolEmbeddings(m => semStatus(m));
+      const jdVec = await embedText(text);
+      allScored.forEach(x => { const v = embMap[x.c.id]; x.sem = v ? cosineUnit(jdVec, v) : 0; });
+      allScored.forEach(x => { x.rankScore = Math.round(x.rankScore + Math.max(0, x.sem) * 30); });
+      allScored.sort((a, b) => b.rankScore - a.rankScore);
+      const SEM_FLOOR = 0.35;
+      const tierVisible = new Set(scored.map(x => x.c.id));
+      allScored.filter(x => x.sem >= SEM_FLOOR && !tierVisible.has(x.c.id))
+               .forEach(x => x.reasons.good.push(`semantic match (${Math.round(x.sem * 100)}%)`));
+      scored = allScored.filter(x => tierFor(x.score, maxScore) !== null || x.sem >= SEM_FLOOR)
+                        .sort((a, b) => b.rankScore - a.rankScore);
+      top = scored.slice(0, 15);
+      semBadge = `<span class="ai-badge"><span class="material-symbols-outlined">hub</span>semantic</span>`;
+    } catch (e) { console.warn('semantic match failed:', e); semStatus('Semantic step failed — showing keyword results.'); }
+    finally { runBtn.disabled = false; runBtn.innerHTML = '<span class="material-symbols-outlined">tune</span> Match'; }
+  }
 
   // Optional Claude rerank — when API key is set and the toggle is on
   const useAI = document.getElementById('aiRerankToggle')?.checked && AI_ENABLED;
   let aiBadge = '';
-  if (useAI && scored.length) {
+  if (useAI && allScored.length) {
     runBtn.disabled = true; runBtn.innerHTML = '<span class="material-symbols-outlined">progress_activity</span> AI re-ranking…';
     try {
-      const ranked = await claudeRerank(jd, scored.slice(0, 20));
+      // Send the top 30 by heuristic rank — including candidates below the tier
+      // bar — so the AI's recall isn't capped by the keyword filter.
+      const ranked = await claudeRerank(jd, allScored.slice(0, 30));
       // Build a map from id → AI score & why
       const aiMap = new Map();
       ranked.forEach(r => aiMap.set(r.id, r));
-      // Keep only candidates Claude included; sort by AI score
-      const merged = scored
+      // Merge from allScored (not scored) so rescued sub-tier candidates survive.
+      const merged = allScored
         .filter(s => aiMap.has(s.c.id))
         .map(s => ({ ...s, aiScore: aiMap.get(s.c.id).score, aiWhy: aiMap.get(s.c.id).why }))
         .sort((a, b) => b.aiScore - a.aiScore);
@@ -2834,9 +3014,10 @@ async function runMatch() {
   const vagueNote = vague
     ? `<div style="margin-top:10px;padding:8px 12px;background:var(--warn-fixed);color:var(--warn);border-radius:var(--r-lg);font-size:12px;font-weight:600;">⚠ This JD is light on specifics — add must-have skills, years, or location for sharper ranking.</div>`
     : '';
+  const poolSeen = (useAI || useSem) ? Math.max(scored.length, top.length) : scored.length;
   const summary = `<div class="match-summary">
-    <strong>${top.length}</strong> candidate${top.length===1?'':'s'} with a meaningful match${scored.length > top.length ? ` (showing top 15 of ${scored.length})` : ''}.
-    ${aiBadge}
+    <strong>${top.length}</strong> candidate${top.length===1?'':'s'} with a meaningful match${poolSeen > top.length ? ` (showing top 15 of ${poolSeen})` : ''}.
+    ${semBadge}${aiBadge}
     ${describeJD(jd)}
     ${vagueNote}
   </div>`;
@@ -2844,16 +3025,23 @@ async function runMatch() {
     const c = r.c;
     const initial = (c.name || '?')[0].toUpperCase();
     const photo = c.photo ? `<img src="${c.photo}" alt="">` : `<span>${escape(initial)}</span>`;
-    const displayScore = r.aiScore != null ? r.aiScore : r.score;
-    const tier = tierFor(useAI && r.aiScore != null ? Math.round(maxScore * (r.aiScore/100)) : r.score, maxScore) || { key:'t-weak', label:'—' };
+    // Score shown: AI score if reranked, else keyword fit, else (semantic-only
+    // candidate with no keyword overlap) the semantic similarity %.
+    const displayScore = r.aiScore != null ? r.aiScore : (r.score > 0 ? r.score : (r.sem ? Math.round(r.sem * 100) : r.score));
+    const tier = tierFor(useAI && r.aiScore != null ? Math.round(maxScore * (r.aiScore/100)) : r.score, maxScore)
+      || (r.sem >= 0.35 ? { key: r.sem >= 0.55 ? 't-ok' : 't-weak', label: 'Semantic' } : { key:'t-weak', label:'—' });
     const goods = r.reasons.good.map(g => `<span class="good">✓ ${escape(g)}</span>`).join(' &nbsp;·&nbsp; ');
     const misses = r.reasons.miss.map(m => `<span class="miss">– ${escape(m)}</span>`).join(' &nbsp;·&nbsp; ');
     const whyAI = r.aiWhy ? `<div class="mc-why"><span class="material-symbols-outlined">auto_awesome</span>${escape(r.aiWhy)}</div>` : '';
+    const eligWarn = (r.elig && r.elig.length)
+      ? `<div class="mc-elig">${r.elig.map(w => `<span class="mc-elig-chip"><span class="material-symbols-outlined">gpp_maybe</span>${escape(w)}</span>`).join('')}</div>`
+      : '';
     return `<div class="match-card" onclick="closeMatchModal();openProfile('${c.id}')">
       <div class="mc-avatar">${photo}</div>
       <div>
         <div class="mc-name">${escape(c.name)} <span class="status-pill" data-status="${escape(c.status||'New')}">${escape(c.status||'New')}</span></div>
         <div class="mc-meta">${escape(c.job)} · ${escape((c.city?c.city+', ':'')+c.country)} · ${escape(shortIndustry(c.industry))}</div>
+        ${eligWarn}
         ${whyAI}
         <div class="mc-reasons">${goods}${goods && misses ? ' &nbsp;·&nbsp; ' : ''}${misses}</div>
       </div>
@@ -3321,6 +3509,40 @@ function askSuggest(text) { document.getElementById('chatInput').value = text; a
 let LJ_DATA = { jobs: [] }, LJ_LOADED = false, LJ_ERROR = false;
 let LJ_FILTER = { industry: '', bestfit: false };
 const LJ_FIT_THRESHOLD = 0.60;   // 60%+ counts as a strong/good fit
+// Semantic matching state for the jobs tab (reuses the embeddings engine above).
+let LJ_SEM = false, JOB_EMB = {}, LJ_POOL_EMB = {};
+const RQ_JOB_EMB_KEY = 'rq_job_emb_v1';
+function ljSemStatus(msg) { const el = document.getElementById('ljStatus'); if (el) el.textContent = msg || ''; }
+function jobEmbedText(j) { return [j.title, (j.skills || []).join(', '), (j.description || '').slice(0, 1500)].filter(Boolean).join('. '); }
+function loadJobEmbCache() { try { return JSON.parse(localStorage.getItem(RQ_JOB_EMB_KEY) || '{}'); } catch (e) { return {}; } }
+function saveJobEmbCache(m) { try { localStorage.setItem(RQ_JOB_EMB_KEY, JSON.stringify(m)); } catch (e) {} }
+
+/* Ensure embeddings exist for the pool + the given jobs (cached by text-hash). */
+async function ljEnsureEmbeddings(jobs) {
+  LJ_POOL_EMB = await ensurePoolEmbeddings(m => ljSemStatus(m));
+  const cache = loadJobEmbCache();
+  const pending = [];
+  jobs.forEach(j => { const t = jobEmbedText(j); const h = strHash(t); const hit = cache[j.id]; if (hit && hit.h === h) JOB_EMB[j.id] = hit.v; else pending.push({ j, t, h }); });
+  let done = 0;
+  for (const { j, t, h } of pending) {
+    try { const v = await embedText(t); cache[j.id] = { h, v }; JOB_EMB[j.id] = v; } catch (e) {}
+    done++; if (done % 10 === 0 || done === pending.length) ljSemStatus(`Embedding jobs ${done}/${pending.length}…`);
+  }
+  if (pending.length) saveJobEmbCache(cache);
+  ljSemStatus('');
+}
+
+async function ljToggleSemantic(el) {
+  if (!LJ_SEM) {
+    el.classList.add('active');
+    LJ_SEM = true;
+    try { ljSemStatus('Loading semantic model (one-time ~23MB)…'); await loadEmbedder(); }
+    catch (e) { console.warn('embedder load failed', e); LJ_SEM = false; el.classList.remove('active'); ljSemStatus('Couldn\'t load semantic model — keyword matching still works.'); return; }
+  } else {
+    LJ_SEM = false; el.classList.remove('active'); ljSemStatus('');
+  }
+  renderLiveJobs();
+}
 
 function showSection(name) {
   const isJobs = name === 'jobs';
@@ -3363,6 +3585,7 @@ async function loadLiveJobs(force) {
   // Merge in manually-added jobs (persist across scraper runs)
   const manual = ljManualJobs();
   LJ_DATA.jobs = manual.concat((LJ_DATA.jobs || []).filter(j => String(j.id || '').indexOf('manual_') !== 0));
+  LJ_DATA.jobs = rqPruneOldJobs(LJ_DATA.jobs);
   CANDIDATES = loadAll();
   renderLiveJobsStats();
   renderLiveJobs();
@@ -3404,27 +3627,40 @@ function ljMatchedSkills(job, c) {
   return (c.skills || []).filter(s => ljSkillInText(s, text));
 }
 
-/* Match one job against the pool, reusing the portal's scoring engine. */
+/* Match one job against the pool, reusing the portal's scoring engine. When the
+   Semantic toggle is on and embeddings are ready, blend cosine similarity into
+   the rank and let a strong semantic match clear the bar even with no keyword
+   overlap (same logic as the "Match a job" modal). */
 function matchJobToCandidates(j) {
   const jd = parseJD(jobToJDText(j));
   const maxScore = maxPossibleScore(jd);
+  const jobVec = (LJ_SEM && JOB_EMB[j.id]) ? JOB_EMB[j.id] : null;
   const scored = CANDIDATES
     .map(c => {
       const r = scoreCandidate(c, jd);
-      const pct = maxScore > 0 ? r.score / maxScore : 0;
+      let pct = maxScore > 0 ? r.score / maxScore : 0;
+      let sem = 0;
+      if (jobVec) {
+        const v = LJ_POOL_EMB[c.id];
+        sem = v ? cosineUnit(jobVec, v) : 0;
+        r.rankScore = Math.round(r.rankScore + Math.max(0, sem) * 30);
+        pct = Math.max(pct, sem);   // strong semantic fit can clear the best-fit bar
+      }
       const matched = ljMatchedSkills(j, c);   // candidate skills the job references
-      return { c, ...r, tier: tierFor(r.score, maxScore), pct, matched };
+      let tier = tierFor(r.score, maxScore);
+      if (!tier && sem >= 0.35) tier = { key: sem >= 0.55 ? 't-ok' : 't-weak', label: 'Semantic' };
+      return { c, ...r, tier, pct, sem, matched };
     })
     .sort((a, b) => b.rankScore - a.rankScore);
   const cleared = scored.filter(x => x.tier);
   if (cleared.length) return { list: cleared.slice(0, 4), below: false, cleared: cleared.length, top: cleared[0] };
   // Nothing clears the bar — show the 3 closest, greyed, so it's never blank.
-  return { list: scored.slice(0, 3).filter(x => x.score > 0), below: true, cleared: 0, top: scored[0] };
+  return { list: scored.slice(0, 3).filter(x => x.score > 0 || x.sem >= 0.35), below: true, cleared: 0, top: scored[0] };
 }
 
 function ljFmtDate(d) { try { return new Date(d).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); } catch (e) { return ''; } }
 
-function renderLiveJobs() {
+async function renderLiveJobs() {
   const grid = document.getElementById('ljGrid');
   const jobs = LJ_DATA.jobs || [];
   if (!jobs.length) {
@@ -3442,6 +3678,12 @@ function renderLiveJobs() {
   let list = jobs.slice();
   if (LJ_FILTER.industry) list = list.filter(j => j.industry === LJ_FILTER.industry);
   if (q) list = list.filter(j => (j.title + ' ' + j.company + ' ' + j.location + ' ' + (j.skills || []).join(' ') + ' ' + (j.description || '')).toLowerCase().includes(q));
+
+  // Semantic: ensure embeddings for the pool + the filtered jobs before scoring.
+  // Cached by text-hash, so only the first pass over new jobs actually embeds.
+  if (LJ_SEM && CANDIDATES.length) {
+    try { await ljEnsureEmbeddings(list); } catch (e) { console.warn('lj semantic embed failed', e); }
+  }
 
   list.forEach(j => j._m = matchJobToCandidates(j));
 
@@ -3474,6 +3716,8 @@ function renderLiveJobs() {
                 <div class="nm">${escape(x.c.name)} <span class="rl">· ${escape(tier.label)}</span></div>
                 <div class="rl">${escape(x.c.job || '')} · ${escape(x.c.country || '')}</div>
                 ${showSkills ? `<div class="lj-skillmatch"><span class="material-symbols-outlined">check_circle</span> Matches: ${escape(x.matched.slice(0, 6).join(', '))}</div>` : ''}
+                ${(LJ_SEM && x.sem >= 0.35 && !showSkills) ? `<div class="lj-skillmatch" style="color:#6f3cff;"><span class="material-symbols-outlined">hub</span> Semantic match (${Math.round(x.sem * 100)}%)</div>` : ''}
+                ${(x.elig && x.elig.length) ? `<div class="lj-elig"><span class="material-symbols-outlined">gpp_maybe</span>${escape(x.elig[0])}</div>` : ''}
               </div>
               <span class="material-symbols-outlined" style="color:var(--outline)">arrow_outward</span>
             </div>`;
@@ -3511,6 +3755,23 @@ function ljManualJobs() {
 function ljSaveManualJobs(arr) {
   try { localStorage.setItem('rq_manual_jobs', JSON.stringify(arr)); }
   catch (e) { alert('Could not save the job — browser storage is full.'); }
+}
+
+// --- Auto-prune: drop roles posted more than RQ_MAX_JOB_AGE_DAYS ago ---
+const RQ_MAX_JOB_AGE_DAYS = 21; // 3 weeks
+function rqPruneOldJobs(jobs) {
+  const cutoff = Date.now() - RQ_MAX_JOB_AGE_DAYS * 86400000;
+  let removed = 0;
+  const kept = (jobs || []).filter(j => {
+    const raw = j && j.posted;
+    if (!raw || raw === 'None') return true;           // undated → keep (can't prove age)
+    const t = Date.parse(String(raw).slice(0, 19));
+    if (isNaN(t)) return true;                           // unparseable → keep
+    if (t < cutoff) { removed++; return false; }         // older than 3 weeks → drop
+    return true;
+  });
+  if (removed) console.log('[RQ] Auto-pruned ' + removed + ' job(s) older than ' + RQ_MAX_JOB_AGE_DAYS + ' days.');
+  return kept;
 }
 function ljToggleBestFit(el) {
   LJ_FILTER.bestfit = !LJ_FILTER.bestfit;
@@ -3659,6 +3920,41 @@ function setBrandLogo(file) {
 
 /* Bulk-add NEW candidates from a batch of CV files: parse each into a profile,
    create the candidate, store the original in the side-table. De-dupes by email. */
+/* Re-structure the EXISTING pool with AI from each candidate's stored CV text.
+   Upgrades older/regex-parsed records to the richer schema (better skills,
+   real seniority/years/industry, nationality, visa) — which is what the matcher
+   actually consumes. No re-upload needed; cvText is already stored. */
+async function aiEnrichPool() {
+  if (!AI_ENABLED) { alert('AI structuring needs the AI connection (sign in first).'); return; }
+  const link = document.getElementById('aiEnrichLink');
+  const set = t => { if (link) link.innerHTML = t; };
+  const targets = CANDIDATES.filter(c => (c.cvText || '').trim().length >= 40);
+  if (!targets.length) { alert('No candidates have stored CV text to re-structure. New bulk-added CVs are AI-structured automatically.'); return; }
+  if (!confirm(`Re-structure ${targets.length} candidate(s) with AI from their stored CVs?\n\nThis refreshes skills, seniority, years, industry, nationality and summary. Manual edits to those fields will be overwritten.`)) return;
+  const keep = (nv, ov) => (nv && String(nv).trim()) ? nv : ov;
+  let done = 0, failed = 0;
+  for (const c of targets) {
+    done++; set(`Enriching ${done}/${targets.length}…`);
+    try {
+      const p = await window.RQParse.aiStructureProfile(c.cvText, claudeProxy);
+      c.name = keep(p.name, c.name); c.job = keep(p.job, c.job);
+      c.city = keep(p.city, c.city); c.country = keep(p.country, c.country);
+      c.nationality = keep(p.nationality, c.nationality); c.visa = keep(p.visa, c.visa);
+      c.industry = keep(p.industry, c.industry); c.years = keep(p.years, c.years); c.seniority = keep(p.seniority, c.seniority);
+      c.email = keep(c.email, p.email); c.phone = keep(c.phone, p.phone); c.linkedin = keep(c.linkedin, p.linkedin);
+      if (Array.isArray(p.skills) && p.skills.length) c.skills = p.skills;
+      if (Array.isArray(p.languages) && p.languages.length) c.languages = p.languages;
+      c.bio = keep(p.bio, c.bio);
+      c._aiStructured = true;
+    } catch (e) { console.warn('enrich failed for', c.id, e && e.message); failed++; }
+  }
+  saveAll(CANDIDATES);                       // localStorage + Supabase upsert
+  try { localStorage.removeItem(RQ_EMB_KEY); } catch (e) {}   // texts changed → re-embed next match
+  renderAdmin();
+  set(`Enriched ${done - failed}${failed ? ` · ${failed} failed` : ''} ✓`);
+  setTimeout(() => set('✦ AI-enrich pool'), 6000);
+}
+
 async function bulkAddCandidates(files) {
   if (!files || !files.length) return;
   const link = document.getElementById('cvAddLink');
@@ -3672,11 +3968,12 @@ async function bulkAddCandidates(files) {
   const readDataUrl = f => new Promise(res => { const r = new FileReader(); r.onload = () => res(r.result); r.onerror = () => res(''); r.readAsDataURL(f); });
   let added = 0, dup = 0, failed = 0, i = 0;
   for (const f of Array.from(files)) {
-    i++; setLink(`Parsing ${i}/${total}…`);
+    i++; setLink(`${AI_ENABLED ? 'Structuring' : 'Parsing'} ${i}/${total}…`);
     try {
       const text = await window.RQParse.extractCVText(f);
       if (!text || text.trim().length < 30) { failed++; continue; }
-      const p = window.RQParse.parseProfile(text) || {};
+      // AI structuring (reuses PackGen's brain) when available; regex fallback otherwise.
+      const p = await window.RQParse.structureProfile(text, AI_ENABLED ? claudeProxy : null) || {};
       const email = (p.email || '').toLowerCase();
       if (email && seenEmail.has(email)) { dup++; continue; }
       if (email) seenEmail.add(email);
@@ -3685,7 +3982,8 @@ async function bulkAddCandidates(files) {
         id, appId: newAppId(),
         name: p.name || f.name.replace(/\.[^.]+$/, ''), email: p.email || '', phone: p.phone || '',
         country: p.country || '', city: p.city || '', linkedin: p.linkedin || '',
-        industry: p.industry || '', job: p.job || '', years: p.years || '6-10', seniority: p.seniority || 'Mid',
+        nationality: p.nationality || '', visa: p.visa || '', languages: p.languages || [],
+        industry: p.industry || '', job: p.job || '', years: p.years || '', seniority: p.seniority || '',
         skills: p.skills || [], bio: p.bio || '',
         photo: '', cv: { name: f.name }, cvText: (text || '').slice(0, 20000),
         appliedAt: Date.now(), status: 'New', statusHistory: [{ from: null, to: 'New', ts: Date.now() }],

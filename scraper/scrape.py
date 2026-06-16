@@ -218,6 +218,33 @@ def is_shutdown(title, desc):
     return any(term in blob for term in SHUTDOWN_TERMS)
 
 
+_NAT_MAP = {
+    "emirati": "United Arab Emirates", "uae": "United Arab Emirates",
+    "saudi": "Saudi Arabia", "ksa": "Saudi Arabia", "qatari": "Qatar",
+    "kuwaiti": "Kuwait", "bahraini": "Bahrain", "omani": "Oman", "gcc": "GCC",
+}
+_NAT_RE = re.compile(
+    r"\b(emiratis?|uae|saudis?|ksa|qataris?|kuwaitis?|bahrainis?|omanis?|gcc)\s+nationals?\b\s*(only|preferred)?",
+    re.I,
+)
+
+
+def detect_nationals_only(title, desc):
+    """Detect a nationality restriction ('UAE Nationals Only', 'Saudis preferred').
+    Returns {"country": ..., "level": "only"|"preferred"} or None. The portal also
+    detects this from JD text, but tagging it here makes it explicit + reliable."""
+    blob = (" " + (title or "") + " " + (desc or "") + " ")
+    m = _NAT_RE.search(blob)
+    if not m:
+        return None
+    key = m.group(1).lower().rstrip("s") if m.group(1).lower() not in ("uae", "ksa", "gcc") else m.group(1).lower()
+    country = _NAT_MAP.get(key) or _NAT_MAP.get(m.group(1).lower())
+    if not country:
+        return None
+    level = "preferred" if (m.group(2) or "").lower() == "preferred" else "only"
+    return {"country": country, "level": level}
+
+
 def extract_skills(title, desc):
     blob = (" " + (title or "") + " " + (desc or "") + " ").lower()
     found = []
@@ -285,6 +312,7 @@ def normalize(*, source, title, company, location, description, url,
         "skills": extract_skills(title, desc),
         "seniority": detect_seniority(title),
         "shutdown": is_shutdown(title, desc),
+        "nationals_only": detect_nationals_only(title, desc),
         "posted": posted,
     }
 
@@ -781,6 +809,43 @@ def load_existing():
         return {}
 
 
+def _dedupe_key(j):
+    """Identity of a posting independent of which board surfaced it:
+    normalized company + title + city."""
+    def norm(s):
+        return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+    return (norm(j.get("company")), norm(j.get("title")), norm(j.get("city")))
+
+
+def dedupe_jobs(jobs):
+    """Collapse near-identical postings. Within a group, keep the richest record
+    (longest description) but preserve the earliest first_seen so age is honest."""
+    groups = {}
+    for j in jobs:
+        k = _dedupe_key(j)
+        if not k[0] or not k[1]:        # no company or title → can't safely dedupe
+            groups[id(j)] = [j]
+            continue
+        groups.setdefault(k, []).append(j)
+    out = []
+    for grp in groups.values():
+        if len(grp) == 1:
+            out.append(grp[0]); continue
+        best = max(grp, key=lambda x: len(x.get("description") or ""))
+        first_seens = [x.get("first_seen") for x in grp if x.get("first_seen")]
+        if first_seens:
+            best["first_seen"] = min(first_seens)
+        # union the skills across the duplicate records
+        skills = []
+        for x in grp:
+            for s in (x.get("skills") or []):
+                if s not in skills:
+                    skills.append(s)
+        best["skills"] = skills[:25]
+        out.append(best)
+    return out
+
+
 def main():
     cfg = load_config()
     target = set(cfg.get("target_countries", []))
@@ -824,6 +889,10 @@ def main():
             except Exception:
                 pass
         merged.append(j)
+
+    # collapse cross-source duplicates (same role posted on two boards keeps two
+    # different ids, so the id-merge above never catches them)
+    merged = dedupe_jobs(merged)
 
     # newest first by first_seen
     merged.sort(key=lambda x: x.get("first_seen", ""), reverse=True)
