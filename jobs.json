@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-28T06:22:49.087992+00:00",
-  "count": 469,
-  "shutdown_count": 39,
+  "generated_at": "2026-06-29T06:53:17.151867+00:00",
+  "count": 448,
+  "shutdown_count": 31,
   "by_country": {
-    "United Arab Emirates": 469
+    "United Arab Emirates": 448
   },
   "by_industry": {
-    "Construction / Infrastructure": 133,
-    "Financial Services / Fintech": 124,
-    "Other": 72,
+    "Financial Services / Fintech": 120,
+    "Construction / Infrastructure": 119,
+    "Other": 70,
     "Energy / Oil & Gas": 37,
-    "Technology / Software": 36,
+    "Technology / Software": 35,
     "Other service activities": 33,
     "Construction": 6,
     "Transportation and storage": 5,
@@ -24,7 +24,7 @@
     "Public administration and defence; compulsory social security": 1
   },
   "sources": [
-    "Jooble (62)",
+    "Jooble (65)",
     "Careerjet (skipped: no CAREERJET_API_KEY)",
     "Workday (65)",
     "SmartRecruiters (50)",
@@ -35,6 +35,113 @@
     "RSS (0)"
   ],
   "jobs": [
+    {
+      "id": "smartrecruiters_10ff606fbe5443",
+      "title": "Quantity Surveyor - MEP",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Job Description AECOM are seeking an experienced MEP Quantity Surveyor, to join our team in Dubai, United Arab Emirates. The successful candidate will play a crucial role in ensuring the financial success of our projects by providing accurate cost estimations, managing contracts, and optimizing project costs.&#xa0; Responsibilities: &#xa0; Assist with all aspects of MEP pre-contract services through concept, schematic and detailed design phases inclusive of measurement, cost planning and production of BoQ’s for construction projects.&#xa0; Assist with preparation of tender and contract documents.&#xa0; Assisting in and contributing to value engineering and viability studies.&#xa0; Assist in assessing, evaluating and making recommendations related to any financial claim and providing the necessary input with regards to settling such claims.&#xa0; Assist in evaluation all change management including variations, additional works, field changes, additions and omissions, and incorporation of the same within the monthly cost reports.&#xa0; Preparing and pricing Change Orders and negotiating agreement with the client and contractor as necessary.&#xa0; Conducting viability studies and cost estimates.&#xa0; Provide assistance to the team during negotiations, arbitration, or any other forms of dispute resolution. Degree qualified in Mechanical, Electrical or Quantity Survey degree. 5 years MEP post qualification work experience, Middle East experience is preferable.&#xa0;",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000134694369-quantity-surveyor-mep",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "electrical",
+        "estimation",
+        "contracts",
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-06-29T04:46:05.064Z",
+      "first_seen": "2026-06-29T06:53:17.151867+00:00",
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
+    },
+    {
+      "id": "smartrecruiters_164036d14587b2",
+      "title": "Inspector - Architectural",
+      "company": "AECOM",
+      "location": "Ras al Khaimah, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "Monitoring and ensuring that all architectural engineering aspects of the project are carried out as per inspection plan/drawings/codes and specifications. Liaising with the Senior Architectural&#xa0; Engineer and other Engineers and Managers to provide support and guidance as required Review and monitor variations to the work to mitigate time and cost impacts for any required changes Monitor the review of the contractor’s documents/shop drawings to flag and rectify any issues which may affect the stability or function of any architectural components or systems. Monitor contractor’s compliance with approved Quality Control Plan. Monitor the project related protocol set up for Inspection of works by the inspection teams. Monitor safety aspects when dealing with architectural&#xa0; installations Provide reports on the progress of the architectural aspects of the project. Assist in expediting of NOCs from relevant authorities if they appear to be stalled or in delay Maintain full site records, including daily site diaries in an approved format, and formal monthly progress photography. Expedition of approvals from the Client if it appears to be stalled or delaying the project Liaising with the management of the various contractors to expedite submissions and approvals process. Perform and or evaluate tests confirming quality requirements, architectural finishes and building components by conducting thorough site inspection for all architectural works as per approved shop drawings, specifications and method statement. Field checks placement, location and quality of architectural finishes, building structure components. Monitor contractor’s compliance with approved Quality Control Plan. Coordinating with the team on site to ensure that contractual obligations are met. Perform Architectural inspections and material inspections. Issue NCRs to contractors and assist in taking corrective actions. Ensure that all inspection reports are accurate and in compliance with the requirements. Ensure that all execution and inspection are carried out as per inspection plan/drawings/codes and specifications. Ensure compliance of architectural works to design requirements, specifications and project plan. Preparing daily logs and reports. Maintain records of all submittals and testing inspections made, tests performed, work executed, etc. Performing all work in accordance with the Contract Administration Procedures Manual. Assisting with the inspection of completed works. Perform all other duties given by direct manager. Monitoring and reporting on HSE related matters and participating in HSE training and meetings &#xa0; Bachelor Degree or Diploma in Architecture or relevant degree Minimum 5 to 7 years of experience in building construction",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000134243280-inspector-architectural",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "quality control",
+        "expediting",
+        "construction",
+        "hse"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-06-25T11:40:34.587Z",
+      "first_seen": "2026-06-29T06:53:17.151867+00:00",
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
+    },
+    {
+      "id": "smartrecruiters_0e3371e75e662e",
+      "title": "Resident Engineer",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "Leads the delivery (time, cost, quality) of assigned package. Supervise the contractors to ensure the works are constructed as per specification and to established milestone dates. Manage and direct the supervision team to undertake day to day inspections of the works. Maintain a very high level of Safety awareness and ensure the contractor complies with his obligations.&#xa0; Capable of administering the FIDIC based contract or standalone Contracts Resolves site issues &#xa0; Presents progress and package issues to client team.&#xa0;&#xa0; Discuss changes to the scope of work with the Client and key subcontractors. Responsible for following up on instructions & commitments associated with the project Establishes Project Execution Plan, Health & Safety Plan, Quality Control Plan and other documents in relation to our scope Establishes the program requirements for all areas of the project and monitors site staff performance Plans, directs, supervises and controls the execution of all technical, fiscal and administrative functions of the project and the site team Assigns responsibility to key subordinates in their respective fields of expertise Provides input to performance reviews and develop plans for subordinates Work with other managers, project engineers and discipline Heads to develop budgets, schedules and plans for the various elements of the project Monitors and reports to management on the progress of all project activities within the program, including significant milestones and any conditions, which would affect project cost, schedule, performance or Client relation Establishes internal weekly meetings to review project status and formulate action items Performs other responsibilities associated with this position in line with AECOM policies and procedures Represent the company in Client meetings. Monitor Health and Safety of the construction works and lead to address violations Bachelor's degree in Civil Engineering or related field; Master's degree preferred Minimum of 20 years of experience in building engineering, with a focus on managing large-scale projects Proven track record in overseeing complex building projects in the Middle East In-depth knowledge of UAE construction standards, regulations, and best practices Strong understanding of building development, construction methodologies, and quality control processes Excellent project management skills, including budget and schedule management Advanced problem-solving and analytical abilities, with a keen eye for detail Outstanding leadership and team management skills Strong technical report writing and communication abilities Experience working in a fast-paced environment and managing multiple projects simultaneously Willingness to work on-site and travel as required for project needs Familiarity with local building codes and regulations in the UAE Ability to adapt to changing project requirements and implement innovative solutions",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000133506749-resident-engineer",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "quality control",
+        "civil",
+        "project management",
+        "contracts",
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-06-23T05:20:44.867Z",
+      "first_seen": "2026-06-29T06:53:17.151867+00:00",
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
+    },
+    {
+      "id": "smartrecruiters_e19a898dda9dbf",
+      "title": "Design Coordinator - Underground Structures (Rail)",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "To coordinate the design development and delivery of underground structures, ensuring alignment with project requirements, technical standards, and stakeholder expectations. Key Responsibilities Coordinate multidisciplinary design inputs for underground structures including tunnels, shafts, and retaining systems Manage design interfaces between civil, structural, geotechnical, and MEP disciplines Review design submissions for compliance with project specifications and applicable standards Support value engineering and constructability reviews Track design progress and ensure timely delivery against programme milestones Liaise with contractors, consultants, and internal teams to resolve design issues Support risk identification and mitigation during the design phase Experience Minimum of 10 years of experience in underground structures design coordination or related field Experience on large scale infrastructure or rail projects is advantageous Engineering Degree",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000133377067-design-coordinator-underground-structures-rail-",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "structural"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-06-22T13:59:43.582Z",
+      "first_seen": "2026-06-29T06:53:17.151867+00:00",
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
+    },
     {
       "id": "smartrecruiters_d1441a84984e85",
       "title": "Inspector - Structural",
@@ -61,7 +168,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T07:08:51.122Z",
       "first_seen": "2026-06-28T06:22:49.087992+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_83d31be148e406",
@@ -94,7 +201,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T11:18:53.776Z",
       "first_seen": "2026-06-27T05:57:15.482279+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_e19b682c4be77a",
@@ -120,7 +227,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T07:57:23.303Z",
       "first_seen": "2026-06-27T05:57:15.482279+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_3c793020201ee3",
@@ -144,7 +251,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T07:14:15.378Z",
       "first_seen": "2026-06-27T05:57:15.482279+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_16e755ab7d3675",
@@ -166,7 +273,7 @@
       "nationals_only": null,
       "posted": "2026-03-03T15:20:27.176000+00:00",
       "first_seen": "2026-06-27T05:57:15.482279+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_24ce20204115e3",
@@ -188,7 +295,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:20:20.8770000",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_81ff809d61c71f",
@@ -210,7 +317,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:20:21.0730000",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_c14f28e8883946",
@@ -237,7 +344,7 @@
       },
       "posted": "2026-05-22",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_d8d5b62a885993",
@@ -264,7 +371,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T05:56:01.133Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_f71018e99ccd17",
@@ -289,7 +396,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T14:49:14.003Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_9748106dabb630",
@@ -314,7 +421,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T12:40:55.602Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_7cd0253a006925",
@@ -339,7 +446,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T12:31:50.334Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_7e462e921775ce",
@@ -364,7 +471,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T09:11:08.933Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_66dba93eb5b74f",
@@ -389,7 +496,7 @@
       },
       "posted": "2026-06-25T09:03:55.701Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_6aa2470c408f57",
@@ -413,7 +520,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:48:07.755Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_8ddc0a422ee9a5",
@@ -435,7 +542,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_4fe3dec3d52e54",
@@ -457,7 +564,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T05:52:51Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_c09c104146dc11",
@@ -479,7 +586,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T13:37:10Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_cf78ef142d6c37",
@@ -501,7 +608,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T13:14:25Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_98a9fdac5ee883",
@@ -525,7 +632,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T12:55:49Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_91ba0760aaa67a",
@@ -569,7 +676,7 @@
       "nationals_only": null,
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_7c93c0ad80e5d1",
@@ -594,7 +701,7 @@
       "nationals_only": null,
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_514a2d3c06a56b",
@@ -618,7 +725,7 @@
       "nationals_only": null,
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_ee57219b322917",
@@ -646,7 +753,7 @@
       },
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_74813d596ae3d0",
@@ -672,7 +779,7 @@
       "nationals_only": null,
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_5b104551b69278",
@@ -697,7 +804,7 @@
       "nationals_only": null,
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_f1df0a13e1c642",
@@ -724,7 +831,7 @@
       "nationals_only": null,
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_3ea036ee2ac33a",
@@ -746,7 +853,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_d82623b0725425",
@@ -768,7 +875,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T10:20:19Z",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_682c28f3264e7a",
@@ -790,7 +897,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T10:14:36Z",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_1e5b3350d431d5",
@@ -812,7 +919,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T09:58:36Z",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_4a72aea5ab435c",
@@ -834,7 +941,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T09:51:49Z",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_328fb0566cf6ae",
@@ -856,7 +963,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T09:43:03Z",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_100e199c383d76",
@@ -878,7 +985,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T03:45:22.8000000",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_9fad263f598f07",
@@ -922,7 +1029,7 @@
       "nationals_only": null,
       "posted": "2026-06-23",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_d2a4e824a960a5",
@@ -944,7 +1051,7 @@
       "nationals_only": null,
       "posted": "2026-06-23",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_fe1c1bd4a21e45",
@@ -995,7 +1102,7 @@
       "nationals_only": null,
       "posted": "2026-06-23",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_6853df037915fd",
@@ -1024,7 +1131,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T13:13:52.649Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_16ba3269531ab9",
@@ -1049,7 +1156,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T12:04:55.016Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_88b8aa03ee6b85",
@@ -1077,7 +1184,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T11:55:39.835Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_852334bc249030",
@@ -1103,7 +1210,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T08:37:04.952Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_5479644fa94fb2",
@@ -1125,7 +1232,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T05:36:14Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_bb774409ca920e",
@@ -1147,7 +1254,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T13:45:16Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_ff37f4ad7479a6",
@@ -1169,7 +1276,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T13:37:53Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_99924c3d29b614",
@@ -1191,7 +1298,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T13:19:25Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_2e7efbf6433a80",
@@ -1213,7 +1320,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T13:12:23Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_29d9d004f1f54b",
@@ -1237,7 +1344,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T07:32:54Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "greenhouse_d58550f02ed4b1",
@@ -1259,7 +1366,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T06:12:42-04:00",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_de6bbe6d18e1d1",
@@ -1281,7 +1388,7 @@
       "nationals_only": null,
       "posted": "2026-06-22T15:32:47.6130000",
       "first_seen": "2026-06-23T06:11:32.112928+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_432e644173a5cc",
@@ -1306,7 +1413,7 @@
       "nationals_only": null,
       "posted": "2026-06-22",
       "first_seen": "2026-06-23T06:11:32.112928+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_47de93a781d26c",
@@ -1333,7 +1440,7 @@
       "nationals_only": null,
       "posted": "2026-06-22",
       "first_seen": "2026-06-23T06:11:32.112928+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_edb7eabf2b8b67",
@@ -1384,7 +1491,7 @@
       "nationals_only": null,
       "posted": "2026-06-22",
       "first_seen": "2026-06-23T06:11:32.112928+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_e8717d7156da3d",
@@ -1434,7 +1541,7 @@
       "nationals_only": null,
       "posted": "2026-06-22T13:49:58Z",
       "first_seen": "2026-06-23T06:11:32.112928+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_b13f80d9cb2f94",
@@ -1456,7 +1563,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T06:58:56Z",
       "first_seen": "2026-06-23T06:11:32.112928+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_552bd748624646",
@@ -1484,7 +1591,7 @@
       },
       "posted": "2026-06-22",
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_876c1cfdbfa858",
@@ -1511,7 +1618,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T12:06:12.557Z",
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_0b895c08a3b788",
@@ -1536,7 +1643,7 @@
       "nationals_only": null,
       "posted": "2026-06-22T05:40:24.272Z",
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_d76300d1f2f000",
@@ -1558,7 +1665,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_fb8671dee3de6a",
@@ -1580,7 +1687,7 @@
       "nationals_only": null,
       "posted": "2026-06-21T08:12:10Z",
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_db5a22c3380289",
@@ -1683,7 +1790,7 @@
       "nationals_only": null,
       "posted": "2026-06-19T12:13:09.950Z",
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_226e7ab961ac99",
@@ -1708,7 +1815,7 @@
       "nationals_only": null,
       "posted": "2026-06-19T12:11:39.591Z",
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_5bdb0a73352cef",
@@ -1735,7 +1842,7 @@
       "nationals_only": null,
       "posted": "2026-06-19T12:01:16.065Z",
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_0b51dc5960ecaa",
@@ -1757,7 +1864,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_6a035e891db4d1",
@@ -1779,7 +1886,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_de9326d3cc6618",
@@ -1801,7 +1908,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_f022a4caaa7cc0",
@@ -1823,7 +1930,7 @@
       "nationals_only": null,
       "posted": "2026-06-19T13:55:35Z",
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_5fc0e5456cc51e",
@@ -1847,7 +1954,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T23:00:07Z",
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_fd5c2c0bd477c6",
@@ -1941,7 +2048,7 @@
       "nationals_only": null,
       "posted": "2026-06-19",
       "first_seen": "2026-06-19T07:11:21.715572+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_79ca0615bd0502",
@@ -2037,7 +2144,7 @@
       "nationals_only": null,
       "posted": "2026-06-18T11:28:30Z",
       "first_seen": "2026-06-19T07:11:21.715572+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_56274b72250265",
@@ -2059,7 +2166,7 @@
       "nationals_only": null,
       "posted": "2022-07-15T05:49:56.587000+00:00",
       "first_seen": "2026-06-19T07:11:21.715572+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_91216ff100c560",
@@ -2081,7 +2188,7 @@
       "nationals_only": null,
       "posted": "2026-06-17T03:29:17.2600000",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_198dfdb08f9291",
@@ -2109,7 +2216,7 @@
       },
       "posted": "2026-06-24",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_a1d5662ea89837",
@@ -2279,7 +2386,7 @@
       "nationals_only": null,
       "posted": "2026-06-17T10:57:32.218Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_bfbf1461da3ea9",
@@ -2387,7 +2494,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_0dd96d3ed97441",
@@ -2409,7 +2516,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_cd42138d9d3391",
@@ -2431,7 +2538,7 @@
       "nationals_only": null,
       "posted": "2026-06-17T13:51:23Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_c56e159d6778b0",
@@ -2453,7 +2560,7 @@
       "nationals_only": null,
       "posted": "2026-06-22T08:19:26Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_45fa2fe3a14cfd",
@@ -2475,7 +2582,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T07:51:03.6600000",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_80308b9c65c71c",
@@ -2497,7 +2604,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T07:51:04.1030000",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_f2b28fbeec51b2",
@@ -2519,7 +2626,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T07:51:03.9100000",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_59b0ebb04a5602",
@@ -2688,7 +2795,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T11:21:22Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_b242768457b280",
@@ -2710,7 +2817,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T09:42:00Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_158a70d23b426c",
@@ -2732,7 +2839,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T09:15:20Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_d42423443e7906",
@@ -2754,7 +2861,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T08:55:21Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_0dedde72c684b4",
@@ -2776,7 +2883,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T08:35:10Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_5fc5de6113c83a",
@@ -2798,7 +2905,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T08:31:07Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "greenhouse_fd5b06a2007e01",
@@ -2822,7 +2929,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T06:12:42-04:00",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_64e15b749ee150",
@@ -2849,7 +2956,7 @@
       },
       "posted": "2026-04-29",
       "first_seen": "2026-06-16T07:31:27.901081+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_b1b40a9de5457b",
@@ -2874,7 +2981,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-16T07:31:27.901081+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_b1df13f58cfc22",
@@ -2902,7 +3009,7 @@
       "nationals_only": null,
       "posted": "2026-06-16T04:42:35.292Z",
       "first_seen": "2026-06-16T07:31:27.901081+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_5a4375affd226d",
@@ -3136,7 +3243,7 @@
       },
       "posted": "2026-06-11T22:43:22.3570000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-06-27T05:57:15.482279+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_e963a6b445bdeb",
@@ -3163,7 +3270,7 @@
       },
       "posted": "2026-06-11T22:43:22.2530000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-06-27T05:57:15.482279+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_4e83e5f8859c5f",
@@ -3188,7 +3295,7 @@
       },
       "posted": "2026-06-11T22:43:21.8100000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-06-27T05:57:15.482279+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_1e829310e06eda",
@@ -3210,7 +3317,7 @@
       "nationals_only": null,
       "posted": "2026-06-11T04:35:59.6430000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_ecc1e1d8eaafdb",
@@ -3306,7 +3413,7 @@
       "nationals_only": null,
       "posted": "2026-06-11T12:20:25.883Z",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_f58db8117fb375",
@@ -3383,7 +3490,7 @@
       },
       "posted": "2026-06-11T07:53:03.911Z",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_494a6bb084fd73",
@@ -3431,7 +3538,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T06:12:42-04:00",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_fe02a4a534333f",
@@ -3477,7 +3584,7 @@
       "nationals_only": null,
       "posted": "2026-06-10T03:11:54.9230000",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_141128359a944e",
@@ -3499,7 +3606,7 @@
       "nationals_only": null,
       "posted": "2026-06-10T03:11:55.2170000",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_4afd537af677d7",
@@ -3581,7 +3688,7 @@
       "nationals_only": null,
       "posted": "2026-06-11",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_b5904e0affbfeb",
@@ -3628,7 +3735,7 @@
       "nationals_only": null,
       "posted": "2026-06-11T06:11:19.486Z",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_53286247a13257",
@@ -3758,7 +3865,7 @@
       "nationals_only": null,
       "posted": "2026-06-11T03:37:33Z",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_feb2cfe7ba2009",
@@ -3780,7 +3887,7 @@
       "nationals_only": null,
       "posted": "2026-06-20T08:38:15Z",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_feef72909b5784",
@@ -3804,7 +3911,7 @@
       "nationals_only": null,
       "posted": "2026-06-09T04:57:13.6400000",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_983b81fd67d69f",
@@ -4060,7 +4167,7 @@
       "nationals_only": null,
       "posted": "2026-06-09T09:58:06.845Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_c91d970acd59bb",
@@ -4084,7 +4191,7 @@
       "nationals_only": null,
       "posted": "2026-06-12T12:57:31Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_b4ec8c6b5daf18",
@@ -4130,7 +4237,7 @@
       "nationals_only": null,
       "posted": "2026-06-21T08:06:07Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_bc8cbf7350b56a",
@@ -4152,7 +4259,7 @@
       "nationals_only": null,
       "posted": "2026-06-20T08:02:28Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_1a1bef4142f62d",
@@ -4276,7 +4383,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T02:59:58.7670000",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_5379428052c6e6",
@@ -4351,7 +4458,7 @@
       "nationals_only": null,
       "posted": "2026-06-23",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_dc4ceeb12cdb4f",
@@ -4423,7 +4530,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T10:24:44.591Z",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_7a4ee708e5f64a",
@@ -4450,7 +4557,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T10:26:01.641Z",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_c6ac86f5d035da",
@@ -4557,7 +4664,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T07:44:20.725Z",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_f1b74a3de06563",
@@ -4628,7 +4735,7 @@
       "nationals_only": null,
       "posted": "2026-06-11T12:50:42Z",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_2ff8daf0dca76d",
@@ -4819,7 +4926,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T05:55:55.490000+00:00",
       "first_seen": "2026-06-08T06:48:24.032338+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_1301d21594b34f",
@@ -4896,7 +5003,7 @@
       "nationals_only": null,
       "posted": "2026-06-10T14:43:50.881000+00:00",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_bf45d6e1641610",
@@ -4918,7 +5025,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T03:50:42.4900000",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_dc3fe429d2d1b2",
@@ -4940,38 +5047,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T03:50:42.0000000",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
-    },
-    {
-      "id": "smartrecruiters_a58a1c9fe2cb1e",
-      "title": "Engineer - Electromechanical",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Construction Supervision & Quality Control Supervise and inspect electromechanical works on-site, including electrical, mechanical, control, and instrumentation systems. Review shop drawings, method statements, material submittals, ITPs, and as-built drawings for compliance with relevant standards (DEWA, Dubai Civil Defence, NFPA, IEC, and applicable codes). Witness factory acceptance tests (FAT) and site acceptance tests (SAT) for key equipment such as pumps, switchgear, control panels, SCADA systems, traffic signals, and ITS devices. Identify and report non-conformances, follow up on corrective actions, and ensure resolution prior to system handover. Coordination & Interface Management Liaise with DEWA, Dubai Civil Defence, Etisalat, DU, and other authorities for inspections, approvals, and NOCs. Coordinate with the Contractor's electromechanical team and other discipline engineers to resolve technical and interface issues, ensuring seamless integration across all project disciplines. Testing, Commissioning & Handover Oversee pre-commissioning and commissioning activities, ensuring they meet approved procedures and performance requirements. Assist in punch list preparation, system performance verification, O&M manual review, and final handover of electromechanical systems. BE / BTech in Civil or Electrical Engineering&#xa0; Mandatory 5 years of UAE experience and total experience should not be less than 12 -15 years RTA or DM approved holders are preferred.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000130531139-engineer-electromechanical",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "pumps",
-        "quality control",
-        "instrumentation",
-        "electrical",
-        "civil",
-        "scada",
-        "construction",
-        "commissioning",
-        "pre-commissioning"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-06-05T14:28:43.860Z",
-      "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_378e2e4b38bf58",
@@ -5089,7 +5165,7 @@
       "nationals_only": null,
       "posted": "2026-06-20T08:56:47Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_661aab8acc1d19",
@@ -5111,7 +5187,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T17:37:29Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_f041a819e6e5f0",
@@ -5155,7 +5231,7 @@
       "nationals_only": null,
       "posted": "2026-06-19T09:54:11Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_fc7064724313df",
@@ -5227,7 +5303,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T11:15:01.565000+00:00",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_ddb752870ff9de",
@@ -5250,29 +5326,6 @@
       "posted": "2026-06-04T05:49:11.2600000",
       "first_seen": "2026-06-05T06:27:59.736302+00:00",
       "last_seen": "2026-06-17T07:14:57.845931+00:00"
-    },
-    {
-      "id": "workday_17769e1747abc3",
-      "title": "Senior Managing Consultant, AML Subject Matter Expert, Advisors & Consulting Services",
-      "company": "Mastercard",
-      "location": "Dubai, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Senior Managing Consultant, AML Subject Matter Expert, Advisors & Consulting Services Overview: The consulting services team at Mastercard is look for a senior candidate to deliver AML advisory services to our customers globally. The role, which is part of the consulting delivery team involves providing expert guidance to organizations on managing anti-money laundering (AML) risks, drive thought Leadership and in close collaboration with global product team, shape and support our Go To Market Strategy for AML Services. The candidate will have the opportunity to work with a high performing team across the organization (sales, global product, internal compliance teams) and become an integral part of success making the Mastercard ecosystem safer and more secure for our customers. The ideal candidate will be passionate about Financial Crime and have a strong background in AML, PEP & Sanctions. This role is key to the success of Mastercard in the AML ecosystem. Role Responsibilities involve a mix of strategic advice and hands-on implementation: • Risk Assessment: Conducting comprehensive, enterprise-wide AML and sanctions risk assessments to identify vulnerabilities and assess existing controls. • Policy and Procedure Development: Designing, reviewing, enhancing, and developing AML program governance, including tailored policies, procedures, and risk appetite statements aligned requirements • Compliance Monitoring and Testing: Developing and executing independent testing and audit procedures to evaluate the effectiveness of AML controls and identify compliance gaps. • Investigations and Due Diligence: Assisting with transaction monitoring, performing \"lookbacks\" (retrospective reviews), conducting customer due diligence (CDD) and enhanced due diligence (EDD) for high-risk clients, and making recommendations on suspicious activity reporting (SARs). • Remediation and Regulatory Response: Advising clients on resolving deficiencies, managing remediation plans • System Implementation and Optimization: Assisting in the selection, implementation, tuning, and validation of AML technology systems and software to improve efficiency and accuracy. • Stakeholder Collaboration: Serving as a subject matter expert (SME), liaising with senior management, global product, legal, operations, and technology teams to implement effective compliance solutions. All About You • Years related business experience in AML advisory, product management, product development, business development in financial services and/or bankcard industry preferred. • Excellent oral and written communication, negotiation, project management and matrix-management skills are critical • Ability to interact and coordinate effectively with internal and external business partners • Ability to effectively direct and manage multiple functions • Ability to initiate and effectively lead change efforts • Business Acumen with the ability to provide solutions that drive positive results to the customer and Mastercard • Self-motivated with a proven track record of delivering success while operating within a team environment • Embody the MA leadership principles: demonstrate courage & resolution; encourage teamwork, integration, & inclusion; execute the global strategy; inspire & empower; operate with a sense of urgency Corporate Security Responsibility All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organi …",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Senior-Managing-Consultant--AML-Subject-Matter-Expert--Advisors---Consulting-Services_R-267343",
-      "source": "Workday:Mastercard",
-      "company_type": "employer",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "project management"
-      ],
-      "seniority": "Senior",
-      "shutdown": false,
-      "posted": "2026-06-04",
-      "first_seen": "2026-06-05T06:27:59.736302+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
     },
     {
       "id": "workday_c2f6db26835e13",
@@ -5440,7 +5493,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T08:15:16Z",
       "first_seen": "2026-06-05T06:27:59.736302+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_6cfd046a782842",
@@ -5543,7 +5596,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_5b7861c385215e",
@@ -5611,7 +5664,7 @@
       "nationals_only": null,
       "posted": "2026-06-03",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_239a6cfbd91b3f",
@@ -5640,30 +5693,6 @@
       "posted": "2026-06-03T13:45:12.223Z",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
       "last_seen": "2026-06-25T06:12:04.339128+00:00"
-    },
-    {
-      "id": "smartrecruiters_8cdedbbc886a75",
-      "title": "Associate Director - Business Development and Capture Management",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "We are seeking an Associate Director of Business Development and Capture Management to join our organization in Dubai, United Arab Emirates. In this strategic leadership role, you will drive business growth through the identification, pursuit, and successful capture of high-value opportunities. You will lead cross-functional teams to develop compelling proposals, manage complex sales pipelines, and build lasting relationships with key stakeholders in the region.&#xa0; Talent Developer Encourages diverse and inclusive collaboration leveraging AECOM’s global footprint to enable individual growth and collective success through trust, autonomy, accountability, and alignment. When developing others: Builds a pursuit team and succession plan for capture management at AECOM. Connects the pursuit team to AECOM bid strategies and ensures our current and potential clients get the best&#xa0; &#xa0; AECOM experience for every pursuit. Coaches and supports other team members in building strong relationships across the organization. Actively supports the attraction and retention of capture management talent. Facilitates the growth and success of AECOM’s next generation of leaders by providing opportunities to&#xa0; &#xa0; &#xa0; &#xa0; &#xa0;develop, such as cross border/business line experiences. Has experience with building internal AECOM teams combined with external teams to position us to win. Highly Accountable Delivers results and leads others to do the same; effectively managing risk to lead through change and ambiguity advancing AECOM’s vision, purpose and strategies. When focused on delivery: Accountable for AECOMs ECP success in partnership with regional leadership Implements best pursuit practices in partnership with business line leadership to ensure high quality, technical&#xa0; &#xa0; excellence and a consistent client service experience. Identifies areas of high risk and pro-actively takes actions to positively impact outcomes and remediate risk. Demonstrated ability to set short and medium- term goals and strategies for the pursuit teams to align with the&#xa0; &#xa0; AECOM and client needs. Proposes skill development approaches and workforce planning to deliver capabilities for the future. Understands AECOM risk profile and leads preparation for Price, Risk and Contract Reviews. Demonstrates good understanding of commercial elements of contracts and how to price for strategy to win (financial/pricing, legal/risk and governance). Has extensive knowledge of AECOM’s capabilities and who to connect with globally within the Business Line.&#xa0; Industry Standout Establishes self as a strategic, collaborative leader and in areas of expertise in field, market or with clients. When representing AECOM externally: Is recognized by clients as a leader within AECOM able to drive change. Has in depth market and technical knowledge. Demonstrates an external presence in the market. May be an active participant in industry groups When representing AECOM internally: Demonstrates the ability to influence leadership to ensure bid opportunities are prioritized. Works with Regional Business Line and Market Sector Leaders to identify new business opportunities and propose solutions to address them When inspiring innovation: Identifies long-term and disruptive trends in their area of expertise. Drives client adoption of key AECOM initiatives such as ESG and digitalization. Partners with clients to respond to their innovation agenda. Client Builder Has a deep understanding of client priorities and is client-focused, connects team to their vision, ensuring they provide the best AECOM experience every time. When building client/stakeholder relationships: Is AECOM’s pursuit lead for ECPs. Has developed strong relationships with critical stakeholders. Able to build consensus to change client expectations in challenging situations. When building AECOM’s reputation: Champions for ethical and safe working practices. Integrates AECOM and client values to  …",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129999439-associate-director-business-development-and-capture-management",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "pipeline",
-        "contracts"
-      ],
-      "seniority": "Lead",
-      "shutdown": false,
-      "posted": "2026-06-03T13:14:35.124Z",
-      "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
     },
     {
       "id": "smartrecruiters_65edc38d6c07dc",
@@ -5768,7 +5797,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T08:47:21.080Z",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_fce15ef89937f6",
@@ -5792,7 +5821,7 @@
       "nationals_only": null,
       "posted": "2025-09-08T04:06:49.227000+00:00",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_1b4cf1e8b24063",
@@ -5837,81 +5866,7 @@
       "nationals_only": null,
       "posted": "2026-06-01T00:00:00.0000000",
       "first_seen": "2026-06-03T06:58:10.183693+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
-    },
-    {
-      "id": "smartrecruiters_70041b33ff1800",
-      "title": "Recruitment Drive - Construction Supervision Projects",
-      "company": "AECOM",
-      "location": "Dubai, Dubai, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Recruitment Drive | Dubai – June 2026 We are currently supporting&#xa0; ongoing Infrastructure projects in Dubai &#xa0;and invite applications from experienced construction supervision professionals. Candidates with&#xa0; relevant project experience, qualifications, and local authority exposure &#xa0;are encouraged to apply. 𝐒𝐡𝐨𝐫𝐭𝐥𝐢𝐬𝐭𝐞𝐝 𝐜𝐚𝐧𝐝𝐢𝐝𝐚𝐭𝐞𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐜𝐨𝐧𝐭𝐚𝐜𝐭𝐞𝐝 𝐚𝐧𝐝 Face-To-Face 𝐢𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐬𝐜𝐡𝐞𝐝𝐮𝐥𝐞𝐝 𝐨𝐧 𝐓𝐮𝐞𝐬𝐝𝐚𝐲, 23rd June 2026 and 𝐖𝐞𝐝𝐧𝐞𝐬𝐝𝐚𝐲, 𝟐4th June 2026 Roles we are hiring for&#xa0; Resident Engineer (RTA Approved) -&#xa0;20+ years Senior Engineer - Design (Buildings Experience) - 12+ years&#xa0;&#xa0; Engineer - Design (Buildings Experience) - 8+ years&#xa0; Senior Architect - Site Supervision (Buildings Experience) - 12+ years&#xa0; Senior Engineer - Structural &#xa0;(Roads and Bridges Experience) - 12+ years Engineer - Structural &#xa0;(Roads and Bridges Experience) - 8+ years&#xa0; Engineer -&#xa0;Civil (Roads Experience) -&#xa0;8+ years Engineer -&#xa0;Utilities&#xa0;(Roads Experience) -&#xa0;8+ years Engineer -&#xa0;Electromechanical (Buildings&#xa0;Experience) -&#xa0;8+ years Engineer -&#xa0;Electrical (Roads and Infrastructure Experience) -&#xa0;8+ years Engineer -&#xa0;Planning (Roads and Infrastructure&#xa0;Experience) -&#xa0;8+&#xa0;years Engineer -&#xa0;Material (Roads Experience) -&#xa0;8+&#xa0;years Health, Safety & Environment Engineer (Roads Experience) -&#xa0;10+ years Senior Quantity Surveyor (Roads and Infrastructure Experience) -&#xa0;10+ years Quantity Surveyor (Roads and Infrastructure&#xa0;Experience) -&#xa0;8+ years Inspector -&#xa0;Material (Roads Experience)&#xa0;-&#xa0;7+ years Inspector -&#xa0;Structural&#xa0;(Roads and Bridges Experience)&#xa0;- 7+ years Land Surveyor (Roads and Infrastructure Experience) -&#xa0;7+ years BIM Coordinator (Roads and Infrastructure Experience) - 7+ years&#xa0;",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129918689-recruitment-drive-construction-supervision-projects-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "electrical",
-        "civil",
-        "structural",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-06-03T06:32:16.320Z",
-      "first_seen": "2026-06-03T06:58:10.183693+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_4e9da6b762b875",
-      "title": "Design Coordinator - Underground Structures (Rail)",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "To coordinate the design development and delivery of underground structures, ensuring alignment with project requirements, technical standards, and stakeholder expectations. Key Responsibilities Coordinate multidisciplinary design inputs for underground structures including tunnels, shafts, and retaining systems Manage design interfaces between civil, structural, geotechnical, and MEP disciplines Review design submissions for compliance with project specifications and applicable standards Support value engineering and constructability reviews Track design progress and ensure timely delivery against programme milestones Liaise with contractors, consultants, and internal teams to resolve design issues Support risk identification and mitigation during the design phase Qualifications and Experience Minimum of 10 years of experience in underground structures design coordination or related field Experience on large scale infrastructure or rail projects is advantageous Engineering Degree",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129846781-design-coordinator-underground-structures-rail-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "civil",
-        "structural"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-06-02T20:06:23.183Z",
-      "first_seen": "2026-06-03T06:58:10.183693+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
-    },
-    {
-      "id": "smartrecruiters_66f89813822a76",
-      "title": "Design Coordinator - Underground Structures (Rail)",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "To coordinate the design development and delivery of underground structures, ensuring alignment with project requirements, technical standards, and stakeholder expectations. Key Responsibilities Coordinate multidisciplinary design inputs for underground structures including tunnels, shafts, and retaining systems Manage design interfaces between civil, structural, geotechnical, and MEP disciplines Review design submissions for compliance with project specifications and applicable standards Support value engineering and constructability reviews Track design progress and ensure timely delivery against programme milestones Liaise with contractors, consultants, and internal teams to resolve design issues Support risk identification and mitigation during the design phase Experience Minimum of 10 years of experience in underground structures design coordination or related field Experience on large scale infrastructure or rail projects is advantageous Engineering Degree",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129845481-design-coordinator-underground-structures-rail-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "civil",
-        "structural"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-06-02T20:05:59.116Z",
-      "first_seen": "2026-06-03T06:58:10.183693+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_d83edc66873918",
@@ -6004,7 +5959,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T23:00:19Z",
       "first_seen": "2026-06-03T06:58:10.183693+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_982a8842a72800",
@@ -6026,7 +5981,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T23:00:18Z",
       "first_seen": "2026-06-03T06:58:10.183693+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_b7959e55dd6a6a",
@@ -6056,7 +6011,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T09:20:21.841Z",
       "first_seen": "2026-06-02T06:46:02.712359+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_1a1d5391cc2d8c",
@@ -6081,7 +6036,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T05:41:32.626Z",
       "first_seen": "2026-06-02T06:46:02.712359+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "adecco_3cf0787ab8099c",
@@ -6147,7 +6102,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:53:19Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_36a248d867e9a4",
@@ -6241,7 +6196,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_fd05f5eade0536",
@@ -6263,7 +6218,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_4b9127257ffe8b",
@@ -6285,7 +6240,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_3f1501dc4dc1ef",
@@ -6307,7 +6262,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_f29747fd04cf17",
@@ -6329,7 +6284,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_b59ef012afaa1d",
@@ -6351,7 +6306,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_680ae326084d9a",
@@ -6373,7 +6328,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_47242a019409f0",
@@ -6398,7 +6353,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_ae10761f1c6389",
@@ -6420,7 +6375,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_6c791b4d41085b",
@@ -6444,7 +6399,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_2ed3af50c3ea0d",
@@ -6466,7 +6421,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_b76d1c52cb57b8",
@@ -6488,7 +6443,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_730c5dc3ad0503",
@@ -6513,7 +6468,7 @@
       },
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_5bab7c946e0556",
@@ -6535,7 +6490,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_67c2145c5286df",
@@ -6559,7 +6514,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_cf46f3e87616f1",
@@ -6583,7 +6538,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_604232e50f922b",
@@ -6605,7 +6560,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_2b345f94015bdb",
@@ -6627,7 +6582,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_b31bc9ec1a4eca",
@@ -6649,7 +6604,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_c18f9bc899d418",
@@ -6671,7 +6626,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_fb59a0076954e1",
@@ -6695,7 +6650,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_90b8b195f00660",
@@ -6717,7 +6672,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_09814f9dbf5d0d",
@@ -6739,7 +6694,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_4538bf7fb81020",
@@ -6761,7 +6716,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_eefa3fd5256874",
@@ -6783,7 +6738,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_4feadd6fd4a920",
@@ -6805,7 +6760,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_97b4c2f78a5ce6",
@@ -6827,7 +6782,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_39bf50f9f71ff3",
@@ -6849,7 +6804,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_a195a11c9f4e25",
@@ -6871,7 +6826,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_afe0beb9e8b71a",
@@ -6893,7 +6848,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_73a0fdf9c66cd2",
@@ -6915,7 +6870,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_1aa5429ae02a02",
@@ -6939,7 +6894,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "nadia global_fcca3aa71f0b36",
@@ -7689,69 +7644,6 @@
       "last_seen": "2026-06-09T06:13:54.479920+00:00"
     },
     {
-      "id": "adecco_3916d4462861c2",
-      "title": "Regional Trainer",
-      "company": "Adecco Middle East (agency)",
-      "location": "Abu Dhabi, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Regional Trainer. Education & Research Full Time Permanent. Location: Abu Dhabi, United Arab Emirates. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
-      "url": "https://eemenatr.my.salesforce-sites.com/jobboard/QuickApplyToJob?JobId=a0WWT000004QhtR2AS&boardName=Adecco%20website&language=en-AE",
-      "source": "Adecco",
-      "company_type": "agency",
-      "industry": "Other",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-04-10T12:07:35Z",
-      "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "adecco_0d43dce76bc0a2",
-      "title": "Branch Sales (Bank)",
-      "company": "Adecco Middle East (agency)",
-      "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Branch Sales (Bank). Banking and Financial Services. Location: Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates, United Arab Emirates. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
-      "url": "https://eemenatr.my.salesforce-sites.com/jobboard/QuickApplyToJob?JobId=a0WWT0000052mle2AA&boardName=Adecco%20website&language=en-AE",
-      "source": "Adecco",
-      "company_type": "agency",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-04-16T12:04:32Z",
-      "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "adecco_9d62f9d433f57c",
-      "title": "Program Buyer",
-      "company": "Adecco Middle East (agency)",
-      "location": "Abudhabi, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "Program Buyer. Engineering and Manufacturing Full Time Permanent. Location: Abudhabi, United Arab Emirates. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
-      "url": "https://eemenatr.my.salesforce-sites.com/jobboard/QuickApplyToJob?JobId=a0WWT0000053fbd2AA&boardName=Adecco%20website&language=en-AE",
-      "source": "Adecco",
-      "company_type": "agency",
-      "industry": "Other",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-04-20T20:55:28Z",
-      "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
       "id": "adecco_0f0d12c237041e",
       "title": "Retail Sales Specialist",
       "company": "Adecco Middle East (agency)",
@@ -7815,7 +7707,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T06:30:17-04:00",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_d05d5416b2b9fb",
@@ -7839,7 +7731,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_3be53ac9b8a058",
@@ -7865,7 +7757,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_0ac40216fc0c64",
@@ -7893,7 +7785,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_19f1ffa28d2184",
@@ -7915,7 +7807,7 @@
       "nationals_only": null,
       "posted": "2026-05-14T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_7a5b432ad1691b",
@@ -7958,7 +7850,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_010bcfef291c2f",
@@ -7980,7 +7872,7 @@
       "nationals_only": null,
       "posted": "2026-05-14T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_b534be7f68d0ea",
@@ -8002,7 +7894,7 @@
       "nationals_only": null,
       "posted": "2025-07-19T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_4af44d728da600",
@@ -8026,7 +7918,7 @@
       "nationals_only": null,
       "posted": "2025-09-24T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_a62f1af35c9dd5",
@@ -8093,7 +7985,7 @@
       "nationals_only": null,
       "posted": "2026-05-14T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_dca3d066e142b0",
@@ -8115,7 +8007,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_cd3981e95cb2f4",
@@ -8137,7 +8029,7 @@
       "nationals_only": null,
       "posted": "2026-05-15T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_2bac43d1238397",
@@ -8159,7 +8051,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_abe5080a0dd2fe",
@@ -8203,7 +8095,7 @@
       "nationals_only": null,
       "posted": "2026-05-15T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_d459a7a1d6b4d7",
@@ -8247,7 +8139,7 @@
       "nationals_only": null,
       "posted": "2025-09-11T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_7b78ec7586edc1",
@@ -8269,7 +8161,7 @@
       "nationals_only": null,
       "posted": "2026-05-14T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_8081f5608c6cd2",
@@ -8291,7 +8183,7 @@
       "nationals_only": null,
       "posted": "2026-05-18T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_6f8c5f84ee5fdb",
@@ -8313,7 +8205,7 @@
       "nationals_only": null,
       "posted": "2025-10-01T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_ecb45da3679877",
@@ -8335,7 +8227,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_92b440189fa65f",
@@ -8357,7 +8249,7 @@
       "nationals_only": null,
       "posted": "2026-05-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_f054eb3ef5b6f4",
@@ -8379,7 +8271,7 @@
       "nationals_only": null,
       "posted": "2025-09-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_344681c6ed3938",
@@ -8401,7 +8293,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_6a859d62b622be",
@@ -8423,7 +8315,7 @@
       "nationals_only": null,
       "posted": "2026-05-15T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_dd1ea41b82ce0b",
@@ -8445,7 +8337,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_c599368f77c64b",
@@ -8467,7 +8359,7 @@
       "nationals_only": null,
       "posted": "2026-02-27T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_6af76db99da1cf",
@@ -8511,7 +8403,7 @@
       "nationals_only": null,
       "posted": "2026-05-18T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_eb4b3a416b615b",
@@ -8533,7 +8425,7 @@
       "nationals_only": null,
       "posted": "2026-05-22T14:16:19.4400000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_e7c282e76ed19e",
@@ -8555,7 +8447,7 @@
       "nationals_only": null,
       "posted": "2025-07-22T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_949da40dd88646",
@@ -8579,7 +8471,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_7fc9eddc305fba",
@@ -8623,7 +8515,7 @@
       "nationals_only": null,
       "posted": "2025-08-25T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_0e11a583f568b6",
@@ -8666,7 +8558,7 @@
       "nationals_only": null,
       "posted": "2026-05-18T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_94c7b89dae5ed1",
@@ -8688,7 +8580,7 @@
       "nationals_only": null,
       "posted": "2025-07-26T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_e2975668bc373a",
@@ -8710,7 +8602,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_863f4c29564014",
@@ -8732,49 +8624,7 @@
       "nationals_only": null,
       "posted": "2025-08-15T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
-    },
-    {
-      "id": "jooble_045c4eebd66ab5",
-      "title": "Dean of the College of Computing and Informatics",
-      "company": "University Of Sharjah",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...areas such as AI, data science,... ...experts, and strategic partners to enhance academic... ...academic program development and curriculum innovation... ...in teaching, learning outcomes, and... ...administration, human resources, and financial management... .... # Ability to operate effectively in a...",
-      "url": "https://jooble.org/jdp/5901792286335927404",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-04-23T10:43:41.5570000",
-      "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
-    },
-    {
-      "id": "jooble_452862504bbcf7",
-      "title": "Product Growth Hacker: Exchange & Main App",
-      "company": "Crypto.com",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...trading) we’re hiring a Growth Marketing Hacker to lead on our go-to-... ...the intersection of product, data, and creative execution:... ...Strategy & Positioning Partner up with product and strategy... ...app (Mainstream) verticals. Develop value propositions that differentiate...",
-      "url": "https://jooble.org/jdp/-7237221851894728950",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2025-06-23T00:00:00.0000000",
-      "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_f13abc859ae92c",
@@ -8796,7 +8646,7 @@
       "nationals_only": null,
       "posted": "2025-09-17T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_4a58f4fc9bd556",
@@ -8818,7 +8668,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_b5a3ed3f34f20c",
@@ -8840,7 +8690,7 @@
       "nationals_only": null,
       "posted": "2025-09-12T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_7247c6e8cb0d2f",
@@ -8862,7 +8712,7 @@
       "nationals_only": null,
       "posted": "2025-09-17T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_4b33f28ab3334e",
@@ -8905,60 +8755,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
-    },
-    {
-      "id": "smartrecruiters_8040835f7c30d0",
-      "title": "Resident Engineer",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Leads the delivery (time, cost, quality) of assigned package. Supervise the contractors to ensure the works are constructed as per specification and to established milestone dates. Manage and direct the supervision team to undertake day to day inspections of the works. Maintain a very high level of Safety awareness and ensure the contractor complies with his obligations.&#xa0; Capable of administering the FIDIC based contract or standalone Contracts Resolves site issues &#xa0; Presents progress and package issues to client team.&#xa0;&#xa0; Discuss changes to the scope of work with the Client and key subcontractors. Responsible for following up on instructions & commitments associated with the project Establishes Project Execution Plan, Health & Safety Plan, Quality Control Plan and other documents in relation to our scope Establishes the program requirements for all areas of the project and monitors site staff performance Plans, directs, supervises and controls the execution of all technical, fiscal and administrative functions of the project and the site team Assigns responsibility to key subordinates in their respective fields of expertise Provides input to performance reviews and develop plans for subordinates Work with other managers, project engineers and discipline Heads to develop budgets, schedules and plans for the various elements of the project Monitors and reports to management on the progress of all project activities within the program, including significant milestones and any conditions, which would affect project cost, schedule, performance or Client relation Establishes internal weekly meetings to review project status and formulate action items Performs other responsibilities associated with this position in line with AECOM policies and procedures Represent the company in Client meetings. Monitor Health and Safety of the construction works and lead to address violations Bachelor's degree in Civil Engineering or related field; Master's degree preferred Minimum of 20 years of experience in building engineering, with a focus on managing large-scale projects Proven track record in overseeing complex building projects in the Middle East In-depth knowledge of UAE construction standards, regulations, and best practices Strong understanding of building development, construction methodologies, and quality control processes Excellent project management skills, including budget and schedule management Advanced problem-solving and analytical abilities, with a keen eye for detail Outstanding leadership and team management skills Strong technical report writing and communication abilities Experience working in a fast-paced environment and managing multiple projects simultaneously Willingness to work on-site and travel as required for project needs Familiarity with local building codes and regulations in the UAE Ability to adapt to changing project requirements and implement innovative solutions",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129407918-resident-engineer",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "civil",
-        "project management",
-        "contracts",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-06-01T07:06:11.734Z",
-      "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
-    },
-    {
-      "id": "smartrecruiters_62e754fb96e410",
-      "title": "Project Controls Manager - Rail",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Role Overview We are seeking an experienced Project Controls Manager to lead and oversee all project controls functions for a major rail infrastructure project. This role will be responsible for ensuring robust planning, scheduling, cost control, risk management, and performance reporting across the full project lifecycle. The successful candidate will bring extensive experience in the management of design and or construction phases of large scale rail projects, with a strong preference for High Speed Rail project exposure. Key Responsibilities • Lead the development and implementation of project controls frameworks, processes, and systems across the project • Oversee planning and scheduling activities, ensuring alignment with project milestones and delivery objectives • Manage cost control, budgeting, forecasting, and financial reporting • Establish and monitor project KPIs, dashboards, and performance metrics • Lead risk management activities, including risk identification, analysis, mitigation, and reporting • Ensure effective change management and claims support in coordination with commercial teams • Provide strategic oversight on progress measurement and reporting to senior stakeholders • Coordinate with engineering, construction, and commercial teams to ensure integrated project delivery • Ensure compliance with client, regulatory, and governance requirements • Lead and mentor the project controls team Minimum Requirements • Minimum of fifteen (15) years of experience in project controls&#xa0; • Proven experience in a Project Controls Manager or equivalent role on at least one project of similar size and complexity • Demonstrated experience of minimum 5 years in railway projects with High Speed Rail (HSR) projects being highly preferred&#xa0;&#xa0; • Strong expertise in planning, cost management, risk management, and reporting • Proficiency in industry standard tools such as Primavera P6, cost management systems, and reporting platforms • Experience in the Middle East, particularly the UAE, is highly advantageous Key Competencies • Strong leadership and stakeholder management skills • Strategic thinking with strong analytical capability • Excellent communication and reporting skills • Ability to operate in a complex, multi stakeholder environment • High attention to detail with a proactive approach to problem solving • University degree in Engineering or a related discipline. A Master’s degree is preferred • Chartered Engineer status or equivalent professional accreditation is highly desirable",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000129404819-project-controls-manager-rail",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "primavera",
-        "p6",
-        "cost control",
-        "construction"
-      ],
-      "seniority": "Lead",
-      "shutdown": false,
-      "posted": "2026-06-01T06:55:18.116Z",
-      "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_99e089f2fb898d",
@@ -9088,7 +8885,7 @@
       "nationals_only": null,
       "posted": "2025-07-16T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_1b06efd945415c",
@@ -9110,7 +8907,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_6587dfb501edd5",
@@ -9132,7 +8929,7 @@
       "nationals_only": null,
       "posted": "2026-05-08T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_b2e4e3914179a5",
@@ -9154,7 +8951,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_d563948a964ad5",
@@ -9176,7 +8973,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_233222f0c762b5",
@@ -9198,7 +8995,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_f423e88e180b3f",
@@ -9220,7 +9017,7 @@
       "nationals_only": null,
       "posted": "2025-09-09T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_0568f3c5d38c38",
@@ -9242,7 +9039,7 @@
       "nationals_only": null,
       "posted": "2025-10-01T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "jooble_6ee9a7442827b3",
@@ -9266,7 +9063,7 @@
       "nationals_only": null,
       "posted": "2025-09-09T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_bc2546e7092d2d",
@@ -9294,7 +9091,7 @@
       },
       "posted": "2026-04-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_40ec30ea38df3a",
@@ -9321,7 +9118,7 @@
       },
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_ff72511a9250d6",
@@ -9348,7 +9145,7 @@
       },
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_f8c3cf7c8ca8d8",
@@ -9399,7 +9196,7 @@
       },
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_d25655fd9c0a2b",
@@ -9426,7 +9223,7 @@
       },
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_290437f5e43310",
@@ -9451,7 +9248,7 @@
       },
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_6d39c57160084d",
@@ -9478,7 +9275,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_a6cbffcd12d07d",
@@ -9506,7 +9303,7 @@
       },
       "posted": "2026-05-07",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_d6c31878b74d0f",
@@ -9533,7 +9330,7 @@
       },
       "posted": "2024-12-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_a81ffc2a760d08",
@@ -9558,7 +9355,7 @@
       },
       "posted": "2026-06-22",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_7b0a1a709619bd",
@@ -9609,7 +9406,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_c8d5363f798de9",
@@ -9637,7 +9434,7 @@
       },
       "posted": "2026-05-12",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_a20a95e9df745c",
@@ -9664,7 +9461,7 @@
       },
       "posted": "2026-05-15",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_3dc8df76b4752e",
@@ -9691,7 +9488,7 @@
       },
       "posted": "2026-05-15",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_2e900db633242a",
@@ -9718,7 +9515,7 @@
       },
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_901bc06aa9af13",
@@ -9743,7 +9540,7 @@
       },
       "posted": "2026-02-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_6693bfd640583f",
@@ -9770,7 +9567,7 @@
       },
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_91b10e96ab9b5a",
@@ -9820,7 +9617,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_827bb63b97613b",
@@ -9847,7 +9644,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_5f58b859c36016",
@@ -9874,7 +9671,7 @@
       },
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_bb0a3503297dad",
@@ -9899,7 +9696,7 @@
       },
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_ca3cccc0fa1308",
@@ -9926,7 +9723,7 @@
       },
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_fef46ed4c4c569",
@@ -9972,7 +9769,7 @@
       },
       "posted": "2026-03-10",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_bd528dc7f6425c",
@@ -9999,7 +9796,7 @@
       },
       "posted": "2026-03-17",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_76e85c2d75109f",
@@ -10024,7 +9821,7 @@
       "nationals_only": null,
       "posted": "2026-05-05",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_521266935a56c1",
@@ -10051,7 +9848,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_11c755489d27a2",
@@ -10078,31 +9875,7 @@
       },
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
-    },
-    {
-      "id": "workday_c34b409a3438f1",
-      "title": "Account Executive - Portfolio - Public Sector - Abu Dhabi",
-      "company": "Cisco",
-      "location": "Abu Dhabi, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Meet the Team : As an Account Executive for the UAE Public Sector, you will be the strategic leader driving Cisco's digital transformation initiatives across government entities and public institutions. You will own the entire sales cycle, from opportunity identification to deal closure, ensuring alignment with national digital agendas and Cisco's portfolio. Your role is pivotal in building trusted C-suite relationships and orchestrating cross-functional teams to deliver innovative, integrated solutions that address critical public service challenges. Key Responsibilities • Strategic Account Management: Develop and execute comprehensive account plans to meet and exceed sales targets, expanding Cisco's footprint within the UAE public sector. • Customer Engagement: Build and maintain strong C-level relationships, acting as a trusted advisor aligned with government digital transformation goals and regulatory requirements. • Cross-Functional Collaboration: Lead and coordinate internal teams (engineering, services, partners) to deliver end-to-end solutions tailored to public sector needs. • Contract Negotiation: Manage complex contract negotiations and oversee the full sales cycle to ensure seamless delivery and customer satisfaction. • Market Intelligence: Analyze market trends, policy changes, and procurement processes to proactively position Cisco as the preferred technology partner. • Partner Ecosystem Development: Collaborate with partners to build a robust ecosystem that supports government procurement and project execution. • Sales Tools Utilization: Leverage Cisco's technology stack and AI-driven sales tools to enhance sales efficiency and pipeline accuracy. Minimum Qualifications • Bachelor's degree in Business, Marketing, or a related Technical field. • Minimum 10 years of technology sales experience, with a focus on Public Sector or Government accounts in the UAE or Middle East. • Proven track record of consistently meeting or exceeding sales quotas in the region. • Fluency in English (written and verbal) and proficiency in Arabic. • Deep understanding of UAE public sector procurement, regulatory environments, and government digital transformation initiatives. Preferred Qualifications • Master's degree or MBA. • Experience selling cloud, security, and software-defined networking solutions. • Established network of relationships within UAE government and semi-government organizations. • Strong presentation and storytelling skills, capable of simplifying complex technical concepts for diverse stakeholders. • Ability to work effectively in a matrixed organization and lead through influence. Why Cisco? At Cisco, we’re revolutionizing how data and infrastructure connect and protect organizations in the AI era – and beyond. We’ve been innovating fearlessly for 40 years to create solutions that power how humans and technology work together across the physical and digital worlds. These solutions provide customers with unparalleled security, visibility, and insights across the entire digital footprint. Fueled by the depth and breadth of our technology, we experiment and create meaningful solutions. Add to that our worldwide network of doers and experts, and you’ll see that the opportunities to grow and build are limitless. We work as a team, collaborating with empathy to make really big things happen on a global scale. Because our solutions are everywhere, our impact is everywhere. We are Cisco, and our power starts with you.",
-      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Abu-Dhabi-United-Arab-Emirates/Account-Executive---Portfolio---Public-Sector---Abu-Dhabi_2008794",
-      "source": "Workday:Cisco",
-      "company_type": "employer",
-      "industry": "Technology / Software",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "pipeline",
-        "procurement"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-02-22",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_72b9a39d9c3419",
@@ -10128,7 +9901,7 @@
       "nationals_only": null,
       "posted": "2026-04-30",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_242b1ee6b3823e",
@@ -10152,7 +9925,7 @@
       "nationals_only": null,
       "posted": "2026-06-16",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_99dec7042644dd",
@@ -10401,294 +10174,7 @@
       "nationals_only": null,
       "posted": "2026-06-26T12:17:53.658Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
-    },
-    {
-      "id": "smartrecruiters_4d0e55b0aa82ae",
-      "title": "Utilities/Civil Engineer - Freight Facilities (Ruwais)",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Manage the site supervision team for the Freight Facilities Project in Ruwais. • Review Inspectors’ Daily Reports to ensure accuracy, completeness, and compliance with project standards. • Prepare the Engineer’s Daily Diary summarizing daily activities, key progress, and observations. • Provide general oversight of Inspectors’ daily activities, including task assignments, on-site performance, and technical guidance. • Review Contractor’s inspection, surveying, and testing requests and evaluate subsequent reports for conformance with specifications. • Review and approve Contractor’s shop drawings, materials, and methods as delegated by the Resident Engineer. • Monitor and verify the performance of the Contractor’s survey team and ensure accuracy of setting-out works. • Prepare meeting minutes and technical correspondence as delegated by the Resident Engineer. • Coordinate with the Contractor’s supervisory staff regarding work sequence, methodology, and schedule compliance. • Monitor construction progress and ensure adherence to the Contractor’s approved baseline program. • Conduct continuous field inspections of the work in progress and provide consultation to both the Resident Engineer and Contractor’s teams. • Prepare written and verbal reports for the Resident Engineer on technical, contractual, and procedural matters. • Review and verify as-built drawings in coordination with inspectors and surveyors. • Ensure all site activities are executed in accordance with approved drawings, project specifications, and HSE standards. • Identify non-conformances, initiate corrective actions, and follow up to ensure resolution. • Support the Resident Engineer in reviewing technical submittals, progress reports, and project documentation. • Maintain effective coordination between the supervision team and the Contractor to resolve site-related issues efficiently. .Liaise and coordinate with relevant Authorities • Review authority-related drawings and ensure compliance with each authority’s latest standards and specifications. • Follow up on authority inspection requests and assist in resolving comments or non-compliance issues. • Ensure timely submission and approval of all authority NOCs required for construction, testing, and final handover. • Coordinate with utility service providers to facilitate connection works, diversions, and protection of existing services. • Attend authority meetings and provide technical input to support the Resident Engineer during coordination and progress discussions. • Maintain records of authority communications, approvals, and correspondence for project documentation and handover. **Required Qualifications:** Minimum 8 years' experience in rail/metro or major infrastructure projects Bachelor's degree in Civil Engineering or related discipline from a recognised institution Proven experience in site supervision and management of inspection teams Demonstrated expertise in utilities and civil works construction Strong knowledge of construction specifications, standards, and quality control procedures Experience with authority coordination and compliance in infrastructure projects Proficiency in reviewing and approving technical submittals, shop drawings, and as-built documentation Excellent written and verbal communication skills in English Competency in HSE (Health, Safety, and Environment) standards and site safety protocols **Preferred Qualifications:** Experience on freight rail facilities, rail logistics, or transportation infrastructure projects Familiarity with surveying, setting-out works, and construction layout verification Knowledge of utility service coordination and diversions Experience with project management software and digital documentation systems Professional certification in Civil Engineering or Project Management Previous experience working on projects in the Middle East or similar regulatory environments Strong stakeholder management and inter-departmental coordination experience",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000127393398-utilities-civil-engineer-freight-facilities-ruwais-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "civil",
-        "project management",
-        "construction",
-        "hse"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-05-20T09:37:26.515Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_32aa0a25106eb1",
-      "title": "Senior Engineer - Structural",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are looking for a Senior Engineer - Structural role. Responsible for overseeing and managing the implementation of construction documents on-site, while supporting discipline engineers across other projects as needed. Provides technical support to the ARE/RE and coordinates with the design office, contractor, and client representatives to ensure construction aligns with approved plans and specifications. The incumbent performs a broad cross-section of complex technical and administrative activities requiring extensive experience and specialization in Contract Compliance, Quality Control (QC) and Quality Assurance (QA) inspection of structural scope related to the project Analyses applicable codes, standards and project contract documents and monitors construction activities to ensure compliance with contract documents. Interprets or clarifies contract documents for Contractors. Maintains and prepares a variety of records, including daily/weekly progress reports, material accounting records, change orders and record drawings. Provide assistance to the Project Engineer/Site Engineer. Responsible for supervising, directing and coordinating the inspection team. Conduct weekly meetings with inspectors and Project Engineer. Ensuring that responses are complete and in compliance with the contract documents. Where problems are found, work with Project Engineer to resolve. Audit inspections for conformity to contract documents and contractor submitted plans. Assist the Senior Discipline engineer to identify, respond to or evaluate technical issues to maintain the schedule. Highlights any violations to construction/ engineering related issues on site through issuance of NCRs Attends progress review meetings and coordination meetings to assist the Project Lead/Senior Engineer &#xa0;in resolving any site issues, such as discrepancies in project’s drawings.&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; Participates in the coordination and monitoring of snagging and project handover Provide support to the Resident Engineer/Team lead to ensure projects run smoothly by providing expert knowledge and advice. Liaises with the Design Engineer on modifications if required. Gives daily site reports and highlights issues that arise on site to the Project Lead. Contributes in the preparation of all kinds of reports and as directed by the project lead. Monitor Health and Safety of the construction works and report on the same. If required stop the construction works if unsafe practices are being followed. Bachelor Degree in relevant Engineering field (Civil or Structural) Minimum 15&#xa0;years of relevant experience in building construction projects.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000127372249-senior-engineer-structural-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "civil",
-        "structural",
-        "construction"
-      ],
-      "seniority": "Senior",
-      "shutdown": false,
-      "posted": "2026-05-20T07:58:27.217Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_b4bbcf03c24a81",
-      "title": "Senior BIM Engineer - Site",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "The Senior BIM Engineer – Supervision is responsible for overseeing the implementation and management of Building Information Modelling (BIM) processes on the projects. This role ensures the delivery of high-quality digital outputs, alignment with project requirements. The position requires strong coordination, technical expertise, and stakeholder engagement to drive digital excellence throughout the project lifecycle.&#xa0; Job Duties: Develop, implement, and enforce BIM standards, workflows, and execution plans in the projects. Ensure all BIM models and shop drawings comply with company, client, and project-specific requirements. Lead the integration of BIM processes into project delivery, ensuring alignment with digital engineering strategies. Act as the primary point of contact for BIM-related coordination among architects, engineers, contractors, and other stakeholders. Facilitate cross-disciplinary collaboration to resolve BIM-related issues and ensure seamless model integration. Support project teams in effectively interpreting and applying BIM standards. Oversee the creation, maintenance, and updating of BIM models and associated digital deliverables. Conduct regular quality control checks to ensure accuracy, completeness, and compliance with specifications. Implement procedures for model audits, clash detection, and data validation to ensure accuracy and integrity. Provide guidance, training, and technical support to project teams on BIM tools, workflows, and best practices. Manage BIM software tools, including installation, configuration, licensing, and troubleshooting. Evaluate emerging technologies and recommend the adoption of innovative digital solutions to enhance project delivery. Stay current with industry trends, standards, and advancements in digital engineering. Develop and manage BIM execution plans tailored to each project's specific needs. Monitor progress against BIM deliverables to ensure timely and budget-compliant outcomes. Support project reporting and documentation related to digital engineering activities. Strong understanding of construction processes, digital workflows, and data management. Bachelor’s degree in Engineering, Construction Management, or a related field. Extensive experience with BIM software such as Revit, AutoCAD, and Navisworks. Strong understanding of construction processes and shop drawing requirements. Strong experience in ISO 19650 Strong working experience in&#xa0;BIM methodologies Strong experience in AutoCAD Civil 3D Excellent communication and coordination skills. Ability to manage multiple projects and deadlines. Minimum of 15&#xa0;years of experience.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000127371414-senior-bim-engineer-site",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "civil",
-        "construction",
-        "autocad"
-      ],
-      "seniority": "Senior",
-      "shutdown": false,
-      "posted": "2026-05-20T07:56:00.945Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_a13c67562d914d",
-      "title": "Resident Engineer - Freight Facilities",
-      "company": "AECOM",
-      "location": "Fujairah, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Fujairah",
-      "description": "AECOM is seeking an experienced Resident Engineer for a major Freight Facilities Project located in Northern Emirates. The Resident Engineer will be responsible for leading and managing the site supervision team and ensuring that all construction activities are executed in accordance with the contract requirements, project specifications, approved drawings, quality standards, safety requirements, and project schedule. The successful candidate will oversee the delivery of infrastructure and freight facility works, coordinate with stakeholders and authorities, manage contractor performance, and ensure compliance with project objectives and international best practices. Job Duties Lead and manage the site supervision team for the Freight Facilities Project in Northern Emirates. Monitor the Contractor’s work progress against the approved construction programme and identify potential delays or risks. Ensure compliance with Contract Documents, specifications, approved drawings, and project procedures. Supervise construction activities related to freight facilities, roads, utilities, logistics yards, service corridors, drainage, and associated infrastructure works. Review and approve method statements, shop drawings, material submittals, RFIs, and technical submissions. Coordinate with Clients, Authorities, Contractors, Stakeholders, and other consultants to ensure smooth project execution. Monitor site safety implementation and ensure compliance with project SH&E requirements and safety regulations. Conduct regular site inspections and audits to verify quality of workmanship and materials. Review and certify contractor interim payment applications. Evaluate and prepare Variation Orders, Change Orders, Claims, and Extension of Time recommendations in accordance with the Contract. Monitor testing and commissioning activities and ensure compliance with project specifications. Maintain proper documentation and records related to progress, quality, safety, inspections, and contractual matters. Prepare and review weekly and monthly progress reports. Support project close-out activities, including snagging, testing & commissioning, as-built drawings, and handover documentation. Ensure effective coordination between all engineering disciplines and stakeholders throughout the project lifecycle. Mentor and guide junior engineers and inspectors within the supervision team. &#xa0; &#xa0; &#xa0; Qualifications Bachelor’s Degree in Civil Engineering from an accredited university. Chartered Engineer status or equivalent professional accreditation is preferred. &#xa0; Specific Skills Required Strong experience in construction supervision of freight facilities, logistics hubs, industrial infrastructure, roads, utilities, and heavy civil works. Excellent understanding of FIDIC Contracts, particularly Red Book conditions. Strong knowledge of project planning, construction methodologies, contract administration, and claim management. Experience in coordinating with local authorities and stakeholders in UAE. Ability to manage multidisciplinary supervision teams on large-scale infrastructure projects. Strong leadership, communication, and stakeholder management skills. Proficient in modern construction management software and reporting systems. Strong analytical and problem-solving abilities. Excellent written and verbal communication skills in English. &#xa0; Experience Minimum 20 years of overall experience in construction supervision and infrastructure projects. Minimum 10 years of experience as Resident Engineer on large-scale infrastructure or industrial developments. Previous experience in freight facilities, logistics infrastructure, industrial zones, ports, or major transportation projects is highly preferred. GCC/UAE experience is mandatory, preferably within Northern Emirates region projects.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000127270774-resident-engineer-freight-facilities",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "civil",
-        "contracts",
-        "construction",
-        "commissioning"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-05-19T17:37:51.428Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_61819872c2caf9",
-      "title": "Inspector - Architectural",
-      "company": "AECOM",
-      "location": "Ras al Khaimah, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "Monitoring and ensuring that all architectural engineering aspects of the project are carried out as per inspection plan/drawings/codes and specifications. Liaising with the Senior Architectural&#xa0; Engineer and other Engineers and Managers to provide support and guidance as required Review and monitor variations to the work to mitigate time and cost impacts for any required changes Monitor the review of the contractor’s documents/shop drawings to flag and rectify any issues which may affect the stability or function of any architectural components or systems. Monitor contractor’s compliance with approved Quality Control Plan. Monitor the project related protocol set up for Inspection of works by the inspection teams. Monitor safety aspects when dealing with architectural&#xa0; installations Provide reports on the progress of the architectural aspects of the project. Assist in expediting of NOCs from relevant authorities if they appear to be stalled or in delay Maintain full site records, including daily site diaries in an approved format, and formal monthly progress photography. Expedition of approvals from the Client if it appears to be stalled or delaying the project Liaising with the management of the various contractors to expedite submissions and approvals process. Perform and or evaluate tests confirming quality requirements, architectural finishes and building components by conducting thorough site inspection for all architectural works as per approved shop drawings, specifications and method statement. Field checks placement, location and quality of architectural finishes, building structure components. Monitor contractor’s compliance with approved Quality Control Plan. Coordinating with the team on site to ensure that contractual obligations are met. Perform Architectural inspections and material inspections. Issue NCRs to contractors and assist in taking corrective actions. Ensure that all inspection reports are accurate and in compliance with the requirements. Ensure that all execution and inspection are carried out as per inspection plan/drawings/codes and specifications. Ensure compliance of architectural works to design requirements, specifications and project plan. Preparing daily logs and reports. Maintain records of all submittals and testing inspections made, tests performed, work executed, etc. Performing all work in accordance with the Contract Administration Procedures Manual. Assisting with the inspection of completed works. Perform all other duties given by direct manager. Monitoring and reporting on HSE related matters and participating in HSE training and meetings &#xa0; Bachelor Degree or Diploma in Architecture or relevant degree Minimum 5 to 7 years of experience in building construction",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000127141972-inspector-architectural",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "expediting",
-        "construction",
-        "hse"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "posted": "2026-05-19T07:44:36.221Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_46f688757311c5",
-      "title": "Document Controller",
-      "company": "AECOM",
-      "location": "Ruwais, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Ruwais",
-      "description": "Maintain and control all project documents, drawings, and correspondence in accordance with company procedures. Ensure proper document numbering, filing, tracking, and distribution systems are maintained. Receive, register, and distribute incoming and outgoing documents. Maintain updated logs for: Drawings RFIs Submittals NCRs Material approvals Technical submissions Correspondence Ensure only latest approved revisions of drawings and documents are available at site. Coordinate with engineers, consultants, contractors, and project teams for document submissions and approvals. Upload and manage documents through client systems and EDMS platforms. Track pending submissions and follow up for approvals and responses. Maintain hard copy and electronic filing systems for easy retrieval of records. Prepare transmittals for document submissions and distribution. Archive superseded and obsolete documents according to project procedures. Ensure confidentiality and security of project records and company documents. Assist project team in preparation of reports, presentations, and project documentation. Support QA/QC team in maintaining quality records and inspection documents. Maintain accurate records of shop drawings, method statements, and material submittals. Coordinate document flow between site office, head office, consultant, and client. Prepare weekly and monthly document status reports. Ensure compliance with project document control procedures and ISO standards. Monitor deadlines for submissions and maintain document turnaround tracking. Assist during audits by providing required documentation and records. Maintain attendance records, staff documents, and administrative files if required. Ensure all handover documents and close-out records are properly compiled and archived. Diploma or Bachelor’s Degree in a relevant field Minimum 7+ years of experience as a Document Controller on UAE infrastructure projects (DM, RTA, or similar) Strong knowledge of document control processes , including drawings, RFIs, submittals, NCRs, and material approvals Experience managing EDMS/Aconex , document tracking, transmittals, and revision control Ability to ensure latest approved documents are maintained and properly distributed Proven coordination skills with engineers, consultants, and contractors Experience supporting QA/QC documentation and maintaining project records Proficient in MS Office with strong organizational and communication skills",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000127005362-document-controller",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-05-18T13:53:57.788Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_74243c8d079ac2",
-      "title": "Engineer - Civil (Rail, Track)",
-      "company": "AECOM",
-      "location": "Ruwais, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Ruwais",
-      "description": "Supervise and monitor railway track construction activities in compliance with approved drawings, specifications, and project requirements. Coordinate track works including: Ballasted track Ballastless/slab track Rail installation Sleeper installation Turnouts and crossings Track alignment and geometry Review and verify shop drawings, method statements, and material submittals related to track works. Ensure track construction complies with railway standards, safety regulations, and client requirements. Monitor earthworks, formation preparation, and subgrade conditions before track installation. Coordinate with survey teams for track alignment, levels, and setting out verification. Supervise rail welding, fastening systems, and track fixing activities. Inspect ballast placement, compaction, and track stabilization works. Verify rail levels, gauge, cant, alignment, and track geometry tolerances. Coordinate interface works with: Civil structures Stations Utilities Signaling systems MEP systems Ensure compliance with quality assurance and quality control procedures. Review inspection requests and ensure timely closure of WIRs and inspection records. Raise NCRs and site observations for non-compliant works. Monitor contractor progress against approved baseline program and construction schedule. Prepare daily, weekly, and monthly progress reports. Coordinate with client, consultant, contractor, and railway authorities during execution. Ensure implementation of approved safety procedures and railway operational safety requirements. Support testing and commissioning activities related to track systems. Participate in track inspections, snagging, and handover activities. Review as-built drawings and final documentation before project handover. Monitor material delivery, storage, and handling of rails, sleepers, fasteners, and track components. Assist Resident Engineer and Project Manager in resolving technical and construction issues. Ensure compliance with international railway standards and project specifications. Bachelor’s Degree in Civil Engineering or a related discipline from a recognized institution Minimum 8 years of professional experience in civil engineering, with a strong focus on rail/metro track works and infrastructure projects Proven experience in monitoring formation preparation, subgrade conditions, and readiness for track installation Demonstrated expertise in coordinating with survey teams for track alignment, levels, and setting-out verification Hands-on experience supervising rail welding, fastening systems, and track installation/fixing activities Strong knowledge of ballast placement, compaction techniques, and track stabilization processes In-depth understanding of track geometry requirements , including rail levels, gauge, cant, alignment, and tolerance control Experience in coordinating complex interface works across multiple disciplines , including: Civil structures Stations Utilities Signaling systems MEP systems Ability to interpret and apply technical drawings, specifications, and inspection/test plans (ITPs) Strong communication, coordination, and problem-solving skills within a multi-disciplinary rail project environment",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000126994807-engineer-civil-rail-track-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "civil",
-        "welding",
-        "construction",
-        "commissioning"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-05-18T13:15:14.969Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_2e17f89cff4b10",
-      "title": "Inspector - Civil (Rails, Tracks)",
-      "company": "AECOM",
-      "location": "Fujairah, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Fujairah",
-      "description": "Inspect rail and track construction activities to ensure compliance with approved drawings, specifications, project requirements, and quality standards. Monitor installation of rail tracks, sleepers, ballast, fastening systems, and related civil works. Verify track alignment, levels, gauge, cant, and geometry as per approved tolerances. Inspect earthworks, subgrade preparation, formation layers, and concrete works related to railway infrastructure. Ensure proper execution of welding works, rail joints, thermite welding, and stress adjustment activities. Conduct inspection of track slab construction, reinforcement, embedded items, and concrete pouring activities where applicable. Review shop drawings, method statements, material submittals, and inspection test plans (ITPs). Witness field testing activities including compaction tests, concrete tests, rail ultrasonic testing, and track geometry measurements. Ensure all materials used on site are approved and comply with project specifications and international railway standards. Coordinate with surveyors to verify track coordinates, alignment, and elevations. Monitor contractor’s daily site activities and ensure work progress follows approved construction schedules. Raise Non-Conformance Reports (NCRs), site observations, and deficiency reports when required. Verify corrective actions and ensure closure of NCRs and inspection comments. Ensure all inspections and testing activities are properly documented and recorded. Coordinate with engineers, contractors, subcontractors, and client representatives for inspection activities. Monitor implementation of health, safety, and environmental requirements during railway construction activities. Inspect drainage works, cable troughs, utility crossings, and associated rail infrastructure works. Ensure protection of existing railway assets and utilities during construction activities. Attend site meetings, progress meetings, and technical coordination meetings as required. Prepare daily inspection reports and maintain proper QA/QC documentation records. Support testing and commissioning activities related to track and rail systems. Ensure compliance with relevant railway authority requirements, standards, and regulations. Diploma in Civil Engineering or an equivalent qualification from a recognized institution Minimum 7 years of professional experience in civil construction inspection, with a strong focus on rail track works, track installation, and associated structural components Proven experience in large-scale infrastructure projects , particularly in rail, metro, or heavy transportation systems Demonstrated knowledge of railway construction specifications, approved drawings, and Inspection & Test Plans (ITPs) related to track works Strong understanding of track alignment, ballast placement and compaction, rail fastening systems, and concrete works associated with track infrastructure Familiarity with rail material quality control procedures , including inspection of rails, sleepers, ballast, sub-ballast, and related components Proficiency in preparing and maintaining inspection reports, material approvals, and non-conformance documentation (NCRs) Excellent command of written and spoken English for effective site communication and reporting",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000126994019-inspector-civil-rails-tracks-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc",
-        "quality control",
-        "civil",
-        "structural",
-        "welding",
-        "construction",
-        "commissioning"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-05-18T13:05:47.232Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_1db857b3c876f1",
-      "title": "Document Controller",
-      "company": "AECOM",
-      "location": "Fujairah, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Fujairah",
-      "description": "We are hiring a Document Controller to manage and control project documentation for our Freight Facilities program in Fujairah, ensuring complete, accurate, and secure records across the project lifecycle. Maintain and control all project documents, drawings, and correspondence in accordance with company procedures. Ensure proper document numbering, filing, tracking, and distribution systems are maintained. Receive, register, and distribute incoming and outgoing documents. Maintain updated logs for: Drawings RFIs Submittals NCRs Material approvals Technical submissions Correspondence Ensure only latest approved revisions of drawings and documents are available at site. Coordinate with engineers, consultants, contractors, and project teams for document submissions and approvals. Upload and manage documents through client systems and EDMS platforms. Track pending submissions and follow up for approvals and responses. Maintain hard copy and electronic filing systems for easy retrieval of records. Prepare transmittals for document submissions and distribution. Archive superseded and obsolete documents according to project procedures. Ensure confidentiality and security of project records and company documents. Assist project team in preparation of reports, presentations, and project documentation. Support QA/QC team in maintaining quality records and inspection documents. Maintain accurate records of shop drawings, method statements, and material submittals. Coordinate document flow between site office, head office, consultant, and client. Prepare weekly and monthly document status reports. Ensure compliance with project document control procedures and ISO standards. Monitor deadlines for submissions and maintain document turnaround tracking. Assist during audits by providing required documentation and records. Maintain attendance records, staff documents, and administrative files if required. Ensure all handover documents and close-out records are properly compiled and archived. Diploma or Bachelor’s in Business/Engineering or related field. 7+ years’ document control experience on major infrastructure projects (rail/freight/industrial preferred). Proficient with EDMS platforms (e.g., Aconex, Asite, ProjectWise, ACC/BIM 360) and MS Office; strong Excel skills. Solid understanding of ISO 9001 and project document control procedures; ISO 19650 awareness is an advantage. Meticulous attention to detail, data accuracy, and version control discipline. Strong communication and coordination skills with multi‑disciplinary teams and external stakeholders. UAE/GCC experience and site‑based delivery exposure are advantageous. English fluency required",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000126978199-document-controller",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-05-18T11:50:03.192Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_fa089e7e27fa64",
-      "title": "Engineer - Civil (Rail, Track)",
-      "company": "AECOM",
-      "location": "Fujairah, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Fujairah",
-      "description": "We are seeking a detail-oriented and analytical Civil Engineer specializing in freight infrastructure to join our team in Fujairah, United Arab Emirates.&#xa0; You will work collaboratively with project teams to ensure all projects meet regulatory standards, safety requirements, and operational efficiency goals while maintaining organized project documentation and timely delivery. Supervise and monitor construction in line with approved IFC drawings, specifications, method statements, and project requirements. Review and verify shop drawings, method statements, ITPs, and material submittals for track works and related systems. Monitor earthworks, formation preparation, drainage, and subgrade condition ahead of track installation. Coordinate with survey teams on alignment, levels, control points, and setting‑out verification. Coordinate interfaces with civil structures, stations, utilities, signaling, and MEP to protect program and quality. Enforce QA/QC procedures; review WIRs, manage inspections, and ensure timely close‑out and records. Raise and manage NCRs and site observations; track corrective and preventive actions to closure. Monitor contractor progress versus the approved baseline schedule; highlight risks, slippage, and recovery plans. Prepare accurate daily, weekly, and monthly progress reports with metrics, photos, and look‑ahead. Coordinate with the client, consultant, contractor, and railway authorities during execution and inspections. Ensure implementation of approved HSE procedures and railway operational safety requirements. Support testing and commissioning for track systems; participate in inspections, snagging, and handover. Assist the Resident Engineer and Project Manager in resolving technical and construction issues. Bachelor’s degree in Civil Engineering or related discipline; postgraduate or rail-specific qualifications are an advantage. 10+ years of construction and supervision experience on major rail or freight projects Proficient in coordinating multidisciplinary interfaces (civil, stations, utilities, signaling, MEP) and dealing with rail&#xa0;authorities. Skilled in progress tracking, risk identification, and recovery planning against an approved baseline schedule. GCC/UAE experience is a must. &#xa0;",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000126977029-engineer-civil-rail-track-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc",
-        "civil",
-        "construction",
-        "commissioning",
-        "hse"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-05-18T11:42:36.897Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-08T06:48:24.032338+00:00"
-    },
-    {
-      "id": "smartrecruiters_b90fd6d04ef553",
-      "title": "Inspector - Materials",
-      "company": "AECOM",
-      "location": "Ruwais , UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Ruwais",
-      "description": "We are hiring a materials Inspector in Ruwais for a freight project, You will be responsible for inspections, materials verification, documentation, and quality control. Duties Inspect site conditions prior to the start of construction activities to verify the compatibility of the site with the approved design and permanent works. Check for obstructions and document existing site conditions through photographs to prevent potential damage to existing utilities, structures, and landscaping. Review and verify materials delivered to the site for conformance with approved samples, specifications, and equipment lists; report any non-conformances to the Resident Engineer (RE). Ensure that all materials are properly stored and protected at the site to maintain quality and prevent damage or contamination. Inspect construction of both temporary and permanent works to confirm compliance with contract documents, approved shop drawings, and project specifications. Prepare and maintain accurate daily inspection logs, test reports, and site records in accordance with the Contract Administration Procedures Manual. Monitor site safety practices and ensure that all works are carried out following approved safety procedures; report unsafe practices or incidents to the RE immediately. Issue Non-Conformance Reports (NCRs) and Site Observation Reports (SORs) for any deviation from approved materials, specifications, or procedures, and follow up on corrective actions. Assist in the inspection of completed works, prepare punch lists, and monitor testing, commissioning, and handover activities to ensure quality compliance. Review and provide recommendations on Contractors’ Requests for Information (RFIs) related to civil materials and testing requirements. Evaluate requests for material variances or substitutions and provide technical comments and recommendations to the RE for approval. Read and interpret working drawings and related specifications, enforce compliance on-site, and prepare inspection and material testing reports. Coordinate with third-party testing laboratories and ensure all material tests are performed as per project specifications and standards. Ensure that all material approvals, test results, NCRs, and inspection records are properly documented and maintained for monthly reporting and project close-out. Coordinate with relevant authorities for material approvals, testing, and compliance verification. Bachelor’s degree in Civil Engineering or related field. Minimum of 7+ years of professional experience &#xa0;working as a Material Inspector, with a strong focus on large-scale infrastructure projects. Candidates must have proven experience in: Rail and Metro projects &#xa0;(such as UAE Metro, Etihad Rail, or similar international rail systems) Freight yard, rail or track infrastructure projects , including track works, ballast installation, and rail system components Strong knowledge of international and regional standards for civil materials and testing (e.g., ASTM, AASHTO, BS/EN) and QA/QC processes (ITPs, WIRs, NCRs, SORs). Proven experience reviewing shop drawings, method statements, material submittals, and managing third‑party testing labs. Familiarity with authority processes in the UAE/GCC Excellent documentation, reporting, and stakeholder coordination skills; proficiency with common CDE/reporting tools is an advantage.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000126960849-inspector-materials",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc",
-        "quality control",
-        "civil",
-        "construction",
-        "commissioning"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "posted": "2026-05-18T10:08:56.370Z",
-      "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-07T06:28:41.702662+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_c6a8910e17fa40",
@@ -10714,7 +10200,7 @@
       "nationals_only": null,
       "posted": "2026-06-17T14:20:01.654Z",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "greenhouse_6b5dba1375a525",
@@ -10780,7 +10266,7 @@
       "nationals_only": null,
       "posted": "2026-01-08T10:52:50.276000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_750bf541ff338b",
@@ -10802,7 +10288,7 @@
       "nationals_only": null,
       "posted": "2026-04-30T00:04:54.901000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_8439b329cbd978",
@@ -10824,7 +10310,7 @@
       "nationals_only": null,
       "posted": "2026-05-08T11:08:02.572000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_8a5aa1882a4c15",
@@ -10846,7 +10332,7 @@
       "nationals_only": null,
       "posted": "2026-02-24T11:50:33.800000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_aafe800effb202",
@@ -10868,7 +10354,7 @@
       "nationals_only": null,
       "posted": "2025-10-28T08:25:03.147000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_48416f7c1a3d60",
@@ -10890,7 +10376,7 @@
       "nationals_only": null,
       "posted": "2026-04-28T04:12:28.967000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_7b55916e9ee362",
@@ -10956,7 +10442,7 @@
       "nationals_only": null,
       "posted": "2023-09-26T10:25:53.978000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_7cf8e1576ad8ef",
@@ -11000,7 +10486,7 @@
       "nationals_only": null,
       "posted": "2026-03-27T09:30:48.869000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "lever_b1be16fd91ddf4",
@@ -11022,7 +10508,7 @@
       "nationals_only": null,
       "posted": "2026-01-12T17:42:16.181000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "smartrecruiters_e2c4f98205ac9f",
@@ -11102,7 +10588,7 @@
       },
       "posted": "2025-01-16",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_757f013b931820",
@@ -11177,7 +10663,7 @@
       "nationals_only": null,
       "posted": "2026-04-19",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_540531d44b0712",
@@ -11199,7 +10685,7 @@
       "nationals_only": null,
       "posted": "2026-03-26",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-06-28T06:22:49.087992+00:00"
+      "last_seen": "2026-06-29T06:53:17.151867+00:00"
     },
     {
       "id": "workday_731bc47689b2f1",
