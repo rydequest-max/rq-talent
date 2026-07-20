@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-19T05:26:08.690159+00:00",
-  "count": 462,
+  "generated_at": "2026-07-20T05:43:33.864899+00:00",
+  "count": 465,
   "shutdown_count": 33,
   "by_country": {
-    "United Arab Emirates": 462
+    "United Arab Emirates": 465
   },
   "by_industry": {
-    "Financial Services / Fintech": 139,
+    "Financial Services / Fintech": 141,
     "Construction / Infrastructure": 115,
-    "Other": 61,
+    "Other": 62,
     "Technology / Software": 43,
     "Other service activities": 38,
     "Energy / Oil & Gas": 37,
@@ -24,9 +24,9 @@
     "Public administration and defence; compulsory social security": 1
   },
   "sources": [
-    "Jooble (56)",
+    "Jooble (62)",
     "Careerjet (skipped: no CAREERJET_API_KEY)",
-    "Workday (66)",
+    "Workday (61)",
     "SmartRecruiters (50)",
     "NADIA (40)",
     "Adecco (50)",
@@ -35,6 +35,74 @@
     "RSS (0)"
   ],
   "jobs": [
+    {
+      "id": "jooble_895e9141b259d8",
+      "title": "Country Manager",
+      "company": "RealAdvisor",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...the real estate market. We are Europe... ...and active operations across Switzerland... ...a local sales team, and owning... ...with the help of Human Resources: SDRs BDRs CSMs Develop Team Leaders... ...marketing, product, finance) ... ...Proven skills recruiting and coaching high...",
+      "url": "https://jooble.org/jdp/-2659742305662017742",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-19T07:54:23.6130000",
+      "first_seen": "2026-07-20T05:43:33.864899+00:00",
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
+    },
+    {
+      "id": "jooble_bfdcee92ce7708",
+      "title": "Snr. Projects Coordinator",
+      "company": "Blackstone eIT",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...Projects Coordinator to oversee operational projects, and facilitate... ...should be a highly collaborative people person and a team player,... ...risks, and operational KPIs. Develop and improve operational... ...planning and execution. Support resource planning and task allocation...",
+      "url": "https://jooble.org/jdp/2485501285844893323",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-19T07:54:23.8230000",
+      "first_seen": "2026-07-20T05:43:33.864899+00:00",
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
+    },
+    {
+      "id": "workday_35c1f6d2096426",
+      "title": "Senior Executive Assistant",
+      "company": "Citi",
+      "location": "Dubai United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "The Senior Executive Assistant provides support to another individual or group of individuals by handling correspondence, managing calendars and appointments, arranging conferences and conference calls, making travel arrangements and providing other administrative tasks. Responsibilities: Directly supports a C16 level manager and generally supports an entire department Manages day to day calendar(s) of senior management Coordinates all aspects of executive level manager appointments, meetings, receptions and conference calls May prepare and review materials and correspondence for meetings Assist with creation/modification of presentations, spreadsheets, and other various documents Coordinates travel arrangements; prepare and distribute schedules/agendas for travel Prepares, reconciles, and tracks expense reports through Travel and Entertainment Expense system Orders supplies and process invoices through Procure to Pay system Process and follow-up on Virtual Requests Assists in ad-hoc reports special projects as needed Trains, coaches or guides other administrative staff when required Appropriately assess risk when business decisions are made, demonstrating particular consideration for the firm's reputation and safeguarding Citigroup, its clients and assets, by driving compliance with applicable laws, rules and regulations, adhering to Policy, applying sound ethical judgment regarding personal behavior, conduct and business practices, and escalating, managing and reporting control issues with transparency. Qualifications: Previous office administration experience preferably within a large and complex financial services or similar organization Highly proficient in Microsoft Office Consistently demonstrates clear and concise written and verbal communication skills Demonstrated ability to quickly gain command of new systems Self-motivated and detail oriented Education: Bachelor's/University degree or equivalent experience ------------------------------------------------------ Job Family Group: Business Strategy, Management & Administration ------------------------------------------------------ Job Family: Administrative Support ------------------------------------------------------ Time Type: Full time ------------------------------------------------------ Most Relevant Skills Please see the requirements listed above. ------------------------------------------------------ Other Relevant Skills For complementary skills, please see above and/or contact the recruiter. ------------------------------------------------------ Citi is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law. If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review Accessibility at Citi . View Citi’s EEO Policy Statement and the Know Your Rights poster.",
+      "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Senior-Executive-Assistant_26979581",
+      "source": "Workday:Citi",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "aws"
+      ],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-17",
+      "first_seen": "2026-07-20T05:43:33.864899+00:00",
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
+    },
     {
       "id": "jooble_c857d0c09f640a",
       "title": "Quality Assurance (QA)",
@@ -55,7 +123,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T00:00:00.0000000",
       "first_seen": "2026-07-19T05:26:08.690159+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_bfe41daf318a66",
@@ -77,7 +145,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T14:16:30.1300000",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_8d65f0c38ae389",
@@ -101,7 +169,7 @@
       "nationals_only": null,
       "posted": "2026-07-17",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_2917c18fe1901a",
@@ -128,7 +196,7 @@
       },
       "posted": "2026-07-17",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_a02183afcba17b",
@@ -152,7 +220,7 @@
       "nationals_only": null,
       "posted": "2026-07-17",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_a64165b47d2b7a",
@@ -181,7 +249,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T09:07:15.743Z",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_8b8580d338075f",
@@ -209,7 +277,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T07:44:41.200Z",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_48589c4ed79a9d",
@@ -234,7 +302,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T07:43:05.139Z",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_17c6e697745072",
@@ -260,7 +328,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T06:04:10.292Z",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_7a24edebab729b",
@@ -282,7 +350,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_2221addd1a1684",
@@ -306,7 +374,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T06:30:12-04:00",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_ed18e015020f0e",
@@ -328,7 +396,7 @@
       "nationals_only": null,
       "posted": "2026-07-16T13:54:32.6570000",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_67e1c548c4e514",
@@ -352,7 +420,7 @@
       "nationals_only": null,
       "posted": "2026-07-16",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_d07f12613e40fe",
@@ -379,7 +447,7 @@
       },
       "posted": "2026-07-14",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_02ca7ee83b2e94",
@@ -403,7 +471,7 @@
       "nationals_only": null,
       "posted": "2026-07-14",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_35bb178001abec",
@@ -425,7 +493,7 @@
       "nationals_only": null,
       "posted": "2026-07-16",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_695d679ddd6159",
@@ -447,7 +515,7 @@
       "nationals_only": null,
       "posted": "2026-07-16",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_9503a33f2f071b",
@@ -478,7 +546,7 @@
       "nationals_only": null,
       "posted": "2026-07-16T14:43:01.038Z",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_929800df7b90e9",
@@ -504,7 +572,7 @@
       "nationals_only": null,
       "posted": "2026-07-16T11:51:50.849Z",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_4db4765bd2637f",
@@ -555,7 +623,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_9c2f8a725c42f9",
@@ -577,7 +645,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_7d41ee251f46c1",
@@ -599,7 +667,7 @@
       "nationals_only": null,
       "posted": "2026-07-16T21:38:08.724000+00:00",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_319c43460e7942",
@@ -621,7 +689,7 @@
       "nationals_only": null,
       "posted": "2026-01-12T17:42:16.181000+00:00",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_364d3641ca3813",
@@ -648,7 +716,7 @@
       },
       "posted": "2026-07-09",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_3ce37f05c478fa",
@@ -675,7 +743,7 @@
       },
       "posted": "2026-06-30",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_8a19c07eaecf5a",
@@ -729,7 +797,7 @@
       "nationals_only": null,
       "posted": "2026-07-14",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_e2f9142e58ce56",
@@ -755,7 +823,7 @@
       "nationals_only": null,
       "posted": "2026-07-15",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_f3dae7390f667a",
@@ -782,7 +850,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T12:25:53.458Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_97d2409655985b",
@@ -837,7 +905,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T09:10:20.832Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_b6ee8b2523f4a2",
@@ -859,7 +927,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T10:34:09.97Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_c92084a7c48a77",
@@ -881,7 +949,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T10:29:47.443Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_77cb72e365f123",
@@ -905,7 +973,7 @@
       "nationals_only": null,
       "posted": "2026-05-13T06:45:44.654000+00:00",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_e0a226ae02d573",
@@ -982,7 +1050,7 @@
       },
       "posted": "2026-07-14",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_8d38bf1021d504",
@@ -1033,7 +1101,7 @@
       "nationals_only": null,
       "posted": "2026-07-14",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_96e3888fef45c8",
@@ -1061,7 +1129,7 @@
       "nationals_only": null,
       "posted": "2026-07-14T13:33:08.879Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_dc99449de3e6ae",
@@ -1115,7 +1183,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T13:01:05.680Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_fbc1563d872a9f",
@@ -1139,7 +1207,7 @@
       "nationals_only": null,
       "posted": "2026-07-14T09:39:10.324Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_4d1551cd03f0bb",
@@ -1271,7 +1339,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T12:25:47.967Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_95018ae7d1e8ff",
@@ -1293,7 +1361,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_b0abfccf940697",
@@ -1318,7 +1386,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_02143b065d38b9",
@@ -1340,7 +1408,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_034f1501b44fef",
@@ -1362,7 +1430,7 @@
       "nationals_only": null,
       "posted": "2026-07-14T07:49:44-04:00",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_516674d34a948d",
@@ -1384,7 +1452,7 @@
       "nationals_only": null,
       "posted": "2025-09-25T06:25:01.003000+00:00",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_a1d4c1463269e1",
@@ -1406,7 +1474,7 @@
       "nationals_only": null,
       "posted": "2026-06-18T04:32:42.1100000",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_68f0d8c0186ce8",
@@ -1431,7 +1499,7 @@
       },
       "posted": "2026-06-30",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_c7b6c8c3cb43ab",
@@ -1455,7 +1523,7 @@
       "nationals_only": null,
       "posted": "2026-07-13",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_9020d3eb4d5e02",
@@ -1586,7 +1654,7 @@
       "nationals_only": null,
       "posted": "2026-07-13T05:10:34-04:00",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_e1db864a86bccd",
@@ -1635,7 +1703,7 @@
       "nationals_only": null,
       "posted": "2026-07-11T02:48:09.0830000",
       "first_seen": "2026-07-12T05:33:10.541611+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_8b8f4002cf8127",
@@ -1681,7 +1749,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T03:02:45.8300000",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_820539af58a5a4",
@@ -1736,7 +1804,7 @@
       "nationals_only": null,
       "posted": "2026-07-10",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_f076cf5a410078",
@@ -1761,7 +1829,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T11:17:30.499Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_1deb30290ddb13",
@@ -1786,7 +1854,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T10:41:07.999Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_5afb0efbe833ea",
@@ -1818,7 +1886,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T06:41:10.568Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_d45fced395dd32",
@@ -1843,7 +1911,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T10:52:06.861Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_fa7039bb3479ff",
@@ -1865,7 +1933,7 @@
       "nationals_only": null,
       "posted": "2026-07-07T13:00:49Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_34f33ea0cbfcd6",
@@ -1909,7 +1977,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T04:44:45.5130000",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_13ac023674068f",
@@ -1955,7 +2023,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T04:44:45.3470000",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_cb1ddef108daab",
@@ -2074,7 +2142,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:44:05.818Z",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_080416920ffb3f",
@@ -2098,7 +2166,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:33:10.962Z",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_db17e1e8aed5b4",
@@ -2150,7 +2218,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T11:18:44.642Z",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_ae85a669e4312c",
@@ -2196,7 +2264,7 @@
       "nationals_only": null,
       "posted": "2026-07-03T05:29:29.257000+00:00",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_667536c63616ee",
@@ -2218,7 +2286,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T03:06:02.4770000",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_0e11a583f568b6",
@@ -2240,7 +2308,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T01:23:16.0500000",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_10b1f22b0380a9",
@@ -2375,7 +2443,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T05:48:35.927Z",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_228cbbcbbb5215",
@@ -2422,7 +2490,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:58:42-04:00",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_c4edfd144ddf75",
@@ -2446,7 +2514,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T15:33:39.653000+00:00",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_5f0741cdea605f",
@@ -2468,7 +2536,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T05:37:16.975000+00:00",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_9c95bffdcde558",
@@ -2584,7 +2652,7 @@
       "nationals_only": null,
       "posted": "2026-07-07",
       "first_seen": "2026-07-08T05:25:33.286399+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_6440f5cb3712dd",
@@ -2743,7 +2811,7 @@
       "nationals_only": null,
       "posted": "2026-07-07T07:16:06.524Z",
       "first_seen": "2026-07-08T05:25:33.286399+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_689b3ab4e19ed6",
@@ -2793,7 +2861,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:58:42-04:00",
       "first_seen": "2026-07-08T05:25:33.286399+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_7fc04454d60029",
@@ -2818,7 +2886,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T07:36:58-04:00",
       "first_seen": "2026-07-08T05:25:33.286399+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_e1d1d07b1d66f9",
@@ -2939,7 +3007,7 @@
       "nationals_only": null,
       "posted": "2026-07-07T03:55:27.492Z",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_cb2bcedfd5bc56",
@@ -2964,7 +3032,7 @@
       "nationals_only": null,
       "posted": "2026-07-06T12:46:37.753Z",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_f5b4f324fdd254",
@@ -2989,7 +3057,7 @@
       "nationals_only": null,
       "posted": "2026-07-06T09:29:30.458Z",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_6112e3ed70965d",
@@ -3013,7 +3081,7 @@
       "nationals_only": null,
       "posted": "2026-07-06T07:47:35.441Z",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_b7fc898450a49c",
@@ -3037,7 +3105,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T10:27:49.990Z",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_4d5516e90f7c02",
@@ -3059,7 +3127,7 @@
       "nationals_only": null,
       "posted": "2026-07-06T08:57:23Z",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_af5f319a64ee07",
@@ -3081,7 +3149,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T07:28:01-04:00",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_b93c815738bc5c",
@@ -3103,7 +3171,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T07:58:02-04:00",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_dabdc6154be449",
@@ -3201,7 +3269,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-06T06:40:33.963833+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_6137939823e1cd",
@@ -3223,7 +3291,7 @@
       "nationals_only": null,
       "posted": "2026-07-03T13:07:19.655Z",
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_fa5f00d00c3ecf",
@@ -3247,7 +3315,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_50a6a676fea8ca",
@@ -3271,7 +3339,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_2fda467b0567cd",
@@ -3293,7 +3361,7 @@
       "nationals_only": null,
       "posted": "2026-07-03T10:51:11Z",
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_7dbfb88d2b1212",
@@ -3359,7 +3427,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T05:07:56.9930000",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_e48ade4de875a8",
@@ -3381,7 +3449,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T05:07:57.2430000",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_3dcc6f8600c881",
@@ -3403,7 +3471,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T05:07:56.7230000",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_20abaa0e70bec0",
@@ -3482,7 +3550,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T08:51:10.627Z",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_809c6eca58f80c",
@@ -3532,7 +3600,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T08:48:08.578Z",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_6d5b3c99422026",
@@ -3654,7 +3722,7 @@
       "nationals_only": null,
       "posted": "2026-07-01",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_b2f0a01147d8f4",
@@ -3678,7 +3746,7 @@
       "nationals_only": null,
       "posted": "2026-07-01",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_1c5daafee09a82",
@@ -3700,7 +3768,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_3916d4462861c2",
@@ -3722,7 +3790,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_0d43dce76bc0a2",
@@ -3744,7 +3812,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_36f1e55732e4b3",
@@ -3768,7 +3836,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_1e062f6fd75ff7",
@@ -3790,7 +3858,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_bfaea481cc8de3",
@@ -3812,7 +3880,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_137442075e2ad2",
@@ -3878,7 +3946,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:58:42-04:00",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_84e75fc61c82da",
@@ -3931,7 +3999,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T11:56:56.200Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_9f2dee7e54214d",
@@ -3975,7 +4043,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_132de226daa17a",
@@ -3997,7 +4065,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_5dc1950a2beed8",
@@ -4019,7 +4087,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_d6d65c9968991b",
@@ -4041,7 +4109,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_1b65b1a1d8c61f",
@@ -4063,7 +4131,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_259500da7416da",
@@ -4115,7 +4183,7 @@
       },
       "posted": "2026-03-10",
       "first_seen": "2026-06-30T06:16:28.416198+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_5ce37b00b2125e",
@@ -4189,7 +4257,7 @@
       "nationals_only": null,
       "posted": "2026-06-29",
       "first_seen": "2026-06-30T06:16:28.416198+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_daa15010de74c1",
@@ -4217,9 +4285,9 @@
         "country": "United Arab Emirates",
         "level": "only"
       },
-      "posted": "2026-06-29",
+      "posted": "2026-07-19",
       "first_seen": "2026-06-30T06:16:28.416198+00:00",
-      "last_seen": "2026-07-05T06:09:02.095144+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_1c9d2ef6be1a14",
@@ -4564,7 +4632,7 @@
       "nationals_only": null,
       "posted": "2026-03-03T15:20:27.176000+00:00",
       "first_seen": "2026-06-27T05:57:15.482279+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_24ce20204115e3",
@@ -4586,7 +4654,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:20:20.8770000",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_81ff809d61c71f",
@@ -4608,7 +4676,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:20:21.0730000",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_c14f28e8883946",
@@ -4635,7 +4703,7 @@
       },
       "posted": "2026-05-22",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_d8d5b62a885993",
@@ -4833,7 +4901,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_4fe3dec3d52e54",
@@ -4877,7 +4945,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_cf78ef142d6c37",
@@ -4899,7 +4967,7 @@
       "nationals_only": null,
       "posted": "2026-07-12T23:01:10.301Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_98a9fdac5ee883",
@@ -4923,7 +4991,7 @@
       "nationals_only": null,
       "posted": "2026-07-12T23:01:08.543Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_4544ff3312a538",
@@ -5020,9 +5088,9 @@
         "country": "United Arab Emirates",
         "level": "only"
       },
-      "posted": "2026-06-24",
+      "posted": "2026-07-19",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-07-07T06:12:56.163450+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_74813d596ae3d0",
@@ -5100,7 +5168,7 @@
       "nationals_only": null,
       "posted": "2026-06-24",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_3ea036ee2ac33a",
@@ -5122,7 +5190,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_d82623b0725425",
@@ -5188,7 +5256,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_4a72aea5ab435c",
@@ -5254,7 +5322,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T03:45:22.8000000",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_2479a39adb6fe2",
@@ -5522,7 +5590,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_2e7efbf6433a80",
@@ -5544,7 +5612,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_29d9d004f1f54b",
@@ -5712,7 +5780,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-23T06:11:32.112928+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_b13f80d9cb2f94",
@@ -5836,7 +5904,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_fb8671dee3de6a",
@@ -5858,7 +5926,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_5ff81b69ae1712",
@@ -5961,7 +6029,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_6a035e891db4d1",
@@ -5983,7 +6051,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_de9326d3cc6618",
@@ -6005,7 +6073,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_f022a4caaa7cc0",
@@ -6027,7 +6095,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_5fc0e5456cc51e",
@@ -6101,7 +6169,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-19T07:11:21.715572+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_56274b72250265",
@@ -6123,7 +6191,7 @@
       "nationals_only": null,
       "posted": "2022-07-15T05:49:56.587000+00:00",
       "first_seen": "2026-06-19T07:11:21.715572+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_91216ff100c560",
@@ -6145,7 +6213,7 @@
       "nationals_only": null,
       "posted": "2026-06-17T03:29:17.2600000",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_198dfdb08f9291",
@@ -6173,7 +6241,7 @@
       },
       "posted": "2026-06-29",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_464e85b2601c5e",
@@ -6234,7 +6302,7 @@
       "nationals_only": null,
       "posted": "2026-07-07T06:32:18.890Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_60466d10c34780",
@@ -6259,7 +6327,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_0dd96d3ed97441",
@@ -6281,7 +6349,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_cd42138d9d3391",
@@ -6303,7 +6371,7 @@
       "nationals_only": null,
       "posted": "2026-07-06T12:04:48Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_c56e159d6778b0",
@@ -6325,7 +6393,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_45fa2fe3a14cfd",
@@ -6413,7 +6481,7 @@
       "nationals_only": null,
       "posted": "2026-07-11T17:01:20.959Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_b242768457b280",
@@ -6523,7 +6591,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_fd5b06a2007e01",
@@ -6547,7 +6615,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T07:46:15-04:00",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_64e15b749ee150",
@@ -6574,7 +6642,7 @@
       },
       "posted": "2026-04-29",
       "first_seen": "2026-06-16T07:31:27.901081+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_b1b40a9de5457b",
@@ -6677,7 +6745,7 @@
       },
       "posted": "2026-06-11T22:43:22.0570000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-07-18T04:52:11.016633+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_86ca04fab57ed6",
@@ -6702,7 +6770,7 @@
       },
       "posted": "2026-06-11T22:43:22.3570000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-07-18T04:52:11.016633+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_e963a6b445bdeb",
@@ -6729,7 +6797,7 @@
       },
       "posted": "2026-06-11T22:43:22.2530000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-07-18T04:52:11.016633+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_4e83e5f8859c5f",
@@ -6754,7 +6822,7 @@
       },
       "posted": "2026-06-11T22:43:21.8100000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-07-18T04:52:11.016633+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_1e829310e06eda",
@@ -6776,7 +6844,7 @@
       "nationals_only": null,
       "posted": "2026-06-11T04:35:59.6430000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_2baf0e033af9ed",
@@ -6871,7 +6939,7 @@
       "nationals_only": null,
       "posted": "2026-06-10T03:11:54.9230000",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_141128359a944e",
@@ -6893,7 +6961,7 @@
       "nationals_only": null,
       "posted": "2026-06-10T03:11:55.2170000",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_66fa14c274a2b0",
@@ -7023,7 +7091,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_feb2cfe7ba2009",
@@ -7069,7 +7137,7 @@
       "nationals_only": null,
       "posted": "2026-06-09T04:57:13.6400000",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_d990ebcc6be9c0",
@@ -7172,7 +7240,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_731426e23528b7",
@@ -7238,7 +7306,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_225936de76b69a",
@@ -7263,7 +7331,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_cc43c94af9ee0b",
@@ -7285,7 +7353,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T02:59:58.7670000",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_2fcdd508dc5fab",
@@ -7438,7 +7506,7 @@
       "nationals_only": null,
       "posted": "2024-03-29T07:59:42.291000+00:00",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_f7fad305f413d1",
@@ -7559,7 +7627,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T03:50:42.4900000",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_dc3fe429d2d1b2",
@@ -7581,7 +7649,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T03:50:42.0000000",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_3bdd1ad2c7d193",
@@ -7605,7 +7673,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_575b7c8af38ab5",
@@ -7627,7 +7695,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_6443a60a65a6b1",
@@ -7693,7 +7761,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_1df7753613513e",
@@ -7715,7 +7783,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_19b69a23b3820f",
@@ -7737,7 +7805,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T11:15:01.565000+00:00",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_19b5810f5cc680",
@@ -7781,7 +7849,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T23:00:17Z",
       "first_seen": "2026-06-05T06:27:59.736302+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_8900de8dfaf0da",
@@ -7808,7 +7876,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_7bfe5210a33a3c",
@@ -7855,7 +7923,7 @@
       "nationals_only": null,
       "posted": "2026-07-07T11:10:57.515Z",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_fce15ef89937f6",
@@ -8073,7 +8141,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_fd05f5eade0536",
@@ -8095,7 +8163,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_4b9127257ffe8b",
@@ -8117,7 +8185,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_3f1501dc4dc1ef",
@@ -8139,7 +8207,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_f29747fd04cf17",
@@ -8161,7 +8229,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_b59ef012afaa1d",
@@ -8183,7 +8251,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_680ae326084d9a",
@@ -8205,7 +8273,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_47242a019409f0",
@@ -8230,7 +8298,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_ae10761f1c6389",
@@ -8252,7 +8320,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_6c791b4d41085b",
@@ -8276,7 +8344,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_2ed3af50c3ea0d",
@@ -8298,7 +8366,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_b76d1c52cb57b8",
@@ -8320,7 +8388,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_730c5dc3ad0503",
@@ -8345,7 +8413,7 @@
       },
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_5bab7c946e0556",
@@ -8367,7 +8435,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_67c2145c5286df",
@@ -8391,7 +8459,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_cf46f3e87616f1",
@@ -8415,7 +8483,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_604232e50f922b",
@@ -8437,7 +8505,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_2b345f94015bdb",
@@ -8459,7 +8527,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_b31bc9ec1a4eca",
@@ -8481,7 +8549,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_c18f9bc899d418",
@@ -8503,7 +8571,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_fb59a0076954e1",
@@ -8527,7 +8595,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_90b8b195f00660",
@@ -8549,7 +8617,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_09814f9dbf5d0d",
@@ -8571,7 +8639,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "nadia global_4538bf7fb81020",
@@ -8793,7 +8861,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_1d438e0e3bff61",
@@ -8815,7 +8883,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_29c0a78b53b206",
@@ -8837,7 +8905,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_b33ad07eed6af9",
@@ -8859,7 +8927,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_d5d81fa29e6249",
@@ -8881,7 +8949,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_7926676091e501",
@@ -8903,7 +8971,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_bcd33f8918dc9b",
@@ -8925,7 +8993,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "adecco_eca8850eea5d9e",
@@ -8949,7 +9017,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "greenhouse_be1e95bbc3c606",
@@ -8971,7 +9039,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T08:03:53-04:00",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_d05d5416b2b9fb",
@@ -8995,7 +9063,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_3be53ac9b8a058",
@@ -9021,7 +9089,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_0ac40216fc0c64",
@@ -9049,7 +9117,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_19f1ffa28d2184",
@@ -9093,7 +9161,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_010bcfef291c2f",
@@ -9161,7 +9229,7 @@
       "nationals_only": null,
       "posted": "2025-09-24T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_06434ac3db1405",
@@ -9205,7 +9273,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_cd3981e95cb2f4",
@@ -9249,7 +9317,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_9b859a8461565f",
@@ -9293,7 +9361,7 @@
       "nationals_only": null,
       "posted": "2025-09-11T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_7b78ec7586edc1",
@@ -9359,7 +9427,7 @@
       "nationals_only": null,
       "posted": "2025-10-01T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_ecb45da3679877",
@@ -9381,7 +9449,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_92b440189fa65f",
@@ -9425,7 +9493,7 @@
       "nationals_only": null,
       "posted": "2025-09-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_344681c6ed3938",
@@ -9447,7 +9515,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_6a859d62b622be",
@@ -9491,7 +9559,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_c599368f77c64b",
@@ -9513,7 +9581,7 @@
       "nationals_only": null,
       "posted": "2026-02-27T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_4468f39fb596c2",
@@ -9557,7 +9625,7 @@
       "nationals_only": null,
       "posted": "2026-05-22T14:16:19.4400000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_e7c282e76ed19e",
@@ -9579,7 +9647,7 @@
       "nationals_only": null,
       "posted": "2025-07-22T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_949da40dd88646",
@@ -9603,7 +9671,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_12c03007a943c4",
@@ -9625,7 +9693,7 @@
       "nationals_only": null,
       "posted": "2025-08-25T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_c286e98ce6a3ff",
@@ -9669,7 +9737,7 @@
       "nationals_only": null,
       "posted": "2025-07-26T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_e2975668bc373a",
@@ -9691,7 +9759,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_863f4c29564014",
@@ -9713,7 +9781,7 @@
       "nationals_only": null,
       "posted": "2025-08-15T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_f13abc859ae92c",
@@ -9735,7 +9803,7 @@
       "nationals_only": null,
       "posted": "2025-09-17T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_4a58f4fc9bd556",
@@ -9757,7 +9825,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_b5a3ed3f34f20c",
@@ -9779,7 +9847,7 @@
       "nationals_only": null,
       "posted": "2025-09-12T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_7247c6e8cb0d2f",
@@ -9801,7 +9869,7 @@
       "nationals_only": null,
       "posted": "2025-09-17T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_cb10eca84116a3",
@@ -9823,7 +9891,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_a413b9723e80fb",
@@ -9867,7 +9935,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_6587dfb501edd5",
@@ -9911,7 +9979,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_d563948a964ad5",
@@ -9933,7 +10001,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_233222f0c762b5",
@@ -9955,7 +10023,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_f423e88e180b3f",
@@ -9977,7 +10045,7 @@
       "nationals_only": null,
       "posted": "2025-09-09T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_0568f3c5d38c38",
@@ -9999,7 +10067,7 @@
       "nationals_only": null,
       "posted": "2025-10-01T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "jooble_6ee9a7442827b3",
@@ -10023,7 +10091,7 @@
       "nationals_only": null,
       "posted": "2025-09-09T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_bc2546e7092d2d",
@@ -10051,7 +10119,7 @@
       },
       "posted": "2026-04-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_40ec30ea38df3a",
@@ -10078,7 +10146,7 @@
       },
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_ff72511a9250d6",
@@ -10132,7 +10200,7 @@
       },
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_d25655fd9c0a2b",
@@ -10159,7 +10227,7 @@
       },
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_290437f5e43310",
@@ -10184,7 +10252,7 @@
       },
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_6d39c57160084d",
@@ -10211,7 +10279,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_a6cbffcd12d07d",
@@ -10266,7 +10334,7 @@
       },
       "posted": "2024-12-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_a81ffc2a760d08",
@@ -10291,7 +10359,7 @@
       },
       "posted": "2026-07-07",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_533e141f6ae318",
@@ -10315,7 +10383,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_c8d5363f798de9",
@@ -10343,7 +10411,7 @@
       },
       "posted": "2026-05-12",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_a20a95e9df745c",
@@ -10397,7 +10465,7 @@
       },
       "posted": "2026-05-15",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_2e900db633242a",
@@ -10424,7 +10492,7 @@
       },
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_901bc06aa9af13",
@@ -10528,7 +10596,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_5f58b859c36016",
@@ -10555,7 +10623,7 @@
       },
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_bb0a3503297dad",
@@ -10580,7 +10648,7 @@
       },
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_ca3cccc0fa1308",
@@ -10659,7 +10727,7 @@
       },
       "posted": "2026-03-17",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_76e85c2d75109f",
@@ -10684,7 +10752,7 @@
       "nationals_only": null,
       "posted": "2026-05-05",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_521266935a56c1",
@@ -10711,7 +10779,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_11c755489d27a2",
@@ -10764,7 +10832,7 @@
       "nationals_only": null,
       "posted": "2026-04-30",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_242b1ee6b3823e",
@@ -10788,7 +10856,7 @@
       "nationals_only": null,
       "posted": "2026-06-16",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "smartrecruiters_8c25b66f5ffe46",
@@ -10873,7 +10941,7 @@
       "nationals_only": null,
       "posted": "2026-01-08T10:52:50.276000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_750bf541ff338b",
@@ -10895,7 +10963,7 @@
       "nationals_only": null,
       "posted": "2026-04-30T00:04:54.901000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_8439b329cbd978",
@@ -10917,7 +10985,7 @@
       "nationals_only": null,
       "posted": "2026-05-08T11:08:02.572000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_8a5aa1882a4c15",
@@ -10961,7 +11029,7 @@
       "nationals_only": null,
       "posted": "2025-10-28T08:25:03.147000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_48416f7c1a3d60",
@@ -11005,7 +11073,7 @@
       "nationals_only": null,
       "posted": "2023-09-26T10:25:53.978000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "lever_042ad586e345e3",
@@ -11105,7 +11173,7 @@
       },
       "posted": "2025-01-16",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     },
     {
       "id": "workday_757f013b931820",
@@ -11176,7 +11244,7 @@
       "nationals_only": null,
       "posted": "2026-03-26",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-07-19T05:26:08.690159+00:00"
+      "last_seen": "2026-07-20T05:43:33.864899+00:00"
     }
   ]
 }
