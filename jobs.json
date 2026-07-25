@@ -1,40 +1,314 @@
 {
-  "generated_at": "2026-07-24T05:24:13.377229+00:00",
-  "count": 470,
+  "generated_at": "2026-07-25T05:18:21.995198+00:00",
+  "count": 477,
   "shutdown_count": 36,
   "by_country": {
-    "United Arab Emirates": 470
+    "United Arab Emirates": 477
   },
   "by_industry": {
-    "Financial Services / Fintech": 143,
-    "Construction / Infrastructure": 126,
-    "Other": 66,
+    "Financial Services / Fintech": 146,
+    "Construction / Infrastructure": 130,
+    "Other": 65,
+    "Energy / Oil & Gas": 46,
     "Technology / Software": 45,
-    "Energy / Oil & Gas": 45,
-    "Other service activities": 21,
+    "Other service activities": 20,
     "Transportation and storage": 4,
     "Healthcare / Pharma": 4,
+    "Public administration and defence; compulsory social security": 3,
     "Manufacturing": 3,
     "Wholesale and retail trade; repair of motor vehicles and motorcycles": 3,
-    "Hospitality / Tourism": 3,
     "Information and communication": 2,
     "Construction": 2,
+    "Hospitality / Tourism": 2,
     "Education": 1,
-    "Financial and insurance activities": 1,
-    "Public administration and defence; compulsory social security": 1
+    "Financial and insurance activities": 1
   },
   "sources": [
-    "Jooble (49)",
+    "Jooble (46)",
     "Careerjet (skipped: no CAREERJET_API_KEY)",
-    "Workday (67)",
+    "Workday (66)",
     "SmartRecruiters (50)",
     "NADIA (40)",
     "Adecco (50)",
     "Greenhouse (12)",
-    "Lever (16)",
+    "Lever (17)",
     "RSS (0)"
   ],
   "jobs": [
+    {
+      "id": "jooble_6a4ad0559f62bd",
+      "title": "Senior Military Engagement Platform (SMEP) Planner",
+      "company": "Peraton",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...responsible for leading information operations, military information... ..., operational risk, resource allocation, and campaign effectiveness... ..., joint and multinational partners, and intelligence-driven... .... Visit peraton.com to learn how we’re keeping people around the world safe and...",
+      "url": "https://jooble.org/jdp/-90172840416122781",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Construction / Infrastructure",
+      "salary": "$112k - $179k",
+      "contact": null,
+      "skills": [
+        "planner"
+      ],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24T20:28:35.9170000",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "workday_ac912661f5bb98",
+      "title": "Senior Vice President, Global Segment Product Manager - Core Trade Product, Europe & MENA Regions",
+      "company": "Citi",
+      "location": "Dubai United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Are you looking for a career move that will put you at the heart of a global financial institution? Then bring your skills in client management, problem solving and communication to Citi’s Core Trade team. By Joining Citi, you will become part of a global organisation whose mission is to serve as a trusted partner to our clients by responsibly providing financial services that enable growth and economic progress. Team/Role Overview: Citi's Services organisation provides an integrated suite of innovative and tailored cash management and trade and working capital solutions to multinational corporations, financial institutions, and public sector organisations. Citi's Trade & Working Capital business is the market leader in delivering global trade and working capital financing solutions across sectors. We are seeking a dynamic and results-driven Global Segments Market Manager to lead the strategic management and development of Core Trade products across the UK, Europe, Middle East, and Africa, with a focus on driving MENA and UAE growth. This role will be responsible for the growth and delivery of core trade business to the Commercial Bank and Corporate Bank Mass Market client segments. The ideal candidate will have a proven track record in core trade (trade services & finance), product management, and regional market strategy. This role will focus on driving segment-specific growth, enhancing product offerings, and ensuring seamless execution across multiple regions. What you’ll do: Product Strategy & Development: Develop and execute market-specific strategies for core trade products, including Letters of Credit, Guarantees, and Documentary Collections. Identify and address customer needs by aligning product offerings with market demands. Innovate and enhance existing core trade solutions to maintain competitive edge. Market and Segment Analysis: Conduct market research and analyse regional trends across UK, Middle East, Africa, and Europe to identify growth opportunities. Define customer segments and tailor trade product solutions to meet specific segment requirements. Monitor competitive landscape to adapt strategies and maintain market leadership. Stakeholder Collaboration: Work closely with sales, operations, and regional teams to ensure the effective delivery of trade products to our client segments. Act as a liaison between internal teams and external stakeholders, including financial institutions and regulatory bodies. Support training and development initiatives for sales teams to enhance product understanding. Risk and Compliance Management: Ensure all product offerings comply with local and international trade regulations. Collaborate with risk and compliance teams to mitigate operational and credit risks. Performance and Reporting: Set performance metrics for core trade products and ensure delivery of revenue and growth targets. Provide regular reports on product performance, market trends, and regional dynamics to senior management. Track customer satisfaction and address feedback to improve product offerings. What we’ll need from you: Significant experience in core trade, trade finance, or product management, with exposure to international markets and focus on commercial banking and/or corporate banking. In-depth knowledge of core trade and trade finance instruments and global trade ecosystems. Proven expertise in market analysis, product development, and segment strategy execution. Strong strategic thinking and analytical skills. Excellent communication and stakeholder management abilities. Adept at managing multiple priorities in a fast-paced environment. Familiarity with regional trade regulations and compliance requirements. Willingness to travel Proficiency in English (additional regional languages are a plus). Bachelor’s degree in business, Finance, Economics, or related MBA preferred or equivalent in Business Management / Banking or Chartered Accountant / CFA / CPA. What we can offer you: We work hard to have  …",
+      "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Senior-Vice-President--Global-Segment-Product-Manager---Core-Trade-Product--Europe---MENA-Regions_26980639",
+      "source": "Workday:Citi",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-21",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "workday_b1def94533612e",
+      "title": "Clearing and FI Payments Commercialization Lead - Middle East and Africa",
+      "company": "Citi",
+      "location": "Dubai United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Treasury and Trade Solutions (TTS) – a part of Citi’s Services organization - is a market leading, award-winning provider of cash management, cards and trade, solutions to financial institutions, public sector and corporate clients around the world. With a global network spanning 100&#43; countries, we are uniquely qualified to service clients with local and cross-border interests and provide integrated reporting and management. Within TTS, Global Payments is a key strength and differentiator for Citi. The Global Payments business intermediates and processes flows generated by Corporates, Banks & Financial Institutions and Governments. Overall market size is ~$40 billion in revenues with Citi accounting for &#43;$1.8 billion and a market share of ~4-5%. Global Payments and Receivables products serve market segments leveraging flagship brands and a standardized set of capabilities. Citi has been investing in the development of new product offerings to enable our clients to pay and receive 24x7 and at scale. Citi's goal is to provide our clients with a superior client experience as well as innovative product and solution sets that maximize Citi’s penetration of payment flows. Citi is uniquely positioned, by way of our global capabilities and geographic reach, to deliver on this opportunity. Citi is widely considered to be the market leader in Global Payments due to its ability to effect payments in about 140 currencies, its in-country presence in 100 &#43; countries and its strong regional solution sets. This opportunity within Payments Product Management organization is a dynamic senior business leadership role requiring the individual to display an excellent understanding of client experience needs, perform continuous market scans, drive innovation and work across multiple Treasury and Trade Solutions (TTS) product groups and geographies. The role will focus on strategic commercialization of the pipeline of innovative solutions and differentiated payments services (including but not limited to Clearing and Worldlink propositions) for Citi Financial Institutions clients. Clearing is one of the flagship services within the Citi’s Global Payments contributing to the business growth through a very strong track record in delivering growth through innovation – including the strongly-adopted 24/7/365 USD Clearing. Citi is a top clearer of USD and recognized for its expertise and ability to support a large and complex client portfolio. Responsibilities: Drive product Commercialization of Payments solutions for FIs (under the Enable FIs umbrella), globally and with primary responsibility for MEA (Middle East and Africa) Cluster, to ensure the business continues to grow and capture market share on the back of new solutions and innovation. Responsible for harnessing the partnership with Cluster Payments Head and FI Sales Head to ensure execution of commercialization initiatives to drive growth and market share capture in each Cluster Responsible for driving collaboration with FI Sales organization to ensure best in class sales enablement Responsible (in partnership with Marketing) for design and execution of marketing campaigns focusing on launches of new services; including contributing to Thought Leadership agenda Identify and drive data-led initiatives and client analysis with the purpose of growth and capturing insights Engage, collaborate with, and actively support regional partners as part of the global payments product organization Represent Citi at relevant industry events, forums and working groups. Qualifications: 10&#43; years technical expertise in payments; Exposure to and understanding of business analysis, data and payment mechanisms Relevant experience in FI Payments space. Proven track record of success in commercializing and delivering payments products Attention to detail and process/analytic mindset Fast learner with intellectual curiosity - proactively seeks and develops new opportunities, and able to work in a fast- …",
+      "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Clearing-and-FI-Payments-Commercialization-Lead---Middle-East-and-Africa_26979984",
+      "source": "Workday:Citi",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "pipeline"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-21",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "workday_4544ff3312a538",
+      "title": "Managing Consultant –Authorization & Fraud SME, Advisors & Consulting Services",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Managing Consultant –Authorization & Fraud SME, Advisors & Consulting Services Managing Consultant – Authorization & Fraud SME Advisors & Consulting Services Services within Mastercard is responsible for acquiring, engaging, and retaining customers by managing fraud and risk, enhancing cybersecurity, and improving the digital payments experience. We provide value-added services and leverage expertise, data-driven insights, and execution. Our Advisors & Consulting Services team combines traditional management consulting with Mastercard’s rich data assets, proprietary platforms, and technologies to provide clients with powerful strategic insights and recommendations. Our teams work with a diverse global customer base across industries, from banking and payments to retail and restaurants. The Advisors & Consulting Services group has five specializations: Strategy & Transformation, Performance Analytics, Business Experimentation, Marketing, and Program Management. Our Strategy & Transformation consultants lead clients through impactful decision-making as they tackle strategic, tactical, operational, and transformational business challenges. They apply a broad set of problem-solving techniques to improve the client’s overall strategy, performance, and operations. Positions for different specializations and levels are available in separate job postings. Please review our consulting specializations to learn more about all opportunities and apply for the position that is best suited to your background and experience: https://careers.mastercard.com/us/en/consulting-specializations-at-mastercard Roles and Responsibilities Client Impact • Lead client engagements across a range of industries and problem statements, mainly by consulting on fraud management with a focus on related fraud products • Develop strategies and programs for large, regional, and global clients by leveraging data and technology solutions to unlock client value • Own key relationships with mid-level to senior client stakeholders and independently assess client agenda, internal culture, and change readiness Team Collaboration & Culture • Lead team to creative insights and sound business recommendations, and deliver impactful client presentations while growing team members’ roles and skills • Provide analytical and day-to-day project delivery team leadership, and create a collaborative and inclusive environment for all levels • Collaborate with internal Mastercard stakeholders including Product and Business Development to scope projects, create relevant solutions for clients, and build the firm's intellectual capital • Provide on-the-job training, coaching, and mentorship to junior consultants Qualifications Basic qualifications • Undergraduate degree with work experience in consulting, corporate strategy, business intelligence, business line management, or product management • Experience coaching and managing teams across multiple consulting engagements that involve structured problem solving and stakeholder management • Experience managing key client relationships • Knowledge of business KPIs, financials, and organizational leadership • Ability to identify new business development opportunities, and experience drafting proposals and scoping new opportunities • Logical, structured thinking, and affinity for numerical analysis • Advanced Word, Excel, and PowerPoint skills • Ability to manage multiple tasks and clients in a fast-paced, deadline-driven …",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Managing-Consultant--Authorization---Fraud-SME--Advisors---Consulting-Services_R-270407",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "workday_51ac77cd8184f5",
+      "title": "Sales Senior Specialist - Sales",
+      "company": "Baker Hughes",
+      "location": "AE-DUBAI-JEBEL ALI-PLOT MO0531, ROAD N302",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Sales Senior Specialist - Sales Are you a highly motivated, creative individual and passionate about sales and proposals? Would you like to be a part of successful team? Join our team! As the world leader in non-destructive testing (NDT), Waygate Technologies offers the broadest portfolio of industrial inspection solutions. Our solutions include radiography and computed tomography (CT), remote visual inspection, ultrasound and eddy current technologies. We ensure safety, quality and productivity for our customers across major industries around the world. with the best The role is responsible for developing and executing the Imaging Solutions SBU sales strategy and sales management activities across the Middle East and Africa. Based in Dubai, the objective is to achieve targeted sales levels, profit objectives, and sustainable pipeline growth across the assigned territory. As a Sales Senior Specialist - Sales , you will also be responsible for: Acting as primary point of contact and trusted advisor to customers to build relationships and customer success. Managing the complexity of the full sales life cycle to successful customer completion. Collaborating with stakeholders and decision makers at customer sites to manage the complexity of the sales proposal. Cooperating with technical colleagues to answer customer requests and discuss local conditions. Being the central point of contact for customers and cross-functional teams, encouraging both team and account growth. Being responsible for selling the Imaging Solutions SBU portfolio, including AGFA films, Siefert Digital Imaging CR and DR solutions, and generators including Titan and Eresco, to key customers and channel partners across the Middle East and Africa. Leading country- and region-level sales responsibilities across the Middle East and Africa, building customer relationships, developing channels, managing forecasts, and driving sales growth for the Imaging Solutions SBU. Developing account plans and go-to-market actions for AGFA films, Siefert Digital Imaging CR/DR, and Titan and Eresco generator opportunities in priority segments. Working closely with product management, service, applications, and commercial operations teams to support customer success, technical positioning, pricing discipline, and deal closure. Fuel your passion! To be successful in this role you will: Have a bachelor’s from an accredited university or college in Mechanical or Metallurgical Engineering. Have commercial and technical experience in Imaging Solutions, industrial radiography, CR/DR digital imaging, films, X-ray generators, or other related NDT products. Have excellent sales skills, with the ability to teach, train and inspire other. Have excellent written and verbal communication skills and be self-assured presenting to a wide range of audiences. Being a natural, proactive communicator with good negotiation skills. Demonstrate your passion for building trusted relationships with customers and stakeholders from all levels of the organization. Have experience providing innovative, adaptive technical solutions and support to customers. Be able to travel within the Middle East and Africa as required by the territory, with up to 50% travel expected. Be fluent in oral and written English; Arabic and/or French language capability would be advantageous. Be able to manage, develop, coach and mentor teams across organizational boundaries. Be able to demonstrate deep project management skills and process improvement skills. Work in a way that works for you The position is based in Dubai, United Arab Emirates. We recognize that everyone is different, and that the way people want to work and deliver at their best is different for everyone too. In this role, we can offer the following flexible working patterns: Occasionally remote working from home or another work location Working with us Our people are at the heart of what we do at Baker Hughes. We know we are better when all of our people are deve …",
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/AE-DUBAI-JEBEL-ALI-PLOT-MO0531-ROAD-N302/Sales-Senior-Specialist---Sales_R166488",
+      "source": "Workday:Baker Hughes",
+      "company_type": "service",
+      "industry": "Energy / Oil & Gas",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "pipeline",
+        "ndt",
+        "project management"
+      ],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "smartrecruiters_fc09899501e348",
+      "title": "Senior Engineer - Civil",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "The Senior Civil Engineer will be responsible for overseeing the supervision, construction, and delivery of civil infrastructure works associated with Sewage Treatment Plant (STP) projects, including stormwater drainage networks, roads, utility corridors, and related infrastructure. The role requires extensive experience in construction supervision, contractor coordination, quality assurance, and compliance with project specifications and safety standards. Key Responsibilities Supervise and monitor the construction of stormwater drainage networks, roads, and utility infrastructure associated with STP projects. Review and approve construction methodologies, shop drawings, material submittals, and work programs. Ensure all construction activities are carried out in accordance with approved drawings, specifications, project schedules, and HSE requirements. Coordinate with contractors, consultants, utility authorities, and stakeholders to resolve technical and site-related issues. Conduct site inspections and monitor quality control procedures to ensure compliance with project standards. Review contractor progress reports, payment applications, variation orders, and claims. Identify construction risks and recommend appropriate mitigation measures. Ensure timely completion of project milestones while maintaining quality and safety standards. Support project management teams in planning, scheduling, and resource allocation. Prepare technical reports, site instructions, non-conformance reports, and progress updates. &#xa0; Bachelor's Degree in Civil Engineering from an accredited university. Professional Engineering certification will be an advantage. Membership in a recognized engineering institution is preferred. Minimum 15 years of post-graduate experience in the supervision and construction of stormwater drainage networks, roads, and utilities for STP projects . Proven experience in large-scale infrastructure, wastewater, drainage, and utility projects within the GCC region. Strong understanding of international construction standards, specifications, and best practices. Experience working on projects for government authorities and major infrastructure clients is preferred.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000139606259--senior-engineer-civil",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "quality control",
+        "civil",
+        "project management",
+        "construction",
+        "hse"
+      ],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24T13:26:40.261Z",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "smartrecruiters_92c669311510c3",
+      "title": "CAD / GIS Specialist",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "We are seeking an experienced CAD / GIS Specialist with experience in infrastructure and urban development projects. The successful candidate will be responsible for developing, maintaining, and managing CAD drawings, GIS databases, utility mapping, and digital spatial information to support engineering design, construction supervision, stakeholder coordination, and asset handover. The role requires close collaboration with multidisciplinary teams to ensure the accuracy, integrity, and consistency of engineering drawings and geospatial data throughout the project lifecycle. Key Responsibilities CAD & Engineering Drawing Management Prepare, review, and update engineering drawings in accordance with project standards, specifications, and client requirements. Maintain drawing registers and ensure proper revision control throughout the project lifecycle. Coordinate with civil, utilities, structural, landscape, and other engineering disciplines to produce coordinated construction and as-built drawings. Verify drawing accuracy, completeness, and compliance before submission to clients and regulatory authorities. Support engineering teams by preparing detailed plans, profiles, sections, and construction details. GIS & Spatial Data Management Develop, maintain, and update GIS databases for roads, utilities, drainage, public realm, and other infrastructure assets. Integrate survey data, utility records, as-built information, and spatial datasets into GIS platforms. Produce thematic maps, utility layouts, spatial analyses, and digital mapping products to support engineering, planning, and stakeholder coordination. Ensure the integrity, accuracy, and consistency of geospatial information throughout project delivery. Manage coordinate systems, spatial referencing, and GIS data standards. Utility & Stakeholder Coordination Prepare utility conflict drawings, interface plans, and authority submission drawings. Support utility coordination by integrating records from multiple utility authorities into a unified GIS environment. Prepare CAD and GIS documentation required for NOCs, permits, and stakeholder approvals. Coordinate with utility authorities, contractors, consultants, and project stakeholders to resolve spatial and utility conflicts. Construction Support & Asset Handover Update construction progress drawings and maintain accurate as-built documentation. Support testing, commissioning, and final asset handover by preparing GIS asset databases and CAD deliverables. Coordinate with survey teams to validate completed works, utility locations, and asset records. Ensure all final deliverables comply with client and authority requirements. Documentation & Reporting Maintain electronic drawing libraries, GIS databases, and digital project records. Generate maps, layouts, graphical presentations, and reports for project management and client submissions. Ensure compliance with document control procedures and digital data management standards. Support project teams by providing timely and accurate CAD and GIS deliverables. Qualifications Bachelor's Degree or Diploma in one of the following disciplines: Civil Engineering / Surveying /Geographic Information Systems (GIS) /Geomatics /CAD Technology Or a related engineering discipline Experience 8–12 years of relevant experience in CAD and GIS for infrastructure or urban development projects. Proven experience supporting roads, utilities, drainage, water, sewerage, electrical, telecommunications, irrigation, and public realm projects. Experience preparing authority submissions, as-built drawings, utility mapping, and GIS asset databases. Familiarity with UAE infrastructure standards and authority requirements is highly desirable. Technical Skills Advanced proficiency in: AutoCAD Civil 3D ArcGIS Other GIS/CAD software Strong understanding of: Engineering drawing standards Utility mapping Coordinate systems Geospatial data management Experience with: BIM integration Document Management Systems (e.g., …",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000139574219-cad-gis-specialist",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "electrical",
+        "civil",
+        "structural",
+        "telecommunications",
+        "project management",
+        "construction",
+        "commissioning",
+        "autocad"
+      ],
+      "seniority": "Senior",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-07-24T11:03:26.468Z",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "smartrecruiters_0c0cf5845a674c",
+      "title": "Geotechnical Engineer",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "We are seeking a Geotechnical Engineer with professional experience to support the planning, design, and delivery of geotechnical engineering solutions for infrastructure, transportation, buildings, and other civil engineering projects. The successful candidate will assist with geotechnical investigations, foundation design, earthworks, slope stability assessments, and construction support while working under the guidance of senior engineers. Key Responsibilities Perform assigned geotechnical engineering tasks as part of multidisciplinary project teams. Collect, analyze, and interpret geotechnical investigation data using established engineering procedures. Carry out routine engineering calculations, analyses, and technical assessments. Prepare geotechnical reports, design calculations, technical specifications, and recommendations. Propose practical engineering solutions to resolve technical issues encountered during project execution. Identify discrepancies in engineering data and recommend appropriate corrective actions. Provide technical guidance and mentoring to graduate and entry-level engineers. Deliver assigned work in accordance with approved budgets, schedules, quality standards, and project requirements under moderate supervision. Coordinate with internal teams, clients, contractors, and consultants throughout design and construction phases. Technical Responsibilities The successful candidate should have experience in: Geotechnical investigations. Assessment and interpretation of geotechnical parameters. Preparation of geotechnical ground models for various design conditions. Candidates should also have experience in at least three of the following areas: Shallow foundation design. Deep foundation design. Earthworks and embankment design. Slope stability analysis and design. Excavation and lateral support systems. Ground improvement design. Liquefaction assessment. Bachelor's Degree in Engineering or Science from an accredited university in one of the following disciplines: Geotechnical Engineering Civil Engineering Engineering Geology Geological Engineering Foundation Engineering Soil Mechanics Rock Mechanics Rock Engineering Mining Engineering Master's degree or PhD in Geotechnical Engineering or a related discipline is preferred. Chartered Engineer (CEng), Professional Engineer (PE), or equivalent professional registration is advantageous. Relevant professional registration in Qatar, Bahrain, or the UAE is desirable where applicable. Experience 2–8 years of relevant experience in geotechnical engineering. Experience in geotechnical investigations, design, and construction support for infrastructure or civil engineering projects. Good knowledge of contracts related to geotechnical investigations, surveys, and construction works. A balanced background in both design consultancy and site engineering is preferred.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000139572999-geotechnical-engineer",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "contracts",
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24T10:54:20.518Z",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "smartrecruiters_edf4940c0e0ccc",
+      "title": "Sernior Geotechnical Engineer",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Job Summary We are seeking a highly skilled Senior Geotechnical Engineer experienced in geotechnical engineering design, investigations, and construction support. The successful candidate will be responsible for delivering geotechnical solutions across infrastructure, transportation, buildings, and civil engineering projects, including site investigations, foundation design, earthworks, ground improvement, and advanced numerical analysis. The role requires close coordination with multidisciplinary teams while ensuring compliance with project specifications, applicable standards, and quality requirements. Key Responsibilities Perform engineering design and analysis for geotechnical projects with minimal supervision. Execute moderate to complex portions of multidisciplinary engineering assignments. Collect, interpret, and correlate geotechnical investigation data using established engineering procedures. Prepare engineering calculations, technical reports, design drawings, and specifications. Develop practical engineering solutions by adapting established methods to project-specific requirements. Identify design discrepancies, assess risks, and recommend corrective actions. Mentor and provide technical guidance to junior engineers. Deliver work in accordance with project budgets, schedules, and quality standards. Coordinate with structural, civil, environmental, and construction teams throughout project delivery. Provide technical support during construction, site inspections, and contractor coordination. The successful candidate should demonstrate expertise in: Planning and managing geotechnical investigations. Assessment and interpretation of geotechnical parameters. Development of geotechnical ground models for various design conditions. Shallow foundation design. Deep foundation design (piles and drilled shafts). Earthworks and embankment design. Slope stability assessment and design. Excavation and temporary lateral support systems. Ground improvement techniques and design. Liquefaction assessment and mitigation. Preparation of geotechnical design reports and recommendations. Construction monitoring and geotechnical site support. Qualifications Bachelor's Degree in Engineering or Science from an accredited university in one of the following disciplines: Geotechnical Engineering Civil Engineering Engineering Geology Geological Engineering Foundation Engineering Soil Mechanics Rock Mechanics Rock Engineering Mining Engineering Master's degree or PhD in Geotechnical Engineering or a related discipline is preferred. Chartered Engineer (CEng), Professional Engineer (PE), or equivalent professional registration is advantageous. Relevant professional registration in Qatar, Bahrain, or the UAE is preferred. Experience 8–15 years of relevant experience in geotechnical engineering. Proven experience in both geotechnical design and construction/site supervision. Strong understanding of contracts related to site investigations, surveys, and construction works. Experience on major infrastructure, transportation, marine, industrial, or building projects is highly desirable.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000139569554-sernior-geotechnical-engineer",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "structural",
+        "contracts",
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24T10:41:29.773Z",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "adecco_78ccb04faca3be",
+      "title": "Change Manager",
+      "company": "Adecco Middle East (agency)",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Change Manager. Engineering and Manufacturing Full time Temporary. Location: Dubai. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004As4rIAC",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Public administration and defence; compulsory social security",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24T14:11:39.079Z",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
+    {
+      "id": "adecco_3682cb4a318aef",
+      "title": "Manufacturing Engineer",
+      "company": "Adecco Middle East (agency)",
+      "location": "Al Ain",
+      "country": "United Arab Emirates",
+      "city": "Al Ain",
+      "description": "Manufacturing Engineer. Engineering and Manufacturing Full time Temporary. Location: Al Ain. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004AsCvIAK",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Public administration and defence; compulsory social security",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-07-24T14:10:12.668Z",
+      "first_seen": "2026-07-25T05:18:21.995198+00:00",
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
+    },
     {
       "id": "jooble_8cd113f19d9497",
       "title": "Global KOL (Key Opinion Leader) Business Development Lead - Crypto",
@@ -55,7 +329,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T13:54:28.6700000",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_d517d7b8a534ff",
@@ -77,7 +351,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T19:54:22.8430000",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_1504237378e112",
@@ -102,7 +376,7 @@
       },
       "posted": "2026-07-20",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_f7de13c8c1ee53",
@@ -129,7 +403,7 @@
       },
       "posted": "2026-07-20",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_355202fb5755ad",
@@ -175,7 +449,7 @@
       "nationals_only": null,
       "posted": "2026-07-23",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_2dad85f159f303",
@@ -203,7 +477,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T09:43:17.324Z",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_10e0d127132463",
@@ -229,7 +503,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T09:06:23.798Z",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_ba3edd5a61597b",
@@ -258,7 +532,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T08:15:51.079Z",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_61fef9d7e7876c",
@@ -286,7 +560,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T07:41:45.143Z",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_8cf95f3200346a",
@@ -312,7 +586,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T07:09:58.540Z",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_f2fb567a43b977",
@@ -334,7 +608,7 @@
       "nationals_only": null,
       "posted": "2026-07-23T07:05:01.192Z",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_f7f65fd4c9d4ba",
@@ -359,7 +633,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T13:43:44.770Z",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_76b3a91e3f297a",
@@ -407,7 +681,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_565185809fa171",
@@ -431,7 +705,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_420915ac159256",
@@ -477,7 +751,7 @@
       "nationals_only": null,
       "posted": "2026-07-22T07:54:27.5200000",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_26d7037fd90d97",
@@ -576,7 +850,7 @@
       "nationals_only": null,
       "posted": "2026-07-22",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_2bacfaaedba706",
@@ -601,7 +875,7 @@
       "nationals_only": null,
       "posted": "2026-07-22",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_1fa0bc713cf72d",
@@ -683,7 +957,7 @@
       "nationals_only": null,
       "posted": "2026-07-22T05:39:28.676Z",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_c1adb22c1c79c7",
@@ -708,7 +982,7 @@
       "nationals_only": null,
       "posted": "2026-07-22T05:38:00.868Z",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_4cd41d14731916",
@@ -735,7 +1009,7 @@
       "nationals_only": null,
       "posted": "2026-07-22T05:37:09.898Z",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_dc196bc8df0ef0",
@@ -757,7 +1031,7 @@
       "nationals_only": null,
       "posted": "2026-07-22T01:38:15-04:00",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_778e327dd4618c",
@@ -781,7 +1055,7 @@
       "nationals_only": null,
       "posted": "2026-07-22T08:32:08-04:00",
       "first_seen": "2026-07-23T05:29:32.220987+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_df584ed71cccc5",
@@ -805,7 +1079,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T07:55:31.6900000",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_db5afa9dd23778",
@@ -829,7 +1103,7 @@
       "nationals_only": null,
       "posted": "2026-07-21",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_0ff52c8217ebc0",
@@ -853,7 +1127,7 @@
       "nationals_only": null,
       "posted": "2026-07-21",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_bb986f5531c2b8",
@@ -875,7 +1149,7 @@
       "nationals_only": null,
       "posted": "2026-07-21",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_e53b90c3ab1e66",
@@ -929,7 +1203,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T11:51:44.483Z",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_a122cc702cb68c",
@@ -954,7 +1228,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T11:25:49.860Z",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_49c1723f9be75f",
@@ -1008,7 +1282,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T08:51:43.323Z",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_898c6836b9b46e",
@@ -1061,7 +1335,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T05:49:29.667Z",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_0ca39db5ff8fd5",
@@ -1086,7 +1360,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T05:47:08.713Z",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_8a93b3ad7c7d48",
@@ -1111,7 +1385,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T05:37:33.394Z",
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_9d28c5dd099a08",
@@ -1133,7 +1407,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_dd264b172c4204",
@@ -1155,7 +1429,7 @@
       "nationals_only": null,
       "posted": "2026-07-20T13:54:26.5570000",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_ecc1e1d8eaafdb",
@@ -1201,7 +1475,7 @@
       "nationals_only": null,
       "posted": "2026-07-20",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_1278ef426f312a",
@@ -1226,7 +1500,7 @@
       "nationals_only": null,
       "posted": "2026-07-21",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_84f9062bb41ca1",
@@ -1251,7 +1525,7 @@
       "nationals_only": null,
       "posted": "2026-07-21",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_2b387f59b432c4",
@@ -1278,7 +1552,7 @@
       "nationals_only": null,
       "posted": "2026-07-20",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_ba5ec8fad1f828",
@@ -1377,7 +1651,7 @@
       "nationals_only": null,
       "posted": "2026-07-20T09:14:32.079Z",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_e68d530d1b8f5b",
@@ -1399,7 +1673,7 @@
       "nationals_only": null,
       "posted": "2025-06-04T01:56:20.639000+00:00",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_895e9141b259d8",
@@ -1421,7 +1695,7 @@
       "nationals_only": null,
       "posted": "2026-07-19T07:54:23.6130000",
       "first_seen": "2026-07-20T05:43:33.864899+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_bfdcee92ce7708",
@@ -1443,7 +1717,7 @@
       "nationals_only": null,
       "posted": "2026-07-19T07:54:23.8230000",
       "first_seen": "2026-07-20T05:43:33.864899+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_35c1f6d2096426",
@@ -1489,7 +1763,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T00:00:00.0000000",
       "first_seen": "2026-07-19T05:26:08.690159+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_bfe41daf318a66",
@@ -1511,7 +1785,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T14:16:30.1300000",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_8d65f0c38ae389",
@@ -1535,7 +1809,7 @@
       "nationals_only": null,
       "posted": "2026-07-17",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_2917c18fe1901a",
@@ -1562,7 +1836,7 @@
       },
       "posted": "2026-07-17",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_a02183afcba17b",
@@ -1615,7 +1889,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T09:07:15.743Z",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_8b8580d338075f",
@@ -1716,7 +1990,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_2221addd1a1684",
@@ -1740,7 +2014,7 @@
       "nationals_only": null,
       "posted": "2026-07-17T06:30:12-04:00",
       "first_seen": "2026-07-18T04:52:11.016633+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_ed18e015020f0e",
@@ -1762,7 +2036,7 @@
       "nationals_only": null,
       "posted": "2026-07-16T13:54:32.6570000",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_67e1c548c4e514",
@@ -1786,7 +2060,7 @@
       "nationals_only": null,
       "posted": "2026-07-16",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_bbd8f955fa8617",
@@ -1813,7 +2087,7 @@
       },
       "posted": "2026-07-20",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_02ca7ee83b2e94",
@@ -1837,7 +2111,7 @@
       "nationals_only": null,
       "posted": "2026-07-14",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_35bb178001abec",
@@ -1884,14 +2158,14 @@
       "last_seen": "2026-07-21T05:24:18.979810+00:00"
     },
     {
-      "id": "smartrecruiters_9503a33f2f071b",
+      "id": "smartrecruiters_06e4671e6c160e",
       "title": "Geotechnical Engineer",
       "company": "AECOM",
       "location": "Abu Dhabi, UAE, United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "Abu Dhabi",
-      "description": "• Supervise and inspect geotechnical works: excavations, backfilling, compaction, embankments, foundations, shoring, dewatering, ground improvement, and retaining structures. • Review and approve geotechnical method statements, ITPs, and inspection checklists; monitor contractor adherence in the field. • Verify materials and workmanship against project specifications and standards (e.g., ASTM, BS, Eurocode 7, AASHTO, and applicable local codes). • Witness and review field/lab tests: SPT/CPT, plate load tests, density/Proctor, permeability, Atterberg limits, consolidation, triaxial/UU/CU/CD, and aggregate compliance. • Oversee deep foundation activities: pile installation, drilling, QA/QC records, integrity testing (PIT), dynamic/load tests, and as-built evaluations. • Monitor instrumentation and geotechnical performance: settlement plates, piezometers, inclinometers, strain gauges; analyze trends and recommend actions. • Assess temporary works and stability (excavation support, slopes, dewatering plans); flag risks and propose mitigations. • Manage NCRs, punch lists, and corrective actions; track close-out and compliance. • Review RFIs, shop drawings, MARs, and test reports; provide clear, timely technical responses. • Prepare daily site reports, inspection records, photo logs, and weekly progress summaries. • Coordinate with client, contractor, designers, and HSE teams to resolve issues and maintain safe operations. • Support change management: evaluate geotechnical design changes, site constraints, and value engineering proposals. • Contribute to handover: verify as-built documentation and compile geotechnical close-out packages. Bachelor's degree in Civil Engineering or Geotechnical Engineering; Master's degree preferred Professional Engineering (PE) license or equivalent certification Minimum of 10 + years of experience in geotechnical engineering and site supervision roles Proven experience with large-scale construction projects in the UAE or similar environments Strong knowledge of geotechnical engineering principles, soil mechanics, and foundation engineering Proficiency in AutoCAD and other relevant engineering software Excellent project management skills with the ability to handle multiple projects simultaneously Strong analytical and problem-solving abilities to address complex geotechnical challenges Outstanding communication skills, both verbal and written, in English In-depth knowledge of local building codes and regulations in Abu Dhabi and the UAE Familiarity with international geotechnical standards and best practices Ability to work effectively in a multicultural environment and adapt to changing project requirements Strong attention to detail and commitment to maintaining the highest standards of quality and safety",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000138140429-geotechnical-engineer",
+      "description": "We are seeking a Geotechnical Engineer with professional experience in geotechnical engineering, site investigations, and foundation design. The successful candidate will support the planning, analysis, and delivery of geotechnical solutions for infrastructure, transportation, buildings, and civil engineering projects. This role involves geotechnical investigations, interpretation of subsurface data, foundation and earthworks design, technical reporting, and construction support while working under the guidance of senior engineers. Key Responsibilities Perform assigned geotechnical engineering tasks as part of multidisciplinary project teams. Gather, review, and interpret geotechnical investigation data using established engineering procedures. Carry out routine engineering calculations, analyses, and technical assessments. Assist in preparing geotechnical reports, design calculations, specifications, and recommendations. Develop practical engineering solutions to resolve technical issues encountered during project delivery. Identify discrepancies in engineering results and escalate technical concerns where appropriate. Provide guidance and technical support to graduate and entry-level engineers. Deliver assigned work in accordance with approved budgets, schedules, quality standards, and project requirements under moderate supervision. Coordinate with internal teams, clients, contractors, and consultants during design and construction phases. Technical Responsibilities The successful candidate should have experience in: Geotechnical investigations. Assessment and interpretation of geotechnical parameters. Preparation of geotechnical ground models for various design scenarios. In addition, candidates should demonstrate experience in at least three of the following: Shallow foundation design. Deep foundation design. Earthworks and embankment design. Slope stability assessment and design. Excavation and lateral support systems. Ground improvement design. Liquefaction assessment. Bachelor's Degree in Engineering or Science from an accredited university in one of the following disciplines: Geotechnical Engineering Civil Engineering Engineering Geology Geological Engineering Foundation Engineering Soil Mechanics Rock Mechanics Rock Engineering Mining Engineering Master's degree or PhD in a relevant discipline is preferred. Chartered Engineer (CEng), Professional Engineer (PE), or equivalent professional registration is advantageous. Relevant professional registration in Qatar, Bahrain, or the UAE is preferred where applicable. Experience 2–8 years of relevant experience in geotechnical engineering. Experience in both geotechnical design and site/construction support is desirable. Good understanding of contracts related to geotechnical investigations, surveys, and construction activities. Experience on infrastructure, transportation, buildings, marine, or other major civil engineering projects is preferred.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000139571519-geotechnical-engineer",
       "source": "SmartRecruiters:AECOM",
       "company_type": "employer",
       "industry": "Construction / Infrastructure",
@@ -1905,14 +2179,15 @@
         "construction",
         "hse",
         "drilling",
-        "autocad"
+        "autocad",
+        "contracts"
       ],
       "seniority": "Mid",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-07-16T14:43:01.038Z",
+      "posted": "2026-07-24T10:46:36.643Z",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_929800df7b90e9",
@@ -1938,7 +2213,7 @@
       "nationals_only": null,
       "posted": "2026-07-16T11:51:50.849Z",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_4db4765bd2637f",
@@ -2011,7 +2286,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_7d41ee251f46c1",
@@ -2055,7 +2330,7 @@
       "nationals_only": null,
       "posted": "2026-01-12T17:42:16.181000+00:00",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_364d3641ca3813",
@@ -2082,7 +2357,7 @@
       },
       "posted": "2026-07-09",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_3ce37f05c478fa",
@@ -2109,7 +2384,7 @@
       },
       "posted": "2026-06-30",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_8a19c07eaecf5a",
@@ -2163,7 +2438,7 @@
       "nationals_only": null,
       "posted": "2026-07-14",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_e2f9142e58ce56",
@@ -2216,7 +2491,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T12:25:53.458Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_97d2409655985b",
@@ -2246,14 +2521,14 @@
       "last_seen": "2026-07-16T05:14:49.887438+00:00"
     },
     {
-      "id": "smartrecruiters_02d214998d496a",
+      "id": "smartrecruiters_cefac3914f704b",
       "title": "Manager - Bids",
       "company": "AECOM",
       "location": "Dubai, UAE, United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "Dubai",
-      "description": "We are seeking a detail-oriented and strategic Manager - Bids to join our organization in Dubai, United Arab Emirates. In this pivotal role, you will lead the end-to-end bid management process, overseeing proposal development, tender evaluation, and contract negotiation. You will work collaboratively across departments to ensure competitive and compliant bids that drive business growth and secure high-value opportunities. Manages the end-to-end bid process for bids from identification to award. Leads the development of technical and commercial proposals for the Middle East Civil Infrastructure business. Leads bid development, as well as hands-on cost proposal development. This includes pricing, benchmarking and commercial leadership of the pursuit. Works in partnership with senior leadership to develop winning pursuit strategies, ensuring all elements are incorporated into proposals Assists in necessary market research and reporting required for new growth areas. Works with other team members and marketing staff to ensure that prerequisites (like prequalification or getting on a vendor list) are fulfilled on time. Prepares reports and presentations for internal and external use. Participates in the go/no-go decision-making process, along with the appropriate managers and participates in the bid development process from start to finish. Reviews tender documents, bid/qualifications request documents and drawings for proposal preparation. Works with the Discipline Leads to produce man-hour estimates, fees and delivery schedules. Resolves issues in any discussions with other End Markets and Regions as necessary to ensure that the RFP scope is addressed adequately and all costs are accurately considered. Oversees the process of obtaining quotes from sub-consultants as required and leads negotiations of appropriate terms and conditions based on AECOM's standard contract and Risk committee requirements. Monitors Salesforce entries for the business to ensure that the information entered is up to date and accurate. Ensures that AECOM policies and procedures are followed and that all records are maintained. Ensures that approvals are in place in line with the latest AECOM Delegations of Authority and all AECO governance processes are followed. Verifies that all legal qualifications and the Middle East Risk Committee directives have been included in the final bid document before submission to the client. Delivers within proposal deadlines. Prepares presentations required for the Risk Committee. Independently presents to the internal Risk committee for pursuits valued up to $50m. Manages and mentors junior staff &#xa0; Minimum 10 years of professional experience in bid management, proposal development, or related business development roles Proven expertise in managing complex tenders and RFP processes Strong analytical and problem-solving skills with exceptional attention to detail Advanced proficiency in Microsoft Office Suite (Word, Excel, PowerPoint) Excellent written and verbal communication skills in English Demonstrated ability to manage multiple bids simultaneously while meeting tight deadlines Experience with budget analysis, cost estimation, and financial modeling Strong organizational and project management capabilities Ability to work effectively in cross-functional team environments **Preferred Qualifications:** Experience working in the UAE or Middle East market Knowledge of local procurement regulations and compliance requirements in the UAE Previous experience leading or mentoring bid teams Background in construction, consulting, engineering, or related industries Experience with contract negotiation and commercial terms Certification in project management or bid management (PMP, APMP, or equivalent)",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000137841186-manager-bids",
+      "description": "We are seeking a strategic and detail-oriented Manager - Bids to join our organization in Dubai, United Arab Emirates. In this pivotal role, you will lead the end-to-end bid management process, overseeing proposal development, tender evaluation, and contract negotiation. You will work collaboratively across departments to ensure competitive and compliant bids that drive business growth and secure high-value opportunities. This position offers the opportunity to make a significant impact on our business development strategy while mentoring and supporting a dynamic team. Interfaces with business line growth team and operations to support the process of winning work. Leads responses to client RFI/RFQ/RFPs and applies standard pursuit processes to ensure efficiency in schedule and bid compliance. Responsible for print, electronic and oral proposal deliverables. Provides market research and competitive intelligence and leverages data systems and tools to support proposal strategy and business strategic planning efforts.&#xa0; Job Summary Leads large/complex proposals that may involve multiple business lines and regions, and supports from capture through to interview stage, as required. May facilitate workshops/sessions to support the capture manager in development of the win strategy,&#xa0; Able to serve as coach for interview, Q&A and preparing team. Facilitates color reviews (Pink and Red team), and applies lessons learned to add value to proposal and win plan. Serves as color team and/or compliance reviewer on other proposals. May co-present sections of Readiness Reviews during capture stage. Participates actively in Go/No-Go decisions by providing recommendations, may facilitate greenlight analyses as part of advanced capture planning and positioning activities, supports compliance with delegation of authority guidelines and legal Analyzes internal debriefs and client feedback on proposals to ensure and demonstrate continuous improvement and identifies trends, lesson learned or future best practices across clients or markets. May serve as subject matter expert for specific client/portfolio or sector. Actively supports marketing or pursuit strategy, content development related to clients/markets, in collaboration with marketing communications, campaigns, client account managers (CAMs) and business lines, as necessary. May contribute to the development and implementation/presentation of internal training content, and lead special projects, as assigned. May have direct reports Responsible for results of proposal activity &#xa0; Minimum 10 years of professional experience in bid management, proposal development, business development, or related roles Proven expertise in managing complex tenders, RFP processes, and large-scale pursuits Strong analytical and problem-solving skills with exceptional attention to detail and accuracy Advanced proficiency in Microsoft Office Suite (Word, Excel, PowerPoint) and demonstrated ability to create professional proposals and financial models Excellent written and verbal communication skills in English, with the ability to articulate complex ideas clearly and persuasively Demonstrated ability to manage multiple bids simultaneously while meeting tight deadlines and maintaining quality standards Experience with budget analysis, cost estimation, financial modeling, and pricing strategy Strong organizational and project management capabilities with proven time management skills Ability to work effectively in cross-functional team environments and build collaborative relationships across departments Experience leading, mentoring, and developing bid team members Knowledge of contract negotiation, commercial terms, and risk management principles Familiarity with compliance requirements and governance processes in a regulated business environment **Preferred Qualifications:** Proven experience working in the UAE or Middle East market with understanding of regional business practices Knowledge of local pro …",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000139518619-manager-bids-",
       "source": "SmartRecruiters:AECOM",
       "company_type": "employer",
       "industry": "Construction / Infrastructure",
@@ -2269,9 +2544,9 @@
       "seniority": "Lead",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-07-15T09:10:20.832Z",
+      "posted": "2026-07-24T05:26:19.315Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_b6ee8b2523f4a2",
@@ -2293,7 +2568,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T10:34:09.97Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_c92084a7c48a77",
@@ -2315,7 +2590,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T10:29:47.443Z",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_77cb72e365f123",
@@ -2339,7 +2614,7 @@
       "nationals_only": null,
       "posted": "2026-05-13T06:45:44.654000+00:00",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_e0a226ae02d573",
@@ -2442,7 +2717,7 @@
       "nationals_only": null,
       "posted": "2026-07-20",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_2829d0a598fe8e",
@@ -2467,7 +2742,7 @@
       "nationals_only": null,
       "posted": "2026-07-14",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_96e3888fef45c8",
@@ -2549,7 +2824,7 @@
       "nationals_only": null,
       "posted": "2026-07-15T13:01:05.680Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_fbc1563d872a9f",
@@ -2573,7 +2848,7 @@
       "nationals_only": null,
       "posted": "2026-07-14T09:39:10.324Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_4d1551cd03f0bb",
@@ -2705,7 +2980,7 @@
       "nationals_only": null,
       "posted": "2026-07-21T04:54:21.115Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_95018ae7d1e8ff",
@@ -2727,7 +3002,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_b0abfccf940697",
@@ -2774,7 +3049,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_034f1501b44fef",
@@ -2796,7 +3071,7 @@
       "nationals_only": null,
       "posted": "2026-07-22T03:18:33-04:00",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_516674d34a948d",
@@ -2818,7 +3093,7 @@
       "nationals_only": null,
       "posted": "2025-09-25T06:25:01.003000+00:00",
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_a1d4c1463269e1",
@@ -2840,7 +3115,7 @@
       "nationals_only": null,
       "posted": "2026-06-18T04:32:42.1100000",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_68f0d8c0186ce8",
@@ -2865,7 +3140,7 @@
       },
       "posted": "2026-06-30",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_c7b6c8c3cb43ab",
@@ -3020,7 +3295,7 @@
       "nationals_only": null,
       "posted": "2026-07-13T05:10:34-04:00",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_e1db864a86bccd",
@@ -3069,7 +3344,7 @@
       "nationals_only": null,
       "posted": "2026-07-11T02:48:09.0830000",
       "first_seen": "2026-07-12T05:33:10.541611+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_8b8f4002cf8127",
@@ -3115,7 +3390,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T03:02:45.8300000",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_820539af58a5a4",
@@ -3170,7 +3445,7 @@
       "nationals_only": null,
       "posted": "2026-07-10",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_f076cf5a410078",
@@ -3195,7 +3470,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T11:17:30.499Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_1deb30290ddb13",
@@ -3252,7 +3527,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T06:41:10.568Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_d45fced395dd32",
@@ -3277,7 +3552,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T10:52:06.861Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_fa7039bb3479ff",
@@ -3299,7 +3574,7 @@
       "nationals_only": null,
       "posted": "2026-07-07T13:00:49Z",
       "first_seen": "2026-07-11T05:17:10.823639+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_34f33ea0cbfcd6",
@@ -3343,7 +3618,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T04:44:45.5130000",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_13ac023674068f",
@@ -3389,7 +3664,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T04:44:45.3470000",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_cb1ddef108daab",
@@ -3532,7 +3807,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:33:10.962Z",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_db17e1e8aed5b4",
@@ -3584,7 +3859,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T11:18:44.642Z",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_ae85a669e4312c",
@@ -3630,7 +3905,7 @@
       "nationals_only": null,
       "posted": "2026-07-03T05:29:29.257000+00:00",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_667536c63616ee",
@@ -3652,7 +3927,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T03:06:02.4770000",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_0e11a583f568b6",
@@ -3880,7 +4155,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T15:33:39.653000+00:00",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_5f0741cdea605f",
@@ -3902,7 +4177,7 @@
       "nationals_only": null,
       "posted": "2026-07-08T05:37:16.975000+00:00",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_9c95bffdcde558",
@@ -3948,7 +4223,7 @@
       "nationals_only": null,
       "posted": "2025-09-08T04:06:49.227000+00:00",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_64e443082e93b9",
@@ -4227,7 +4502,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:58:42-04:00",
       "first_seen": "2026-07-08T05:25:33.286399+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_7fc04454d60029",
@@ -4252,7 +4527,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T07:36:58-04:00",
       "first_seen": "2026-07-08T05:25:33.286399+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_e1d1d07b1d66f9",
@@ -4493,7 +4768,7 @@
       "nationals_only": null,
       "posted": "2026-07-06T08:57:23Z",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_af5f319a64ee07",
@@ -4513,9 +4788,9 @@
       "seniority": "Lead",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-07-15T07:28:01-04:00",
+      "posted": "2026-07-24T04:21:25-04:00",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_b93c815738bc5c",
@@ -4537,7 +4812,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T07:58:02-04:00",
       "first_seen": "2026-07-07T06:12:56.163450+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_dabdc6154be449",
@@ -4589,7 +4864,7 @@
       "nationals_only": null,
       "posted": "2026-07-21",
       "first_seen": "2026-07-06T06:40:33.963833+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_2d7f6c7020668f",
@@ -4635,7 +4910,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-06T06:40:33.963833+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_6137939823e1cd",
@@ -4681,7 +4956,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_50a6a676fea8ca",
@@ -4705,7 +4980,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_2fda467b0567cd",
@@ -4727,7 +5002,7 @@
       "nationals_only": null,
       "posted": "2026-07-03T10:51:11Z",
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_7dbfb88d2b1212",
@@ -4793,7 +5068,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T05:07:56.9930000",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_e48ade4de875a8",
@@ -4815,7 +5090,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T05:07:57.2430000",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_3dcc6f8600c881",
@@ -4837,7 +5112,7 @@
       "nationals_only": null,
       "posted": "2026-07-02T05:07:56.7230000",
       "first_seen": "2026-07-03T05:57:29.760251+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_20abaa0e70bec0",
@@ -5040,7 +5315,7 @@
       "nationals_only": null,
       "posted": "2026-07-22",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_d9310562a34709",
@@ -5088,7 +5363,7 @@
       "nationals_only": null,
       "posted": "2026-07-01",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_b2f0a01147d8f4",
@@ -5112,7 +5387,7 @@
       "nationals_only": null,
       "posted": "2026-07-01",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_1c5daafee09a82",
@@ -5134,7 +5409,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_3916d4462861c2",
@@ -5156,7 +5431,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_0d43dce76bc0a2",
@@ -5178,7 +5453,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_36f1e55732e4b3",
@@ -5202,7 +5477,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_1e062f6fd75ff7",
@@ -5224,7 +5499,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_bfaea481cc8de3",
@@ -5312,7 +5587,7 @@
       "nationals_only": null,
       "posted": "2026-07-09T07:58:42-04:00",
       "first_seen": "2026-07-02T06:03:37.309819+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_84e75fc61c82da",
@@ -5365,7 +5640,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T11:56:56.200Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_5deb6a55e6e1ee",
@@ -5387,7 +5662,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_132de226daa17a",
@@ -5409,7 +5684,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_5dc1950a2beed8",
@@ -5453,7 +5728,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_1b65b1a1d8c61f",
@@ -5475,7 +5750,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_03a6e5f8299469",
@@ -5503,7 +5778,7 @@
       },
       "posted": "2026-03-10",
       "first_seen": "2026-06-30T06:16:28.416198+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_5ce37b00b2125e",
@@ -5719,39 +5994,6 @@
       "last_seen": "2026-07-14T04:54:50.100096+00:00"
     },
     {
-      "id": "smartrecruiters_83d31be148e406",
-      "title": "Senior Engineer - Mechanical",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Construction Supervision & Quality Control Supervise and inspect electromechanical works on-site, including electrical, mechanical, control, and instrumentation systems. Review and comment on shop drawings, method statements, material submittals, ITPs, and as-built drawings for all electromechanical components. Witness factory acceptance tests (FAT) and site acceptance tests (SAT) for key equipment such as pumps, switchgear, control panels, SCADA systems, traffic signals, and ITS devices. Ensure all works comply with relevant standards ( DEWA, Dubai Civil Defence, NFPA, IEC, and other applicable codes). Identify and report non-conformances, follow up on corrective actions, and ensure resolution prior to system handover. Coordination & Interface Management Liaise with , DEWA, Dubai Civil Defence, Etisalat, DU, and other authorities for inspections, approvals, and NOCs. Coordinate with the Contractor’s electromechanical team and other discipline engineers to resolve technical and interface issues. Ensure seamless integration of electrical and mechanical systems with civil works and other project disciplines. Testing, Commissioning & Handover Oversee pre-commissioning and commissioning activities, ensuring they meet approved procedures and performance requirements. Review and verify O&M manuals, training materials, and spare parts lists submitted by the Contractor. Assist in punch list preparation, system performance verification, and final handover of electromechanical systems. Documentation & Reporting Maintain accurate records of inspections, test results, commissioning activities, and equipment deliveries. Prepare daily and weekly reports on electromechanical works progress, key issues, and milestones achieved. Support claims review and variation order assessments related to electromechanical works. Technical & Problem-Solving Provide technical support to site inspectors and junior engineers. Proactively identify and resolve technical problems to avoid delays and cost overruns. Support value engineering initiatives for electromechanical systems to optimize cost and efficiency. **Required Qualifications:** Bachelor's Degree in Mechanical Engineering or related discipline Minimum 10&#xa0;years of professional experience in electromechanical engineering, with at least 5 years in a supervisory or senior engineering role on infrastructure projects Proven experience on STP (Sewage Treatment Plant), sewerage line, and stormwater projects Strong knowledge of electrical, mechanical, control, and instrumentation systems integration Familiarity with relevant standards and codes including DEWA, Dubai Civil Defence, NFPA, and IEC standards Experience with factory acceptance tests (FAT) and site acceptance tests (SAT) for industrial equipment Proficiency in reviewing shop drawings, method statements, material submittals, and as-built documentation Demonstrated experience in commissioning and pre-commissioning activities for complex systems **Preferred Qualifications:** Professional Engineer (PE) or equivalent licensure in Mechanical Engineering Experience with SCADA systems, traffic signal systems, and Intelligent Transportation Systems (ITS) Experience working with government authorities and obtaining NOCs (No Objection Certificates) Proficiency in project management software, MS Office applications, and technical documentation standards Excellent written and verbal communication skills with ability to coordinate across multiple stakeholders",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000134449679-senior-engineer-mechanical",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "pumps",
-        "quality control",
-        "instrumentation",
-        "electrical",
-        "civil",
-        "scada",
-        "project management",
-        "construction",
-        "commissioning",
-        "pre-commissioning"
-      ],
-      "seniority": "Senior",
-      "shutdown": true,
-      "nationals_only": null,
-      "posted": "2026-06-26T11:18:53.776Z",
-      "first_seen": "2026-06-27T05:57:15.482279+00:00",
-      "last_seen": "2026-07-03T05:57:29.760251+00:00"
-    },
-    {
       "id": "smartrecruiters_e19b682c4be77a",
       "title": "Design Engineer - Building Architect",
       "company": "AECOM",
@@ -5821,7 +6063,7 @@
       "nationals_only": null,
       "posted": "2026-03-03T15:20:27.176000+00:00",
       "first_seen": "2026-06-27T05:57:15.482279+00:00",
-      "last_seen": "2026-07-20T05:43:33.864899+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_24ce20204115e3",
@@ -5843,7 +6085,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:20:20.8770000",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_81ff809d61c71f",
@@ -5865,7 +6107,7 @@
       "nationals_only": null,
       "posted": "2026-06-25T07:20:21.0730000",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_c14f28e8883946",
@@ -5892,7 +6134,7 @@
       },
       "posted": "2026-05-22",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_f71018e99ccd17",
@@ -6038,7 +6280,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_c09c104146dc11",
@@ -6060,7 +6302,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_cf78ef142d6c37",
@@ -6082,7 +6324,7 @@
       "nationals_only": null,
       "posted": "2026-07-12T23:01:10.301Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_98a9fdac5ee883",
@@ -6106,7 +6348,7 @@
       "nationals_only": null,
       "posted": "2026-07-12T23:01:08.543Z",
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_ee57219b322917",
@@ -6234,29 +6476,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
-    },
-    {
-      "id": "adecco_d82623b0725425",
-      "title": "Technical Infrastructure Specialist - L3",
-      "company": "Adecco Middle East (agency)",
-      "location": "Abu Dhabi, Abu Dhabi",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Technical Infrastructure Specialist - L3. Banking and Financial Services Full time Temporary. Location: Abu Dhabi, Abu Dhabi. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
-      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000003w44jIAA",
-      "source": "Adecco",
-      "company_type": "agency",
-      "industry": "Other service activities",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Senior",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-07-01T11:44:39Z",
-      "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-07-03T05:57:29.760251+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_1e5b3350d431d5",
@@ -6278,7 +6498,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_4a72aea5ab435c",
@@ -6322,7 +6542,7 @@
       "nationals_only": null,
       "posted": "2026-06-23T03:45:22.8000000",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_2479a39adb6fe2",
@@ -6499,7 +6719,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_2e7efbf6433a80",
@@ -6521,7 +6741,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_d58550f02ed4b1",
@@ -6716,7 +6936,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_fb8671dee3de6a",
@@ -6738,7 +6958,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_5ff81b69ae1712",
@@ -6841,7 +7061,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_6a035e891db4d1",
@@ -6863,7 +7083,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_de9326d3cc6618",
@@ -6885,7 +7105,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_f022a4caaa7cc0",
@@ -6907,7 +7127,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_e825f84bac8d86",
@@ -6957,7 +7177,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-19T07:11:21.715572+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_56274b72250265",
@@ -6979,7 +7199,7 @@
       "nationals_only": null,
       "posted": "2022-07-15T05:49:56.587000+00:00",
       "first_seen": "2026-06-19T07:11:21.715572+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_91216ff100c560",
@@ -7001,7 +7221,7 @@
       "nationals_only": null,
       "posted": "2026-06-17T03:29:17.2600000",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_198dfdb08f9291",
@@ -7029,7 +7249,7 @@
       },
       "posted": "2026-06-29",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_464e85b2601c5e",
@@ -7115,7 +7335,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_0dd96d3ed97441",
@@ -7137,7 +7357,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_cd42138d9d3391",
@@ -7159,7 +7379,7 @@
       "nationals_only": null,
       "posted": "2026-07-06T12:04:48Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_c56e159d6778b0",
@@ -7181,7 +7401,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_45fa2fe3a14cfd",
@@ -7269,7 +7489,7 @@
       "nationals_only": null,
       "posted": "2026-07-11T17:01:20.959Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_5fc5de6113c83a",
@@ -7291,7 +7511,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_fd5b06a2007e01",
@@ -7315,7 +7535,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T07:46:15-04:00",
       "first_seen": "2026-06-17T07:14:57.845931+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_64e15b749ee150",
@@ -7342,7 +7562,7 @@
       },
       "posted": "2026-04-29",
       "first_seen": "2026-06-16T07:31:27.901081+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_b1b40a9de5457b",
@@ -7497,7 +7717,7 @@
       },
       "posted": "2026-06-11T22:43:22.2530000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-07-22T05:23:22.740680+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_4e83e5f8859c5f",
@@ -7544,7 +7764,7 @@
       "nationals_only": null,
       "posted": "2026-06-11T04:35:59.6430000",
       "first_seen": "2026-06-12T06:46:38.331375+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_91911b6f276609",
@@ -7617,7 +7837,7 @@
       "nationals_only": null,
       "posted": "2026-06-10T03:11:54.9230000",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_141128359a944e",
@@ -7639,7 +7859,7 @@
       "nationals_only": null,
       "posted": "2026-06-10T03:11:55.2170000",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_66fa14c274a2b0",
@@ -7769,7 +7989,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-11T06:53:30.528389+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_feef72909b5784",
@@ -7793,7 +8013,7 @@
       "nationals_only": null,
       "posted": "2026-06-09T04:57:13.6400000",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_d990ebcc6be9c0",
@@ -7869,7 +8089,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_1a1bef4142f62d",
@@ -7891,7 +8111,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_225936de76b69a",
@@ -7916,7 +8136,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-10T06:28:30.496015+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_cc43c94af9ee0b",
@@ -7938,7 +8158,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T02:59:58.7670000",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_2fcdd508dc5fab",
@@ -7987,7 +8207,7 @@
       "nationals_only": null,
       "posted": "2026-07-20T09:09:36.491Z",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_a34bde947778da",
@@ -8009,7 +8229,7 @@
       "nationals_only": null,
       "posted": "2024-03-29T07:59:42.291000+00:00",
       "first_seen": "2026-06-09T06:13:54.479920+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_f7fad305f413d1",
@@ -8130,7 +8350,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T03:50:42.4900000",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_dc3fe429d2d1b2",
@@ -8152,7 +8372,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T03:50:42.0000000",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_3bdd1ad2c7d193",
@@ -8176,7 +8396,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_575b7c8af38ab5",
@@ -8198,7 +8418,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_f041a819e6e5f0",
@@ -8220,7 +8440,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_1df7753613513e",
@@ -8242,7 +8462,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_19b69a23b3820f",
@@ -8264,7 +8484,7 @@
       "nationals_only": null,
       "posted": "2026-06-05T11:15:01.565000+00:00",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_21a1f757809614",
@@ -8286,7 +8506,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T23:00:17Z",
       "first_seen": "2026-06-05T06:27:59.736302+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_8900de8dfaf0da",
@@ -8313,7 +8533,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_c4d27d5643f423",
@@ -8410,7 +8630,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_fd05f5eade0536",
@@ -8432,7 +8652,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_4b9127257ffe8b",
@@ -8454,7 +8674,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_3f1501dc4dc1ef",
@@ -8476,7 +8696,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_f29747fd04cf17",
@@ -8498,7 +8718,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_b59ef012afaa1d",
@@ -8520,7 +8740,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_680ae326084d9a",
@@ -8542,7 +8762,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_47242a019409f0",
@@ -8567,7 +8787,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_ae10761f1c6389",
@@ -8589,7 +8809,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_6c791b4d41085b",
@@ -8613,7 +8833,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_2ed3af50c3ea0d",
@@ -8635,7 +8855,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_b76d1c52cb57b8",
@@ -8657,7 +8877,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_730c5dc3ad0503",
@@ -8682,7 +8902,7 @@
       },
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_5bab7c946e0556",
@@ -8704,7 +8924,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_67c2145c5286df",
@@ -8728,7 +8948,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_cf46f3e87616f1",
@@ -8752,7 +8972,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_604232e50f922b",
@@ -8774,7 +8994,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_2b345f94015bdb",
@@ -8796,7 +9016,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_b31bc9ec1a4eca",
@@ -8818,7 +9038,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_c18f9bc899d418",
@@ -8840,7 +9060,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_fb59a0076954e1",
@@ -8864,7 +9084,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_90b8b195f00660",
@@ -8886,7 +9106,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "nadia global_09814f9dbf5d0d",
@@ -9043,50 +9263,6 @@
       "last_seen": "2026-07-05T06:09:02.095144+00:00"
     },
     {
-      "id": "nadia global_afe0beb9e8b71a",
-      "title": "Sales Executive",
-      "company": "NADIA Global (agency)",
-      "location": "Abu Dhabi, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
-      "url": "https://www.nadia-me.com/job/apply/285",
-      "source": "NADIA Global",
-      "company_type": "agency",
-      "industry": "Other",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": null,
-      "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-03T05:57:29.760251+00:00"
-    },
-    {
-      "id": "nadia global_73a0fdf9c66cd2",
-      "title": "Personal Butler",
-      "company": "NADIA Global (agency)",
-      "location": "Abu Dhabi, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
-      "url": "https://www.nadia-me.com/job/apply/282",
-      "source": "NADIA Global",
-      "company_type": "agency",
-      "industry": "Hospitality / Tourism",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": null,
-      "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-03T05:57:29.760251+00:00"
-    },
-    {
       "id": "adecco_fbf3a0264e8948",
       "title": "Operations Controller",
       "company": "Adecco Middle East (agency)",
@@ -9106,7 +9282,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_1d438e0e3bff61",
@@ -9128,7 +9304,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_29c0a78b53b206",
@@ -9150,7 +9326,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_b33ad07eed6af9",
@@ -9172,7 +9348,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_d5d81fa29e6249",
@@ -9194,7 +9370,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_7926676091e501",
@@ -9216,7 +9392,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_bcd33f8918dc9b",
@@ -9238,7 +9414,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "adecco_eca8850eea5d9e",
@@ -9262,7 +9438,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "greenhouse_be1e95bbc3c606",
@@ -9284,7 +9460,7 @@
       "nationals_only": null,
       "posted": "2026-07-10T08:03:53-04:00",
       "first_seen": "2026-06-01T13:47:46.049077+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_d05d5416b2b9fb",
@@ -9308,7 +9484,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_3be53ac9b8a058",
@@ -9334,7 +9510,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_0ac40216fc0c64",
@@ -9362,7 +9538,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_19f1ffa28d2184",
@@ -9406,7 +9582,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_010bcfef291c2f",
@@ -9606,7 +9782,7 @@
       "nationals_only": null,
       "posted": "2025-09-11T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_7b78ec7586edc1",
@@ -9694,7 +9870,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:18:53.133702+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_92b440189fa65f",
@@ -9804,7 +9980,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_c599368f77c64b",
@@ -9826,7 +10002,7 @@
       "nationals_only": null,
       "posted": "2026-02-27T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_4468f39fb596c2",
@@ -9916,7 +10092,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_12c03007a943c4",
@@ -10026,7 +10202,7 @@
       "nationals_only": null,
       "posted": "2025-08-15T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_f13abc859ae92c",
@@ -10048,7 +10224,7 @@
       "nationals_only": null,
       "posted": "2025-09-17T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_4a58f4fc9bd556",
@@ -10136,7 +10312,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_a413b9723e80fb",
@@ -10224,7 +10400,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_d563948a964ad5",
@@ -10268,7 +10444,7 @@
       "nationals_only": null,
       "posted": "2025-08-13T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_f423e88e180b3f",
@@ -10290,7 +10466,7 @@
       "nationals_only": null,
       "posted": "2025-09-09T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_0568f3c5d38c38",
@@ -10312,7 +10488,7 @@
       "nationals_only": null,
       "posted": "2025-10-01T00:00:00.0000000",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "jooble_6ee9a7442827b3",
@@ -10364,7 +10540,7 @@
       },
       "posted": "2026-04-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_40ec30ea38df3a",
@@ -10391,7 +10567,7 @@
       },
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_ff72511a9250d6",
@@ -10445,7 +10621,7 @@
       },
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_d25655fd9c0a2b",
@@ -10472,7 +10648,7 @@
       },
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_290437f5e43310",
@@ -10497,7 +10673,7 @@
       },
       "posted": "2026-04-20",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_6d39c57160084d",
@@ -10524,7 +10700,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_a6cbffcd12d07d",
@@ -10579,7 +10755,7 @@
       },
       "posted": "2024-12-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_a81ffc2a760d08",
@@ -10604,7 +10780,7 @@
       },
       "posted": "2026-07-21",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_533e141f6ae318",
@@ -10628,7 +10804,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_c8d5363f798de9",
@@ -10656,7 +10832,7 @@
       },
       "posted": "2026-05-12",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_a20a95e9df745c",
@@ -10710,7 +10886,7 @@
       },
       "posted": "2026-05-15",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_2e900db633242a",
@@ -10737,7 +10913,7 @@
       },
       "posted": "2026-03-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_901bc06aa9af13",
@@ -10841,7 +11017,7 @@
       },
       "posted": "2026-05-04",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_5f58b859c36016",
@@ -10850,23 +11026,25 @@
       "location": "Dubai United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "Dubai",
-      "description": "",
+      "description": "Individuals in Risk Assessment & Controls' design are responsible for developing, designing, and implementing controls programs, and providing review and guidance on robust controls design adhering to Citi’s Policies, Standards, and Frameworks. Individuals proactively identify and drive controls enhancements such as automation, standardization and rationalization including transformation execution activities. Includes first line activities for identification, measurement (significance and likelihood), and ongoing assessment of key risks and controls in partnership with relevant process owners to drive management decisions to operate within the firm’s Risk Appetite. Responsibilities: Regulatory Change Management: Actively collaborating with business to identify, evaluate, and manage regulatory adherence risks arising from the definition of business strategy, development of new products and services, changes in regulations or internal policies, or from business-led changes. Working with business, Legal & ICRM to facilitate regulatory change management activities by performing comprehensive impact assessments of regulatory changes on existing business processes, policies, procedures, systems, data requirements, and the overall control environment. Develop and implement structured project plans for the timely and effective integration of regulatory changes across relevant business units, ensuring clear ownership and accountability. Actively collaborate with business units to identify, evaluate, and manage regulatory adherence risks arising from new regulations or internal policy changes, documenting identified gaps and required actions. Facilitate communication and training programs on regulatory changes to ensure understanding and adherence by affected stakeholders across the organization. Track the implementation status of regulatory changes using established tools and methodologies, and report progress, challenges, and residual risks to senior management and governance committees. This includes maintaining an audit trail of decisions and actions taken. Regulatory Review & Exam Management : Serve as Controls point of contact for all regulatory examinations, audits, and inquiries from supervisory authorities, building strong working relationships. Coordinate and facilitate all aspects of regulatory reviews, including meticulous information gathering, comprehensive document production, scheduling and logistical management of meetings, and managing clear and consistent communications between regulators and internal stakeholders. Prepare and rigorously review responses to regulatory requests, ensuring accuracy, completeness, conciseness, and strict adherence to deadlines, often involving multiple internal stakeholders. Track, monitor, and report on all regulatory findings, recommendations, and the status of remediation efforts through their lifecycle. Participate in targeted reviews and engage proactively with Internal Audit and Compliance Assurance over potential regulatory findings, contributing to a unified front. Develop and implement strategies and playbooks to address recurring examination themes and enhance overall preparedness for future regulatory engagements, including mock exams and readiness assessments. Risk & Control Framework and Adherence: Collaborate with business units, Legal, and Independent Compliance Risk Management (ICRM) to continuously evaluate and drive the maintenance of the regulatory inventory linkage to supporting controls in Citi’s system of record. This ensures management can effectively demonstrate adherence to applicable laws and regulations through the Manager’s Control Assessment (MCA) program. Support the evaluation of Regulation Risk as part of Countries’ MCA Annual Risk Assessment process. Review Countries’ evaluation of Regulation Risk Control performance to identify and escalate high residual risks and those breaching defined risk appetite thresholds. Contribute towards a 1st line state of reg …",
       "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/SVP---Wealth-Business-Risk-and-Controls---Business-Regulatory-Risk-Management--UAE-Nationals-Only-_26939760",
       "source": "Workday:Citi",
       "company_type": "employer",
       "industry": "Financial Services / Fintech",
       "salary": null,
       "contact": null,
-      "skills": [],
+      "skills": [
+        "aws"
+      ],
       "seniority": "Lead",
       "shutdown": false,
       "nationals_only": {
         "country": "United Arab Emirates",
         "level": "only"
       },
-      "posted": null,
+      "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_bb0a3503297dad",
@@ -10891,7 +11069,7 @@
       },
       "posted": "2026-02-27",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_ca3cccc0fa1308",
@@ -10970,7 +11148,7 @@
       "nationals_only": null,
       "posted": "2026-05-05",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_521266935a56c1",
@@ -10997,7 +11175,7 @@
       },
       "posted": "2026-07-23",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_11c755489d27a2",
@@ -11050,7 +11228,7 @@
       "nationals_only": null,
       "posted": "2026-04-30",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_242b1ee6b3823e",
@@ -11074,7 +11252,7 @@
       "nationals_only": null,
       "posted": "2026-06-16",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "smartrecruiters_c6a8910e17fa40",
@@ -11124,7 +11302,7 @@
       "nationals_only": null,
       "posted": "2026-01-08T10:52:50.276000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_750bf541ff338b",
@@ -11146,7 +11324,7 @@
       "nationals_only": null,
       "posted": "2026-04-30T00:04:54.901000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_8439b329cbd978",
@@ -11168,7 +11346,7 @@
       "nationals_only": null,
       "posted": "2026-05-08T11:08:02.572000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_8a5aa1882a4c15",
@@ -11212,7 +11390,7 @@
       "nationals_only": null,
       "posted": "2025-10-28T08:25:03.147000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_48416f7c1a3d60",
@@ -11256,7 +11434,7 @@
       "nationals_only": null,
       "posted": "2023-09-26T10:25:53.978000+00:00",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "lever_042ad586e345e3",
@@ -11356,7 +11534,7 @@
       },
       "posted": "2025-01-16",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     },
     {
       "id": "workday_757f013b931820",
@@ -11400,7 +11578,7 @@
       "nationals_only": null,
       "posted": "2026-03-26",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-07-24T05:24:13.377229+00:00"
+      "last_seen": "2026-07-25T05:18:21.995198+00:00"
     }
   ]
 }
