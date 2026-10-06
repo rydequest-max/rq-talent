@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-05T08:36:14.567813+00:00",
-  "count": 551,
-  "shutdown_count": 40,
+  "generated_at": "2026-10-06T08:43:41.891304+00:00",
+  "count": 566,
+  "shutdown_count": 44,
   "by_country": {
-    "United Arab Emirates": 551
+    "United Arab Emirates": 566
   },
   "by_industry": {
-    "Financial Services / Fintech": 193,
-    "Construction / Infrastructure": 176,
-    "Other": 42,
-    "Technology / Software": 42,
+    "Financial Services / Fintech": 203,
+    "Construction / Infrastructure": 178,
+    "Other": 43,
+    "Technology / Software": 43,
     "Other service activities": 34,
     "Energy / Oil & Gas": 29,
     "Hospitality / Tourism": 8,
-    "Manufacturing": 6,
+    "Manufacturing": 7,
     "Transportation and storage": 4,
     "Financial and insurance activities": 3,
     "Construction": 3,
@@ -26,17 +26,843 @@
     "Education": 1
   },
   "sources": [
-    "Jooble (91)",
+    "Jooble (90)",
     "Careerjet (skipped: no CAREERJET_API_KEY)",
-    "Workday (62)",
+    "Workday (63)",
     "SmartRecruiters (50)",
     "NADIA (error: URLError)",
     "Adecco (50)",
     "Greenhouse (8)",
-    "Lever (18)",
+    "Lever (20)",
     "RSS (0)"
   ],
   "jobs": [
+    {
+      "id": "jooble_e35126e3fbf9c1",
+      "title": "Risk Manager - AD representative, RCH and RIE (Abu Dhabi Based)",
+      "company": "Binance",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...million people in 100+... ...trading engine speed, deep... ...and finance to education... ...and operational weight of... ...credit, market, liquidity... ... accountable to the Head... ...analytics: Develop and maintain... ...Risk data and systems... ... banking, clearing... ...world-class talent in a user... ... learning • Competitive...",
+      "url": "https://jooble.org/jdp/-1559240247786628432",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T08:16:29.5300000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_1dc93f8207bd9e",
+      "title": "Director, Business Development - Travel & Entertainment",
+      "company": "Mastercard",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...empowers people in 200+ countries... ...Business Development - Travel &... ...is to develop and... ...technology partner, critical... ...scalable sales/ value propositions... ...to drive account management... ...based on data- driven intelligence... ...the markets in... ...administrative and operational issues for...",
+      "url": "https://jooble.org/jdp/9099558098157774886",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T08:16:28.3530000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_16f02d0f5af82d",
+      "title": "Operations Intern (Bybit Card)",
+      "company": "Bybit",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...of digital finance. Our... ...environment where talent is... ...seasoned Card Operations Specialist... ...( developers, product,... ...resolution. Market Launches and... ...Adopt a data- driven approach... ..., and partners as needed.... ...willingness to learn are... ...professional development and continuous...",
+      "url": "https://jooble.org/jdp/-5835643245100797576",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Junior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-09-11T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_dcfc744c1cee4a",
+      "title": "Operations Specialist - Arabic Speaking",
+      "company": "TMGM",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...proud to be the Official Partner of Chelsea Football... ...We are looking for an Operations Specialist to support... ...responsibilities Handle client account enquiries, account... ...the intersection of finance and sport.... ...remuneration and professional development opportunities....",
+      "url": "https://jooble.org/jdp/6381122151964935524",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-02T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_209388fd984b8e",
+      "title": "UX/UI Designer",
+      "company": "Bybit",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...the future of digital finance. Our core values define... ...environment where talent is empowered to drive real... ...closely with product, engineering, brand, and operations teams to drive design implementation... ...your professional development and continuous learning. Internal Events:...",
+      "url": "https://jooble.org/jdp/939129407088985741",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-09-28T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_e0fccc490b5236",
+      "title": "Senior Risk Manager",
+      "company": "OKX",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...exchange, and the developer of OKX Wallet,... ...to crypto markets. We are safe and... ...—including operational, technology, cybersecurity... ...’s degree in Finance, Economics,... ...' growth and development Various... ...Comprehensive healthcare schemes for... ...as part of the recruitment process of any...",
+      "url": "https://jooble.org/jdp/-1109808764009605611",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-09-28T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_f2c7bb7c456bcd",
+      "title": "MLRO & Compliance Officer, UAE (ADGM) - RIE & RCH",
+      "company": "Bybit",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...future of digital finance. Our core... ...where talent is empowered... ...functions across market infrastructure... ... operators while building... ...operations. Develops and maintains... ...alignment. Partners with Legal, Risk... ...professional development and continuous learning. Internal...",
+      "url": "https://jooble.org/jdp/-4944819077161696716",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-09-28T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_fa6b88e131eca5",
+      "title": "Deputy Regional Information Security Officer",
+      "company": "Kraken",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...Future of Open Finance Payward -... ...security, operational resilience,... ...operations to new markets launching... ...entities, accountable to their boards... ...to the development of security... ...powered by people from around... ...the diverse talents, backgrounds... ...Twitter]( [ Learn on the Kraken...",
+      "url": "https://jooble.org/jdp/7330470735782947482",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-01T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_53663cf8183c87",
+      "title": "Deployment Strategist Lead - Middle East",
+      "company": "Valor Capital Group",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...first human- like AI... ...creators and marketers to... ...gives developers access... ...researchers, engineers, and operators. IOI... ...your talent, not your... .... Learning & development : ElevenLabs... ... sales leader,... ...ElevenLabs' software ... ...strategic partners, working... ...organizations. People ...",
+      "url": "https://jooble.org/jdp/-1417832171563018999",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-08-18T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_8b84855502d3d6",
+      "title": "Associate Product Specialist, Launch Program 2027 - Dubai, UAE (UAE National Preferred)",
+      "company": "Mastercard",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...economies and empowers people in 200+... .... Using secure data and networks, partnerships... ..., structured learning, and mentorship... ..., and develop the technical,... ...through to go-to- market. When joining... ...passionate and talented professionals,... ...customers to resolve operational issues that...",
+      "url": "https://jooble.org/jdp/-5354046557357565757",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": {
+        "country": "United Arab Emirates",
+        "level": "preferred"
+      },
+      "posted": "2026-10-05T08:16:27.8130000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_bb0f8ec1fd3ba2",
+      "title": "Managing Consultant, Services Business Development",
+      "company": "Mastercard",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...empowers people in 200+ countries... ...Business Development ... ...Centered on data- driven... ...loyalty and marketing programs.... ... sales across data... ...taking on account ownership... ...mind set to partnering with large... ...team to develop a plan to... ...products, software platforms... ...attitude for learning technical...",
+      "url": "https://jooble.org/jdp/3240894851268730075",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-08-10T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_3ed82bed81b7f9",
+      "title": "Events and Partnerships Manager, MENA",
+      "company": "Binance",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...00+ million people in 100+ countries... ..., trading engine speed, deep... ...trading and finance to education... ...crypto markets in the world... ...Lead event operations, fast-paced... ...relevant sectors — developing event... ...OKRs, sharing learnings, and continuously... ..., develop partner pitches, build...",
+      "url": "https://jooble.org/jdp/659254919337434115",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-09-02T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_99f8bbc8526486",
+      "title": "Global PR and Communications",
+      "company": "Binance",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...+ million people in 100+ countries... ..., trading engine speed,... ...and finance to education... ...documents Develop newsworthy... ...and market insights for... ...marketing, operations, or project... ...solving and SOP development ... ...world-class talent in a user-... ...continuous learning • Competitive...",
+      "url": "https://jooble.org/jdp/8813642677228652284",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-08-11T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "jooble_ea13a19bfe2051",
+      "title": "Corporate Counsel",
+      "company": "1inch Labs",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...team to safeguard and develop 1inch’s... ...documentation. Working with engineering, IT, finance and marketing teams across multiple... ...-source licensing, software intellectual... ...and help scale legal operations and knowledge-sharing... ...strategy and portfolio development, working with...",
+      "url": "https://jooble.org/jdp/679914487705249531",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-09-17T00:00:00.0000000",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "workday_130be9ac00c94c",
+      "title": "MEA CCB Services Sales Head",
+      "company": "Citi",
+      "location": "Dubai United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Equal Opportunity We recognize talent comes from a wealth of experience and ideas beyond just the technical specifications of a role. If you feel like you can make a meaningful impact even if you don’t necessarily check all the listed requirements, please still consider applying . Diversity of experience and skills supplemented with drive are cornerstones to innovation and excellence and we encourage people from all backgrounds to apply to our positions. Who We Are and The Importance of the Role: Citi Commercial Bank (CCB) works with mid-market and fast growth businesses across the world, especially clients with international presence and aspirations. The Middle East & Africa (MEA) CCB Services Sales Head will work closely with the CCB heads across CCB’s MEA footprint to serve Commercial Banking’s top clients & prospects in these markets across the full suite of Services products, as well as with the franchise leadership, Corporate, Commercial & Public sector (CCPS) sales, and Services product partners across the cluster and the broader Citi network. The incumbent will drive new client origination and share of wallet growth, manage a team of high performing individuals and be a senior expert in their field. This is a team leader role, expected to partner and influence decision makers across clients and within the bank with an aim to make Citi the go to international banking partner for our client segments. Core Responsibilities: Grow Services wins and pipeline in MEA – both, locally headquartered and subsidiary businesses Deliver on ambitious Services revenue growth in MEA markets Lead, grow, coach and mentor your team, providing them with the resources and guidance to bring the best out of them Be subject matter expert for solution-based selling, and foster incoming talent with the right mindset Be an expert on all Services offerings both at the bank, and the broader market Collaborate with sales partners across verticals such as Trade, Cards and Issuer/Investor Services to drive incremental business Work with management on planning, resourcing, and market expansion Provide solutions for all escalated client issues and co-ordinate resolution ensuring best possible client experience. Keep the management team updated on progress of the team’s performance, with a plan on how to solve for potential challenges Establish regular cadence to review business progress with exco leadership in both CCB and Services Actively participate in and contribute to globally strategic initiatives for CCB-Services Act as a bridge between clients, banking, and product partners, distilling and communicating key client asks and competitive market developments Be an ambassador for CCB-Services in the market, building client engagement and commercializing the latest solutions. Skills that will help you in the Role: Expert on MEA Cash Management & Trade solutions, understanding market forces and drivers Experience in managing people, demonstrating how you have helped them develop in their careers Excellent Interpersonal skills, collaboration across functions and geographies, and stakeholder management Ability to multitask and prioritize conflicting deliverables both for clients and internally Experience in managing client relationships, ability to influence others to support client needs Know where to apply sound ethical judgment regarding personal behaviour, conduct and business practices, and escalating, managing and reporting control issues with transparency Communication, analytical, and quantitative skills for effective presentations, pitches and conversions. Ability to clearly and concisely articulate complex ideas Ability to identify problems and solutions leveraging cash product propositions, business drivers, policies, customer needs and market trends Demonstrate thought leadership, vision and execution capability for future ambition and growth In-depth knowledge of regulations, market practices and bank operations. Qualifications: Extensive com …",
+      "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/MEA-CCB-Services-Sales-Head_26997113",
+      "source": "Workday:Citi",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "pipeline"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "workday_897f08a47aa73a",
+      "title": "Director Marketing Services",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Director Marketing Services Overview The Media Delivery Lead will help build Mastercard's in-house media capability, starting with two pilot regions before scaling globally. The role will manage regional media planning resources and own the operating model, delivery standards, commercial controls and integrated ways of working across media planners, buyers and the trading desk partner. Working across regional and global stakeholders, the role will translate pilot outcomes into a repeatable blueprint for future markets. Key Responsibilities: Strategy & Operating Model: • Own the overall media capability — strategy, operating model and performance across in-housed channels, including clear pilot objectives, scope and success measures. • Set delivery standards, operating procedures and ways of working across planning, buying, activation, optimisation, measurement and reporting, creating a repeatable blueprint for future regional hubs. • Drive the phased roadmap for in-house capability, defining market-readiness criteria, managing readiness gates and recommending the sequence and approach for future expansion. Commercial: • Own the media budget and commercial oversight, including transparent DSP fee structures and commission models. • Govern trading desk commercial terms, transparent DSP and platform fees, partner staffing models and commission structures. • Own the day-to-day strategic relationship with the trading desk partner, including partner onboarding, SLAs, performance reviews, escalation, knowledge transfer and continuous improvement. • Track and validate in-housing savings against the business case • Validate that trading desk delivery supports the in-housing business case, including agency fee avoidance, buying transparency and performance improvement. Stakeholder & Governance: • Act as senior point of contact for executive leadership, Finance, Legal, Risk and Procurement on media in-housing. • Chair governance forums and own the RACI for media planning, buying, optimisation and measurement. • Present performance, savings and roadmap progress to executive and regional stakeholders. • Support leadership decisions on the target global organisation, governance model and long-term ownership approach. People & Team Build: • Lead the pilot in-house team, including regional media planning contractors, and help build the permanent core team and regional delivery hubs. • Define capability expectations for media planners, buyers and performance specialists as the model scales across regions. Key Qualifications: Experience: • 10+ years in media planning, buying and performance media, including senior leadership of an in-house team or agency account. • Proven experience building or scaling an in-house media function, or leading a client-side media transition from agency. • Multi-market or regional remit, ideally across Europe and EEMEA. • Track record of owning significant media budgets and delivering measurable efficiency and performance gains. • Experience managing media planners, media buyers and/or embedded trading desk teams across regional or multi-market campaign portfolios. Skills: • Deep expertise across paid social, search, programmatic and measurement/attribution. • Strong commercial acumen — contract negotiation, fee models and vendor management. • Strong partner governance skills, including management of trading desk delivery, platform access, account ownership, transparent fee models and service pe …",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Director-Marketing-Services_R-292675",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "planner",
+        "procurement"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-06",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "workday_2fb0cf90746570",
+      "title": "Global Markets Summer Internship 2027 - Product Management intern & Sales Analyst Intern - Dubai, UAE (UAE Nationals Preferred)",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Global Markets Summer Internship 2027 - Product Management intern & Sales Analyst Intern - Dubai, UAE (UAE Nationals Preferred) Why join Mastercard’s internship program? Mastercard's internship program offers more than hands-on work. It provides an opportunity to build skills, expand your network, and make a meaningful impact while working on projects that support business priorities. It provides an opportunity to build skills, expand your network, and make a meaningful impact while working on projects that support business priorities. Global Markets This Internship is part of the Global Markets business unit and serves as a core pipeline into the Graduate Programme the following year, which features two curated rotations across specialised career tracks. Internship roles are therefore aligned with these tracks, offering early exposure to the skills and experiences that will be further developed during the graduate journey. Please specify if you have a preferred function as part of your application or if you are open to all. This information will be leveraged to best match applicants to the most suitable role. Career Track 1. Sales and Business Development As part of our Sales and Business Development track, you can expect to focus on strategic sales planning and consultative and solution selling. These teams provide: Product expertise and help leverage Mastercard integrated solutions to drive sales and revenue goals Is responsible for setting sales strategies as it relates to products that are aligned with geographical strategy and help identify and close sales leads Market intelligence to product developers and managers to support design, development and implementation efforts Career Track 2. Product Management and Solutions As part of our Product Management and Solutions track, you can expect to focus on user experience, product performance and ongoing management, customer needs and insights and architecting solutions. These teams provide: The overall coordination, status reporting, financials, schedules and stability of project-oriented work efforts, ensuring that project goals and objectives are met within agreed time, scope and resource requirements Detailed project plans and manages all implementation processes within budget constraints What you’ll do As an intern, you'll benefit from: Mentorship and coaching from experienced professionals and leaders Networking opportunities with fellow interns, employees, and senior leaders Professional development experiences focused on career growth and skill-building Exposure to innovative technologies and global business challenges Volunteer, community engagement, and team-building activities What we’re looking for: Penultimate Year Students currently enrolled in a Bachelor’s or Master’s degree, with an anticipated graduation date between December 2027 to July 2028. Available to work full-time for 10- 12 weeks starting on June 2027 Passion: Actively seeks responsibility and takes pride in delivering the highest quality results and recommendations to our clients. Proven record of leadership in a work setting and/or through extracurricular activities. Rapid Growth: Eagerness to learn quickly, both through Mastercard's structured training curriculum and organic development opportunities. Communication: Ability to communicate complex ideas effectively. Excellent written and verbal communication skills. Corporate Security Responsibility All activities involving acce …",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Global-Markets-Summer-Internship-2027---Product-Management-intern---Sales-Analyst-Intern---Dubai--UAE--UAE-Nationals-Preferred-_R-287598-2",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "pipeline"
+      ],
+      "seniority": "Junior",
+      "shutdown": false,
+      "nationals_only": {
+        "country": "United Arab Emirates",
+        "level": "preferred"
+      },
+      "posted": "2026-10-06",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "workday_20cbe2d22e0580",
+      "title": "Product Management Intern, Summer 2027 – Dubai, UAE (UAE Nationals Preferred)",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Product Management Intern, Summer 2027 – Dubai, UAE (UAE Nationals Preferred) Why join Mastercard’s internship program? Mastercard's internship program offers more than hands-on work. It provides an opportunity to build skills, expand your network, and make a meaningful impact while working on projects that support business priorities. It provides an opportunity to build skills, expand your network, and make a meaningful impact while working on projects that support business priorities. Product Management As a Product Management Intern, you will be assigned to a business unit where you will learn, develop new skills, and gain valuable on the job experience. You will have the chance to gain an understanding of how Mastercard develops business cases for new product opportunities, develops scalable customer-centric products, and sees those projects through to go-to-market. We are looking for passionate and talented interns who share our vision for developing scalable customer-centric products with agility and excellence. What you’ll do As an intern, you'll benefit from: Mentorship and coaching from experienced professionals and leaders Networking opportunities with fellow interns, employees, and senior leaders Professional development experiences focused on career growth and skill-building Exposure to innovative technologies and global business challenges Volunteer, community engagement, and team-building activities What we’re looking for: Penultimate Year Students currently enrolled in a Bachelor’s or Master’s degree, with an anticipated graduation date between Dec 2027 to July 2028. Available to work full-time for 10-12 weeks starting June 2027 Strong verbal and written communication skills Flexible, adaptive and a strong collaborator Well planned, organized and structured to manage time and work effectively Corporate Security Responsibility All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must: Abide by Mastercard’s security policies and practices; Ensure the confidentiality and integrity of the information being accessed; Report any suspected information security violation or breach, and Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Product-Management-Intern--Summer-2027---Dubai--UAE--UAE-Nationals-Preferred-_R-287599-1",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Junior",
+      "shutdown": false,
+      "nationals_only": {
+        "country": "United Arab Emirates",
+        "level": "preferred"
+      },
+      "posted": "2026-10-05",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "workday_d55b75155ff3f9",
+      "title": "Virtual Sales Account Executive (Arabic Speaker - MEA), Global Virtual Sales - Splunk",
+      "company": "Cisco",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Sells the company’s products, systems and/or services via telephone or electronic means to customers in assigned territory, industry, or accounts. Must close the sale on products, systems and/or services. May generate prospective customers through cold calling and may qualify and follow up with sales leads. Sales can be made through multi-channel, inbound and/or outbound sales activities. Focuses on acquiring new customers and retaining and growing an existing installed base of customers. Minimal business travel or work outside office required. Requires application of in-depth technical knowledge of products, systems and services (may include contract documentation). May be responsible for large, diverse, complex territories and/or products. This role is not overlay to the field sales force, and these incumbents carry their own quota that is distinct from the field sales force. Keeps up-to-date knowledge of the industry, as well as the competitive posture of the company, and prepares activity and forecast reports as requested. Has thorough knowledge of company products, systems and services. May direct customers to website or other company resources for information. May act as sole sales representative for assigned territory, industry, accounts, and/or products. May establish and maintain relationships with channel partners. Represents the company to the customer and the customer to the company in all sales-oriented activities. If selling maintenance/service/license contracts, match to the Inside Sales/Telemarketing - Contract Renewal set of jobs. This is an individual contributor role. Job Description What you get from this role: Our Inside Sales teams partner with Field Sales to bring Splunk solutions to the most transformative companies in the world. A career at Splunk means challenging yourself and your customers to reach higher - and to have fun doing it. We are seeking a dynamic, early career professional to join our fast-growing team. There is a defined growth path for successful Inside Sales Representatives to be promoted throughout the sales organisation and other similar roles and marketing functions. What your day-to-day responsibilities look like: In this role, you will showcase the ability to focus on an organisation’s initiatives, challenges, pain points and partner with Splunk Field Sales to bring value to those organisations through our sales process. You will: Create pipeline for your territory using demand generation and prospecting tools Find new opportunities and quickly develop rapport with new clients- Partners Explore & identify new opportunities in new accounts and/or buying centers Work closely with Splunk Partners to generate opportunities on shared prospect / customer account Own the full sales cycle on qualifying opportunities — discovery, presentation, negotiation, and close Research and present business intelligence about customers and prospects Generate business opportunities through professional networking and cold calling Travel occasionally for training and/or meetings In order to be successful in this role, we are looking for someone who has: What you get from this role: Our Inside Sales teams partner with Field Sales to bring Splunk solutions to the most transformative companies in the world. A career at Splunk means challenging yourself and your customers to reach higher - and to have fun doing it. We are seeking a dynamic, early career professional to join our fast-growing team. There is a defined growth path for successful Inside Sales Representatives to be promoted throughout the sales organisation and other similar roles and marketing functions. What your day-to-day responsibilities look like: In this role, you will showcase the ability to focus on an organisation’s initiatives, challenges, pain points and partner with Splunk Field Sales to bring value to those organisations through our sales process. You will: Create pipeline for your territory using demand generation and prospecting t …",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Dubai-United-Arab-Emirates/Virtual-Sales-Account-Executive_2026205-1",
+      "source": "Workday:Cisco",
+      "company_type": "employer",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "pipeline",
+        "contracts"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "workday_4ad259f4d5c44e",
+      "title": "Enterprise Solutions Architect – Asset Strategy Management & Reliability",
+      "company": "Baker Hughes",
+      "location": "AE-DUBAI-JEBEL ALI-PLOT MO0531, ROAD N302",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Enterprise Solutions Architect – Asset Strategy Management & Reliability Do you enjoy designing enterprise solutions that optimize asset performance and reliability? Are you excited by the prospect of enabling digital transformation for global industrial leaders? Join the Cordant Enterprise Architecture Team! As an Enterprise Solutions Architect, you will play a pivotal role in shaping and delivering solutions that empower organizations to maximize asset reliability and operational efficiency. You will collaborate with cross-functional teams and customers to design architectures that integrate Asset Strategy Management (ASM), reliability engineering principles, and advanced analytics into enterprise ecosystems. Partner with the best The preferred location for this role is [Insert Location or Remote Option]. As an Enterprise Solutions Architect, you will lead solution design and implementation for ASM and reliability initiatives, ensuring alignment with business objectives and technology standards. You will work closely with stakeholders to define strategies, select technologies, and oversee integration with ERP, EAM, and IoT platforms. You will also engage with our services and commercial teams to ensure a holistic solution is proposed to our customers. As a Enterprise Solution Architect (ASM&R), you will be responsible for: Leading pre-sales technical engagements with prospecting customers to discover customer needs aligned to BH offerings Supporting RFI/Q/P response from a technical viewpoint Designing and implementing enterprise-level architectures for ASM and reliability programs. Leading solution focused workshops as part of customer discovery. Collaborating with business and technical stakeholders to align solutions with strategic objectives. Leading architecture reviews and ensuring compliance with enterprise standards and frameworks. Driving integration of ASM solutions with ERP/EAM systems and digital platforms. Advising on best practices for asset performance optimization and risk mitigation. To be successful in this role you will: Hold a Bachelor’s degree in Engineering, Computer Science, or related technical discipline. Have 5&#43; years of experience in enterprise architecture or solution design for asset management and reliability. Demonstrate expertise in ASM frameworks, reliability engineering, and EAM systems (SAP, Maximo, etc.). Be conversant in cloud platforms (Azure, AWS) and integration technologies. Possess strong communication skills to convey technical concepts to diverse audiences. Reliability or Asset Strategy certification like CMRP, CRL, AMP and ISO55000 are considered an asset. Be able to work with minimal supervision, prioritize & organize work, and meet deadlines. Have excellent written and oral communication skills to convey technical concepts to business and technical personnel. Have intermediate level fluency with English (written and spoken). Be proficient in using MS Office Applications. Work in a way that works for you We recognize that everyone is different and that the way in which people want to work and deliver at their best is different for everyone too. In this role, we can offer the following flexible working patterns: Working flexible hours - flexing the times when you work in the day to help you fit everything in and work when you are the most productive. Working with us Our people are at the heart of what we do at Baker Hughes. We know we are better when all of our people are developed, engaged and able to bring their whole authentic selves to work. We invest in the health and well-being of our workforce, train and reward talent and develop leaders at all levels to bring out the best in each other. Working for you Our inventions have revolutionized energy for over a century. But to keep going forward tomorrow, we know we have to push the boundaries today. We prioritize rewarding those who embrace change with a package that reflects how much we value their input. Join us, and you c …",
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/AE-DUBAI-JEBEL-ALI-PLOT-MO0531-ROAD-N302/Enterprise-Solutions-Architect---Asset-Strategy-Management---Reliability_R169297-1",
+      "source": "Workday:Baker Hughes",
+      "company_type": "service",
+      "industry": "Energy / Oil & Gas",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "aws",
+        "azure",
+        "sap",
+        "maximo"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_090a036367497c",
+      "title": "Design Coordinator - Underground Structures (Rail)",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "To coordinate the design development and delivery of underground structures, ensuring alignment with project requirements, technical standards, and stakeholder expectations. Key Responsibilities Coordinate multidisciplinary design inputs for underground structures including tunnels, shafts, and retaining systems Manage design interfaces between civil, structural, geotechnical, and MEP disciplines Review design submissions for compliance with project specifications and applicable standards Support value engineering and constructability reviews Track design progress and ensure timely delivery against programme milestones Liaise with contractors, consultants, and internal teams to resolve design issues Support risk identification and mitigation during the design phase Experience Minimum of 10 years of experience in underground structures design coordination or related field Experience on large scale infrastructure or rail projects is advantageous Engineering Degree",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153667999-design-coordinator-underground-structures-rail-",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "structural"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-06T06:14:29.864Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_7774396a57af53",
+      "title": "MEP Inspector",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Relies on limited experience and judgment to plan and accomplish goals.&#xa0; • Works under general supervision.&#xa0; • May assist with training entry-level employees.&#xa0; • Responsible for monitoring conformance to quality, performance, specifications, and/or code requirements by performing inspection duties.&#xa0; • Performs daily field inspections and maintains inspection records.&#xa0; • Participates in punch lists, testing, and commissioning.&#xa0; • Tracks quality assurance progress.&#xa0; • Provides input to documentation for area and equipment turnovers.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153531182-mep-inspector",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "commissioning"
+      ],
+      "seniority": "Mid",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-10-05T14:44:36.537Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_793b39d3bb87bc",
+      "title": "Graduate - Digital Solutions - Dubai office إماراتيين (خلاصة القيد)",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "We are seeking a motivated Graduate Digital Solutions Specialist to join our Urbanism & Planning team. You&#xa0;will apply digital tools, spatial technologies, and data‑driven methods to real‑world urban planning and development projects. Working alongside multidisciplinary teams, you will support the integration of GIS, BIM, parametric modeling, and data analytics into project workflows, helping deliver innovative, sustainable, and future‑focused urban solutions. This role is a part of our 24-months Advance graduate program. Your journey from graduate to future leader will be supported through structured learning programs and one-on-one mentoring with industry experts, equipping you with the tools to make a lasting impact on our organization and the nation. As part of AECOM’s commitment to Emiratisation and in accordance with UAE labour law, only UAE Nationals with a family book will be considered for this role. Job Summary Support the Urbanism & Planning team in applying digital tools such as GIS, BIM, and parametric/3D modeling to enhance project analysis, visualization, and delivery. Assist with collecting, organizing, and analyzing spatial and non‑spatial datasets to support planning and design decisions. Develop digital outputs including maps, dashboards, 3D models, and other visualizations used in project presentations and stakeholder communications. Contribute to digital workflow development to improve project efficiency, data quality, and team collaboration. Work closely with planners, architects, engineers, and technical specialists to integrate digital capabilities into multidisciplinary project workflows. Provide junior‑level technical support for digital tools and help troubleshoot basic software issues. Participate in training, knowledge‑sharing, and continuous learning activities to build digital and urban planning capabilities. Stay informed about emerging digital tools and technologies relevant to urbanism, planning, sustainability, and smart cities. &#xa0; UAE National with a Family Book (mandatory in line with Emiratisation and UAE labor requirements). Bachelor’s or Master’s degree in Urban Planning, Geography, Architecture, Civil Engineering, Computer Science, Geospatial Sciences, or a related field. Familiarity with GIS platforms (ArcGIS, QGIS), BIM tools (Revit, Navisworks), and/or parametric modeling tools (Rhino, Grasshopper). Basic programming or data skills (e.g., Python, R, JavaScript) and exposure to data visualization tools (e.g., Power BI, Tableau) are an advantage. Strong analytical and problem‑solving skills, with an interest in applying data‑driven and digital methods to urban planning challenges. Good written and verbal communication skills, with the ability to present technical information clearly. Ability to collaborate effectively within a multidisciplinary team and learn from senior specialists. Demonstrated interest in urbanism, sustainability, digital innovation, and the future of cities. Curiosity, willingness to learn, and readiness to grow in a fast‑paced digital planning environment.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153507226-graduate-digital-solutions-dubai-office-",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "planner",
+        "python",
+        "java"
+      ],
+      "seniority": "Junior",
+      "shutdown": false,
+      "nationals_only": {
+        "country": "United Arab Emirates",
+        "level": "only"
+      },
+      "posted": "2026-10-05T13:29:10.539Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_5c441e0d3dd002",
+      "title": "Mechanical inspector",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Relies on limited experience and judgment to plan and accomplish goals.&#xa0; • Works under general supervision.&#xa0; • May assist with training entry-level employees.&#xa0; • Responsible for monitoring conformance to quality, performance, specifications, and/or code requirements by performing inspection duties.&#xa0; • Performs daily field inspections and maintains inspection records.&#xa0; • Participates in punch lists, testing, and commissioning.&#xa0; • Tracks quality assurance progress.&#xa0; • Provides input to documentation for area and equipment turnovers.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153495800-mechanical-inspector",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "commissioning"
+      ],
+      "seniority": "Mid",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-10-05T13:12:04.767Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_155b1b2221de66",
+      "title": "Road/ Civil inspector",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Relies on limited experience and judgment to plan and accomplish goals.&#xa0; • Works under general supervision.&#xa0; • May assist with training entry-level employees.&#xa0; • Responsible for monitoring conformance to quality, performance, specifications, and/or code requirements by performing inspection duties.&#xa0; • Performs daily field inspections and maintains inspection records.&#xa0; • Participates in punch lists, testing, and commissioning.&#xa0; • Tracks quality assurance progress.&#xa0; • Provides input to documentation for area and equipment turnovers.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153497659-road-civil-inspector",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "commissioning"
+      ],
+      "seniority": "Mid",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-10-05T13:00:00.312Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_0a5093ee65cf2d",
+      "title": "Utilities inspector (Wet utilities)",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Relies on limited experience and judgment to plan and accomplish goals.&#xa0; • Works under general supervision.&#xa0; • May assist with training entry-level employees.&#xa0; • Responsible for monitoring conformance to quality, performance, specifications, and/or code requirements by performing inspection duties.&#xa0; • Performs daily field inspections and maintains inspection records.&#xa0; • Participates in punch lists, testing, and commissioning.&#xa0; • Tracks quality assurance progress.&#xa0; • Provides input to documentation for area and equipment turnovers.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153495972-utilities-inspector-wet-utilities-",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "commissioning"
+      ],
+      "seniority": "Mid",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-10-05T12:54:56.452Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_176967da3871fa",
+      "title": "Utilities inspector (Dry utilities)",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Relies on limited experience and judgment to plan and accomplish goals.&#xa0; • Works under general supervision.&#xa0; • May assist with training entry-level employees.&#xa0; • Responsible for monitoring conformance to quality, performance, specifications, and/or code requirements by performing inspection duties.&#xa0; • Performs daily field inspections and maintains inspection records.&#xa0; • Participates in punch lists, testing, and commissioning.&#xa0; • Tracks quality assurance progress.&#xa0; • Provides input to documentation for area and equipment turnovers.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153494819-utilities-inspector-dry-utilities-",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "commissioning"
+      ],
+      "seniority": "Mid",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-10-05T12:52:02.526Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_7f16a4326b3d32",
+      "title": "Utilities Engineer",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Under general supervision, performs routine duties.&#xa0; • Displays knowledge and abilities to evaluate, select and apply standard engineering techniques, procedures and criteria to meet basic engineering and construction specifications.&#xa0; • Displays applications of sound professional judgment on details of work.&#xa0; • Independently performs walk-downs and inspections of installed commodities to assure conformance with specifications and design.&#xa0; • Performs quantity surveys for tracking and reporting.&#xa0; • May provide technical direction to drafters, technicians, and surveyors.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153490629-utilities-engineer",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T12:38:19.992Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_bdf58a3f992a17",
+      "title": "Quantity surveyor",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Normally receives little instruction on routine work, general instructions on new assignments.&#xa0; • Conducts surveys to ascertain the locations of natural features and human-made structures on the earth's surface, underground, and underwater, using electronic distance-measuring equipment and other surveying instruments.&#xa0; • Operates and manages land-information computer systems, performs tasks such as storing data, making inquiries, and producing plots and reports.&#xa0; • Reviews information from survey teams regarding measurement of distances, directions, angles between points and elevation of points, lines, and contours on, above, and below the earth’s surface.&#xa0; • Researches legal records, looks for evidence of previous boundaries, and analyzes the data to determine the location of boundary lines.&#xa0; • Records the results of surveys, verifies the accuracy of data, and prepares plots, maps, and reports.&#xa0; • An experienced professional with full understanding of area of specialization.&#xa0; • Works on problems of diverse scope.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153483912-quantity-surveyor",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T12:33:13.039Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_b47012a5b0ea09",
+      "title": "Material Engineer",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "• Under general supervision, performs routine duties.&#xa0; • Displays knowledge and abilities to evaluate, select and apply standard engineering techniques, procedures and criteria to meet basic engineering and construction specifications.&#xa0; • Displays applications of sound professional judgment on details of work.&#xa0; • Independently performs walk-downs and inspections of installed commodities to assure conformance with specifications and design.&#xa0; • Performs quantity surveys for tracking and reporting.&#xa0; • May provide technical direction to drafters, technicians, and surveyors.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153488519-material-engineer",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T12:30:12.313Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_25ec1e4b923014",
+      "title": "Consultant - Advisory",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "We are seeking a Consultant to support the delivery of advisory and transformation engagements across the UAE and wider Middle East.&#xa0; You will join an established client engagement and work as part of a multidisciplinary team supporting the delivery of strategic and organisational transformation initiatives. From day one, you will be expected to build strong relationships with client stakeholders and quickly develop an understanding of the client's priorities, challenges and operating environment.&#xa0; You will work with clients to solve organisational challenges, improve performance and support the successful delivery of strategic priorities. The role combines analysis, problem solving and stakeholder engagement, while providing opportunities to contribute to complex transformation programmes from design through implementation.&#xa0; This is not a traditional strategy consulting role focused solely on recommendations. We are looking for individuals who can translate analysis into practical solutions and support clients in implementing change that delivers measurable outcomes.&#xa0; As a client facing consultant, you will be expected to spend a proportion of your week working alongside client teams at their offices, building trusted relationships, facilitating collaboration and supporting the successful delivery of programme outcomes.&#xa0; Key Responsibilities&#xa0; Advisory and Project Delivery&#xa0; Support the delivery of organisational transformation, operating model and performance improvement engagements.&#xa0; Conduct research, analysis, stakeholder interviews and assessments.&#xa0; Develop recommendations, options analyses and client deliverables.&#xa0; Support the design of target operating models, governance frameworks and organisational structures.&#xa0; Contribute to transformation roadmaps and implementation plans.&#xa0; Facilitate workshops and stakeholder engagement activities.&#xa0; Support change management and capability building initiatives.&#xa0; Deliver project workstreams to agreed plans, timelines and quality standards.&#xa0; Stakeholder Engagement&#xa0; Build effective relationships with client stakeholders and project teams.&#xa0; Support meetings, workshops and working sessions.&#xa0; Communicate findings and recommendations clearly and confidently.&#xa0; Contribute to the preparation of senior management presentations and reports.&#xa0; Team Contribution&#xa0; Collaborate effectively across multidisciplinary teams.&#xa0; Support knowledge sharing and continuous improvement activities.&#xa0; Contribute to proposal development and business development activities.&#xa0; Coach and support junior team members where appropriate.&#xa0; What Success Looks Like&#xa0; In this role, you will help clients to:&#xa0; Understand organisational challenges and opportunities.&#xa0; Improve governance, processes and ways of working.&#xa0; Design practical and sustainable solutions.&#xa0; Deliver transformation initiatives successfully.&#xa0; Build organisational capability and performance.&#xa0; Translate strategic objectives into actionable outcomes.&#xa0; 4 to 7 years of experience within consulting, advisory, transformation, organisational design or change environments.&#xa0; Experience supporting transformation, operating model or organisational improvement initiatives.&#xa0; Strong analytical and problem-solving skills.&#xa0; Experience engaging with client stakeholders.&#xa0; Ability to structure complex information and communicate clear recommendations.&#xa0; Strong written, verbal and presentation skills.&#xa0; Comfortable working in client environments and building effective relationships with stakeholders across all organisational levels.&#xa0;",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153482189-consultant-advisory",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T12:06:53.214Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "smartrecruiters_b9335a6b2cefc4",
+      "title": "Principal Transport Planner",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Job Summary The Principal Transport Engineer will be responsible for delivering and managing transport planning and traffic engineering studies across a range of infrastructure, development, and masterplanning projects. The role requires strong technical capability, project delivery experience, and the ability to coordinate with clients, authorities, multidisciplinary teams, and junior staff. The Principal Transport Engineer will contribute to the development of technical solutions, manage day-to-day project activities, review technical outputs, and support Project Managers and Technical Leads in delivering projects to a high professional standard. Key Responsibilities Lead and undertake transport planning and traffic engineering studies for development, infrastructure, and masterplanning projects. Prepare and review Traffic Impact Studies (TIS), Transport Assessments, mobility studies, access and circulation assessments, and traffic management assessments. Undertake traffic analysis, junction capacity assessments, network assessments, trip generation, trip distribution, mode share, parking demand, and transport demand assessments. Develop and review transport planning assumptions, methodologies, technical reports, calculations, and supporting documentation. Support strategic and detailed transport modelling activities, including preparation of model inputs, review of model outputs, and interpretation of results. Assess the impact of proposed developments and infrastructure schemes on surrounding transport networks. Develop practical and technically sound recommendations to address identified transport issues. Ensure technical work complies with relevant design standards, guidelines, project requirements, and authority requirements. Manage day-to-day technical activities and deliverables for assigned projects, ensuring work is completed within agreed programme, budget, and quality requirements. Coordinate inputs from multidisciplinary teams, including highways, urban planning, infrastructure, rail, public transport, and other technical disciplines. Monitor project progress and identify technical, programme, resource, and delivery risks. Support Project Managers and Technical Leads in managing project scope, deliverables, and client requirements. Assist with fee proposals, scopes of work, resource planning, and technical approaches for new opportunities. Liaise directly with clients, government authorities, developers, and other stakeholders. Attend technical meetings and workshops and present transport findings and recommendations. Coordinate with relevant transport authorities and respond to technical comments and review requirements. Build and maintain effective professional relationships with clients and stakeholders. Represent the company professionally during project and authority meetings. Bachelor's degree in Transport Planning, Geography, Civil Engineering, Economics, or a closely related discipline Chartered status or professional membership with a recognized body such as CIHT (Chartered Institution of Highways & Transportation), TPS (Transport Planning Society), or ICE (Institution of Civil Engineers) Extensive experience (typically 12+ years) in transport planning, with demonstrated expertise in scheme appraisal, evaluation, and business case development Proven track record of successfully delivering multi-disciplinary transport planning projects in compliance with DfT and Treasury guidance Advanced proficiency in analytical techniques and industry-standard transport modeling software and tools Strong project management and resource management capabilities, with evidence of sound commercial awareness and proven management techniques Excellent communication and presentation skills, with the ability to engage confidently with senior-level stakeholders and clients Demonstrated experience in client relationship management and business development within the transport planning sector Strategic thinking ability with exper …",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153463511-principal-transport-planner",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "planner",
+        "project management"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T10:58:32.056Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "adecco_203ad7940f91e8",
+      "title": "Sales Professional",
+      "company": "Adecco Middle East (agency)",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "Sales Professional. Engineering and Manufacturing Full time Permanent. Location: . Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004VhUbIAK",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Manufacturing",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-06T06:22:16.879Z",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "lever_981798eacf823d",
+      "title": "Binance Accelerator Program - Ads Implementation",
+      "company": "Binance",
+      "location": "UAE, Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. Binance is trusted by more than 320 million people in 100+ countries for its industry-leading security, transparency, trading engine speed, protections for investors, and unmatched portfolio of digital asset products and offerings from trading and finance to education, research, social good, payments, institutional services, and Web3 features. Binance is devoted to building an inclusive crypto ecosystem to increase the freedom of money and financial access for people around the world with crypto as the fundamental means. About Binance Accelerator Program Binance Accelerator Program (BAP) is a 3-6 month internship program designed for Early Career talent to have firsthand experience in the rapidly expanding digital assets space. You will be given the opportunity to develop your skills at Binance and understand what it’s like to work at the world's leading blockchain ecosystem. As part of your internship in the BAP, there will also be opportunities for networking and development, which will expand your professional network and build transferable skills to propel you forward in your career. Learn about the BAP Program HERE. Who may apply Current university students and recent graduates. *Terms of employment / engagement shall be subject to contract and local applicable laws",
+      "url": "https://jobs.lever.co/binance/495005da-6a19-4ba1-b98b-19f9495ccb2a",
+      "source": "Lever:Binance",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "aws"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-06T00:36:16.323000+00:00",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
+    {
+      "id": "lever_1da755db859324",
+      "title": "Risk Manager - AD representative, RCH and RIE (Abu Dhabi Based)",
+      "company": "Binance",
+      "location": "UAE, Abu Dhabi",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, Web3 features, and more. We leverage the power of digital assets and blockchain to build an inclusive financial ecosystem to advance the freedom of money and improve financial access for people around the world.",
+      "url": "https://jobs.lever.co/binance/30c5c5e5-ae71-42db-862c-173c13dfc352",
+      "source": "Lever:Binance",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-05T02:15:33.034000+00:00",
+      "first_seen": "2026-10-06T08:43:41.891304+00:00",
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
+    },
     {
       "id": "jooble_7570597fb23d5d",
       "title": "Operations Specialist - Hindi Speaking",
@@ -82,7 +908,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_2afbc3cd224af8",
@@ -107,7 +933,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_cb0032d7d0123a",
@@ -136,7 +962,7 @@
       "nationals_only": null,
       "posted": "2026-10-05T05:57:06.670Z",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_43b172d46db670",
@@ -161,7 +987,7 @@
       },
       "posted": "2026-10-02",
       "first_seen": "2026-10-04T07:55:41.049118+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_66844a015938e7",
@@ -276,7 +1102,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T09:42:16.8300000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_71810a70d082e4",
@@ -298,7 +1124,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T09:42:13.7000000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_93c55266ef4a43",
@@ -320,7 +1146,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-03T07:45:46.589080+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_a35e5af8f3f8bb",
@@ -342,7 +1168,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T00:00:00.0000000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_e16fa5a037a15a",
@@ -364,7 +1190,7 @@
       "nationals_only": null,
       "posted": "2026-10-02",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_a34a1dc6ca7d49",
@@ -448,7 +1274,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T12:20:48.271Z",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_1cd9951851c580",
@@ -470,7 +1296,7 @@
       "nationals_only": null,
       "posted": "2026-02-18T11:39:47.401000+00:00",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_93572129275364",
@@ -492,7 +1318,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T14:19:03.9270000",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_37c45bb7b95f01",
@@ -583,7 +1409,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T06:21:42.373Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_2e99c234387b1f",
@@ -608,7 +1434,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T03:43:48.765Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_b961f2c2511e1f",
@@ -663,7 +1489,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T12:37:45.413Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_e6650eeec521c1",
@@ -682,7 +1508,8 @@
       "skills": [
         "quality control",
         "civil",
-        "structural"
+        "structural",
+        "commissioning"
       ],
       "seniority": "Mid",
       "shutdown": false,
@@ -841,7 +1668,7 @@
       },
       "posted": "2026-10-01T11:27:28.725Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_22dc09c5ceec48",
@@ -868,7 +1695,7 @@
       },
       "posted": "2026-10-01T11:25:41.801Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_a983fe3eb6be67",
@@ -899,7 +1726,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T11:10:48.502Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_125745cabd051b",
@@ -926,7 +1753,7 @@
       },
       "posted": "2026-10-01T10:36:54.973Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_7359f3e4871d92",
@@ -970,7 +1797,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T09:53:53.811Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_162873f8ac0270",
@@ -992,7 +1819,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T09:21:07.570Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_9d89080beea36a",
@@ -1018,7 +1845,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T13:05:26.212000+00:00",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_648934df84442c",
@@ -1040,7 +1867,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T01:32:51.175000+00:00",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_593560c0f3d689",
@@ -1084,7 +1911,7 @@
       "nationals_only": null,
       "posted": "2026-09-22T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_3c5e539c5736ec",
@@ -1128,7 +1955,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_482e1057512f32",
@@ -1216,7 +2043,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-02T08:06:28.303394+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_ec2d0219213b38",
@@ -1238,7 +2065,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_7b1f0a24d3ad0a",
@@ -1285,7 +2112,7 @@
       "nationals_only": null,
       "posted": "2026-09-30",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_0efe21201b9f16",
@@ -1309,7 +2136,7 @@
       "nationals_only": null,
       "posted": "2026-09-30",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_6e5bac28914bc8",
@@ -1331,7 +2158,7 @@
       "nationals_only": null,
       "posted": "2026-09-30",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_17e435bdb82a92",
@@ -1594,7 +2421,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:01:38.963Z",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_0c7469a47172a3",
@@ -1614,9 +2441,9 @@
       "seniority": "Mid",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-09-30T12:00:45.89Z",
+      "posted": "2026-10-06T05:57:05.46Z",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_2c6d793b3b029a",
@@ -1748,7 +2575,7 @@
       "nationals_only": null,
       "posted": "2026-08-12T00:00:00.0000000",
       "first_seen": "2026-09-30T08:11:16.397612+00:00",
-      "last_seen": "2026-09-30T08:11:16.397612+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_e90f61aa60ae51",
@@ -1951,7 +2778,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T08:27:35.896Z",
       "first_seen": "2026-09-30T08:11:16.397612+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "greenhouse_7fc04454d60029",
@@ -1976,7 +2803,7 @@
       "nationals_only": null,
       "posted": "2026-09-29T04:06:01-04:00",
       "first_seen": "2026-09-30T08:11:16.397612+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_16e755ab7d3675",
@@ -1998,7 +2825,7 @@
       "nationals_only": null,
       "posted": "2026-03-03T15:20:27.176000+00:00",
       "first_seen": "2026-09-30T08:11:16.397612+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_f7386faf51be3b",
@@ -2042,7 +2869,7 @@
       "nationals_only": null,
       "posted": "2026-08-08T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_987cc574169f87",
@@ -2284,7 +3111,7 @@
       "nationals_only": null,
       "posted": "2026-09-17T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_f791a645a49665",
@@ -2306,7 +3133,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_57e2e3a3f3808a",
@@ -2328,7 +3155,7 @@
       "nationals_only": null,
       "posted": "2026-08-10T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_e7be29639f4a2b",
@@ -2394,7 +3221,7 @@
       "nationals_only": null,
       "posted": "2026-08-08T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_1cfd6b114e9f96",
@@ -2526,7 +3353,7 @@
       "nationals_only": null,
       "posted": "2026-09-03T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_bb46164bd13df8",
@@ -2548,7 +3375,7 @@
       "nationals_only": null,
       "posted": "2026-08-13T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_ad32160295c4ec",
@@ -2638,7 +3465,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_edcaba85428b54",
@@ -2706,7 +3533,7 @@
       "nationals_only": null,
       "posted": "2026-08-13T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_241307a979a714",
@@ -2838,7 +3665,7 @@
       "nationals_only": null,
       "posted": "2026-09-17T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-04T07:55:41.049118+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_b6388fa2b51295",
@@ -2860,7 +3687,7 @@
       "nationals_only": null,
       "posted": "2026-08-14T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_886e33b0fe45e7",
@@ -2948,7 +3775,7 @@
       "nationals_only": null,
       "posted": "2026-09-03T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_eaf3931f6d48ec",
@@ -2992,7 +3819,7 @@
       "nationals_only": null,
       "posted": "2026-09-03T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-04T07:55:41.049118+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_4b06cd385e6be4",
@@ -3102,7 +3929,7 @@
       "nationals_only": null,
       "posted": "2026-08-20T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_1955a25c8d41ff",
@@ -3260,7 +4087,7 @@
       "nationals_only": null,
       "posted": "2026-08-13T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_5f7c432492aeb1",
@@ -3326,7 +4153,7 @@
       "nationals_only": null,
       "posted": "2026-08-09T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_ce8f05e34599dc",
@@ -3480,7 +4307,7 @@
       "nationals_only": null,
       "posted": "2026-08-08T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-01T08:31:00.507323+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_2d8f6708067fd2",
@@ -3502,7 +4329,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-09-30T08:11:16.397612+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_24e6ca63209e1f",
@@ -3571,7 +4398,7 @@
       "nationals_only": null,
       "posted": "2026-09-28",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_806e347a03ea59",
@@ -3747,7 +4574,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:35:35.456Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_a3aa6120b53646",
@@ -3769,7 +4596,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:35:04.561Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_d82623b0725425",
@@ -3791,7 +4618,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:32:44.223Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_ff37f4ad7479a6",
@@ -3813,7 +4640,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:58:12.521Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_1b65b1a1d8c61f",
@@ -3835,7 +4662,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T09:31:46.409Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_987fed4a0bbc15",
@@ -3886,7 +4713,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T08:20:50.747Z",
       "first_seen": "2026-09-28T08:24:53.029450+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_44a71b55c66a4d",
@@ -3908,7 +4735,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T02:16:26.322000+00:00",
       "first_seen": "2026-09-28T08:24:53.029450+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_b6e9888780d049",
@@ -3952,7 +4779,7 @@
       "nationals_only": null,
       "posted": "2026-09-28",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_a81c56c58009b4",
@@ -4248,7 +5075,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T05:53:48.487Z",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_fb8671dee3de6a",
@@ -4270,7 +5097,7 @@
       "nationals_only": null,
       "posted": "2026-09-25T12:33:15.554Z",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_14cdfd1527f01e",
@@ -4292,7 +5119,7 @@
       "nationals_only": null,
       "posted": "2026-09-25T16:12:41.009000+00:00",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_c22439ab1eb034",
@@ -4656,7 +5483,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:33:33.454Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_1becfb70acc787",
@@ -4678,7 +5505,7 @@
       "nationals_only": null,
       "posted": "2026-09-24T13:19:35.053Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_2c781d1210c6c5",
@@ -4700,7 +5527,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T06:45:33.077Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_74aed3300ce336",
@@ -4722,7 +5549,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:50:54.536Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_99034e7f97a8a4",
@@ -4744,7 +5571,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T09:40:09.101Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_b6adfcdd2f4ebc",
@@ -4766,7 +5593,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:12:00.846Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_825d99db9d33c5",
@@ -4788,7 +5615,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:15:08.339Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_12bd7bc47e7442",
@@ -4810,7 +5637,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:41:50.637Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_083aebeabeaae6",
@@ -4832,7 +5659,7 @@
       "nationals_only": null,
       "posted": "2026-09-25T12:56:51.46Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_efb26ba3552f5d",
@@ -4854,7 +5681,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:03:15.16Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_6784ec1a353095",
@@ -4878,7 +5705,7 @@
       "nationals_only": null,
       "posted": "2026-09-04T14:31:19.924000+00:00",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_53bc304a5efe95",
@@ -5074,7 +5901,7 @@
       "nationals_only": null,
       "posted": "2026-10-05T06:57:28.049Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_39c044bc6debc5",
@@ -5100,7 +5927,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T09:25:38.468Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_0454dfe0743a4e",
@@ -5125,7 +5952,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T09:18:48.579Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_b0655dcb0d3bb5",
@@ -5383,7 +6210,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T06:01:34.106Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_95b56004254766",
@@ -5459,7 +6286,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T12:44:11.891Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_364506c1ac8533",
@@ -5483,7 +6310,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T12:05:29.781Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_2dc307bd58e576",
@@ -5505,7 +6332,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T11:52:43.95Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_a7f9b687918965",
@@ -5530,7 +6357,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T11:44:25.061Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "greenhouse_14de01ae650dae",
@@ -5552,7 +6379,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T09:12:12-04:00",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_5eb8fd5ef54299",
@@ -6019,7 +6846,7 @@
       "nationals_only": null,
       "posted": "2026-09-20T00:00:00.0000000",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_b704e8797dea15",
@@ -6132,7 +6959,7 @@
       },
       "posted": "2026-09-21",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_958bef8807dbdc",
@@ -6159,7 +6986,7 @@
       },
       "posted": "2026-09-17",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_2f01a483571ece",
@@ -6509,7 +7336,7 @@
       "nationals_only": null,
       "posted": "2026-06-08T05:55:55.490000+00:00",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_00985246a85c20",
@@ -6536,7 +7363,7 @@
       },
       "posted": "2026-09-17",
       "first_seen": "2026-09-21T07:45:46.028411+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_e671b52ffc2b4c",
@@ -6883,7 +7710,7 @@
       "nationals_only": null,
       "posted": "2026-09-17T14:13:04.598000+00:00",
       "first_seen": "2026-09-18T07:11:38.154765+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_6ea39fc1a4c1c4",
@@ -6953,7 +7780,7 @@
       "nationals_only": null,
       "posted": "2026-09-16",
       "first_seen": "2026-09-17T07:20:28.566161+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_0e50203b42adb9",
@@ -7615,7 +8442,7 @@
       },
       "posted": "2026-08-25",
       "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_87124a3fe8175e",
@@ -7638,32 +8465,6 @@
       "posted": "2026-09-15",
       "first_seen": "2026-09-15T07:24:07.162600+00:00",
       "last_seen": "2026-09-18T07:11:38.154765+00:00"
-    },
-    {
-      "id": "smartrecruiters_26ac3f3ea9d320",
-      "title": "Manager - Stakeholder Management (Rail)",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "The Stakeholder Manager is responsible for planning, managing and delivering all stakeholder engagement and external affairs activities The role manages relationships with government authorities, regulators, utility owners, landowners, communities and other affected or interested parties along the alignment, ensuring that engagement is proactive, well documented and coordinated with the project's design, land, environmental and construction activities, and that stakeholder issues are identified, tracked and resolved in a timely manner. Key Responsibilities Government & Regulatory Authorities Act as the project's primary point of contact and relationship manager for government ministries, municipalities, regulators, roads and utility authorities, and civil defence and other statutory bodies. Coordinate the preparation and submission of approvals, permits, no-objection certificates and other regulatory requirements, tracking status and escalating delays. Support the project's engagement with national and regional rail regulatory bodies and safety authorities on stakeholder-related matters. Represent the project in official meetings, committees and working groups with authorities and government stakeholders. Land, Property & Utilities Manage stakeholder engagement associated with land acquisition, way-leaves, resettlement and compensation processes, working closely with the project's land and legal teams. Coordinate with utility owners (power, water, telecom, oil & gas and others) on notification, relocation and protection of existing services affected by the alignment, depots and online buildings. Liaise with adjacent landowners, developers and infrastructure operators to manage interfaces, access and disruption arising from construction activities. Community & Public Engagement Develop and implement the project's Stakeholder Engagement Plan, including stakeholder mapping, identification and prioritisation of stakeholder groups. Plan and deliver public information sessions, community forums, site briefings and consultation events, and manage the associated logistics and materials. Establish and operate the project's grievance mechanism and stakeholder database/CRM, ensuring all engagement, feedback and complaints are logged, tracked and closed out. Coordinate with communications/PR teams and, where relevant, media, on public messaging, disclosure and reputation management related to construction impacts. Monitor stakeholder sentiment and emerging issues along the alignment and advise project leadership on mitigation and communication strategies. Coordination & Reporting Duties Plan and deliver the project's stakeholder engagement activities, sharing workload across authority, land and community work-streams as a small, closely coordinated function. Coordinate closely with design, environmental, land, planning, construction and HSE teams to ensure stakeholder considerations are integrated into project delivery (e.g., traffic management, road closures, construction noise and access disruption). Prepare and present regular stakeholder engagement reports, risk registers and KPI dashboards to project leadership and, where required, to the client and financing institutions. Ensure stakeholder engagement activities comply with relevant national requirements and applicable international standards (e.g., IFC Performance Standards / Equator Principles) where the project is subject to such requirements. Support management of the stakeholder engagement budget and inputs to the project's overall communications and consultation programme. Where the project engages external consultants, contractors or third-party liaison support for specific engagement activities, coordinate and review their inputs against the Stakeholder Engagement Plan. University degree, preferably a Master’s degree, and/or Chartered/professional status in a relevant field.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000149511280-manager-stakeholder-management-rail-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "civil",
-        "construction",
-        "hse"
-      ],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-15T06:42:48.343Z",
-      "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
     },
     {
       "id": "smartrecruiters_6ab3a39675fd0f",
@@ -7747,56 +8548,6 @@
       "last_seen": "2026-09-23T07:31:13.184070+00:00"
     },
     {
-      "id": "smartrecruiters_f4e73efdb583c7",
-      "title": "Sustainability Engineer",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are seeking a dedicated and knowledgeable Sustainability Engineer to join our team. The successful candidate will be responsible for coordinating with local authorities, contributing to ESG reporting, and developing sustainability plans. This role requires a strong understanding of Estidama and LEED requirements, as well as excellent communication and coordination skills. Key Responsibilities: Regularly meet with ADM and EAD Authorities to coordinate required actions according to local guidelines and ensure their implementation on site. Contribute to the company’s ESG reporting and develop plans to minimize GHG emissions and carbon footprint. Manage and prepare sustainability plans, including sustainability implementation strategies and procurement plans. Implement all Estidama/LEED design requirements during the construction stage through material submittals and shop drawings. Serve as the Environmental and Sustainability representative during weekly progress meetings with clients and authorities. Manage and prepare all Estidama/LEED construction audit reports for submission to authorities. Provide monthly/weekly reports to clients on all related Estidama/LEED compliances and trackers. Coordinate fully with all project traders, stakeholders, and subcontractors to ensure full compliance with the project’s contractual environmental and sustainability rating system. Bachelor’s degree in Environmental Engineering, Sustainability, or a related field. Proven experience in sustainability engineering, with a focus on Estidama and LEED requirements. Strong understanding of ESG reporting and sustainability planning. Excellent communication and coordination skills. Ability to work collaboratively with various stakeholders and authorities. Proficiency in sustainability software and tools. Preferred Skills: Certification in LEED AP, Estidama, or similar sustainability credentials. Experience in managing sustainability projects in the construction industry. Strong analytical and problem-solving skills.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000149356898-sustainability-engineer",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "procurement",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-14T14:45:37.422Z",
-      "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
-      "id": "smartrecruiters_9a48b33b6a5c6b",
-      "title": "Site Engineer - Civil Works (Rail project)",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Provide civil engineering support including design review and construction-related technical coordination. Key Responsibilities Review civil design submissions (earthworks, structures, drainage, etc.). Support construction supervision and technical queries. Prepare technical comments and reports. Coordinate civil interfaces with other disciplines and contractors. Monitor compliance with project specifications and standards. Requirements Minimum 5 years’ experience in civil engineering. Design review or site experience preferred. Middle East / UAE experience highly advantageous. Rail or High-Speed Rail experience preferable. University degree in Civil Engineering&#xa0;",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000149302639-site-engineer-civil-works-rail-project-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "civil",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-14T11:02:07.285Z",
-      "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
       "id": "smartrecruiters_61b545ddad5e9b",
       "title": "Senior Resident Engineer (Roads and Infrastructure)",
       "company": "AECOM",
@@ -7867,7 +8618,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T14:51:12-04:00",
       "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_ecaeafaa9ecc67",
@@ -7972,59 +8723,6 @@
       "last_seen": "2026-09-16T07:24:16.517862+00:00"
     },
     {
-      "id": "smartrecruiters_b28c7405344fb4",
-      "title": "Project Director (Construction Supervision)",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are seeking an experienced and decisive Project Director to lead site construction operations in Abu Dhabi, United Arab Emirates. In this pivotal leadership role, you will oversee all aspects of construction project execution, from planning and resource allocation to completion and handover. The ideal candidate will demonstrate exceptional organizational skills, strategic vision, and the ability to manage complex projects while maintaining the highest standards of safety and quality. Direct and oversee all site construction activities, ensuring projects are completed on time, within budget, and to specification Develop comprehensive project plans, schedules, and resource allocation strategies using advanced project management methodologies Manage project budgets, monitor expenditures, and implement cost control measures to optimize financial performance Lead, mentor, and supervise construction teams, including subcontractors and site personnel, fostering a culture of accountability and excellence Ensure strict compliance with UAE construction standards, safety regulations, and environmental requirements Conduct regular site inspections and quality assurance reviews to maintain construction standards and identify potential issues Analyze project risks, develop mitigation strategies, and make decisive decisions to resolve challenges and maintain project momentum Communicate effectively with stakeholders, clients, and senior management, providing regular progress reports and updates Coordinate with architects, engineers, and consultants to ensure design intent is properly executed on site Maintain comprehensive project documentation, including daily reports, permits, contracts, and compliance records Implement and monitor safety protocols to create a secure working environment for all personnel Minimum 20&#xa0;years of progressive experience in site construction project management and operations Proven track record successfully managing large-scale construction projects valued at $10 million or more Comprehensive knowledge of construction methodologies, best practices, and industry standards Strong expertise in project scheduling, budgeting, and resource management Demonstrated ability to lead, motivate, and manage diverse teams in a fast-paced environment Advanced analytical and problem-solving skills with the ability to make sound decisions under pressure In-depth understanding of UAE construction regulations, building codes, and safety requirements Proficiency with project management software such as Primavera P6 or Microsoft Project",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000149248319-project-director-construction-supervision-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "primavera",
-        "p6",
-        "cost control",
-        "project management",
-        "contracts",
-        "construction"
-      ],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-14T06:55:04.307Z",
-      "first_seen": "2026-09-14T07:41:43.306024+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
-      "id": "smartrecruiters_a875395edb170a",
-      "title": "Associate - Landscape architecture",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "The Associate – Landscape operating as a senior design professional is responsible for driving strategy, innovation, and excellence in the design and delivery of landscape architecture projects. This role combines hands-on project leadership with team management, technical oversight, and client engagement. The Associate plays a key role in shaping project outcomes, mentoring staff, and contributing to the studio’s growth and reputation through thought leadership, quality assurance, and business development. Responsibilities: May be required to act as a line manager and should be able to mentor, monitor timekeeping, conduct performance reviews, and provide feedback on assigned technical staff. Play an active role in the technical development of the allocated team. Acts in a supporting role to the Team Leader/ Manager/ Associate Director /Director by delegating work and directing less experienced staff to complete assigned projects' technical tasks. Able to monitor and track the budget for specific tasks within the project. Take the lead on multiple landscape architecture projects and define roles and responsibilities. Lead client interface and manage projects' contractual requirements. Planned and conducted design and creative review sessions for ongoing projects and competitions. Identify skills gaps, source, interview, and recruit new joiners. Present market research outcomes and develop a thought leadership presentation for the wider team. Well aware of landscape architecture standards generally applied across landscape architecture projects sourced from landscape architecture authorities and regulatory guidelines. Drive and conduct site opportunity and constraint studies for projects, present proposals internally and externally, and derive design ideas for implementation and further consideration. Contribute to discussions and design drivers within the studio's ethos. Establish innovative visions for the projects that align with the studio ethos, the site's potential, and the project brief. Lead landscape architecture project deliverables with applicable landscape architecture authorities and client requirements. Ensure the compliance of deliverables with the scope of work and contracts. Clearly understand the scopes of Architecture, urban planning, and landscape, as well as the synergies and overlaps between them, on projects and in the studio. Able to develop new landscape architecture and building typologies applicable to projects and sites with conditions. Able to tailor design responses to project-specific conditions. Narrate landscape architecture ideas clearly through literature in reports and presentations, and guide/mentor direct reports in effective report writing. Bridge between delivering design ideas and delivering to budget. Understand client objectives and steer design thinking accordingly. Actively promote innovative landscape architecture attributes and influence peers and reports. Promote the use of innovative digital tools in landscape architecture projects and engage in internal research and development. Identify new potential areas of innovation and improvement in design ideation and presentation that the landscape architecture team can benefit from. Manage, coordinate, and deliver landscape architecture bids and proposals, tailoring technical approaches, methodologies, and delivery structures as needed. Prepare and coordinate the commercial aspects of bids in accordance with project expectations. Structure teams for landscape architecture projects with a clear understanding of project roles and responsibilities. Advocate for quality procedures applicable to the landscape architecture technical practice group and continuously apply thorough self-checks and reviews of deliverables before sharing them. Implement safety in design standards and procedures, and report on safety within and outside the work environment, including any incidents or near misses that may impact staff. Contribute to and participate …",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000149247019-associate-landscape-architecture",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "contracts"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-14T06:44:53.068Z",
-      "first_seen": "2026-09-14T07:41:43.306024+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
       "id": "smartrecruiters_9ae5eee68940a5",
       "title": "Mechanical Inspector - Site",
       "company": "AECOM",
@@ -8120,7 +8818,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-09-13T07:17:40.093014+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_ce462763db5f8c",
@@ -8190,7 +8888,7 @@
       "nationals_only": null,
       "posted": "2025-05-13T01:09:25.323000+00:00",
       "first_seen": "2026-09-12T06:59:01.132025+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_af7e8506c5bcf6",
@@ -8212,7 +8910,7 @@
       "nationals_only": null,
       "posted": "2026-09-11T07:55:24.536000+00:00",
       "first_seen": "2026-09-12T06:59:01.132025+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_f6f5d65047d6e3",
@@ -8237,7 +8935,7 @@
       },
       "posted": "2026-07-07",
       "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_c53d47ff6ab5fa",
@@ -8265,7 +8963,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_fc98bf8da91578",
@@ -8293,32 +8991,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
-    },
-    {
-      "id": "smartrecruiters_69c29202096e13",
-      "title": "Consultant - Urban Advisory",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "AECOM is currently seeking an experienced Consultant - Urban Advisory to join its team in Dubai. The successful candidate will play a key role in developing the research, evidence and strategic narratives that underpin our advisory projects, thought leadership and business development activities. The Consultant will undertake and lead independent research, working with quantitative and qualitative information from a wide range of sources. They will be expected to critically assess evidence, challenge assumptions, identify emerging trends and draw connections across disciplines to help frame problems and build persuasive arguments. The role combines independent research, planning and design awareness, analytical thinking and strong communication skills with an ability to understand the commercial and strategic context in which our clients make decisions. Key Responsibilities Lead and undertake high-quality independent research across urban planning, design, transport, infrastructure, real estate, economics, policy, technology and related themes. Develop clear, evidence-led narratives that connect research findings to planning, design, engineering and investment decisions. Capable of managing multiple projects concurrently, maintaining clarity, consistency, and momentum across all stages of delivery. Translate complex technical, spatial and quantitative information into concise and accessible insights suitable for senior clients and decision-makers. Contribute to the preparation of high-quality reports, presentations, monographs, thought leadership pieces and other client-facing material. Support business development by researching emerging markets, sectors, clients and investment themes and identifying opportunities where AECOM's capabilities can respond to evolving client needs. Collaborate with planners, urban designers, engineers, economists, transport specialists, infrastructure teams and other disciplines to develop integrated perspectives on complex urban challenges. Develop and maintain a strong understanding of emerging issues affecting cities and infrastructure across the Middle East, while drawing on relevant global research and precedent. Apply appropriate analytical and research tools, including responsible use of AI-enabled research methods, while maintaining rigorous source validation, critical judgement and quality control. Contribute to the continuous development of the Advisory team's research methodologies, knowledge base and approaches to communicating complex ideas. A minimum of 10 years post-undergraduate experience. Bachelors degree in the relevant discipline field. Masters degree preferred. Experience within&#xa0;Urban / Masterplanning, Economics, Policy, and Development Strategy is required for the role.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000148933009-consultant-urban-advisory-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "planner"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-11T06:40:43.593Z",
-      "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_44cf8e89e63b9f",
@@ -8402,14 +9075,14 @@
       "last_seen": "2026-09-22T07:28:30.528585+00:00"
     },
     {
-      "id": "smartrecruiters_c46f2a45850771",
+      "id": "smartrecruiters_51e2d1da50cbbb",
       "title": "Engineer - Material",
       "company": "AECOM",
       "location": "Abu Dhabi, UAE, United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "Abu Dhabi",
-      "description": "We are looking for an experienced Materials Engineer to join our team for an Infrastructure Project in Abu Dhabi, UAE . &#xa0; Job Description: &#xa0; Monitor and supervise material-related activities on the project. Review and approve material submittals, technical data sheets, samples, and certificates. Ensure materials comply with approved project specifications, standards, and contract requirements. Review laboratory and field test results and verify compliance with project requirements. Monitor material testing, sampling, and inspection activities. Coordinate with the Contractor, laboratories, suppliers, and site supervision team regarding material-related issues. Inspect delivered materials and verify compliance with approved submittals. Maintain proper records of material approvals, testing, inspections, and non-conformances. Identify and report any unsuitable or non-compliant materials and follow up on corrective actions. Provide technical support to the Resident Engineer and QA/QC team on material-related matters. Requirements: Bachelor’s Degree in Civil Engineering, Materials Engineering, or a related field. Relevant experience in infrastructure, roads, and civil construction projects . Strong knowledge of construction materials, testing procedures, and applicable standards. Experience in reviewing material submittals and laboratory/field test results. Good knowledge of QA/QC procedures and project specifications. Strong communication, coordination, and problem-solving skills. UAE/GCC project experience is preferred",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000148750319-engineer-material",
+      "description": "We are seeking an experienced and visionary **Senior Engineer - Material** to join our dynamic team in Al Ain, United Arab Emirates. In this pivotal role, you will lead and manage all material engineering and quality control activities for large-scale infrastructure projects, ensuring that all construction materials comply with contract requirements, approved specifications, authority regulations, and applicable international standards. You will provide strategic technical leadership while collaborating closely with project teams, contractors, laboratories, suppliers, and regulatory authorities to drive material excellence and project success. Lead the review, analysis, and approval of material submittals, manufacturers' data, technical specifications, and compliance certificates with meticulous attention to detail Ensure all materials comply with contract requirements, project specifications, UAE authority standards, and relevant international codes (ASTM, AASHTO, BS, EN) Evaluate alternative material proposals and provide innovative technical recommendations that optimize project outcomes Oversee comprehensive laboratory and field testing programs to verify material compliance and quality assurance Review and validate test reports, mix designs, trial results, and quality certifications with analytical rigor Implement and monitor approved Inspection & Test Plans (ITPs) related to construction materials throughout the project lifecycle Conduct thorough supplier, manufacturer, batching plant, asphalt plant, precast yard, and quarry evaluations Participate in factory inspections and source approvals to ensure material quality at the origin Monitor material storage, handling, transportation, and installation to ensure only approved materials are incorporated into the works Lead investigations into material-related non-conformances and quality issues, recommending decisive preventive and corrective actions Coordinate seamlessly with clients, contractors, testing laboratories, suppliers, manufacturers, and authorities regarding material-related matters Mentor and support Material Engineers and Material Inspectors, fostering a collaborative and supportive team environment Maintain comprehensive material approval registers, testing records, and quality databases with organizational excellence Prepare detailed material status reports, quality dashboards, and management summaries for stakeholder transparency Identify material risks proactively and recommend mitigation measures to support efficient project delivery Champion continuous improvement and innovation in material engineering practices and quality management systems **Education:** Bachelor's Degree in Civil Engineering, Materials Engineering, or equivalent engineering discipline Postgraduate qualification in Materials Engineering or Construction Management (preferred) **Experience:** Minimum 10&#xa0;years of progressive experience in material engineering and quality management on major infrastructure projects Proven expertise in infrastructure projects including roads, asphalt, concrete, utilities, drainage, sewerage, potable water, irrigation, electrical, and public realm works Extensive hands-on experience with laboratory testing, material approvals, supplier assessments, and quality management systems Demonstrated knowledge of UAE authority requirements and infrastructure material specifications Strong background in FIDIC contracts, QA/QC systems, and infrastructure construction methodologies **Technical Skills & Knowledge:** Comprehensive knowledge of construction materials and international standards (ASTM, AASHTO, BS, EN) Advanced proficiency in reviewing material submittals, mix designs, technical specifications, and laboratory reports Proficiency in Microsoft Office suite and document management systems (Asite or similar platforms) Strong understanding of quality documentation and compliance procedures Expertise in material compliance, testing protocols, and quality ass …",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000153455135-engineer-material",
       "source": "SmartRecruiters:AECOM",
       "company_type": "employer",
       "industry": "Construction / Infrastructure",
@@ -8418,14 +9091,17 @@
       "skills": [
         "qa/qc",
         "civil",
-        "construction"
+        "construction",
+        "quality control",
+        "electrical",
+        "contracts"
       ],
       "seniority": "Mid",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-09-10T11:35:07.615Z",
+      "posted": "2026-10-05T10:03:02.127Z",
       "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-09-18T07:11:38.154765+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_0986606ef3512d",
@@ -8506,30 +9182,6 @@
       "posted": "2026-09-10T08:10:16.489Z",
       "first_seen": "2026-09-11T07:07:11.774830+00:00",
       "last_seen": "2026-09-16T07:24:16.517862+00:00"
-    },
-    {
-      "id": "smartrecruiters_3b2a08457d5e48",
-      "title": "Advisor - Safety, Health & Environment (Site)",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We're looking for an experienced and detail-oriented Advisor - Safety, Health & Environment (Site) to join our dynamic team in Abu Dhabi, United Arab Emirates. In this pivotal role, you will be the driving force behind our commitment to maintaining a safe, healthy, and environmentally responsible workplace. You will serve as a trusted advisor and advocate for safety excellence, working collaboratively with site teams to embed a proactive safety culture while ensuring full compliance with UAE regulations and international best practices. Your analytical mindset, combined with your assertive approach to risk management, will help us continuously improve our operational safety performance and protect our most valuable asset—our people. Conduct comprehensive site inspections and audits to identify potential hazards, safety violations, and opportunities for improvement, maintaining meticulous documentation of all findings Develop, implement, and monitor customized safety protocols, procedures, and programs tailored to site-specific operational requirements and risk profiles Investigate incidents, accidents, and near-misses with transparency and thoroughness; document findings and recommend evidence-based corrective and preventive actions Deliver engaging safety training and awareness programs to site personnel at all organizational levels, fostering a culture of safety consciousness and accountability Ensure strict compliance with UAE occupational health and safety regulations, environmental standards, and company policies through systematic monitoring and reporting Maintain organized and comprehensive safety documentation, records, and reports for regulatory review and internal performance analysis Collaborate effectively with site management and operational teams to integrate safety considerations into daily work activities and decision-making processes Analyze safety performance metrics and trends to identify emerging risks and develop targeted, innovative improvement initiatives Conduct thorough hazard assessments and risk evaluations for new projects, processes, equipment, and operational changes Serve as the primary point of contact for safety-related concerns, providing empathetic support while remaining decisive in escalating critical issues to senior management Coordinate with external stakeholders, including regulatory authorities, safety consultants, and environmental agencies, as needed Monitor and ensure proper use of personal protective equipment (PPE) and safety equipment on site, promoting compliance through education and positive reinforcement Support the development and implementation of environmental sustainability initiatives aligned with organizational goals Minimum 7 years of professional experience in safety, health, and environment roles with demonstrated site supervision and operational responsibilities Proven track record conducting safety inspections, audits, and incident investigations in construction, industrial, or similar operational environments Hands-on experience working in multicultural, site-based operational settings with diverse workforce management Demonstrated ability to develop and implement site-specific safety programs and protocols Strong knowledge of UAE and GCC occupational health and safety regulations, standards, and compliance requirements",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000148687499-advisor-safety-health-environment-site-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-10T07:12:51.471Z",
-      "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
     },
     {
       "id": "smartrecruiters_fb7879287765bb",
@@ -8689,7 +9341,7 @@
       "nationals_only": null,
       "posted": "2026-09-09T07:58:46.344Z",
       "first_seen": "2026-09-10T07:07:45.253325+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "greenhouse_85ea27f586e563",
@@ -8713,7 +9365,7 @@
       "nationals_only": null,
       "posted": "2026-10-05T02:30:27-04:00",
       "first_seen": "2026-09-10T07:07:45.253325+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_1b3672a8f058f4",
@@ -8757,7 +9409,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T00:00:00.0000000",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_251011d349e9f1",
@@ -8779,7 +9431,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T00:00:00.0000000",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_ed0f48d7936d15",
@@ -8801,7 +9453,7 @@
       "nationals_only": null,
       "posted": "2026-09-04T00:00:00.0000000",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_922c26c84eaa53",
@@ -8823,7 +9475,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T00:00:00.0000000",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-04T07:55:41.049118+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_9cf1bf6a8e8f60",
@@ -8845,7 +9497,7 @@
       "nationals_only": null,
       "posted": "2026-09-05T00:00:00.0000000",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-02T08:06:28.303394+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_ba1a315062178c",
@@ -8873,7 +9525,7 @@
       },
       "posted": "2026-09-09",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_b3525642bcc43a",
@@ -8900,7 +9552,7 @@
       },
       "posted": "2026-09-08",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_1ba8bba5b08cfa",
@@ -8982,7 +9634,7 @@
       },
       "posted": "2026-09-28",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_62bb3351b311ff",
@@ -9066,30 +9718,6 @@
       "last_seen": "2026-09-21T07:45:46.028411+00:00"
     },
     {
-      "id": "smartrecruiters_0babf70cda567c",
-      "title": "Advisor - Safety, Health & Environment",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "We are seeking an experienced and detail-oriented Advisor - Safety, Health & Environment to join our dynamic team in Dubai, United Arab Emirates. In this pivotal role, you will champion a culture of safety excellence and environmental stewardship across our organization. As a trusted advisor, you will provide strategic guidance on occupational health and safety matters, ensuring all operations align with UAE regulations and international best practices while driving continuous improvement and fostering a proactive risk-aware mindset throughout the organization. Develop, implement, and continuously refine comprehensive safety, health, and environmental policies, procedures, and programs tailored to organizational needs and operational contexts Conduct thorough site inspections, audits, and assessments to identify potential hazards, compliance gaps, and opportunities for improvement Investigate incidents, accidents, and near-miss events; document findings with precision and recommend evidence-based corrective and preventive actions Deliver engaging safety training and awareness programs to personnel at all organizational levels, fostering a shared commitment to safety excellence Ensure full compliance with UAE occupational health and safety regulations, environmental standards, and company policies through proactive monitoring and documentation Maintain meticulous safety records, documentation, and reports that support regulatory requirements and enable data-driven decision-making Collaborate strategically with operational teams, management, and external stakeholders to seamlessly integrate safety into daily work activities and organizational culture Analyze safety performance metrics, trends, and leading indicators to identify emerging risks and develop targeted improvement initiatives Conduct comprehensive hazard assessments and risk evaluations for new projects, processes, equipment, and organizational changes Serve as the primary point of contact for safety-related concerns, providing expert guidance and escalating critical issues to senior leadership with transparency and urgency Coordinate with regulatory authorities, safety consultants, and external partners to maintain organizational standing and access best practices Monitor and promote proper use of personal protective equipment (PPE) and safety equipment, ensuring accessibility and compliance across all operations Mentor and coach team members and operational staff on safety best practices, fostering a culture of shared responsibility and continuous learning Stay current with evolving safety regulations, industry standards, and innovative safety solutions to keep the organization at the forefront of safety management Minimum 7&#xa0;years of professional experience in safety, health, and environment advisory or management roles within corporate, industrial, construction, or operational environments Proven expertise conducting safety inspections, audits, and incident investigations with documented results and improvements Strong, demonstrable knowledge of UAE and GCC occupational health and safety regulations, standards, and compliance requirements Advanced proficiency in analyzing safety data, identifying trends, and developing evidence-based improvement strategies and programs Excellent communication and presentation skills with the ability to engage and influence personnel at all organizational levels Demonstrated ability to organize, maintain, and manage detailed safety documentation and comprehensive compliance records Solid understanding of safety management systems, frameworks, and international best practices",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000147851740-advisor-safety-health-environment",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-07T07:20:38.527Z",
-      "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
       "id": "adecco_f249d0fe25fd38",
       "title": "Analyst - Cyber Threat Intelligence",
       "company": "Adecco Middle East (agency)",
@@ -9109,7 +9737,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T14:24:45.373Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_cd56a14eb61177",
@@ -9131,7 +9759,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T14:08:09.879Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_8238d757fa28d9",
@@ -9153,7 +9781,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T13:03:28.733Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_edede206e1eded",
@@ -9175,7 +9803,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T12:35:22.477Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_a406f9de376db6",
@@ -9199,7 +9827,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T10:32:58.059Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_eb692ef5f2e0d9",
@@ -9221,7 +9849,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T10:23:09.711Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_98e9bfe9531a2c",
@@ -9243,7 +9871,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T10:11:11.276Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_f76316be9d3a0b",
@@ -9265,7 +9893,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T09:59:16.866Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_44ca518e5f89cc",
@@ -9287,7 +9915,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T09:16:52.22Z",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "greenhouse_f6c83a7620f974",
@@ -9309,7 +9937,7 @@
       "nationals_only": null,
       "posted": "2026-10-05T04:34:51-04:00",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_839dee048fd4a5",
@@ -9456,33 +10084,6 @@
       "last_seen": "2026-09-29T08:03:01.973757+00:00"
     },
     {
-      "id": "smartrecruiters_7c233a90ed2293",
-      "title": "Civil Inspector - Infrastructure",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Job Description Job Summary AECOM is seeking an experienced Civil Inspector for a major Roads and Infrastructure project located in Dubai. The role involves both inspection and the supervision of roads and infrastructure works of the project. To ensure that the activities are being executed in accordance with the project specification. Job Duties Be familiar with the project’s contract documents, detailed drawings, specifications, and health and safety measures together with any associated updates. Ensure the contractor/s compliance with the standards and specifications of the contract documents. Maintain records of the contractor human and equipment daily resources. Undertake all site supervision and inspections when required or instructed by the Resident Engineer (RE) or the Assistant Resident Engineer (ARE). Liaise and daily follow up with the contractor. This is to ensure the contractor is managing its resources, health and safety, and equipment needs on the site. Prepare daily report to the RE or ARE. This includes works orders, materials delivery, and daily inspections program. Follow up and implement any site instructions made by the RE and ARE. Apply and implement all quality controls and quality procedures of the site.&#xa0; Prepare any site measurements and surveying checks needed by the RE or ARE for pipes alignments and levels. Co-ordinate and co-operate with client project manager during their site inspections in the presence of the RE or ARE. &#xa0;Monitor contractor QA/QC activities and maintain relevant records. Assist the ARE and RE in the preparation of any correspondences in compliance with the contract documents and site requirements. Where site problems are found, work with the RE or ARE to resolve them promptly. Monitor the start-up, commissioning and handover of the site works. Including maintaining records of the project milestones. Maintain records of materials tests performed and executed works. Audit inspections for conformity to contract documents and contractor submitted plans. &#xa0; Qualification Bachelor’s Degree or Diploma in Civil Engineering RTA Approval is preferred &#xa0; Experience Minimum 5 years of experience within similar projects, with minimum 3 years in UAE. UAE experience is preferred Relevant experience in comparable infrastructure & roads projects&#xa0; &#xa0;",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000147425455-civil-inspector-infrastructure",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc",
-        "quality control",
-        "civil",
-        "commissioning"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "nationals_only": null,
-      "posted": "2026-09-04T06:43:24.270Z",
-      "first_seen": "2026-09-04T07:03:58.062855+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
       "id": "smartrecruiters_de3a8e107d59cb",
       "title": "Structural Inspector (Site supervision)",
       "company": "AECOM",
@@ -9582,7 +10183,7 @@
       "nationals_only": null,
       "posted": "2026-09-03T21:59:53.624000+00:00",
       "first_seen": "2026-09-04T07:03:58.062855+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_7f7493c279644c",
@@ -9604,7 +10205,7 @@
       "nationals_only": null,
       "posted": "2026-09-02T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_88c9a3a7dc32dc",
@@ -9670,7 +10271,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_f5c7765480e4d0",
@@ -9700,7 +10301,7 @@
       },
       "posted": "2026-09-10",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_f8e05e38d0e043",
@@ -9757,30 +10358,6 @@
       "last_seen": "2026-09-23T07:31:13.184070+00:00"
     },
     {
-      "id": "smartrecruiters_c8b868b5b16b8f",
-      "title": "Associate - Project Controls",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Planning / Project Controls Manager&#xa0;to support the delivery of major multidisciplinary design and engineering projects in the UAE&#xa0;and Saudi Arabia. This role to&#xa0;lead planning and project controls activities across the project lifecycle, working closely with Project Directors, Project Managers, Design Managers, discipline leads, commercial teams, and clients.&#xa0; The role will be responsible for establishing robust planning and controls processes, monitoring project performance, identifying emerging risks and delays, and providing accurate forecasting and reporting to support effective project decision-making.&#xa0; &#xa0; Key Responsibilities&#xa0; &#xa0; Planning & Scheduling&#xa0; Lead the development, implementation, and maintenance of the project baseline programme in accordance with project requirements and contractual obligations.&#xa0; Develop detailed design programmes covering all disciplines, design stages, deliverables, submissions, reviews, approvals, interfaces, and key milestones.&#xa0; Establish appropriate WBS, activity coding, logic, calendars, resources, constraints, and programme controls.&#xa0; Develop and maintain integrated master programmes and detailed Level 3/Level 4 schedules where required.&#xa0; Monitor critical path activities, float, key interfaces, and schedule performance.&#xa0; Coordinate with multidisciplinary design teams to ensure accurate activity status, remaining durations, and forecast dates.&#xa0; Review the impact of scope changes, design development, client instructions, approvals, and technical interfaces on project schedules.&#xa0; Prepare short-term and look-ahead programmes to support delivery priorities&#xa0;for every design stage.&#xa0; Project Controls&#xa0; Establish and manage project controls procedures, systems, and reporting requirements.&#xa0; Develop appropriate progress measurement systems for design and engineering deliverables.&#xa0; Track engineering deliverables, submissions, reviews, approvals, RFIs, technical queries, and outstanding actions.&#xa0; Prepare progress curves, dashboards, performance indicators, and management reports.&#xa0; Develop reliable forecasts for design completion, key milestones, and project deliverables.&#xa0; Ensure project controls information is accurate, timely, and aligned across project disciplines.&#xa0; Identify schedule risks, trends, potential delays, and areas requiring management intervention.&#xa0; Maintain schedule risk and mitigation registers in coordination with the project team.&#xa0; Undertake schedule impact assessments for changes, delays, late information, and other project events.&#xa0; Develop mitigation and recovery programmes where required.&#xa0; Provide early warning of potential programme slippage and recommend corrective actions.&#xa0; Support project management in assessing the effect of risks and opportunities on time and cost.&#xa0; Support earned value and performance measurement processes where applicable.&#xa0; Assess schedule impacts associated with variations, changes, additional scope, and client instructions.&#xa0; Provide planning and schedule information to support commercial management and contractual requirements.&#xa0; Reporting & Management Information&#xa0; Lead the preparation of weekly, monthly, and periodic project controls reports.&#xa0; Produce schedule narratives explaining progress, critical activities, delays, risks, mitigation measures, and forecast completion.&#xa0; Prepare management dashboards and presentations for senior management and client meetings.&#xa0; Provide clear analysis of key performance indicators and trends.&#xa0; Client Relationship Management&#xa0; Serve as the primary Project Controls focal point for clients throughout the project lifecycle.&#xa0; Lead regular project controls discussions with clients, providing clear visibility on schedule, cost, risk, and performance.&#xa0; Develop and present executive dashboards, KPIs, schedule analyses, cost f …",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000148992324-associate-project-controls",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "project management"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-11T11:19:10.564Z",
-      "first_seen": "2026-09-02T06:55:48.239515+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
       "id": "nadia global_462bd958a27613",
       "title": "Product Manager - 35724",
       "company": "NADIA Global (agency)",
@@ -9825,50 +10402,6 @@
       "posted": "2026-08-31T23:01:19.089Z",
       "first_seen": "2026-09-01T07:27:45.510421+00:00",
       "last_seen": "2026-09-30T08:11:16.397612+00:00"
-    },
-    {
-      "id": "jooble_21dcc3ea440601",
-      "title": "Presentation Designer",
-      "company": "Mindrift",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...how to communicate complex information beautifully, turning raw data and narratives into compelling, highly persuasive slides and one... ...visuals are essential. Technical Skills (Essential) Presentation software: Expertise in PowerPoint , Keynote , etc., for building...",
-      "url": "https://jooble.org/jdp/4936601074829415939",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-26T14:27:06.7330000",
-      "first_seen": "2026-08-31T08:18:13.882355+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
-      "id": "jooble_abda1efa719170",
-      "title": "Customer Success Engineer",
-      "company": "Veeamsoftware",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...Customer Success Engineer , you are... ...the Veeam Data Platform.... ...customer accounts; customize... ...recommend software products and... ...mitigation plans; partner on renewal... ...on marketing- informed campaigns... .... Operate with a long... ...partnership with Sales and CS... ...Opportunities to learn and grow...",
-      "url": "https://jooble.org/jdp/-3729978284708334545",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Technology / Software",
-      "salary": "$100k",
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-21T13:54:32.4530000",
-      "first_seen": "2026-08-31T08:18:13.882355+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
     },
     {
       "id": "adecco_b84f0eacc12978",
@@ -10051,28 +10584,6 @@
       "last_seen": "2026-10-01T08:31:00.507323+00:00"
     },
     {
-      "id": "jooble_3a47d3ade54a0e",
-      "title": "Value Engineer",
-      "company": "Celonis",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...specifically our Process Intelligence Graph—to turn data insights into immediate business action. We... ...process. Join our mission to make processes work for people, companies, and the planet. The position of Value Engineer is a trusted advisor helping customers achieve...",
-      "url": "https://jooble.org/jdp/6281051412492553272",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Other",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-05T07:54:42.8830000",
-      "first_seen": "2026-08-30T08:02:05.100516+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
       "id": "adecco_d5d81fa29e6249",
       "title": "Business Analyst",
       "company": "Adecco Middle East (agency)",
@@ -10116,7 +10627,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-08-29T08:45:00.667472+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_7926676091e501",
@@ -10139,28 +10650,6 @@
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-08-29T08:45:00.667472+00:00",
       "last_seen": "2026-09-24T07:23:48.158981+00:00"
-    },
-    {
-      "id": "jooble_02fe3b8a60c5f4",
-      "title": "Strategic Account Manager",
-      "company": "Sardine",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...related products as we grow. As a Strategic Account Manager , you'll manage a handful of... ...needs , including risk analytics , data science , integrations , and products... ...AML/KYC ~ Experience working within the banking vertical is highly preferred ~ Strong...",
-      "url": "https://jooble.org/jdp/2896073794145107108",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-27T15:42:47.9030000",
-      "first_seen": "2026-08-28T13:58:39.479691+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
     },
     {
       "id": "jooble_7743c8a3a45421",
@@ -10234,7 +10723,7 @@
       "nationals_only": null,
       "posted": "2026-09-29",
       "first_seen": "2026-08-27T12:28:16.914679+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_9d77dd267635f2",
@@ -10251,7 +10740,9 @@
       "salary": null,
       "contact": null,
       "skills": [
-        "contracts"
+        "contracts",
+        "project management",
+        "construction"
       ],
       "seniority": "Mid",
       "shutdown": true,
@@ -10324,7 +10815,7 @@
       "nationals_only": null,
       "posted": "2026-08-20T00:00:00.0000000",
       "first_seen": "2026-08-26T03:08:02.529733+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_c11993eadb0bbf",
@@ -10390,7 +10881,7 @@
       "nationals_only": null,
       "posted": "2026-08-10T13:53:20.944000+00:00",
       "first_seen": "2026-08-26T03:08:02.529733+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_a5c1b1bb384e0f",
@@ -10414,7 +10905,7 @@
       "nationals_only": null,
       "posted": "2026-09-14",
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_9ebe73ecf5a45f",
@@ -10439,7 +10930,7 @@
       "nationals_only": null,
       "posted": "2026-09-16",
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_766dbed08a52d4",
@@ -10574,52 +11065,6 @@
       "last_seen": "2026-10-01T08:31:00.507323+00:00"
     },
     {
-      "id": "jooble_e3ea184d9aec1b",
-      "title": "Customer Success Manager - UAE Private Sector",
-      "company": "Cohere",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...strategic accounts across... ...dynamic markets. This role... .... Develop comprehensive... ...growth, operational ... ...integration, data sensitivity... ...and Engineering teams on... ...to the development of UAE-specific... ...such as finance, healthcare, ... ...stakeholders, long sales cycles,... ... software implementations...",
-      "url": "https://jooble.org/jdp/7003932772245078458",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-20T08:47:20.0300000",
-      "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
-      "id": "jooble_3b02b32d009cc0",
-      "title": "Marketing Operations Lead",
-      "company": "Symbiotic",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...What You'll Do • Own day-to-day marketing ops: the calendar, the pipeline, the follow-through, so nothing ships late and nothing falls... ...the rest • Run ecosystem and co-marketing coordination with partners over Telegram and other channels • Act as QA for marketing...",
-      "url": "https://jooble.org/jdp/6610654785128580738",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Energy / Oil & Gas",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "pipeline"
-      ],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-20T14:09:55.6530000",
-      "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
       "id": "workday_bb9ba7c53b7cc3",
       "title": "Global Field Service Engineer - Electrical (UAE National)",
       "company": "Baker Hughes",
@@ -10646,7 +11091,7 @@
       },
       "posted": "2026-08-20",
       "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_02934e77ddefe7",
@@ -10672,7 +11117,7 @@
       "nationals_only": null,
       "posted": "2026-08-20",
       "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "smartrecruiters_2df0c627b61dcd",
@@ -10699,28 +11144,6 @@
       "posted": "2026-09-17T08:33:12.457Z",
       "first_seen": "2026-08-21T03:06:02.307828+00:00",
       "last_seen": "2026-09-30T08:11:16.397612+00:00"
-    },
-    {
-      "id": "jooble_cb04c91703c2af",
-      "title": "Customer Success Manager - Middle East",
-      "company": "Teamworks",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...growing book of accounts across the... ...delivered in Arabic , partnering with our... ...and the wider sales team on demos and... ...our customers operate day to day.... ...management , data literacy , and... ...organizations through software adoption and serve... ...or market knowledge in the...",
-      "url": "https://jooble.org/jdp/-8274319214651293095",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Technology / Software",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-19T01:58:12.2700000",
-      "first_seen": "2026-08-20T02:59:48.277457+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
     },
     {
       "id": "workday_bd23dfbafaf9af",
@@ -10791,29 +11214,7 @@
       "nationals_only": null,
       "posted": "2026-08-19T09:20:20.297000+00:00",
       "first_seen": "2026-08-20T02:59:48.277457+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
-    },
-    {
-      "id": "jooble_8d2b4a8b405ae2",
-      "title": "Product Manager - Onchain Finance",
-      "company": "Kraken",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...traditional finance, owning products... ...with Engineering, Design, Growth... ...products to market, and helping... ..., Security, Operations, and other stakeholders... ... Partner with internal... ...metrics, using data and... ...expect our people to champion... ..., gaming or banking experience is...",
-      "url": "https://jooble.org/jdp/6784850750898699955",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-18T08:05:17.4870000",
-      "first_seen": "2026-08-19T03:00:07.883610+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_daa66d2e630d1a",
@@ -10841,7 +11242,7 @@
       },
       "posted": "2026-08-18",
       "first_seen": "2026-08-19T03:00:07.883610+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_a50c277738c42b",
@@ -10909,53 +11310,7 @@
       "nationals_only": null,
       "posted": "2026-08-16",
       "first_seen": "2026-08-16T03:03:05.564609+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
-    },
-    {
-      "id": "jooble_0277048ed5977d",
-      "title": "AI Infrastructure Engineer",
-      "company": "Pragmatike",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...Pragmatike is recruiting on behalf of a... ...and high-speed data transfer... ...Infrastructure Engineer with strong experience... ...designing and operating the core... ...serves machine learning models at scale... ...ML models Develop and maintain auto... ...systems from development through...",
-      "url": "https://jooble.org/jdp/-4830694520464745559",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Technology / Software",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-13T14:03:41.6130000",
-      "first_seen": "2026-08-14T04:11:58.792195+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
-    },
-    {
-      "id": "jooble_0fde8d78379b76",
-      "title": "Enterprise Sales Executive (New Business)",
-      "company": "Singu",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...territory and named- account set, the... ...across operations, real estate,... ...procurement, IT and finance. SINGU... ...Dedicated business development, Pre- Sales, marketing and executive... ..., marketing, partner and self-... ...in B2B software or complex technology... ...buying group developed, what changed...",
-      "url": "https://jooble.org/jdp/-5935644307007183271",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Financial Services / Fintech",
-      "salary": "£25k - £100k per year",
-      "contact": null,
-      "skills": [
-        "procurement"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-08-13T14:03:37.1900000",
-      "first_seen": "2026-08-14T04:11:58.792195+00:00",
-      "last_seen": "2026-09-15T07:24:07.162600+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_0b1845b59bf4cf",
@@ -11072,7 +11427,7 @@
       },
       "posted": "2026-08-11",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_b099eec850fc62",
@@ -11094,7 +11449,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:03:02.599Z",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_38404546518948",
@@ -11116,7 +11471,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:02:02.93Z",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_4624ddd93a308a",
@@ -11140,7 +11495,7 @@
       "nationals_only": null,
       "posted": "2026-08-10",
       "first_seen": "2026-08-11T03:47:53.603809+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_a1de8710b225ce",
@@ -11278,7 +11633,7 @@
       "nationals_only": null,
       "posted": "2026-09-29T08:50:05.287Z",
       "first_seen": "2026-08-05T05:18:38.606907+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_4a64a33430f42d",
@@ -11328,7 +11683,7 @@
       "nationals_only": null,
       "posted": "2026-08-18",
       "first_seen": "2026-08-03T05:46:12.824925+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_3b1e4f2b28d4e2",
@@ -11397,7 +11752,7 @@
       "nationals_only": null,
       "posted": "2026-04-07T07:45:21Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_d209856dbb77ec",
@@ -11419,7 +11774,7 @@
       "nationals_only": null,
       "posted": "2026-06-01T10:47:24Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_3c23827714f983",
@@ -11441,7 +11796,7 @@
       "nationals_only": null,
       "posted": "2026-06-02T11:13:12Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_5479644fa94fb2",
@@ -11463,7 +11818,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T05:36:14Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_f51cddf0515e1c",
@@ -11573,7 +11928,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_bcc952fd043a95",
@@ -11639,7 +11994,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-07-30T05:12:41.407004+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_3d190e89b8dc66",
@@ -11688,7 +12043,7 @@
       },
       "posted": "2026-07-27",
       "first_seen": "2026-07-28T05:18:32.378387+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_77248eb9cffdd1",
@@ -11732,7 +12087,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:02:10.933Z",
       "first_seen": "2026-07-25T05:18:21.995198+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_1504237378e112",
@@ -11757,7 +12112,7 @@
       },
       "posted": "2026-09-25",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_f7de13c8c1ee53",
@@ -11784,7 +12139,7 @@
       },
       "posted": "2026-09-09",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_248d794c04f476",
@@ -11874,7 +12229,7 @@
       "nationals_only": null,
       "posted": "2025-06-04T01:56:20.639000+00:00",
       "first_seen": "2026-07-21T05:24:18.979810+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_2917c18fe1901a",
@@ -11952,7 +12307,7 @@
       },
       "posted": "2026-08-31",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_364d3641ca3813",
@@ -11979,7 +12334,7 @@
       },
       "posted": "2026-07-09",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_c92084a7c48a77",
@@ -12118,7 +12473,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_8712e5571ed4c9",
@@ -12140,7 +12495,7 @@
       "nationals_only": null,
       "posted": "2026-07-03T05:29:29.257000+00:00",
       "first_seen": "2026-07-10T06:07:53.927358+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "lever_69673cd7b0afbb",
@@ -12164,7 +12519,7 @@
       "nationals_only": null,
       "posted": "2025-09-08T04:06:49.227000+00:00",
       "first_seen": "2026-07-09T06:09:14.222778+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_fa08055b4c020b",
@@ -12284,7 +12639,7 @@
       },
       "posted": "2026-03-10",
       "first_seen": "2026-06-30T06:16:28.416198+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_c14f28e8883946",
@@ -12423,7 +12778,7 @@
       "nationals_only": null,
       "posted": "2026-09-24T11:10:28.974Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "adecco_2e7efbf6433a80",
@@ -12445,7 +12800,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:31:27.049Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_d76300d1f2f000",
@@ -12561,7 +12916,7 @@
       },
       "posted": "2026-06-29",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_60466d10c34780",
@@ -12768,7 +13123,7 @@
       "nationals_only": null,
       "posted": "2026-07-01T11:44:39Z",
       "first_seen": "2026-06-06T05:57:59.001845+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_8900de8dfaf0da",
@@ -12795,7 +13150,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "nadia global_4b2abfa010e2d7",
@@ -12953,7 +13308,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_3be53ac9b8a058",
@@ -12979,7 +13334,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_0ac40216fc0c64",
@@ -13007,7 +13362,7 @@
       "nationals_only": null,
       "posted": "2026-04-01",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_c599368f77c64b",
@@ -13029,7 +13384,7 @@
       "nationals_only": null,
       "posted": "2026-02-27T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "jooble_0568f3c5d38c38",
@@ -13079,7 +13434,7 @@
       },
       "posted": "2026-04-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_40ec30ea38df3a",
@@ -13133,7 +13488,7 @@
       },
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_d25655fd9c0a2b",
@@ -13160,7 +13515,7 @@
       },
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_a81ffc2a760d08",
@@ -13185,7 +13540,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_533e141f6ae318",
@@ -13209,7 +13564,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_c8d5363f798de9",
@@ -13237,7 +13592,7 @@
       },
       "posted": "2026-08-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_76e85c2d75109f",
@@ -13262,7 +13617,7 @@
       "nationals_only": null,
       "posted": "2026-08-30",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_242b1ee6b3823e",
@@ -13313,7 +13668,7 @@
       },
       "posted": "2025-01-16",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     },
     {
       "id": "workday_540531d44b0712",
@@ -13335,7 +13690,7 @@
       "nationals_only": null,
       "posted": "2026-03-26",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-10-05T08:36:14.567813+00:00"
+      "last_seen": "2026-10-06T08:43:41.891304+00:00"
     }
   ]
 }
