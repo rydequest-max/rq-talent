@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-10-18T07:04:23.482810+00:00",
-  "count": 603,
-  "shutdown_count": 68,
+  "generated_at": "2026-10-19T07:28:00.755851+00:00",
+  "count": 615,
+  "shutdown_count": 69,
   "by_country": {
-    "United Arab Emirates": 603
+    "United Arab Emirates": 615
   },
   "by_industry": {
-    "Financial Services / Fintech": 210,
-    "Construction / Infrastructure": 203,
-    "Technology / Software": 50,
-    "Other": 41,
-    "Energy / Oil & Gas": 32,
+    "Financial Services / Fintech": 209,
+    "Construction / Infrastructure": 206,
+    "Technology / Software": 51,
+    "Other": 42,
+    "Energy / Oil & Gas": 34,
     "Other service activities": 31,
     "Hospitality / Tourism": 10,
-    "Manufacturing": 8,
+    "Manufacturing": 9,
+    "Information and communication": 5,
     "Transportation and storage": 4,
     "Construction": 3,
     "Public administration and defence; compulsory social security": 2,
@@ -25,17 +26,320 @@
     "Education": 1
   },
   "sources": [
-    "Jooble (90)",
+    "Jooble (91)",
     "Careerjet (skipped: no CAREERJET_API_KEY)",
-    "Workday (69)",
+    "Workday (71)",
     "SmartRecruiters (50)",
     "NADIA (40)",
     "Adecco (50)",
     "Greenhouse (8)",
-    "Lever (2)",
+    "Lever (1)",
     "RSS (0)"
   ],
   "jobs": [
+    {
+      "id": "jooble_ac37aaa73ef891",
+      "title": "HRBP Lead, Legal & Compliance",
+      "company": "Bybit",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...environment where talent is... ... HR Business Partner to support... ...brings strong HRBP expertise... ...organizational and people ... ..., talent development, and organizational... ...Talent Acquisition on... ...hiring, compensation, organizational... .... Our benefits include:... ... learning. Internal...",
+      "url": "https://jooble.org/jdp/-6127316410327468162",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T08:38:08.7870000",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "workday_ed0d9487819a9c",
+      "title": "Business Development Manager",
+      "company": "Cisco",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Meet the Team: We are the Engineering and Operations organization, a team dedicated to supercharging business development through strategic technology partnerships. This is a critical and highly strategic and visible position reporting to the Global Director of Service Delivery. You will collaborate locally with the Cisco Portfolio Sales team, as well as the Cisco Mobility Architecture and Customer Success, Technical Solution Architecture, Mobility Product Management and Engineering and Operations, to deliver value to the Service Provider and their Enterprise customers. Your Impact: As Senior Business Development Manager, you will be based in Dubai, UAE, focusing on one of Cisco’s most strategic EMEA Service Provider partners. In this role, you will partner closely with the customer, collaborating with their IoT division to drive revenue and achieve bold growth targets by leveraging Cisco’s Mobility solutions. While you will report directly to the Engineering and Operations organization and maintain strategic alignment with Cisco’s Sales teams, your primary mission is the success of our joint business with the Service Provider customer. You will be supported by a matrixed organization designed to help you accelerate growth elevate our collective brand presence. Business Growth and Commercial Execution: Partner with the customer teams to identify and pursue new enterprise opportunities, supporting them through the sales funnel to successful closure in collaboration with all customers. Partner to develop competitive proposals, and strategies that align with business objectives. Marketing & Promotion: Support joint partner marketing initiatives, including trade shows, campaigns, and other promotional activities to drive market awareness. Product Expertise and Innovation: Become an expert in the mobility products used by the customer, notably the Cisco Mobility Services Platform. Deliver world-class product demos and lead enterprise sales opportunities within the Cisco and customer partnership. Apply specialized expertise to solve complex problems and develop innovative solutions that differentiate our platform in the market. Leadership and Resource Orchestration: Manage and coordinate Cisco’s internal resources throughout the sell-to-customer process, providing functional and technical oversight to maximize win rates and ensure optimal utilization of expertise. Strategic Partnership: Establish and cultivate superior relationships with key stakeholders, acting as a trusted advisor and partner throughout the sales lifecycle for customers and prospects. Influence and negotiate at senior and C-level executive levels to drive business outcomes. Assist in the development of go to market strategies that create a competitive advantage and accelerates revenue. · Liaison: Act as a liaison between the customer and all internal Cisco teams in the Business Unit and Sales organizations to ensure alignment on timing and requirements for deliverables critical to customer success. Minimum Qualifications: You are a high-impact professional with a proven track record in the mobile network operator sector. You possess the following qualifications: · 7&#43; years of business development or account management experience within the mobile network operator space, with a deep understanding of the culture and processes inherent in large-scale operators. · Expertise in understanding enterprise and mobile operator business needs, with the ability to craft and customize compelling narratives. · Strong knowledge of carrier and enterprise business development and a proven track record of outstanding performance. · Prior sales or partnership experience within the M2M and Internet of Things (IoT) market. · Exceptional communication skills, including a strong visual aesthetic and the ability to tell a persuasive story. · Superior relationship-building skills and the ability to influence at all levels, including senior executives. · Advanced proficiency in present …",
+      "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Dubai-United-Arab-Emirates/Business-Development-Manager_2024303",
+      "source": "Workday:Cisco",
+      "company_type": "employer",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "workday_72b9a39d9c3419",
+      "title": "Artificial Lift Systems Field Specialist",
+      "company": "Baker Hughes",
+      "location": "AE-ABU DHABI-AL GHAITH HOLDING TOWER, AIRPORT ROAD",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "Artificial Lift Systems Field Specialist Would you like the opportunity to work for oilfield Services Company? Do you like working in collaborative teams and solving technical problems? Be part of our Artificial Lift team! As an Artificial Lift Systems – Field Specialist you will be executing the operations of ESP equipment and surface equipment in the field, complying with all the integrity/quality and safety standards, as well as compliance with the regulations of the different clients in all fields. Partner with the best As an Artificial Lift Systems (ALS) Field Specialist, you'll participate in all technical events, including supporting the BH contract engineering team. As an Artificial Lift Systems (ALS) Field Specialist, you will be responsible for: Installing, running of ESP Equipment including inspecting, modifying and repair of pumps, motors, cables and relevant down hole equipment at Contractor’s base, making connections at surface and operating the ESP equipment to the satisfaction of the Company. Carrying out all pre-commissioning checks and tests to ensure successful start-up and continuous operation of ESP Equipment. Prevising of expertise for trouble shooting, safety precautions and related matters. Repairing of any breakdown and maintenance of the ESP Equipment. Installing, operating and maintaining of Y-tool and VSD system. ​ Fuel your passion To be successful in this role you will: Have 5 years of experience in ESP or 2 years of experience in AccessESP or rigless operations Have a Technical related Degree (Diploma or higher) Have experience in installing, operating and maintaining of Y-tool and VSD system Have to be flexible to work on rotational basis. Have experience in performing downhole installation and service troubleshooting of ESP System in the field Have an industry experience and product line training required in ESP. Have experience performing downhole and troubleshooting of ESP System in the field. Work in a way that works for you We recognize that everyone is different and that the way in which people want to work and deliver at their best is different for everyone. This role is a shift based working pattern. Please talk to us about the specific working patterns available when you apply Working with us Our people are at the heart of what we do at Baker Hughes. We know we are better when all of our people are developed, engaged and able to bring their whole authentic selves to work. We invest in the health and well-being of our workforce, train and reward talent and develop leaders at all levels to bring out the best in each other. Working for you Our inventions have revolutionized energy for over a century. But to keep going forward tomorrow, we know we have to push the boundaries today. We prioritize rewarding those who embrace change with a package that reflects how much we value their input. Join us, and you can expect: Contemporary work-life balance policies and wellbeing activities Comprehensive private medical care options Safety net of life insurance and disability programs Tailored financial programs Additional elected or voluntary benefits The Baker Hughes internal title for this role is: FIELD SPEC III - ALS",
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/AE-ABU-DHABI-AL-GHAITH-HOLDING-TOWER-AIRPORT-ROAD/Artificial-Lift-Systems-Field-Specialist_R163340",
+      "source": "Workday:Baker Hughes",
+      "company_type": "service",
+      "industry": "Energy / Oil & Gas",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "pumps",
+        "commissioning",
+        "pre-commissioning"
+      ],
+      "seniority": "Senior",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-10-18",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "workday_e90e1ff51b9485",
+      "title": "Sourcing Manager",
+      "company": "Baker Hughes",
+      "location": "AE-DUBAI-TECHNO PARK",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Are you passionate about being part of a successful team? Would you like the opportunity to work for a world class oilfield services company? Join our team! Partner with the best As a Sourcing Manager, you will be responsible for: Place and follow-up on POs. Manage relationships with suppliers for PO execution. Manage problems and schedule changes. Update ERP. Understand broader concepts, development of approaches and methods, and knowledge management. Solutions integrate multi-functional impact and perspective. Developed influencing skills to achieve objectives, strong influencing of others. Ability to develop team members. Deliver professional work. Handles professional work in the department. Employees are expected to choose approaches and methods to solve cases. Fuel your passion To be successful in this role you will: Have a bachelor's degree from an accredited university or college. Have a minimum of 5 years of experience in Buying-Procurement. Have a strong oral and written communication skills. Have a strong interpersonal and leadership skills. Demonstrated ability to analyze and resolve problems. Demonstrated ability to lead programs / projects. Ability to document, plan, market, and execute programs. Established project management skills. Work in a way that works for you We recognize that everyone is different and that the way in which people want to work and deliver at their best is different for everyone too. In this role, we can offer the following flexible working patterns: Working flexible hours - flexing the times when you work in the day to help you fit everything in and work when you are the most productive Working with us Our people are at the heart of what we do at Baker Hughes. We know we are better when all of our people are developed, engaged and able to bring their whole authentic selves to work. We invest in the health and well-being of our workforce, train and reward talent and develop leaders at all levels to bring out the best in each other. Working for you Our inventions have revolutionized energy for over a century. But to keep going forward tomorrow, we know we have to push the boundaries today. We prioritize rewarding those who embrace change with a package that reflects how much we value their input. Join us, and you can expect: Contemporary work-life balance policies and wellbeing activities. Comprehensive private medical care options. Safety net of life insurance and disability programs. Tailored financial programs. Additional elected or voluntary benefits. The Baker Hughes internal title for this role is: Sourcing Manager - Buying/Procurement",
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/AE-DUBAI-TECHNO-PARK/Sourcing-Manager_R170420",
+      "source": "Workday:Baker Hughes",
+      "company_type": "service",
+      "industry": "Energy / Oil & Gas",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "project management",
+        "procurement"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "smartrecruiters_91f276053d3c16",
+      "title": "SHE Advisor (Site Supervision)",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "We're looking for a detail-oriented and professional SHE Advisor (Site Supervision) to join our organization in Abu Dhabi, United Arab Emirates. In this role, you will be responsible for ensuring the highest standards of safety, health, and environmental compliance across our construction and operational sites. You will serve as a key liaison between management and site personnel, conducting thorough inspections, identifying hazards, and implementing corrective measures to maintain a safe working environment. The ideal candidate will demonstrate strong analytical skills, exceptional organizational abilities, and a commitment to fostering a culture of safety excellence. Conduct regular site inspections and audits to identify potential hazards, unsafe practices, and non-compliance with safety regulations and company policies Investigate incidents, accidents, and near-misses; document findings; and recommend preventive measures to avoid recurrence Analyze safety data and trends to develop targeted improvement initiatives and monitor their effectiveness Ensure compliance with UAE labor laws, international safety standards, and organizational SHE policies across all site operations Prepare and maintain comprehensive safety documentation, including incident reports, inspection checklists, audit records, and compliance certificates Provide safety training and toolbox talks to site personnel, emphasizing hazard awareness and safe work practices Collaborate with site managers, contractors, and workers to develop and implement site-specific safety plans and procedures Monitor the use of personal protective equipment (PPE) and ensure proper maintenance of safety equipment and facilities Communicate safety performance metrics and recommendations to senior management through regular reports and presentations Stay current with evolving safety regulations and industry best practices, particularly those applicable to the UAE construction sector Minimum 7&#xa0;years of professional experience in a SHE/HSE advisory or supervisory role, preferably in construction, industrial, or heavy engineering environments Proven expertise in conducting site inspections, hazard assessments, and risk analysis Strong knowledge of incident investigation methodologies and root cause analysis techniques Proficiency with safety management systems, incident reporting software, and audit documentation tools Comprehensive understanding of UAE labor laws, OSHA standards, and international safety regulations NEBOSH, IOSH, or equivalent SHE certification (preferred)",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000156234495-she-advisor-site-supervision-",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "construction",
+        "hse",
+        "nebosh",
+        "iosh",
+        "aws"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19T06:38:50.615Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "smartrecruiters_a0a57513d5b3c9",
+      "title": "Senior Advisor - Safety, Health & Environment",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "We're looking for an experienced and detail-oriented Advisor - Safety, Health & Environment (Site) to join our dynamic team in Abu Dhabi, United Arab Emirates. In this pivotal role, you will be the driving force behind our commitment to maintaining a safe, healthy, and environmentally responsible workplace. You will serve as a trusted advisor and advocate for safety excellence, working collaboratively with site teams to embed a proactive safety culture while ensuring full compliance with UAE regulations and international best practices. Your analytical mindset, combined with your assertive approach to risk management, will help us continuously improve our operational safety performance and protect our most valuable asset—our people. Conduct comprehensive site inspections and audits to identify potential hazards, safety violations, and opportunities for improvement, maintaining meticulous documentation of all findings Develop, implement, and monitor customized safety protocols, procedures, and programs tailored to site-specific operational requirements and risk profiles Investigate incidents, accidents, and near-misses with transparency and thoroughness; document findings and recommend evidence-based corrective and preventive actions Deliver engaging safety training and awareness programs to site personnel at all organizational levels, fostering a culture of safety consciousness and accountability Ensure strict compliance with UAE occupational health and safety regulations, environmental standards, and company policies through systematic monitoring and reporting Maintain organized and comprehensive safety documentation, records, and reports for regulatory review and internal performance analysis Collaborate effectively with site management and operational teams to integrate safety considerations into daily work activities and decision-making processes Analyze safety performance metrics and trends to identify emerging risks and develop targeted, innovative improvement initiatives Conduct thorough hazard assessments and risk evaluations for new projects, processes, equipment, and operational changes Serve as the primary point of contact for safety-related concerns, providing empathetic support while remaining decisive in escalating critical issues to senior management Coordinate with external stakeholders, including regulatory authorities, safety consultants, and environmental agencies, as needed Monitor and ensure proper use of personal protective equipment (PPE) and safety equipment on site, promoting compliance through education and positive reinforcement Support the development and implementation of environmental sustainability initiatives aligned with organizational goals Minimum 7 years of professional experience in safety, health, and environment roles with demonstrated site supervision and operational responsibilities Proven track record conducting safety inspections, audits, and incident investigations in construction, industrial, or similar operational environments Hands-on experience working in multicultural, site-based operational settings with diverse workforce management Demonstrated ability to develop and implement site-specific safety programs and protocols Strong knowledge of UAE and GCC occupational health and safety regulations, standards, and compliance requirements",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000156235429-senior-advisor-safety-health-environment",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "construction"
+      ],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19T06:38:07.878Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "smartrecruiters_9cee5414abb68e",
+      "title": "Consultant - Urban Advisory",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "We are seeking a dynamic and analytical Consultant, Advisory to join our growing team in Dubai, United Arab Emirates. In this role, you will serve as a trusted advisor to our clients, delivering strategic insights and actionable recommendations that drive business transformation and organizational success. You will work collaboratively with cross-functional teams to conduct comprehensive research, analyze complex business challenges, and develop innovative solutions that align with client objectives and industry best practices. Enhance teamwork spirit across the various offices and ensure experience and knowledge share in between team members is happening frequently. Drive market and desktop research objectives and topics according to project briefs and office thought leadership topics. Streamline relevant research information and outputs for review by senior staff. Able to steer online research in a timely manner and more effectively. To read, qualify, quantify and graphically represent design standards applicable to projects and apply the same into design tasks Present a good understanding of design principles with consideration to urban scale and urban hierarchy. Understand the impact of integrating the work of other internal disciplines or external consultant/stakeholders in the design sequence as well as the deliverables output. Identify international and local benchmarks and precedents for further studies and steer the review effectively as per projects requirement. Structure deliverables and reports according to the scope of services Fair descriptive writing of design principles and guidelines Think in a 3-dimensional manner and able to represent ideas clearly verbally and graphically. Translate and represent innovative design solutions through digital tools and personal skills. Identify new potential areas of innovation and improvement that the urban design team can benefit from. Actively participates in internal workshops with ability to put together summary outcome reports. Prepare material for external workshops. Be an advocate of quality procedures applicable to the urban design Technical practice group and apply continuously thorough self-checks and reviews of deliverables before being shared. Bachelor's degree in Urban Planning or Design, or related field",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000156230549-consultant-urban-advisory",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19T05:41:01.334Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "adecco_0ae3ec0a4db46c",
+      "title": "Internal Audit Manager",
+      "company": "Adecco Middle East (agency)",
+      "location": "Dubai, Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Internal Audit Manager. IT Full time Permanent. Location: Dubai, Dubai. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004STuPIAW",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Information and communication",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T09:59:41.182Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "adecco_efa4b7076dbc0e",
+      "title": "Customer Delivery Consultant",
+      "company": "Adecco Middle East (agency)",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Customer Delivery Consultant. Digital Full time Permanent. Location: Dubai. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa0000048VltIAE",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Information and communication",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T09:56:43.76Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "adecco_6c11160a53ce0b",
+      "title": "Assistant Manager Data Engineering",
+      "company": "Adecco Middle East (agency)",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Assistant Manager Data Engineering. Digital Full time Permanent. Location: Dubai. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004WzZ7IAK",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Manufacturing",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T08:43:21.106Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "adecco_444807c659c9b8",
+      "title": "SAP Architect",
+      "company": "Adecco Middle East (agency)",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "SAP Architect. Digital Full time Permanent. Location: Dubai. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004XwirIAC",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Information and communication",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "sap"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T08:41:02.445Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "adecco_7a51bc6352a766",
+      "title": "Senior Manager AI",
+      "company": "Adecco Middle East (agency)",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Senior Manager AI. Digital Full time Permanent. Location: Dubai. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004UgPJIA0",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Information and communication",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T08:38:09.401Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
+    {
+      "id": "adecco_6d8705d8a2768a",
+      "title": "Senior IT Voice & Collaboration Engineer",
+      "company": "Adecco Middle East (agency)",
+      "location": "Dubai",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Senior IT Voice & Collaboration Engineer. Digital Full time Permanent. Location: Dubai. Listed via Adecco Middle East recruitment agency — full JD & apply via the link.",
+      "url": "https://foeurope.my.salesforce-sites.com/jobboard/JobRegister?JobId=a1hSa000004ZdFVIA0",
+      "source": "Adecco",
+      "company_type": "agency",
+      "industry": "Information and communication",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T08:34:15.228Z",
+      "first_seen": "2026-10-19T07:28:00.755851+00:00",
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+    },
     {
       "id": "jooble_93b91a44fc8c45",
       "title": "Senior Product Manager, OTC Trading",
@@ -124,7 +428,7 @@
       "nationals_only": null,
       "posted": "2026-10-16",
       "first_seen": "2026-10-18T07:04:23.482810+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_f76f317e1a05b2",
@@ -148,7 +452,7 @@
       "nationals_only": null,
       "posted": "2026-10-16",
       "first_seen": "2026-10-18T07:04:23.482810+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_6dcc4b421f57bf",
@@ -172,7 +476,7 @@
       "nationals_only": null,
       "posted": "2026-10-18",
       "first_seen": "2026-10-18T07:04:23.482810+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_0699d637fd8d1d",
@@ -249,7 +553,7 @@
       "nationals_only": null,
       "posted": "2026-10-16T09:32:39.348Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_538a955e08df15",
@@ -275,7 +579,7 @@
       "nationals_only": null,
       "posted": "2026-10-16T08:33:34.483Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_9c803e99ee08ed",
@@ -304,7 +608,7 @@
       "nationals_only": null,
       "posted": "2026-10-16T07:29:37.565Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_079f018ee93405",
@@ -326,7 +630,7 @@
       "nationals_only": null,
       "posted": "2026-10-17T03:30:47.912Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_0d38127351cb92",
@@ -352,7 +656,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_83213239ecbd02",
@@ -376,7 +680,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_5b255628e415d5",
@@ -401,7 +705,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_d6352558dc579d",
@@ -425,7 +729,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_6a3db137ed1e29",
@@ -450,7 +754,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_b4b8e83d20c165",
@@ -480,7 +784,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:19:28.494Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_2c3b6f98b74126",
@@ -510,7 +814,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:14:45.505Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_ffb685ec208036",
@@ -540,7 +844,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:12:53.479Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_d99455ca866ad2",
@@ -568,7 +872,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:10:15.823Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_6dac718de38646",
@@ -595,7 +899,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T12:35:40.000Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_0651e3359d4307",
@@ -620,7 +924,7 @@
       },
       "posted": "2026-10-15T11:07:27.332Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_fa5a6db0631c88",
@@ -642,7 +946,7 @@
       "nationals_only": null,
       "posted": "2026-09-21T00:00:00.0000000",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_458870d6233792",
@@ -730,7 +1034,7 @@
       "nationals_only": null,
       "posted": "2026-09-21T00:00:00.0000000",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_e624f80e3f6260",
@@ -779,7 +1083,7 @@
       },
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_e84e1d8a84f155",
@@ -803,7 +1107,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_74ea906c9191ee",
@@ -827,7 +1131,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_a229cb5cfcb422",
@@ -853,7 +1157,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_0859c335a87b24",
@@ -878,7 +1182,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_63514c3c9164ed",
@@ -931,7 +1235,7 @@
       },
       "posted": "2026-10-15T05:23:43.280Z",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_39bc2b5d44e3ad",
@@ -958,7 +1262,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T11:55:28.924Z",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_c543ec09f66c91",
@@ -982,7 +1286,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T09:39:04.007Z",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_435857964c7a06",
@@ -1031,7 +1335,7 @@
       "nationals_only": null,
       "posted": "2026-10-13",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_2d01c01063b007",
@@ -1055,7 +1359,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T07:10:02.618Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_79f7a498125ccb",
@@ -1082,7 +1386,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T10:36:18.235Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_cf4bdc9a138068",
@@ -1134,7 +1438,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:11:37.834Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_4572d4a25e362e",
@@ -1162,7 +1466,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T15:09:55.172Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_0c15b9155e3840",
@@ -1190,7 +1494,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T15:06:32.480Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_046754d5422eee",
@@ -1243,7 +1547,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T13:19:33.408Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_214365e9b56a82",
@@ -1273,7 +1577,7 @@
       "nationals_only": null,
       "posted": "2026-10-16T12:15:23.145Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_fa74c38d1ee594",
@@ -1300,7 +1604,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T12:24:37.658Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_bf25615d1b329c",
@@ -1327,7 +1631,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T12:20:30.166Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_bf018e8908ac6d",
@@ -1349,7 +1653,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T11:58:33.244Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_ea88b3159a0ebc",
@@ -1377,7 +1681,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T10:00:02.527Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_dd63261211fc58",
@@ -1401,7 +1705,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_2910e58d005947",
@@ -1423,7 +1727,7 @@
       "nationals_only": null,
       "posted": "2026-10-12T14:16:27.0630000",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-17T06:42:57.450627+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_4b75eddc7b9559",
@@ -1445,7 +1749,7 @@
       "nationals_only": null,
       "posted": "2026-10-12T14:16:29.5030000",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_126917787f5e7a",
@@ -1519,7 +1823,7 @@
       "nationals_only": null,
       "posted": "2026-10-13",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_ad740f302922f4",
@@ -1577,7 +1881,7 @@
       "nationals_only": null,
       "posted": "2026-10-12T18:18:37.929Z",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_f474c4e820dc25",
@@ -1606,7 +1910,7 @@
       "nationals_only": null,
       "posted": "2026-10-12T18:15:32.818Z",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_4fb82fdf8c4fe6",
@@ -1632,7 +1936,7 @@
       "nationals_only": null,
       "posted": "2026-10-12T10:59:44.721Z",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_8c9436851608c4",
@@ -2252,7 +2556,7 @@
       "nationals_only": null,
       "posted": "2026-10-10T08:16:26.2200000",
       "first_seen": "2026-10-11T08:27:28.845665+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_36a2fa0387c506",
@@ -2274,7 +2578,7 @@
       "nationals_only": null,
       "posted": "2026-10-10T08:16:29.7270000",
       "first_seen": "2026-10-11T08:27:28.845665+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_f0a7fbb0e21b3d",
@@ -2296,7 +2600,7 @@
       "nationals_only": null,
       "posted": "2026-10-10T08:16:29.4470000",
       "first_seen": "2026-10-11T08:27:28.845665+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_5cd599c2126cbe",
@@ -2318,7 +2622,7 @@
       "nationals_only": null,
       "posted": "2026-10-10T08:16:29.6000000",
       "first_seen": "2026-10-11T08:27:28.845665+00:00",
-      "last_seen": "2026-10-17T06:42:57.450627+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_f1958ab6a43c6e",
@@ -2384,7 +2688,7 @@
       "nationals_only": null,
       "posted": "2026-10-09T09:29:11.8930000",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_7809b3075f8578",
@@ -2428,7 +2732,7 @@
       "nationals_only": null,
       "posted": "2026-10-08T00:00:00.0000000",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_9be2067062549f",
@@ -2472,7 +2776,7 @@
       "nationals_only": null,
       "posted": "2026-10-09",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_7625ef361d252f",
@@ -2505,7 +2809,7 @@
       "nationals_only": null,
       "posted": "2026-10-09",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_af0b230d0577dd",
@@ -2655,7 +2959,7 @@
       "nationals_only": null,
       "posted": "2026-10-09T07:47:19-04:00",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_60f9190418ead4",
@@ -2679,7 +2983,7 @@
       "nationals_only": null,
       "posted": "2026-09-06T22:43:31.8430000",
       "first_seen": "2026-10-09T08:38:11.365757+00:00",
-      "last_seen": "2026-10-17T06:42:57.450627+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_05f8199d13ce59",
@@ -2725,7 +3029,7 @@
       "nationals_only": null,
       "posted": "2026-10-08",
       "first_seen": "2026-10-09T08:38:11.365757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_6ee29b8353a7cb",
@@ -2857,7 +3161,7 @@
       "nationals_only": null,
       "posted": "2026-10-09T07:09:25-04:00",
       "first_seen": "2026-10-09T08:38:11.365757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_949b26b555741b",
@@ -2923,7 +3227,7 @@
       "nationals_only": null,
       "posted": "2026-10-07T08:16:28.6030000",
       "first_seen": "2026-10-08T08:34:46.436341+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_3773c133ffb530",
@@ -2947,7 +3251,7 @@
       "nationals_only": null,
       "posted": "2026-10-16",
       "first_seen": "2026-10-08T08:34:46.436341+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_136fa346b4f78e",
@@ -3025,7 +3329,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T12:32:40.334Z",
       "first_seen": "2026-10-08T08:34:46.436341+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_922eada86fe18e",
@@ -3366,7 +3670,7 @@
       "nationals_only": null,
       "posted": "2026-10-06",
       "first_seen": "2026-10-07T08:18:10.701251+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_f3996b0ee1be6c",
@@ -3388,7 +3692,7 @@
       "nationals_only": null,
       "posted": "2026-10-07",
       "first_seen": "2026-10-07T08:18:10.701251+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_888f8a27266934",
@@ -3525,7 +3829,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T10:59:09.358Z",
       "first_seen": "2026-10-07T08:18:10.701251+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_b4cd93201f29fe",
@@ -3968,7 +4272,7 @@
       "nationals_only": null,
       "posted": "2026-09-11T00:00:00.0000000",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_dcfc744c1cee4a",
@@ -4237,7 +4541,7 @@
       "nationals_only": null,
       "posted": "2026-10-05",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_897f08a47aa73a",
@@ -4289,7 +4593,7 @@
       },
       "posted": "2026-10-06",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_20cbe2d22e0580",
@@ -4314,7 +4618,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_d55b75155ff3f9",
@@ -4339,7 +4643,7 @@
       "nationals_only": null,
       "posted": "2026-10-05",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_4ad259f4d5c44e",
@@ -4594,7 +4898,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T08:49:36.200Z",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_b47012a5b0ea09",
@@ -4688,7 +4992,7 @@
       "nationals_only": null,
       "posted": "2026-10-06T06:22:16.879Z",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_981798eacf823d",
@@ -4756,7 +5060,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T00:00:00.0000000",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_b56af1b01b5bd3",
@@ -4781,7 +5085,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_2afbc3cd224af8",
@@ -4806,7 +5110,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_cb0032d7d0123a",
@@ -4860,7 +5164,7 @@
       },
       "posted": "2026-10-02",
       "first_seen": "2026-10-04T07:55:41.049118+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_66844a015938e7",
@@ -4953,7 +5257,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T09:42:13.7930000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_fad5325a40918f",
@@ -4975,7 +5279,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T09:42:16.8300000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_71810a70d082e4",
@@ -4997,7 +5301,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T09:42:13.7000000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_93c55266ef4a43",
@@ -5041,7 +5345,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T00:00:00.0000000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_e16fa5a037a15a",
@@ -5191,7 +5495,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T14:19:03.9270000",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_37c45bb7b95f01",
@@ -5448,7 +5752,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T09:45:46.808Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_85d284b3bab20c",
@@ -5779,7 +6083,7 @@
       "nationals_only": null,
       "posted": "2026-09-22T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_8f557e837c9659",
@@ -5801,7 +6105,7 @@
       "nationals_only": null,
       "posted": "2026-09-22T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_3c5e539c5736ec",
@@ -5889,7 +6193,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_984f7cf15364d2",
@@ -5933,7 +6237,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_ec2d0219213b38",
@@ -6311,7 +6615,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:01:38.963Z",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_0c7469a47172a3",
@@ -6333,7 +6637,7 @@
       "nationals_only": null,
       "posted": "2026-10-06T05:57:05.46Z",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_2c6d793b3b029a",
@@ -6668,7 +6972,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T08:27:35.896Z",
       "first_seen": "2026-09-30T08:11:16.397612+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "greenhouse_7fc04454d60029",
@@ -6693,7 +6997,7 @@
       "nationals_only": null,
       "posted": "2026-09-29T04:06:01-04:00",
       "first_seen": "2026-09-30T08:11:16.397612+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_16e755ab7d3675",
@@ -6869,7 +7173,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-11T08:27:28.845665+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_f6bb60a7340e2f",
@@ -7001,7 +7305,7 @@
       "nationals_only": null,
       "posted": "2026-09-17T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_f791a645a49665",
@@ -7243,7 +7547,7 @@
       "nationals_only": null,
       "posted": "2026-09-03T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-17T06:42:57.450627+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_bb46164bd13df8",
@@ -7355,7 +7659,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_edcaba85428b54",
@@ -7489,7 +7793,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-09-30T08:11:16.397612+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_f42ea555f08fc4",
@@ -7555,7 +7859,7 @@
       "nationals_only": null,
       "posted": "2026-09-17T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_b6388fa2b51295",
@@ -7599,7 +7903,7 @@
       "nationals_only": null,
       "posted": "2026-09-03T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_3b316f160ddcfa",
@@ -7709,7 +8013,7 @@
       "nationals_only": null,
       "posted": "2026-09-03T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_4b06cd385e6be4",
@@ -7731,7 +8035,7 @@
       "nationals_only": null,
       "posted": "2026-09-04T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_d2f74ec3e50676",
@@ -8065,7 +8369,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_909e7266627fb5",
@@ -8464,7 +8768,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:35:35.456Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_a3aa6120b53646",
@@ -8486,7 +8790,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:35:04.561Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_d82623b0725425",
@@ -8508,7 +8812,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:32:44.223Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_ff37f4ad7479a6",
@@ -8530,7 +8834,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:58:12.521Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_1b65b1a1d8c61f",
@@ -8552,7 +8856,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T09:31:46.409Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_987fed4a0bbc15",
@@ -8603,7 +8907,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T08:20:50.747Z",
       "first_seen": "2026-09-28T08:24:53.029450+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_44a71b55c66a4d",
@@ -8969,7 +9273,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T05:53:48.487Z",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_fb8671dee3de6a",
@@ -8991,7 +9295,7 @@
       "nationals_only": null,
       "posted": "2026-09-25T12:33:15.554Z",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_14cdfd1527f01e",
@@ -9356,7 +9660,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:33:33.454Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_1becfb70acc787",
@@ -9378,7 +9682,7 @@
       "nationals_only": null,
       "posted": "2026-09-24T13:19:35.053Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_2c781d1210c6c5",
@@ -9400,7 +9704,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T06:45:33.077Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_74aed3300ce336",
@@ -9422,7 +9726,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:50:54.536Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_99034e7f97a8a4",
@@ -9444,7 +9748,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T09:40:09.101Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_b6adfcdd2f4ebc",
@@ -9466,7 +9770,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:12:00.846Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_825d99db9d33c5",
@@ -9488,7 +9792,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:15:08.339Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_12bd7bc47e7442",
@@ -9510,7 +9814,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:41:50.637Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_083aebeabeaae6",
@@ -9532,7 +9836,7 @@
       "nationals_only": null,
       "posted": "2026-09-25T12:56:51.46Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_efb26ba3552f5d",
@@ -9554,7 +9858,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:03:15.16Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_6784ec1a353095",
@@ -9579,31 +9883,6 @@
       "posted": "2026-09-04T14:31:19.924000+00:00",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
       "last_seen": "2026-10-07T08:18:10.701251+00:00"
-    },
-    {
-      "id": "workday_d3570a04ea4168",
-      "title": "Wealth Planning Associate - AVP",
-      "company": "Citi",
-      "location": "Dubai United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "The Investment Counsellor, reporting to the Head of Specialist Advisory, Citi UAE, is responsible for delivering high-quality investment advice and expertise to Citigold Private Client clients, leading client market update events, and supporting Senior Relationship Managers and Citigold Private Client Relationship Managers through portfolio construction guidance, market insights, product education, and investment propositions. The role aims to increase client satisfaction, share of wallet, assets under management (AUM), and revenue generation by promoting a holistic portfolio approach and ensuring the effective delivery of Citi’s investment strategy. Key performance indicators include revenue achievement, AUM growth, portfolio diversification, sales diversification, annual portfolio reviews for assigned clients, leadership of client market update events, and adherence to quality and control standards. The ideal candidate brings a proven track record in strong understanding of financial markets, economies, and investment products , combined with strong problem-solving capabilities, strategic thinking, and the ability to operate effectively in a fast-paced environment. Key Responsibilities: Strategic Execution & Delivery Lead and execute end-to-end deliverables , ensuring alignment with organizational objectives. Partner closely with key stakeholders across business, engineering, risk, and operations to translate requirements into clear, measurable outcomes. Identify operational efficiencies and drive continuous improvement initiatives to enhance quality and throughput. Technical & Functional Leadership Maintain rigorous standards for documentation, compliance, and governance across all project artifacts. Monitor key performance indicators (KPIs) and operational metrics, proactively resolving risks, bottlenecks, or impediments. Collaboration & Stakeholder Engagement Serve as a primary point of contact and trusted advisor Facilitate cross-functional alignment through transparent communication, reporting, and executive updates. Mentor and support junior team members, fostering a culture of innovation, accountability, and continuous learning. Qualifications & Competencies Education: Bachelor's degree in finance, economics, or another quantitative discipline, or advanced degree (Master's, MBA) or industry-recognized certifications (e.g., [PMP, AWS Certified, CFA, etc.]). Experience: 8&#43; years of relevant experience Proven track record of managing complex projects from inception through successful completion. Strong analytical, quantitative, and problem-solving skills with high attention to detail. Excellent written and verbal communication skills, with the ability to articulate complex concepts clearly to both technical and non-technical audiences. Prior experience operating within large-scale, enterprise, or regulated environments. F luency in English, and preferably knowledge of Arabic What We Offer Competitive Compensation & Benefits: Comprehensive health, retirement, and wellness programs. Professional Development: Structured career growth pathways, mentorship programs, and ongoing learning opportunities. Collaborative Culture: An inclusive, dynamic environment where innovation, diverse perspectives, and accountability are recognized and rewarded. ------------------------------------------------------ Job Family Group: Private Client Product Services ------------------------------------------------------ Job Family: Trust Wealth Planning ------------------------------------------------------ Time Type: Full time ------------------------------------------------------ Most Relevant Skills Please see the requirements listed above. ------------------------------------------------------ Other Relevant Skills For complementary skills, please see above and/or contact the recruiter. ------------------------------------------------------ Citi is an equal opportunity employer, and qualified candidates will receive consideration without …",
-      "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Wealth-Planning-Associate---AVP_26994228",
-      "source": "Workday:Citi",
-      "company_type": "employer",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "construction",
-        "aws"
-      ],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-18",
-      "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-09-27T07:46:08.182788+00:00"
     },
     {
       "id": "workday_eaee7d5e1fe266",
@@ -10062,7 +10341,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_2e9748737e70ce",
@@ -10086,7 +10365,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T12:44:11.891Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_364506c1ac8533",
@@ -10110,7 +10389,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T12:05:29.781Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_2dc307bd58e576",
@@ -10132,7 +10411,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T11:52:43.95Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_a7f9b687918965",
@@ -10157,7 +10436,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T11:44:25.061Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "greenhouse_14de01ae650dae",
@@ -10251,7 +10530,7 @@
       "nationals_only": null,
       "posted": "2026-10-06",
       "first_seen": "2026-09-23T07:31:13.184070+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_c7fc308ea179f2",
@@ -10520,7 +10799,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-23T07:31:13.184070+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_ee0d3598f7f528",
@@ -10542,7 +10821,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-23T07:31:13.184070+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_effc8f4de10a8b",
@@ -10564,7 +10843,7 @@
       "nationals_only": null,
       "posted": "2026-09-20T00:00:00.0000000",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_0782e9c36baa5a",
@@ -10586,7 +10865,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_a1b0f00fa55ac6",
@@ -10633,7 +10912,7 @@
       },
       "posted": "2026-09-21",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_958bef8807dbdc",
@@ -10785,7 +11064,7 @@
       },
       "posted": "2026-09-17",
       "first_seen": "2026-09-21T07:45:46.028411+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_e671b52ffc2b4c",
@@ -10862,7 +11141,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-19T07:08:16.796516+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_549ac6d2235d6e",
@@ -11146,7 +11425,7 @@
       },
       "posted": "2026-08-25",
       "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "greenhouse_c748c667d24d90",
@@ -11168,7 +11447,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T14:51:12-04:00",
       "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_b31fdfd2672f0f",
@@ -11220,7 +11499,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-14T07:41:43.306024+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_0d5d75bf1a6c92",
@@ -11245,7 +11524,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-09-13T07:17:40.093014+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_3aa7ee86ff2047",
@@ -11267,7 +11546,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-12T06:59:01.132025+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_ff5a84e88eee66",
@@ -11336,7 +11615,7 @@
       },
       "posted": "2026-07-07",
       "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_c53d47ff6ab5fa",
@@ -11470,7 +11749,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T23:00:51.965Z",
       "first_seen": "2026-09-10T07:07:45.253325+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "greenhouse_85ea27f586e563",
@@ -11538,7 +11817,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T00:00:00.0000000",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_251011d349e9f1",
@@ -11604,7 +11883,7 @@
       "nationals_only": null,
       "posted": "2026-09-07T00:00:00.0000000",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_9cf1bf6a8e8f60",
@@ -11654,7 +11933,7 @@
       },
       "posted": "2026-09-09",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_b3525642bcc43a",
@@ -11681,7 +11960,7 @@
       },
       "posted": "2026-09-08",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_daa15010de74c1",
@@ -11961,7 +12240,7 @@
       "nationals_only": null,
       "posted": "2026-10-05T04:34:51-04:00",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_839dee048fd4a5",
@@ -12009,7 +12288,7 @@
       "nationals_only": null,
       "posted": "2026-10-07",
       "first_seen": "2026-09-04T07:03:58.062855+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_79a11aecbf67a1",
@@ -12081,7 +12360,7 @@
       "nationals_only": null,
       "posted": "2026-09-02T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_88c9a3a7dc32dc",
@@ -12103,7 +12382,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_734fcf321f28f8",
@@ -12147,7 +12426,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_f5c7765480e4d0",
@@ -12177,7 +12456,7 @@
       },
       "posted": "2026-10-14",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_f8e05e38d0e043",
@@ -12227,7 +12506,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-02T06:55:48.239515+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_c91d970acd59bb",
@@ -12297,7 +12576,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-08-29T08:45:00.667472+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_14feb44e8394d3",
@@ -12323,7 +12602,7 @@
       "nationals_only": null,
       "posted": "2026-09-29",
       "first_seen": "2026-08-27T12:28:16.914679+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_83df1a560ba2d1",
@@ -12345,7 +12624,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-27T12:28:16.914679+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_b9f041ba290446",
@@ -12389,7 +12668,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-26T03:08:02.529733+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_600252180b988f",
@@ -12435,7 +12714,7 @@
       "nationals_only": null,
       "posted": "2026-09-14",
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_9ebe73ecf5a45f",
@@ -12460,7 +12739,7 @@
       "nationals_only": null,
       "posted": "2026-09-16",
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_766dbed08a52d4",
@@ -12482,7 +12761,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_e9a913c36bc008",
@@ -12504,7 +12783,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_813eeb7a43342b",
@@ -12526,7 +12805,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_c0e57b6f0c1668",
@@ -12548,7 +12827,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_53db029847a594",
@@ -12570,7 +12849,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_424c4fd2592327",
@@ -12592,7 +12871,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_bb9ba7c53b7cc3",
@@ -12621,7 +12900,7 @@
       },
       "posted": "2026-08-20",
       "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_02934e77ddefe7",
@@ -12647,7 +12926,7 @@
       "nationals_only": null,
       "posted": "2026-08-20",
       "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "smartrecruiters_2df0c627b61dcd",
@@ -12695,7 +12974,7 @@
       "nationals_only": null,
       "posted": "2026-08-19T09:20:20.297000+00:00",
       "first_seen": "2026-08-20T02:59:48.277457+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_daa66d2e630d1a",
@@ -12747,7 +13026,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-18T02:58:04.969253+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_85fb7755a4a609",
@@ -12769,7 +13048,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-18T02:58:04.969253+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_4731bbfa4e3912",
@@ -12864,7 +13143,7 @@
       },
       "posted": "2026-08-11",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_b099eec850fc62",
@@ -12886,7 +13165,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:03:02.599Z",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_38404546518948",
@@ -12908,7 +13187,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:02:02.93Z",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_4624ddd93a308a",
@@ -12932,7 +13211,7 @@
       "nationals_only": null,
       "posted": "2026-08-10",
       "first_seen": "2026-08-11T03:47:53.603809+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_a1de8710b225ce",
@@ -12954,7 +13233,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-11T03:47:53.603809+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_d5229cfe181777",
@@ -13000,7 +13279,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-08T03:29:42.597132+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_42b264b9e100aa",
@@ -13024,7 +13303,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-08T03:29:42.597132+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_605b08c2d1a22e",
@@ -13048,7 +13327,7 @@
       "nationals_only": null,
       "posted": "2026-09-29T08:50:05.287Z",
       "first_seen": "2026-08-05T05:18:38.606907+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_686b9a5517da76",
@@ -13096,7 +13375,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_22d85ffd54f0e1",
@@ -13121,7 +13400,7 @@
       "nationals_only": null,
       "posted": "2026-04-07T07:45:21Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_d209856dbb77ec",
@@ -13143,7 +13422,7 @@
       "nationals_only": null,
       "posted": "2026-06-01T10:47:24Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_3c23827714f983",
@@ -13165,7 +13444,7 @@
       "nationals_only": null,
       "posted": "2026-06-02T11:13:12Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_5479644fa94fb2",
@@ -13187,7 +13466,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T05:36:14Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_f51cddf0515e1c",
@@ -13253,7 +13532,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_bcc952fd043a95",
@@ -13275,7 +13554,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-30T05:12:41.407004+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_189e58db4441f1",
@@ -13297,7 +13576,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-30T05:12:41.407004+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "greenhouse_87979f8d10dc55",
@@ -13319,7 +13598,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-07-30T05:12:41.407004+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_90277ec37be5c1",
@@ -13346,7 +13625,7 @@
       },
       "posted": "2026-07-27",
       "first_seen": "2026-07-28T05:18:32.378387+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_77248eb9cffdd1",
@@ -13368,7 +13647,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-28T05:18:32.378387+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_3682cb4a318aef",
@@ -13390,7 +13669,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:02:10.933Z",
       "first_seen": "2026-07-25T05:18:21.995198+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_1504237378e112",
@@ -13442,7 +13721,7 @@
       },
       "posted": "2026-09-09",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_248d794c04f476",
@@ -13464,7 +13743,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_565185809fa171",
@@ -13488,7 +13767,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_9d28c5dd099a08",
@@ -13510,7 +13789,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_e68d530d1b8f5b",
@@ -13583,7 +13862,7 @@
       },
       "posted": "2026-08-31",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_364d3641ca3813",
@@ -13610,7 +13889,7 @@
       },
       "posted": "2026-07-09",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_77cb72e365f123",
@@ -13656,7 +13935,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "greenhouse_034f1501b44fef",
@@ -13702,7 +13981,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "lever_8712e5571ed4c9",
@@ -13770,7 +14049,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-06T06:40:33.963833+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_fa5f00d00c3ecf",
@@ -13794,7 +14073,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_50a6a676fea8ca",
@@ -13818,7 +14097,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_5deb6a55e6e1ee",
@@ -13840,7 +14119,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_03a6e5f8299469",
@@ -13868,7 +14147,7 @@
       },
       "posted": "2026-03-10",
       "first_seen": "2026-06-30T06:16:28.416198+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_8ddc0a422ee9a5",
@@ -13890,7 +14169,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_98a9fdac5ee883",
@@ -13936,7 +14215,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_1e5b3350d431d5",
@@ -13980,7 +14259,7 @@
       "nationals_only": null,
       "posted": "2026-09-24T11:10:28.974Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_2e7efbf6433a80",
@@ -14002,7 +14281,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:31:27.049Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_d76300d1f2f000",
@@ -14024,7 +14303,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-22T07:29:14.863783+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_0b51dc5960ecaa",
@@ -14046,7 +14325,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_6a035e891db4d1",
@@ -14068,7 +14347,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_de9326d3cc6618",
@@ -14090,7 +14369,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-20T06:25:04.009649+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_198dfdb08f9291",
@@ -14118,7 +14397,7 @@
       },
       "posted": "2026-06-29",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_60466d10c34780",
@@ -14143,7 +14422,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "nadia global_0dd96d3ed97441",
@@ -14330,7 +14609,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "adecco_1d438e0e3bff61",
@@ -14400,7 +14679,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_3be53ac9b8a058",
@@ -14425,7 +14704,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_0ac40216fc0c64",
@@ -14450,7 +14729,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_c599368f77c64b",
@@ -14472,7 +14751,7 @@
       "nationals_only": null,
       "posted": "2026-02-27T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "jooble_0568f3c5d38c38",
@@ -14522,7 +14801,7 @@
       },
       "posted": "2026-04-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_40ec30ea38df3a",
@@ -14576,7 +14855,7 @@
       },
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_d25655fd9c0a2b",
@@ -14603,7 +14882,7 @@
       },
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_a81ffc2a760d08",
@@ -14628,7 +14907,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_533e141f6ae318",
@@ -14652,7 +14931,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_c8d5363f798de9",
@@ -14705,7 +14984,7 @@
       "nationals_only": null,
       "posted": "2026-08-30",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_5c87f40917af87",
@@ -14732,7 +15011,7 @@
       },
       "posted": "2025-01-16",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     },
     {
       "id": "workday_540531d44b0712",
@@ -14754,7 +15033,7 @@
       "nationals_only": null,
       "posted": "2026-03-26",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-19T07:28:00.755851+00:00"
     }
   ]
 }
