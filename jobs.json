@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T07:28:00.755851+00:00",
-  "count": 615,
+  "generated_at": "2026-10-20T07:18:37.503603+00:00",
+  "count": 620,
   "shutdown_count": 69,
   "by_country": {
-    "United Arab Emirates": 615
+    "United Arab Emirates": 620
   },
   "by_industry": {
-    "Financial Services / Fintech": 209,
-    "Construction / Infrastructure": 206,
-    "Technology / Software": 51,
-    "Other": 42,
-    "Energy / Oil & Gas": 34,
+    "Financial Services / Fintech": 216,
+    "Construction / Infrastructure": 200,
+    "Technology / Software": 55,
+    "Other": 43,
+    "Energy / Oil & Gas": 33,
     "Other service activities": 31,
     "Hospitality / Tourism": 10,
     "Manufacturing": 9,
@@ -26,17 +26,491 @@
     "Education": 1
   },
   "sources": [
-    "Jooble (91)",
+    "Jooble (82)",
     "Careerjet (skipped: no CAREERJET_API_KEY)",
-    "Workday (71)",
+    "Workday (78)",
     "SmartRecruiters (50)",
     "NADIA (40)",
     "Adecco (50)",
-    "Greenhouse (8)",
+    "Greenhouse (6)",
     "Lever (1)",
     "RSS (0)"
   ],
   "jobs": [
+    {
+      "id": "jooble_e8c1077b779e45",
+      "title": "Manager, Product Management Marketing Digital Innovation & Marketing AI Champion",
+      "company": "Mastercard",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...empowers people in 200+ countries... ... Marketing Digital Innovation... ...unique data and... ...become the partner of choice... ...expertise in acquisition and engagement... ..., machine learning, and... ...vendors to develop breakthrough... ...personalization engines, or... ...comfortable operating in a matrixed...",
+      "url": "https://jooble.org/jdp/-6946913878302877815",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19T08:17:25.6830000",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "jooble_9c36925836c01d",
+      "title": "Manager, Transfer Solutions, Digital Partners",
+      "company": "Mastercard",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...empowers people in 200+ countries... ...Digital Partners ... ...achieve sales targets,... ...Compliance, Operations, Finance, and Customer... ...Business Development & Revenue... ...-client acquisition targets.... ...providers, banks, telcos,... .... • Develop market- entry and... ...payments, account- to-account...",
+      "url": "https://jooble.org/jdp/-8016906489340278910",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-17T00:00:00.0000000",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "jooble_78f63cf4966a1d",
+      "title": "Sr. Network Unified Communication Engineer",
+      "company": "Peraton",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...Collaboration (UC) Engineer to join our team in... ...Video Ops: Provide operational support for multi-platform... ...VTC hardware and software codecs. Support... ...serves as a valued partner to essential government... ...peraton.com to learn how we’re keeping people around the world safe...",
+      "url": "https://jooble.org/jdp/-1132418969715515369",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Technology / Software",
+      "salary": "$86k - $138k",
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19T18:21:04.3720194+00:00",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "jooble_42b2730a2a8e50",
+      "title": "Senior HRBP Specialist, Technology & Engineering",
+      "company": "Bybit",
+      "location": "United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "",
+      "description": "...environment where talent is... ... HR Business Partner to support... ...brings strong HRBP expertise... ...effective people and organizational... ...career development, ... ...and Talent Acquisition on strategic... ...hiring, compensation ... ...environment. Our benefits include:... ...continuous learning. ...",
+      "url": "https://jooble.org/jdp/-9030425484701261947",
+      "source": "Jooble",
+      "company_type": "unknown",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-18T00:00:00.0000000",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "workday_cee4e403b7543b",
+      "title": "Services - Summer Analyst, UAE - Dubai, 2027 (UAE Nationals ONLY)",
+      "company": "Citi",
+      "location": "Dubai United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "The Summer Analyst is a strategic professional who stays abreast of developments within own field and contributes to directional strategy by considering their application in own job and the business. Recognized technical authority for an area within the business. Requires basic commercial awareness. There are typically multiple people within the business that provide the same level of subject matter expertise. Developed communication and diplomacy skills are required in order to guide, influence and convince others, in particular colleagues in other areas and occasional external customers. Significant impact on the area through complex deliverables. Provides advice and counsel related to the technology or operations of the business. Work impacts an entire area, which eventually affects the overall performance and effectiveness of the sub-function/job family. Responsibilities: 10-week program during which summer analysts are familiarized with TTS business lines and processes Assigned to an industry or product coverage group after an initial week of training and placement process Join a team providing TTS services to multinational corporations; financial institutions; and public sector organizations across the globe Support the organization in delivering revenue, net income, market share, awards, and survey excellence Prepare financial analysis (budget analytics, scenario analysis) to support decision making by Senior Managers Measure progress by developing and generating metrics and articulate stories for senior presentations Learn the TTS business through training sessions and on-the-job experience Opportunity to work closely with a TTS team similar to a full-time analyst Depending on placement, typical day will involve: Client Sales Management Cash Management Services including Liquidity & Investments, Receivables, Payments, Wholesale Cards, and Channel & Enterprise Services Trade projects including Commodities Financing, Trade Finance, Trade Services and Export & Agency Finance Successful summer analysts will be given the opportunity to return full time as a TTS Analyst Appropriately assess risk when business decisions are made, demonstrating particular consideration for the firm's reputation and safeguarding Citigroup, its clients and assets, by driving compliance with applicable laws, rules and regulations, adhering to Policy, applying sound ethical judgment regarding personal behavior, conduct and business practices, and escalating, managing and reporting control issues with transparency. Qualifications: Proficiency in a second language advantageous Students pursuing their undergraduate degree Education: Students pursuing their undergraduate degree ------------------------------------------------------ Job Family Group: Product Management and Development ------------------------------------------------------ Job Family: Market Segments and Services ------------------------------------------------------ Time Type: Full time ------------------------------------------------------ Most Relevant Skills Please see the requirements listed above. ------------------------------------------------------ Other Relevant Skills For complementary skills, please see above and/or contact the recruiter. ------------------------------------------------------ Citi is an equal opportunity employer, and qualified candidates will receive consideration without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other characteristic protected by law. If you are a person with a disability and need a reasonable accommodation to use our search tools and/or apply for a career opportunity review Accessibility at Citi . View Citi’s EEO Policy Statement and the Know Your Rights poster.",
+      "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Services---Summer-Analyst--UAE---Dubai--2027--UAE-Nationals-ONLY-_26992564-1",
+      "source": "Workday:Citi",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "aws"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": {
+        "country": "United Arab Emirates",
+        "level": "only"
+      },
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "workday_e5438ba7bf7033",
+      "title": "Creative Associate Project Manager",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Creative Associate Project Manager Overview: The Services team is a key differentiator for Mastercard, providing cutting-edge services that help customers grow. Marketing Services develops and executes marketing programs that support client objectives, while the Advisors Creative Desk (ACD) creates engaging, on-brand creative solutions for Mastercard and its partners. As a Creative Project Coordinator, you will support the successful delivery of creative projects by coordinating timelines, resources, communications, and project administration activities. You will work closely with Project Managers, Creative Leads, and cross-functional teams to ensure projects remain organized, on track, and aligned with client expectations. This role is ideal for someone who is highly organized, detail-oriented, eager to learn, and comfortable working in a fast-paced environment. Role: Support the day-to-day coordination of creative projects from brief to delivery. Maintain project plans, trackers, timelines, and documentation. Assist with scheduling meetings, preparing status updates, and following up on actions. Coordinate with creative, strategy, and production teams to ensure tasks progress according to plan. Help monitor project schedules, resource allocation, and deliverable deadlines. Support budget tracking, project forecasting, and reporting activities. Escalate risks, delays, or dependencies to Project Managers when identified. Maintain accurate records within project management and workflow tools. Help ensure compliance with ACD processes, templates, and governance standards. Contribute to continuous improvement initiatives by identifying opportunities to streamline project workflows. All About You: 3-7 years of experience in project coordination, account coordination, marketing, creative services, or related roles. Strong organizational skills with excellent attention to detail. Ability to manage multiple tasks and priorities simultaneously. Strong communication and stakeholder management skills. Comfortable working with cross-functional teams in a fast-paced environment. Proactive, collaborative, and eager to learn. Experience with project management tools (e.g., Monday.com, Asana, Jira, Salesforce, or similar) is an advantage. Strong written and verbal communication skills in English. Bachelor's degree or equivalent experience preferred. Willingness to support multiple projects and adapt to changing priorities. Corporate Security Responsibility All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must: Abide by Mastercard’s security policies and practices; Ensure the confidentiality and integrity of the information being accessed; Report any suspected information security violation or breach, and Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Creative-Associate-Project-Manager_R-294173",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "project management"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "workday_32cad818b66072",
+      "title": "Creative Project Manager",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Creative Project Manager Overview: The Services team is a key differentiator for Mastercard, providing the cutting-edge services that help our customers grow. Centered on data-driven technologies and innovation, this team provides consulting, marketing, loyalty and analytics to financial institutions and merchants globally. Marketing Services is the team within Services that develops and executes the marketing programs that help our clients achieve their marketing goals. The Advisors Creative Desk sits within Services and is responsible for ideating and creating engaging, forward-thinking, on-brand content solutions that connect our advertising partners, platforms, and our portfolio of brands. As Creative Project Manager you must have a passion for business growth and ensuring the seamless delivery of projects to clients. You will have a creative flair, relish working in a fast-paced environment and be able to manage multiple project deliverables. You will have solid stakeholder management and communication skills and a clear understanding of the end-to-end process of project delivery. To excel in this role, you need to possess superior communication and interpersonal skills, as well as the ability to tackle several creative projects simultaneously. Working knowledge of project management tools, along with superior organizational skills are a must in this position. You are also expected to possess excellent time-management skills to thrive in a fast-paced, dynamic work environment. Role: Own the day-to-day management of creative projects from brief to delivery, ensuring timelines, scope, and quality standards are met. Track and manage project budgets, timelines, and resourcing plans, escalating issues proactively to senior leads. Lead client communication on project-level matters, responding to requests and maintaining clarity on deliverables and timelines. Develop and manage creative project briefs, translating client needs into clear direction for creative teams. Coordinate across creative, strategy, and production teams to drive delivery and maintain momentum. Work closely with creative leads and senior project managers to stay aligned on priorities. Monitor project progress, manage dependencies, and flag risks early to keep work on track. Run multiple projects in parallel, operating confidently in a fast-paced agency environment. Prepare and deliver regular project status updates and reporting for internal stakeholders and clients. Champion strong organizational practices and effective use of project management tools across the team. All About You: Minimum 8 years of experience in creative services, account, or project management roles, ideally at Account director level, within advertising or creative agencies. Proven ability to manage complex projects end-to-end, with strong organizational and multitasking skills. Experience working with multidisciplinary teams across creative, strategy, and production. Confident in briefing creative teams and maintaining clear project direction from kick-off through delivery. Comfortable managing client relationships at a day-to-day level with professionalism and clarity. Able to work independently, problem-solve on the fly, and perform well under pressure. Strong written and verbal communication skills in English. Bachelor's degree or equivalent. Willingness to travel as required. Corporate Security Responsibility All activities involving access to Mastercard assets, …",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Creative-Project-Manager_R-294174",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "project management"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "workday_f142edc026ee21",
+      "title": "Copywriter",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Copywriter Copywriter, Advisors Creative Desk Overview The Services team is a key differentiator for Mastercard, providing the cutting-edge services that help our customers grow. Centered on data-driven technologies and innovation, this team provides consulting, marketing, loyalty, and analytics to financial institutions and merchants globally. The Advisors Creative Desk sits within Services as a full-service creative and advertising capability, helping clients build and grow their brands through end-to-end solutions, from brand positioning and strategy to creative development, campaigns, and content. The Copywriter brings brands to life through powerful ideas, compelling storytelling, and effective communications across a portfolio of clients. Working closely with strategists, designers, and clients, the role helps shape integrated campaigns and content that connect with audiences, solve business challenges, and deliver meaningful impact across multiple channels and touchpoints. Role As a Copywriter, you will: • Develop compelling copy and creative ideas across a range of channels, including TV, video, digital, social, CRM, display advertising, and print. • Contribute to the development of integrated campaigns and content from concept through execution. • Partner closely with designers, strategists, and other creatives to deliver impactful and strategically sound work. • Ensure all work meets high standards of creativity, craft, accuracy, and attention to detail. • Present creative work clearly and confidently in internal reviews and client meetings. • Manage multiple projects simultaneously in a fast-paced environment. • Proactively contribute new ideas and creative approaches that help solve client challenges and support business growth. • Stay informed of cultural, consumer, marketing, and creative trends to identify emerging opportunities and inspire innovative thinking. All About You • 5+ years of copywriting experience within leading advertising agencies, preferably within global network agencies. • Strong portfolio demonstrating conceptual thinking and campaign development across multiple channels and formats. • Strong writing and storytelling with the ability to adapt tone and messaging for different audiences and platforms. • Experience developing integrated campaigns across digital, social, video, CRM, web, print, and other marketing channels. • Excellent attention to detail and commitment to creative excellence and craft. • Strong collaboration skills and experience working with multidisciplinary teams • Bachelor's degree or equivalent professional experience in a relevant field. • Proficiency in English is required; additional languages are a plus, with Arabic considered an advantage. • Open to occasional travel as required. Corporate Security Responsibility All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must: Abide by Mastercard’s security policies and practices; Ensure the confidentiality and integrity of the information being accessed; Report any suspected information security violation or breach, and Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Copywriter_R-294067",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "workday_7e0eebb8da66aa",
+      "title": "Senior Copywriter",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Senior Copywriter Overview The Services team is a key differentiator for Mastercard, providing the cutting-edge services that help our customers grow. Centered on data-driven technologies and innovation, this team provides consulting, marketing, loyalty, and analytics to financial institutions and merchants globally. The Advisors Creative Desk sits within Services as a full-service creative and advertising capability, helping clients build and grow their brands through end-to-end solutions, from brand positioning and strategy to creative development, campaigns, and content. The Senior Copywriter brings brands to life through powerful ideas, compelling storytelling, and effective communications across a portfolio of clients. Working closely with strategists, designers, and clients, the role helps shape integrated campaigns and content that connect with audiences, solve business challenges, and deliver meaningful impact across multiple channels and touchpoints. Role As a Senior Copywriter, you will: •Take ownership of projects from concept to delivery, developing bold and original creative solutions with limited direction. • Build trusted client relationships, leading presentations and collaborating directly with clients throughout the creative process. • Craft compelling copy across a wide range of channels and formats, from brand narratives and campaigns to digital experiences and content. • Translate strategic objectives into creative ideas that are relevant, effective, and aligned with the brief. • Successfully manage competing priorities across multiple clients, projects, and deadlines. • Oversee production and post-production processes, ensuring high-quality execution from start to finish. • Collaborate seamlessly with cross-functional teams to deliver outstanding creative work on time and to the highest standards. • Communicate ideas with confidence and clarity in both internal discussions and client-facing presentations. • Foster a culture of constructive feedback, actively contributing to the growth of both the work and the team. • Navigate challenges with professionalism, identifying opportunities where others may see obstacles. • Guide, mentor, and inspire creative talent, helping teams produce their best work. All About You • 8+ years of experience in copywriting roles, currently at Creative Group Head level or above, within full-service advertising agencies, preferably in network agency environments. • A portfolio showcasing distinctive, insight-driven creative work with strong brand-building impact. • Proven ability to develop ideas across a diverse range of media, channels, and formats. • Solid experience managing and delivering creative productions from concept through execution. • Exceptional storytelling skills with the ability to craft compelling narratives and experiences. • Self-motivated and capable of working independently in a fast-paced environment. • Strong collaborator who works effectively across disciplines and functions to bring ideas to life. • Excellent communication, presentation, and interpersonal skills, with the ability to engage clients, stakeholders, and team members with confidence. • Bachelor's degree or equivalent professional experience in a relevant field. • Proficiency in English is required; additional languages are a plus, with Arabic considered an advantage. • Open to occasional travel as required. Corporate Security Responsibility All activities involving access …",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Senior-Copywriter_R-294089-1",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Senior",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "workday_36a248d867e9a4",
+      "title": "Manager, Product Management Marketing Digital Innovation & Marketing AI Champion",
+      "company": "Mastercard",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Manager, Product Management Marketing Digital Innovation & Marketing AI Champion Overview As Marketing Services (MS), the marketing strategy & execution arm of Mastercard, we aim to focus on differentiated scalable and digital offerings that leverages our unique data and marketing technology to accelerate campaign performance and associated outcomes. Our vision is to become the partner of choice for Issuers and Merchants leveraging our data-driven marketing performance products to drive our client’s most profitable customer engagements and ultimately Mastercard preference with consumers. Through the transformation of the youngest and fastest growing MS region, EEMEA is seeking an experienced Marketing Services Product Manager. The candidates’ superior understanding of the card portfolio growth drivers and important KPIs to track blended with experience in targeted, data-driven marketing campaigns will deliver better results for clients and create their reliance on MS. We are seeking a high-caliber marketing professional with deep expertise in acquisition and engagement strategies, strong grounding in digital and data-driven marketing, and proven experience in driving innovation using AI and emerging technologies. This individual will play a pivotal role in elevating Mastercard’s value proposition across both traditional and non-traditional segments. Beyond financial institutions, the role will focus on unlocking new partnership opportunities with merchants, telcos, government entities, and broader ecosystem players. Role & Responsibilities - Champion a culture of innovation within MS by proactively identifying innovation opportunities, benchmarking global trends, and introducing new methodologies and tools that redefine how Mastercard and its clients approach customer acquisition and engagement. - Grow MS revenue by designing and implementing next-generation, AI-enabled marketing solutions that are scalable across issuers, merchants, telcos, governments, and emerging ecosystem partners. These solutions will integrate Mastercard’s data assets, advanced analytics, and marketing technology to deliver end-to-end acquisition, engagement, and portfolio growth programs that materially differentiate Mastercard in both traditional and new segments. - Leverage AI, machine learning, and emerging marketing technologies to design and deliver innovative acquisition and engagement campaigns, working closely with creative agencies, media partners, and technology vendors to develop breakthrough concepts, new use cases, and differentiated execution models that elevate marketing performance. - Translate new technology trends into actionable go-to-market strategies, ensuring that Mastercard remains ahead of competitors by operationalizing AI-driven campaign design, real-time optimization, and automated personalization at scale. - Identify and shape new scalable marketing plays for emerging segments (e.g., small merchants, large retailers, telcos, public-sector programs), adapting MS capabilities to fit their unique acquisition and engagement needs. - Lead experimentation frameworks and innovation sprints to test new channels, formats, value propositions, and AI tools that can unlock incremental growth for Mastercard clients across both carded and non-carded consumer segments. - Drive end-to-end digital marketing which includes analytical review of media strategies and plans, trouble shoot and work with partners to propose succ …",
+      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Manager--Product-Management-Marketing-Digital-Innovation---Marketing-AI-Champion_R-265899",
+      "source": "Workday:Mastercard",
+      "company_type": "employer",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "smartrecruiters_79787d892919ca",
+      "title": "Senior Engineer - Planning",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "We are looking for an experienced Senior Planning Engineer to join our infrastructure project team in Abu Dhabi. Key Responsibilities: Develop, review, and monitor the Contractor’s baseline programme, recovery programmes, and updated schedules. Review the Contractor’s programme to ensure it is logic-linked, resource-loaded, properly sequenced, and aligned with the project scope and contractual requirements. Monitor actual progress against the approved programme and identify delays, critical activities, and potential impacts on project completion. Prepare and review weekly and monthly progress reports, including planned vs. actual progress, key achievements, critical activities, and look-ahead programmes. Monitor the Contractor’s progress and verify reported quantities and progress against actual site status. Review and analyse the critical path, float, constraints, and programme logic and provide recommendations to mitigate delays. Prepare and review 2-week, 3-week, and 4-week look-ahead programmes as required. Coordinate with the Resident Engineer, discipline engineers, inspectors, and Contractor’s planning team to obtain accurate progress information. Review Contractor’s recovery and mitigation programmes and assess their effectiveness in addressing delays. Monitor design, procurement, construction, testing, commissioning, and authority approval activities and their interfaces. Identify programme risks, constraints, and potential delays and highlight them to the project management team. Assist in reviewing Extension of Time (EOT) submissions, delay events, and time-related claims, including programme impact and supporting analysis. Review and assess programme updates and time impact analyses submitted by the Contractor. Maintain and update project progress dashboards and key performance indicators. Prepare progress presentations and provide clear planning and schedule updates to the project management team and Client. Participate in progress, planning, and coordination meetings with the Contractor and project stakeholders. Ensure planning and reporting activities comply with project procedures, contractual requirements, and reporting standards. &#xa0; &#xa0; Bachelor’s Degree in Civil Engineering, Construction Management, Project Management, or a related discipline. 7+ Relevant experience in planning and scheduling for infrastructure and construction projects. Strong knowledge of Primavera P6 and Microsoft Excel. Good understanding of baseline programmes, schedule updates, critical path analysis, resource loading, progress measurement, and delay analysis. Experience in reviewing Contractor programmes and progress reports. Experience with EOT, delay analysis, recovery programmes, and time impact analysis is preferred. UAE infrastructure project experience is an advantage. Strong analytical, communication, coordination, and reporting skills. Ability to work effectively with multidisciplinary project teams and Contractors.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000156305913-senior-engineer-planning-",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "primavera",
+        "p6",
+        "project management",
+        "procurement",
+        "construction",
+        "commissioning"
+      ],
+      "seniority": "Senior",
+      "shutdown": true,
+      "nationals_only": null,
+      "posted": "2026-10-19T12:21:57.602Z",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "smartrecruiters_8bc8d12dae143a",
+      "title": "Assistant Project Manager",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "The Assistant Project Manager will support the management and delivery of multidisciplinary civil infrastructure design projects, working closely with the Project Manager and technical teams to maintain control of scope, programme, interfaces, risks, changes and project deliverables. The role requires an individual with existing exposure to project or design management within an engineering consultancy environment, supported by a technical background in utilities, roads or transportation. The successful candidate should be comfortable working across disciplines rather than focusing solely on their original technical specialism. Key responsibilities &#xa0; Support the Project Manager in the day-to-day management and coordination of multidisciplinary design projects. Develop, monitor and update project programmes, milestones, deliverable schedules and resource requirements. Coordinate interfaces between technical disciplines and identify scope gaps, overlaps and dependencies. Track project progress, risks, actions, approvals and key decisions, escalating issues where required. Support project controls including resource forecasting, budget monitoring, progress reporting and performance tracking. Identify potential scope changes early and support the preparation and management of variations/change requests. Coordinate with clients, authorities, subconsultants and other project stakeholders. Support preparation for client and project meetings, including agendas, presentations, actions and follow-up. Oversee the coordination of QA/QC, BIM and document control processes to ensure project requirements are followed. Support authority submissions and approvals and maintain visibility of key approval dependencies. Maintain effective project information management, including correspondence, registers, trackers and project records. Promote lessons learned and continuous improvement across project delivery. &#xa0; Qualifications & experience Bachelor’s degree in Civil Engineering or a related engineering discipline. 3–7 years of relevant experience, including demonstrated exposure to project management and/or design management. Technical background in utilities, roads and transportation infrastructure. Previous engineering consultancy experience is essential. Good understanding of multidisciplinary design delivery and project lifecycle requirements. Strong working knowledge of project planning, project controls, risk and change management. Experience coordinating multiple disciplines, stakeholders and project interfaces. Working knowledge of authority requirements, regulations and approval processes in Abu Dhabi, with exposure to Dubai and Saudi Arabia considered advantageous. Strong organizational, communication and stakeholder-management skills. Familiarity with scheduling and project management tools such as Primavera P6 or Microsoft Project. PMP or equivalent project management qualification is advantageous.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000156294405-assistant-project-manager",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "qa/qc",
+        "civil",
+        "primavera",
+        "p6",
+        "project management"
+      ],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19T11:41:27.678Z",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "smartrecruiters_ea2894bb5702d6",
+      "title": "Engineer - Geotechnical",
+      "company": "AECOM",
+      "location": "Dubai South, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "We are seeking an experienced Geotechnical Engineer to join our dynamic team in Dubai South, United Arab Emirates. In this role, you will take a leadership position in designing and analyzing complex geotechnical solutions for major infrastructure and development projects across the region. You will combine your technical expertise with innovative problem-solving to deliver high-quality engineering solutions while mentoring junior team members and collaborating with cross-functional disciplines. This is an excellent opportunity to contribute to transformative projects in one of the world's most dynamic construction environments. General Performs specific and limited portions of a broader assignment of an experienced engineer. Gathers and correlates basic engineering data using established and well-defined procedures. Works on detailed or routine engineering assignments involving calculations and relatively simple tests. Proposes approach to solve new problems encountered. Identifies discrepancies in results. Provides guidance to entry level engineers. Performs work in accordance with agreed upon budget and schedule with moderate supervision. Specific &#xa0; The candidate should have specific experience in the following. Geotechnical Investigations Assessment of Geotechnical Parameters Preparation of Ground Models for different design situations The candidate should also have specific experience in 3 or more of the following. Shallow Foundation Design Deep Foundation Design Earthworks (Embankment) Design Slope Design Excavation Lateral Support Design Ground Improvement Design Liquefaction Assessment The following would be considered beneficial Shallow Foundation Design Deep Foundation Design Earthworks (Embankment) Design Slope Design Excavation Lateral Support Design Ground Improvement Design Liquefaction Assessment Geophysical Survey Seismic Design Geotechnics of dam design The knowledge of the following software packages or their equivalent would be an advantage. Slope/W or Slide Seep/W Plaxis 2D or RS2 or Sigma/W Repute, Group and LPile PDisp or Settle 3D CPeT-IT CLiq or Liquefy-Pro A 3D FEM would be considered an advantage. &#xa0; Bachelor's degree in Geotechnical Engineering, Civil Engineering, or a related discipline Minimum 3-5 years of professional geotechnical engineering experience Demonstrated expertise in geotechnical design, site investigation, and foundation engineering Proficiency with geotechnical analysis and design software such as PLAXIS, GEO-STUDIO, or similar platforms Strong analytical and problem-solving skills with the ability to tackle complex geotechnical challenges Excellent written and verbal communication skills with the ability to prepare clear technical documentation and reports Professional Engineer (PE) license or equivalent qualification (preferred) Experience working on infrastructure, transportation, or large-scale building projects Preferred Qualifications Experience with earth retaining systems design and underground works Familiarity with UAE construction standards, soil conditions, and regional geotechnical considerations Project management experience and demonstrated ability to lead technical teams Knowledge of quality assurance, compliance, and safety protocols in geotechnical engineering Experience mentoring junior engineers and contributing to team development Advanced certifications or specialized training in geotechnical engineering disciplines Key Attributes Passionate about geotechnical and underground engineering with a commitment to technical excellence Detail-oriented with a strong organizational skill set and ability to manage multiple projects simultaneously Collaborative team player who thrives in cross-functional environments and values transparent communication Innovative thinker who approaches challenges with creativity and resilience Goal-oriented professional dedicated to delivering results on schedule and within budget Supportive mentor who is invested in the growth a …",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000156268839-engineer-geotechnical",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "project management",
+        "construction"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-19T09:20:38.848Z",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "smartrecruiters_23ccce4561bd7b",
+      "title": "Communications Coordinator",
+      "company": "AECOM",
+      "location": "Dubai, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "This role is a part of our 24-months Advance graduate program. Your journey from graduate to future leader will be supported through structured learning programs and one-on-one mentoring with industry experts, equipping you with the tools to make a lasting impact on our organization and the nation. As part of AECOM’s commitment to Emiratisation and in accordance with UAE labour law, only UAE Nationals with a family book will be considered for this role. This role is fully&#xa0;NAFIS eligible. AECOM manages all registrations and contributions to the&#xa0;GPSSA (General Pension and Social Security Authority). &#xa0; Job Summary Creates, directs and implements integrated messaging and communications strategies and plans to reach internal and external audiences, including our employees, clients, partners and media, investors and Board of Directors, across all digital and in-person channels. Protects, promotes, and enhances AECOM’s brand and reputation, supports the organization in delivering strong results, aligns storytelling to key business priorities, elevates leadership profiles, and spotlights employees and their work to enrich the candidate and employee experience. Key Responsibilities Learns how to communicate messaging effectively inside and outside the organization using proven writing and editing skills. Assists in the completion of team projects and goals. Assists in the preparation of messaging and supports implementation of communications plans. Builds general communications skills across a range of channels and tactics. Assists in the creation of messaging and content including website and social media, editorial, press releases, promotional materials, event materials, collateral, presentations, newsletters. Uses organizational tools to report data from communications activities. Bachelor’s degree in Communications, Public Relations, Marketing, Journalism, English, or a related field. Strong written, editing, and verbal communication skills. Ability to create engaging content across digital and traditional communication channels. Proficiency in Microsoft Office applications, particularly PowerPoint, Word, and Excel. Strong organizational skills with the ability to manage multiple tasks and deadlines. Internship, university project, or extracurricular experience in communications, marketing, PR, or content creation is a plus.",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000156254455-communications-coordinator",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": {
+        "country": "United Arab Emirates",
+        "level": "only"
+      },
+      "posted": "2026-10-19T08:33:44.559Z",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "smartrecruiters_7a8d519f69b51c",
+      "title": "Assistant Resident Engineer",
+      "company": "AECOM",
+      "location": "Abu Dhabi, UAE, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "We are seeking a detail-oriented and collaborative Assistant Resident Engineer to join our dynamic team in Abu Dhabi, United Arab Emirates. In this role, you will provide essential support to the Resident Engineer in overseeing construction activities, ensuring compliance with project specifications, and maintaining effective coordination between all project stakeholders. The ideal candidate will demonstrate strong analytical skills, a commitment to quality, and the ability to work efficiently in a fast-paced construction environment while maintaining transparent communication with contractors, consultants, and authorities. Review and analyze Inspectors' Daily Reports to ensure accuracy, completeness, and adherence to project standards and specifications. Prepare comprehensive Engineer's Daily Diary summaries documenting daily activities, key progress milestones, and on-site observations. Provide oversight of Inspectors' daily activities, including task assignments, performance monitoring, and technical guidance to support project objectives. Evaluate Contractor's inspection, surveying, and testing requests and review subsequent reports for conformance with project specifications. Review and approve Contractor's shop drawings, material submittals, and construction methodologies as delegated by the Resident Engineer. Monitor and verify the accuracy and performance of the Contractor's survey team, ensuring precise setting-out works and dimensional compliance. Prepare meeting minutes and technical correspondence as assigned by the Resident Engineer, maintaining clear and organized project documentation. Coordinate with Contractor's supervisory staff regarding work sequence, construction methodology, schedule compliance, and resource allocation. Monitor construction progress against the Contractor's approved baseline program and identify schedule deviations promptly. Conduct continuous field inspections of work in progress, providing technical consultation and guidance to both the Resident Engineer and Contractor teams. Prepare written and verbal reports for the Resident Engineer on technical, contractual, and procedural matters affecting project delivery. Review and verify as-built drawings in coordination with inspectors and surveyors to ensure accurate project documentation. Ensure all site activities are executed in accordance with approved drawings, project specifications, and Health, Safety, and Environment (HSE) standards. Identify non-conformances and quality issues, initiate corrective actions, and follow up diligently to ensure timely resolution. Support the Resident Engineer in reviewing technical submittals, progress reports, and comprehensive project documentation. Maintain effective coordination and communication between the supervision team and the Contractor to resolve site-related issues efficiently and transparently. Liaise and coordinate with relevant Abu Dhabi authorities and utility service providers for inspections, approvals, and Notices of Completion (NOCs). Review authority-related drawings and ensure compliance with each authority's latest standards, specifications, and regulatory requirements. Follow up on authority inspection requests and assist in resolving comments or non-compliance issues in a timely manner. Ensure timely submission and approval of all required authority NOCs for construction phases, testing, and final project handover. Attend authority meetings and provide technical input to support the Resident Engineer during coordination discussions and progress reviews. Maintain organized records of authority communications, approvals, and correspondence for project documentation and handover purposes. Bachelor's Degree in Civil Engineering or a related engineering discipline from a recognized and accredited university. Minimum 8-10 years of hands-on experience in construction supervision, site inspection, and project delivery across infrastructure or construction projects. Proven experience in  …",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000155664219-assistant-resident-engineer",
+      "source": "SmartRecruiters:AECOM",
+      "company_type": "employer",
+      "industry": "Construction / Infrastructure",
+      "salary": null,
+      "contact": null,
+      "skills": [
+        "civil",
+        "construction",
+        "hse"
+      ],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": "2026-10-15T05:03:29.783Z",
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "nadia global_fde0bf49e9a6e4",
+      "title": "Site Manager",
+      "company": "NADIA Global (agency)",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
+      "url": "https://www.nadia-me.com/job/apply/734",
+      "source": "NADIA Global",
+      "company_type": "agency",
+      "industry": "Other",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Lead",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": null,
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "nadia global_a95795b5e181fa",
+      "title": "Senior Accountant",
+      "company": "NADIA Global (agency)",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Abu Dhabi",
+      "description": "Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
+      "url": "https://www.nadia-me.com/job/apply/732",
+      "source": "NADIA Global",
+      "company_type": "agency",
+      "industry": "Financial Services / Fintech",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": null,
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "nadia global_f0860183ca3e12",
+      "title": "Division Manager for High End & Luxury Kitchens",
+      "company": "NADIA Global (agency)",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
+      "url": "https://www.nadia-me.com/job/apply/730",
+      "source": "NADIA Global",
+      "company_type": "agency",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": null,
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "nadia global_030f28e7b3eaf9",
+      "title": "Division Manager for High End & Luxury Bathroom Fixtures & Accessories",
+      "company": "NADIA Global (agency)",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
+      "url": "https://www.nadia-me.com/job/apply/729",
+      "source": "NADIA Global",
+      "company_type": "agency",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": null,
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
+    {
+      "id": "nadia global_232c37e5a99325",
+      "title": "Senior Sales Executive for High End & Luxury Outdoor and Indoor Furniture",
+      "company": "NADIA Global (agency)",
+      "location": "Dubai, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "description": "Listed via NADIA Global recruitment agency. Full JD & apply via the link.",
+      "url": "https://www.nadia-me.com/job/apply/728",
+      "source": "NADIA Global",
+      "company_type": "agency",
+      "industry": "Technology / Software",
+      "salary": null,
+      "contact": null,
+      "skills": [],
+      "seniority": "Mid",
+      "shutdown": false,
+      "nationals_only": null,
+      "posted": null,
+      "first_seen": "2026-10-20T07:18:37.503603+00:00",
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
+    },
     {
       "id": "jooble_ac37aaa73ef891",
       "title": "HRBP Lead, Legal & Compliance",
@@ -44,11 +518,11 @@
       "location": "United Arab Emirates",
       "country": "United Arab Emirates",
       "city": "",
-      "description": "...environment where talent is... ... HR Business Partner to support... ...brings strong HRBP expertise... ...organizational and people ... ..., talent development, and organizational... ...Talent Acquisition on... ...hiring, compensation, organizational... .... Our benefits include:... ... learning. Internal...",
+      "description": "...digital finance. Our... ...where talent is empowered... ... HR Business Partner to support... ...strong HRBP ... ...organizational and people ... ...talent development, and organizational... ...Talent Acquisition on... ...HR data and business... ...within banking, ... ...ability to operate ... ...continuous learning. Internal...",
       "url": "https://jooble.org/jdp/-6127316410327468162",
       "source": "Jooble",
       "company_type": "unknown",
-      "industry": "Other",
+      "industry": "Financial Services / Fintech",
       "salary": null,
       "contact": null,
       "skills": [],
@@ -57,7 +531,7 @@
       "nationals_only": null,
       "posted": "2026-10-18T08:38:08.7870000",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_ed0d9487819a9c",
@@ -79,7 +553,7 @@
       "nationals_only": null,
       "posted": "2026-10-19",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_72b9a39d9c3419",
@@ -105,7 +579,7 @@
       "nationals_only": null,
       "posted": "2026-10-18",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_e90e1ff51b9485",
@@ -130,7 +604,7 @@
       "nationals_only": null,
       "posted": "2026-10-18",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_91f276053d3c16",
@@ -158,7 +632,7 @@
       "nationals_only": null,
       "posted": "2026-10-19T06:38:50.615Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_a0a57513d5b3c9",
@@ -182,7 +656,7 @@
       "nationals_only": null,
       "posted": "2026-10-19T06:38:07.878Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_9cee5414abb68e",
@@ -204,7 +678,7 @@
       "nationals_only": null,
       "posted": "2026-10-19T05:41:01.334Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_0ae3ec0a4db46c",
@@ -226,7 +700,7 @@
       "nationals_only": null,
       "posted": "2026-10-18T09:59:41.182Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_efa4b7076dbc0e",
@@ -248,7 +722,7 @@
       "nationals_only": null,
       "posted": "2026-10-18T09:56:43.76Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_6c11160a53ce0b",
@@ -270,7 +744,7 @@
       "nationals_only": null,
       "posted": "2026-10-18T08:43:21.106Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_444807c659c9b8",
@@ -294,7 +768,7 @@
       "nationals_only": null,
       "posted": "2026-10-18T08:41:02.445Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_7a51bc6352a766",
@@ -316,7 +790,7 @@
       "nationals_only": null,
       "posted": "2026-10-18T08:38:09.401Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_6d8705d8a2768a",
@@ -338,7 +812,7 @@
       "nationals_only": null,
       "posted": "2026-10-18T08:34:15.228Z",
       "first_seen": "2026-10-19T07:28:00.755851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_93b91a44fc8c45",
@@ -428,7 +902,7 @@
       "nationals_only": null,
       "posted": "2026-10-16",
       "first_seen": "2026-10-18T07:04:23.482810+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_f76f317e1a05b2",
@@ -452,7 +926,7 @@
       "nationals_only": null,
       "posted": "2026-10-16",
       "first_seen": "2026-10-18T07:04:23.482810+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_6dcc4b421f57bf",
@@ -476,7 +950,7 @@
       "nationals_only": null,
       "posted": "2026-10-18",
       "first_seen": "2026-10-18T07:04:23.482810+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_0699d637fd8d1d",
@@ -553,7 +1027,7 @@
       "nationals_only": null,
       "posted": "2026-10-16T09:32:39.348Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_538a955e08df15",
@@ -579,7 +1053,7 @@
       "nationals_only": null,
       "posted": "2026-10-16T08:33:34.483Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_9c803e99ee08ed",
@@ -608,7 +1082,7 @@
       "nationals_only": null,
       "posted": "2026-10-16T07:29:37.565Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_079f018ee93405",
@@ -630,7 +1104,7 @@
       "nationals_only": null,
       "posted": "2026-10-17T03:30:47.912Z",
       "first_seen": "2026-10-17T06:42:57.450627+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_0d38127351cb92",
@@ -656,7 +1130,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_83213239ecbd02",
@@ -680,7 +1154,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_5b255628e415d5",
@@ -705,7 +1179,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_d6352558dc579d",
@@ -729,7 +1203,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_6a3db137ed1e29",
@@ -754,7 +1228,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_b4b8e83d20c165",
@@ -784,7 +1258,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:19:28.494Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_2c3b6f98b74126",
@@ -814,7 +1288,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:14:45.505Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_ffb685ec208036",
@@ -844,7 +1318,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:12:53.479Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_d99455ca866ad2",
@@ -872,7 +1346,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:10:15.823Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_6dac718de38646",
@@ -899,7 +1373,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T12:35:40.000Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_0651e3359d4307",
@@ -924,7 +1398,7 @@
       },
       "posted": "2026-10-15T11:07:27.332Z",
       "first_seen": "2026-10-16T06:51:00.608297+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_fa5a6db0631c88",
@@ -946,7 +1420,7 @@
       "nationals_only": null,
       "posted": "2026-09-21T00:00:00.0000000",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_458870d6233792",
@@ -1034,7 +1508,7 @@
       "nationals_only": null,
       "posted": "2026-09-21T00:00:00.0000000",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_e624f80e3f6260",
@@ -1083,7 +1557,7 @@
       },
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_e84e1d8a84f155",
@@ -1107,7 +1581,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_74ea906c9191ee",
@@ -1131,7 +1605,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_a229cb5cfcb422",
@@ -1157,7 +1631,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_0859c335a87b24",
@@ -1182,7 +1656,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_63514c3c9164ed",
@@ -1235,7 +1709,7 @@
       },
       "posted": "2026-10-15T05:23:43.280Z",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_39bc2b5d44e3ad",
@@ -1262,7 +1736,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T11:55:28.924Z",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_c543ec09f66c91",
@@ -1286,7 +1760,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T09:39:04.007Z",
       "first_seen": "2026-10-15T07:08:02.454100+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_435857964c7a06",
@@ -1335,7 +1809,7 @@
       "nationals_only": null,
       "posted": "2026-10-13",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_2d01c01063b007",
@@ -1386,7 +1860,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T10:36:18.235Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_cf4bdc9a138068",
@@ -1438,7 +1912,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T14:11:37.834Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_4572d4a25e362e",
@@ -1466,7 +1940,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T15:09:55.172Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_0c15b9155e3840",
@@ -1494,7 +1968,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T15:06:32.480Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_046754d5422eee",
@@ -1547,7 +2021,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T13:19:33.408Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_214365e9b56a82",
@@ -1604,7 +2078,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T12:24:37.658Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_bf25615d1b329c",
@@ -1631,7 +2105,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T12:20:30.166Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_bf018e8908ac6d",
@@ -1653,7 +2127,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T11:58:33.244Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_ea88b3159a0ebc",
@@ -1681,7 +2155,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T10:00:02.527Z",
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_dd63261211fc58",
@@ -1705,7 +2179,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-10-14T07:16:12.482081+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_2910e58d005947",
@@ -1749,7 +2223,7 @@
       "nationals_only": null,
       "posted": "2026-10-12T14:16:29.5030000",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_126917787f5e7a",
@@ -1771,7 +2245,7 @@
       "nationals_only": null,
       "posted": "2026-09-10T00:00:00.0000000",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_b05ccb2544c87c",
@@ -1793,9 +2267,9 @@
       "seniority": "Senior",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-10-13",
+      "posted": "2026-10-19",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-15T07:08:02.454100+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_d502ae378bfdf0",
@@ -1823,7 +2297,7 @@
       "nationals_only": null,
       "posted": "2026-10-13",
       "first_seen": "2026-10-13T09:09:12.352403+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_ad740f302922f4",
@@ -2153,9 +2627,9 @@
       "seniority": "Mid",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-10-12",
+      "posted": "2026-10-19",
       "first_seen": "2026-10-12T08:48:47.541433+00:00",
-      "last_seen": "2026-10-16T06:51:00.608297+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_ecfc2b52beb066",
@@ -2622,7 +3096,7 @@
       "nationals_only": null,
       "posted": "2026-10-10T08:16:29.6000000",
       "first_seen": "2026-10-11T08:27:28.845665+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_f1958ab6a43c6e",
@@ -2688,7 +3162,7 @@
       "nationals_only": null,
       "posted": "2026-10-09T09:29:11.8930000",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_7809b3075f8578",
@@ -2732,7 +3206,7 @@
       "nationals_only": null,
       "posted": "2026-10-08T00:00:00.0000000",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_9be2067062549f",
@@ -2776,7 +3250,7 @@
       "nationals_only": null,
       "posted": "2026-10-09",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_7625ef361d252f",
@@ -2809,7 +3283,7 @@
       "nationals_only": null,
       "posted": "2026-10-09",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_af0b230d0577dd",
@@ -2959,7 +3433,7 @@
       "nationals_only": null,
       "posted": "2026-10-09T07:47:19-04:00",
       "first_seen": "2026-10-10T08:13:58.108102+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_60f9190418ead4",
@@ -3029,7 +3503,7 @@
       "nationals_only": null,
       "posted": "2026-10-08",
       "first_seen": "2026-10-09T08:38:11.365757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_6ee29b8353a7cb",
@@ -3161,7 +3635,7 @@
       "nationals_only": null,
       "posted": "2026-10-09T07:09:25-04:00",
       "first_seen": "2026-10-09T08:38:11.365757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_949b26b555741b",
@@ -3251,7 +3725,7 @@
       "nationals_only": null,
       "posted": "2026-10-16",
       "first_seen": "2026-10-08T08:34:46.436341+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_136fa346b4f78e",
@@ -3329,7 +3803,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T12:32:40.334Z",
       "first_seen": "2026-10-08T08:34:46.436341+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_922eada86fe18e",
@@ -3536,7 +4010,7 @@
       "nationals_only": null,
       "posted": "2026-10-06T15:06:06.8070000",
       "first_seen": "2026-10-07T08:18:10.701251+00:00",
-      "last_seen": "2026-10-18T07:04:23.482810+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_feb48b5205a4a0",
@@ -3670,7 +4144,7 @@
       "nationals_only": null,
       "posted": "2026-10-06",
       "first_seen": "2026-10-07T08:18:10.701251+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_f3996b0ee1be6c",
@@ -3692,7 +4166,7 @@
       "nationals_only": null,
       "posted": "2026-10-07",
       "first_seen": "2026-10-07T08:18:10.701251+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_888f8a27266934",
@@ -3829,7 +4303,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T10:59:09.358Z",
       "first_seen": "2026-10-07T08:18:10.701251+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_b4cd93201f29fe",
@@ -4338,7 +4812,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-09T08:38:11.365757+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_f2c7bb7c456bcd",
@@ -4382,7 +4856,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T00:00:00.0000000",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-16T06:51:00.608297+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_53663cf8183c87",
@@ -4541,7 +5015,7 @@
       "nationals_only": null,
       "posted": "2026-10-05",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_897f08a47aa73a",
@@ -4593,7 +5067,7 @@
       },
       "posted": "2026-10-06",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_20cbe2d22e0580",
@@ -4618,7 +5092,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_d55b75155ff3f9",
@@ -4643,7 +5117,7 @@
       "nationals_only": null,
       "posted": "2026-10-05",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_4ad259f4d5c44e",
@@ -4898,7 +5372,7 @@
       "nationals_only": null,
       "posted": "2026-10-13T08:49:36.200Z",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_b47012a5b0ea09",
@@ -4992,7 +5466,7 @@
       "nationals_only": null,
       "posted": "2026-10-06T06:22:16.879Z",
       "first_seen": "2026-10-06T08:43:41.891304+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_981798eacf823d",
@@ -5060,7 +5534,7 @@
       "nationals_only": null,
       "posted": "2026-10-02T00:00:00.0000000",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_b56af1b01b5bd3",
@@ -5085,7 +5559,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_2afbc3cd224af8",
@@ -5110,7 +5584,7 @@
       },
       "posted": "2026-10-05",
       "first_seen": "2026-10-05T08:36:14.567813+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_cb0032d7d0123a",
@@ -5164,7 +5638,7 @@
       },
       "posted": "2026-10-02",
       "first_seen": "2026-10-04T07:55:41.049118+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_66844a015938e7",
@@ -5345,7 +5819,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T00:00:00.0000000",
       "first_seen": "2026-10-03T07:45:46.589080+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_e16fa5a037a15a",
@@ -5495,7 +5969,7 @@
       "nationals_only": null,
       "posted": "2026-10-01T14:19:03.9270000",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_37c45bb7b95f01",
@@ -5752,7 +6226,7 @@
       "nationals_only": null,
       "posted": "2026-10-14T09:45:46.808Z",
       "first_seen": "2026-10-02T08:06:28.303394+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_85d284b3bab20c",
@@ -6105,7 +6579,7 @@
       "nationals_only": null,
       "posted": "2026-09-22T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_3c5e539c5736ec",
@@ -6237,7 +6711,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_ec2d0219213b38",
@@ -6615,7 +7089,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:01:38.963Z",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_0c7469a47172a3",
@@ -6637,7 +7111,7 @@
       "nationals_only": null,
       "posted": "2026-10-06T05:57:05.46Z",
       "first_seen": "2026-10-01T08:31:00.507323+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_2c6d793b3b029a",
@@ -6972,7 +7446,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T08:27:35.896Z",
       "first_seen": "2026-09-30T08:11:16.397612+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "greenhouse_7fc04454d60029",
@@ -7659,7 +8133,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_edcaba85428b54",
@@ -7859,7 +8333,7 @@
       "nationals_only": null,
       "posted": "2026-09-17T00:00:00.0000000",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_b6388fa2b51295",
@@ -8768,7 +9242,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:35:35.456Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_a3aa6120b53646",
@@ -8790,7 +9264,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:35:04.561Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_d82623b0725425",
@@ -8812,7 +9286,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:32:44.223Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_ff37f4ad7479a6",
@@ -8834,7 +9308,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:58:12.521Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_1b65b1a1d8c61f",
@@ -8856,7 +9330,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T09:31:46.409Z",
       "first_seen": "2026-09-29T08:03:01.973757+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_987fed4a0bbc15",
@@ -8907,7 +9381,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T08:20:50.747Z",
       "first_seen": "2026-09-28T08:24:53.029450+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_44a71b55c66a4d",
@@ -8930,28 +9404,6 @@
       "posted": "2026-09-28T02:16:26.322000+00:00",
       "first_seen": "2026-09-28T08:24:53.029450+00:00",
       "last_seen": "2026-10-08T08:34:46.436341+00:00"
-    },
-    {
-      "id": "jooble_b6e9888780d049",
-      "title": "System Administrator - Senior",
-      "company": "Decisionpoint Corporation",
-      "location": "United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "...administration, operations, maintenance,... ...and computer accounts, security groups... ..., NAS/SAN resources, file permissions... ..., including software packaging, imaging... ...Systems, Engineering, Cybersecurity... ...and recovery, data replication, disaster... ...and teaming partners for the...",
-      "url": "https://jooble.org/jdp/3948551427289468350",
-      "source": "Jooble",
-      "company_type": "unknown",
-      "industry": "Technology / Software",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Senior",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-27T00:00:00.0000000",
-      "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "workday_c0a82652e01eca",
@@ -9003,116 +9455,6 @@
       "posted": "2026-09-25T12:35:00.700Z",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
       "last_seen": "2026-10-05T08:36:14.567813+00:00"
-    },
-    {
-      "id": "smartrecruiters_530a624b46bf7b",
-      "title": "Infrastructure Inspector – Dry Utilities",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are looking for an experienced Infrastructure Inspector – Dry Utilities to join our infrastructure project team in Abu Dhabi, with relevant experience in dry utilities and infrastructure construction . Key Responsibilities: Inspect and monitor dry utility construction works, including electrical, telecom, street lighting, and associated utility networks . Conduct daily site inspections to ensure works are carried out in accordance with approved drawings, specifications, method statements, ITPs, and project requirements. Inspect the installation of utility ducts, chambers, manholes, cable routes, sleeves, crossings, and associated infrastructure works . Review and verify Inspection Requests (IRs) submitted by the Contractor and ensure works are ready for inspection. Monitor the quality of materials, workmanship, installation, alignment, levels, duct arrangements, and protection of dry utility networks. Witness and inspect testing activities as required for dry utility installations and associated works. Verify line, level, alignment, duct routes, chamber locations, and other relevant construction requirements. Ensure construction works comply with approved shop drawings, specifications, and project requirements. Identify defective or non-compliant works and coordinate with the Engineer and Contractor for corrective actions. Monitor the Contractor’s compliance with approved method statements, ITPs, specifications, and quality requirements. Coordinate with surveyors and other disciplines to ensure correct setting out, levels, alignment, and utility interfaces. Coordinate with electrical, telecom, roads, wet utilities, and other disciplines to ensure proper interface between services. Maintain accurate records of inspections, site activities, testing, and quality-related issues. Participate in site meetings and coordination activities as required. Support the Engineer in monitoring construction progress and quality of the works. Ensure health, safety, and environmental requirements are followed during site activities. Requirements: Diploma or Bachelor’s Degree in Electrical Engineering or a related discipline . Relevant experience in dry utilities and infrastructure construction . Good knowledge of electrical, telecom, street lighting, utility ducts, chambers, cable routes, and associated infrastructure works . Experience in inspecting dry utility installations and associated infrastructure works. Good understanding of construction drawings, specifications, method statements, ITPs, and inspection procedures. Experience working with Contractors and multidisciplinary project teams. UAE infrastructure and Authority experience is preferred. Strong attention to detail and good communication and coordination skills.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151816659-infrastructure-inspector-dry-utilities",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "electrical",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-25T10:43:32.547Z",
-      "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
-    },
-    {
-      "id": "smartrecruiters_991b5e71b00dc5",
-      "title": "Infrastructure Engineer-Wet Utilities",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are looking for an experienced Infrastructure Engineer – Wet Utilities to join our infrastructure project team in Abu Dhabi, with experience in wet utilities and infrastructure works . Key Responsibilities: Supervise and monitor the construction of wet utility infrastructure works, including stormwater drainage, sewerage, potable water, irrigation, and associated networks . Oversee construction activities including pipelines, manholes, catch basins, gullies, culverts, drainage structures, and related works. Ensure construction works are carried out in accordance with approved drawings, specifications, method statements, ITPs, and project requirements. Review Contractor submissions, shop drawings, material submittals, method statements, RFIs, inspection requests, and other technical documents. Monitor site progress, quality, workmanship, and compliance with approved project requirements. Coordinate with the Contractor, Authorities, stakeholders, and other disciplines to resolve technical and construction-related issues. Monitor testing and inspection of wet utility networks and ensure all required inspections and approvals are completed. Identify technical issues, construction risks, and potential delays and coordinate with the project team to implement appropriate corrective actions. Coordinate interfaces between wet utilities and other infrastructure elements, including roads, structures, electrical, telecom, landscaping, and other services . Review site conditions and proposed construction solutions and provide technical recommendations where required. Monitor the Contractor’s compliance with approved construction methodologies, ITPs, specifications, and quality requirements. Maintain proper records of site inspections, progress, technical issues, RFIs, and construction activities. Participate in site meetings, progress meetings, technical discussions, and coordination meetings with the Contractor and relevant stakeholders. Ensure that health, safety, environmental, and quality requirements are properly implemented on site. Requirements: Bachelor’s Degree in Civil Engineering or a related engineering discipline. Proven experience in infrastructure and wet utilities construction . Good knowledge of stormwater, sewerage, potable water, irrigation networks, and associated infrastructure works . Experience in construction supervision, inspection, quality control, and coordination with Contractors. Good understanding of construction drawings, specifications, method statements, ITPs, and technical submissions. Experience working on major infrastructure projects is preferred. UAE infrastructure and Authority experience is an advantage. Strong communication, coordination, and problem-solving skills. Ability to work effectively within a multidisciplinary project team and manage multiple site activities.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151816589-infrastructure-engineer-wet-utilities",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "pipeline",
-        "quality control",
-        "electrical",
-        "civil",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-25T10:43:22.631Z",
-      "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
-    },
-    {
-      "id": "smartrecruiters_97eb1bcab569b0",
-      "title": "Infrastructure Inspector - Wet Utilities",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are looking for an experienced Infrastructure Inspector – Wet Utilities to join our infrastructure project team in Abu Dhabi, with relevant experience in wet utilities and infrastructure construction . Key Responsibilities: Inspect and monitor wet utility construction works, including stormwater, sewerage, potable water, irrigation, and associated networks . Conduct daily site inspections to ensure works are carried out in accordance with approved drawings, specifications, method statements, ITPs, and project requirements. Inspect the installation of pipelines, manholes, catch basins, gullies, drainage structures, chambers, and associated works. Inspect sewerage, potable water, irrigation, and stormwater networks and related structures as required. Review and verify Inspection Requests (IRs) submitted by the Contractor and ensure works are ready for inspection. Monitor the quality of materials, workmanship, installation, bedding, backfilling, compaction, and protection of wet utility networks. Witness and inspect testing activities, including pressure testing, leakage testing, CCTV inspection, and other applicable tests. Verify line, level, alignment, slopes, and invert levels of pipelines and associated structures. Ensure construction works comply with approved shop drawings, specifications, and project requirements. Identify defective or non-compliant works and coordinate with the Engineer and Contractor for corrective actions. Monitor the Contractor’s compliance with approved method statements, ITPs, and quality requirements. Coordinate with surveyors and other disciplines to ensure correct setting out, levels, and alignment. Maintain accurate records of inspections, site activities, testing, and quality-related issues. Participate in site meetings and coordination activities as required. Support the Engineer in monitoring construction progress and quality of the works. Ensure health, safety, and environmental requirements are followed during site activities. Requirements: Diploma or Bachelor’s Degree in Civil Engineering or a related discipline. Relevant experience in wet utilities and infrastructure construction . Good knowledge of stormwater, sewerage, potable water, irrigation networks, and associated infrastructure works . Experience in inspecting pipelines, manholes, drainage structures, chambers, and associated infrastructure works. Good understanding of construction drawings, specifications, method statements, ITPs, and inspection procedures. Experience working with Contractors and multidisciplinary project teams. UAE infrastructure and Authority experience is preferred. Strong attention to detail and good communication and coordination skills.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151816429-infrastructure-inspector-wet-utilities",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "pipeline",
-        "civil",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-25T10:42:26.456Z",
-      "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
-    },
-    {
-      "id": "smartrecruiters_f81ba5896d9108",
-      "title": "Assistant Resident Engineer",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are seeking a detail-oriented and collaborative Assistant Resident Engineer to join our dynamic team in Abu Dhabi, United Arab Emirates. In this role, you will provide essential technical support to the Resident Engineer and project team, ensuring that all construction works meet statutory requirements, contractual obligations, and quality standards. You will be instrumental in maintaining site compliance, coordinating between contractors and design teams, and documenting all construction activities with precision and professionalism. This is an excellent opportunity to develop your engineering expertise while contributing meaningfully to significant construction projects in a supportive and innovative work environment. Assist the Resident Engineer in performing statutory duties and technical competent person requirements as mandated by local regulatory authorities Conduct regular on-site inspections to verify that construction works comply with approved plans, method statements, and safety protocols Review and analyze contractor-proposed construction sequences, temporary works, and late-cast openings to ensure structural integrity and feasibility Monitor and support the work of the contractor's technical competent persons, providing guidance and ensuring adherence to project standards Serve as a liaison between the contractor, site team, and design office, facilitating clear communication and timely resolution of construction-related issues Identify and document non-conformities with transparency and detail, escalating issues to the Resident Engineer and relevant stakeholders Implement and monitor quality assurance and quality control (QA/QC) systems, site safety protocols, and environmental management practices Prepare and contribute to comprehensive site reports, inspection records, defect reports, and QA/QC documentation on a regular basis Maintain organized and accessible filing systems for all correspondence, site records, construction drawings, and regulatory approvals Attend site progress meetings, QA/QC meetings, and other project-related meetings, actively contributing to collaborative problem-solving Enforce compliance with ethics policies, including third-party payment procedures, sub-consultancy engagement processes, and organizational guidelines Perform additional duties as assigned by the Resident Engineer or project management team, demonstrating flexibility and commitment to project success **Required Qualifications:** Bachelor's degree in Civil Engineering, Structural Engineering, or Geotechnical Engineering; or equivalent higher diploma/certificate in civil or structural engineering Minimum 2 years of relevant post-degree experience in civil or structural engineering on construction projects; or minimum 5 years of relevant experience post higher diploma Demonstrated experience with superstructure works, civil drainage systems, and site formation activities Strong knowledge of construction compliance, statutory requirements, and regulatory standards Proficiency in site inspection, quality assurance, and quality control methodologies Excellent written and verbal communication skills in English Proficiency in site documentation, report writing, and record-keeping systems Strong organizational and time management skills with meticulous attention to detail Ability to analyze construction drawings, method statements, and temporary works designs Demonstrated ability to work effectively in multicultural and collaborative team environments **Preferred Qualifications:** Experience with geotechnical engineering or geotechnical-heavy building projects Technical Competent Person (TCP) certification or equivalent statutory qualification Familiarity with construction management software and digital documentation tools Experience working on large-scale infrastructure or commercial building projects in the Middle East Knowledge of UAE-specific building codes and regulatory requirements Problem-solving mindset with the abi …",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151811070-assistant-resident-engineer",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc",
-        "quality control",
-        "civil",
-        "structural",
-        "project management",
-        "construction",
-        "contracts",
-        "hse"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-25T10:10:58.432Z",
-      "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "smartrecruiters_1e209f2ce2982e",
@@ -9273,7 +9615,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T05:53:48.487Z",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_fb8671dee3de6a",
@@ -9295,7 +9637,7 @@
       "nationals_only": null,
       "posted": "2026-09-25T12:33:15.554Z",
       "first_seen": "2026-09-26T07:14:24.104864+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_14cdfd1527f01e",
@@ -9482,60 +9824,6 @@
       "last_seen": "2026-10-01T08:31:00.507323+00:00"
     },
     {
-      "id": "smartrecruiters_e8c81cc69fad96",
-      "title": "HSE Inspector (TBM)",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "• Under direct supervision, performs basic and routine duties in a wide range of environmental, health and safety disciplines to achieve compliance with the ES&H standards along with federal and state regulatory requirements.&#xa0; • Assists in the development, implementation and maintenance of safety and health programs, systems and procedures.&#xa0; • Assists in monitoring hazards and diseases that could be present in the work area.&#xa0; • Works with others to investigate accidents, injuries and complaints concerning hazards in the workplace.&#xa0; • Participates in recommending improvement in processes, design, procedures and equipment to minimize hazards.&#xa0; • Participates in employee training, emergency preparedness and assures the quality of programs. Qualifications Minimum 7 years of HSE experience in major infrastructure construction projects. Mandatory experience in Tunneling Works (TBM, NATM, Cut & Cover, or similar methods). Previous experience in Viaduct / Elevated Structure Construction is advantageous.&#xa0; Previous experience in High-Speed Rail, Railway, Metro, or Rail Infrastructure Projects is essential. Strong knowledge of HSE legislation, risk assessment, and permit-to-work systems. Proficiency in incident investigation and hazard identification techniques. Additional information NEBOSH International General Certificate (IGC). IOSH Managing Safely / Working Safely. OSHA Safety Certification. First Aid and Fire Warden Certification (preferred). Diploma or Bachelor's Degree in Engineering, Occupational Health & Safety, Environmental Science, or related discipline.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151565080-hse-inspector-tbm-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "construction",
-        "hse",
-        "nebosh",
-        "iosh"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-24T09:04:57.684Z",
-      "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
-    },
-    {
-      "id": "smartrecruiters_ede7821be1c36f",
-      "title": "HSE Inspector (TBM)",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "• Under direct supervision, performs basic and routine duties in a wide range of environmental, health and safety disciplines to achieve compliance with the ES&H standards along with federal and state regulatory requirements.&#xa0; • Assists in the development, implementation and maintenance of safety and health programs, systems and procedures.&#xa0; • Assists in monitoring hazards and diseases that could be present in the work area.&#xa0; • Works with others to investigate accidents, injuries and complaints concerning hazards in the workplace.&#xa0; • Participates in recommending improvement in processes, design, procedures and equipment to minimize hazards.&#xa0; • Participates in employee training, emergency preparedness and assures the quality of programs. Qualifications &#xa0; Minimum 7 years of HSE experience in major infrastructure construction projects. Mandatory experience in Tunneling Works (TBM, NATM, Cut & Cover, or similar methods). Previous experience in Viaduct / Elevated Structure Construction is advantageous.&#xa0; Previous experience in High-Speed Rail, Railway, Metro, or Rail Infrastructure Projects is essential. Strong knowledge of HSE legislation, risk assessment, and permit-to-work systems. Proficiency in incident investigation and hazard identification techniques. Additional information NEBOSH International General Certificate (IGC). IOSH Managing Safely / Working Safely. OSHA Safety Certification. First Aid and Fire Warden Certification (preferred). Diploma or Bachelor's Degree in Engineering, Occupational Health & Safety, Environmental Science, or related discipline.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151563438-hse-inspector-tbm-",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "construction",
-        "hse",
-        "nebosh",
-        "iosh"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-24T08:56:23.779Z",
-      "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
-    },
-    {
       "id": "smartrecruiters_5dff10d7627707",
       "title": "Senior Architect (Buildings experience)",
       "company": "AECOM",
@@ -9561,28 +9849,6 @@
       "posted": "2026-09-24T08:42:58.086Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
       "last_seen": "2026-10-01T08:31:00.507323+00:00"
-    },
-    {
-      "id": "smartrecruiters_639763c9029ec0",
-      "title": "Senior Administrator - Government Relations",
-      "company": "AECOM",
-      "location": "Dubai, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "AECOM is seeking an experienced Senior Administrator to provide central administrative coordination for the UAE Government Relations function. The role will support Dubai, Abu Dhabi, Al Ain, with primary administrative responsibility for Dubai. The successful candidate will ensure Government Relations activities are well tracked, followed up, communicated and coordinated. Experience with technical processing on UAE government platforms would be considered an advantage, but it is not a core requirement of the role and will remain primarily within the scope of the relevant GRO team members. Operational Control Maintain an accurate view of ongoing, pending, overdue and completed Government Relations activities. Monitor deadlines, expiries, renewals and outstanding actions. Ensure each case has clear ownership, status and next steps. Maintain accurate trackers, dashboards and administrative records. Take primary administrative responsibility for an assigned UAE Government Relations entity or location. Identify delays, gaps or issues requiring escalation. Communication & Team Coordination Support the effective management of Government Relations shared mailboxes. Ensure incoming requests are acknowledged, assigned and followed through. Review routine employee and stakeholder communications for accuracy, completeness and clarity. Coordinate administrative activities across Dubai, Abu Dhabi, Al Ain and Dubai South. Coordinate with HR, Recruitment, Mobilisation, Payroll and other internal teams. Support consistent administrative standards across locations. Process & Quality Improvement Maintain standard templates, checklists, forms and administrative procedures. Review records and documentation for completeness and accuracy. Identify recurring administrative gaps and recommend practical improvements. Support improvements to workflows, reporting and document management. Support digitalisation and automation initiatives and help ensure new processes are adopted effectively. &#xa0; Experience & Skills Relevant experience in senior administration, operations coordination, HR operations or employee services. Strong administrative, organisational and follow-up skills. Excellent written and verbal communication. Ability to coordinate multiple stakeholders and locations without formal reporting authority. Strong reporting, data-management and problem-solving skills. Strong proficiency in Excel, Outlook, Word, Teams and SharePoint. Comfortable working with digital workflows, trackers and automation tools. Government Relations or UAE immigration experience is an advantage, bu t not essential. Personal Attributes Proactive and accountable. Highly organised and dependable. Confident in following up and challenging incomplete information. Able to work independently with limited supervision. Detail-oriented and consistent. Collaborative and improvement-focused.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151558829-senior-administrator-government-relations",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Senior",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-24T08:34:43.185Z",
-      "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "smartrecruiters_8788b4ce664833",
@@ -9660,7 +9926,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:33:33.454Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_1becfb70acc787",
@@ -9682,7 +9948,7 @@
       "nationals_only": null,
       "posted": "2026-09-24T13:19:35.053Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_2c781d1210c6c5",
@@ -9704,7 +9970,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T06:45:33.077Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_74aed3300ce336",
@@ -9726,7 +9992,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:50:54.536Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_99034e7f97a8a4",
@@ -9748,7 +10014,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T09:40:09.101Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_b6adfcdd2f4ebc",
@@ -9770,7 +10036,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:12:00.846Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_825d99db9d33c5",
@@ -9792,7 +10058,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:15:08.339Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_12bd7bc47e7442",
@@ -9814,7 +10080,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:41:50.637Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_083aebeabeaae6",
@@ -9836,7 +10102,7 @@
       "nationals_only": null,
       "posted": "2026-09-25T12:56:51.46Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_efb26ba3552f5d",
@@ -9858,7 +10124,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T10:03:15.16Z",
       "first_seen": "2026-09-25T07:18:53.994021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_6784ec1a353095",
@@ -9905,28 +10171,6 @@
       "posted": "2026-09-24",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
       "last_seen": "2026-10-02T08:06:28.303394+00:00"
-    },
-    {
-      "id": "workday_9bae6d3db6a9a2",
-      "title": "Manager, Enterprise Strategy",
-      "company": "Mastercard",
-      "location": "Dubai, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Manager, Enterprise Strategy Overview The Manager, Strategy will play a key role in shaping and executing Mastercard’s strategic agenda across Eastern Europe, Middle East & Africa (EEMEA). As part of the EEMEA Business Excellence Team, this role partners closely with Business Units, Functional Leaders, and Regional Management to identify, assess, and implement initiatives that strengthen Mastercard’s competitive positioning and drive business impact. The successful candidate will lead end-to-end workstreams – from problem definition and analysis to solution design, senior alignment, and execution – collaborating across markets and functions to deliver measurable outcomes. The role provides broad exposure to Mastercard’s senior leadership and a unique opportunity to influence the company’s priorities across 81 markets. This role reports to the Vice President, Strategy, EEMEA. Role Support the development and execution of EEMEA’s strategic framework in alignment with Mastercard’s global priorities Lead strategic projects and workstreams focused on growth acceleration, innovation, and operational excellence Structure complex, ambiguous challenges into clear hypotheses, actionable plans, and measurable outcomes Conduct quantitative and qualitative analyses to generate insights and data-driven recommendations Develop compelling, executive-ready materials that clearly communicate findings and influence decision-making Partner with cross-functional teams (e.g., Product, Services, Market Development, Finance) and regional business units to translate strategy into execution Build trusted relationships across EEMEA functions and markets to drive alignment and collaboration Contribute to a high-performing team culture that emphasizes strategic excellence, innovation, and continuous improvement All About You Bachelor’s degree from a leading academic institution; an MBA or advanced degree is preferred Experience in top-tier management consulting and/or corporate strategy roles Proven ability to deliver high-impact strategic projects and drive tangible business results Strong analytical and problem-solving skills, with the ability to translate complex information into actionable insights Exceptional communication and presentation skills, with experience crafting concise, logical narratives for senior audiences Strong interpersonal skills with a collaborative, inclusive approach to teamwork Self-starter who demonstrates curiosity, initiative, and resilience in a fast-paced, evolving environment Embodies the Mastercard Way – acting with decisiveness, partnership, and thoughtful risk-taking Corporate Security Responsibility All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must: Abide by Mastercard’s security policies and practices; Ensure the confidentiality and integrity of the information being accessed; Report any suspected information security violation or breach, and Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Manager--Enterprise-Strategy_R-291068",
-      "source": "Workday:Mastercard",
-      "company_type": "employer",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Lead",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-25",
-      "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "smartrecruiters_85839c878115c8",
@@ -10117,32 +10361,6 @@
       "posted": "2026-09-23T11:21:42.551Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
       "last_seen": "2026-09-29T08:03:01.973757+00:00"
-    },
-    {
-      "id": "smartrecruiters_39b35ba461374f",
-      "title": "Mechanical Inspector",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "The Mechanical Inspector will ensure the contractors are compliant with the contract documents, coordinate on a daily basis with the other teams to document and verify the quality and quantity of work performed by the Contractor and process the incoming Inspection Requests and technical submittals and perform the necessary actions. Job Duties Reading and understanding the package contract documents, detailed drawings, specifications, and health and safety measures, together with any associated updates. Ensuring the contractor(s) are complying with the standards and specifications of the contract documents through observation, measurements, and testing as well as tracking quality assurance progress. Maintaining records of the contractor manpower and equipment daily resources. Undertaking all site supervision and inspections when required or instructed by the Resident Engineer (RE) or the Assistant Resident Engineer (ARE). Documenting, in the areas assigned to the Inspector, the contractor’s personnel and equipment, activities observed, location of activities, reason for activities, and means and methods utilised. Additionally, report on materials delivery and following and implementing any site instructions made by the leader. Apply and implement all quality controls and quality procedures of the site. &#xa0;Follow up and implement any site instructions made by the leader. &#xa0;Apply and implement all quality controls and quality procedures of the site. &#xa0;Prepare any site measurements and surveying checks needed by the leader Monitoring conformance to quality, performance, and/or code requirements by performing inspection duties.&#xa0; Monitor Health and Safety of the construction works and report on violations Specific Skills Required Good knowledge in basic design requirements, familiar with Mechanical methodologies (HVAC/Plumbing/Drainage/ Fire Protection/ Water Supply) and installation processes and procedures. Knowledge of the Building Codes.&#xa0; Experience in Buildings of all types in particular high-rise, mixed use residential and commercial, retail and hospitality. Effective oral and written communication skills. Competent at writing reports – can present views clearly and concisely in good written English. Detailed knowledge of construction techniques. Person Specification &#xa0;(Behavioral Attributes) Good team player with high energy levels.&#xa0; Safety conscious with a high level of work ethic Ability to work under pressure and with professional judgement and a solutions type of approach. Experience Experience in Mechanical related type projects required.&#xa0; Candidates must have experience in Construction Supervision with a Consultancy with a minimum of 7 years of overall experience Qualification For the Inspector position, a Diploma in Engineering is required. For candidates who wish to progress onto Engineer level – a related Degree is required in the Engineering fields.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151354429-mechanical-inspector",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "hvac",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-23T11:15:13.533Z",
-      "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "smartrecruiters_83981644361a90",
@@ -10341,7 +10559,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_2e9748737e70ce",
@@ -10365,7 +10583,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T12:44:11.891Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_364506c1ac8533",
@@ -10389,7 +10607,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T12:05:29.781Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_2dc307bd58e576",
@@ -10411,7 +10629,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T11:52:43.95Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_a7f9b687918965",
@@ -10436,7 +10654,7 @@
       "nationals_only": null,
       "posted": "2026-09-23T11:44:25.061Z",
       "first_seen": "2026-09-24T07:23:48.158981+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "greenhouse_14de01ae650dae",
@@ -10531,32 +10749,6 @@
       "posted": "2026-10-06",
       "first_seen": "2026-09-23T07:31:13.184070+00:00",
       "last_seen": "2026-10-19T07:28:00.755851+00:00"
-    },
-    {
-      "id": "smartrecruiters_c7fc308ea179f2",
-      "title": "Infrastructure Engineer -Dry Utilities",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We are looking for an experienced Infrastructure Engineer – Dry Utilities to join our infrastructure project team in Abu Dhabi, with experience in dry utilities and infrastructure works. Key Responsibilities: Supervise and monitor the construction of dry utility infrastructure works, including electrical, telecom, street lighting, and associated utility networks. Oversee construction activities including utility ducts, chambers, manholes, cable routes, sleeves, crossings, and associated infrastructure works. Ensure construction works are carried out in accordance with approved drawings, specifications, method statements, ITPs, and project requirements. Review Contractor submissions, shop drawings, material submittals, method statements, RFIs, inspection requests, and other technical documents. Monitor site progress, quality, workmanship, and compliance with approved project requirements. Coordinate with the Contractor, Authorities, utility providers, stakeholders, and other disciplines to resolve technical and construction-related issues. Monitor testing and inspection of dry utility networks and ensure all required inspections and approvals are completed. Identify technical issues, construction risks, and potential delays and coordinate with the project team to implement appropriate corrective actions. Coordinate interfaces between dry utilities and other infrastructure elements, including roads, wet utilities, structures, landscaping, and other services. Review site conditions and proposed construction solutions and provide technical recommendations where required. Monitor the Contractor’s compliance with approved construction methodologies, ITPs, specifications, and quality requirements. Maintain proper records of site inspections, progress, technical issues, RFIs, and construction activities. Participate in site meetings, progress meetings, technical discussions, and coordination meetings with the Contractor and relevant stakeholders. Ensure that health, safety, environmental, and quality requirements are properly implemented on site. &#xa0; Bachelor’s Degree in Electrical Engineering or a related engineering discipline. Minimum 7+ Years relevant experience&#xa0;in infrastructure and dry utilities. Proven experience in infrastructure and dry utilities construction. Good knowledge of electrical, telecom, street lighting, utility ducts, chambers, and associated infrastructure works. Experience in construction supervision, inspection, quality control, and coordination with Contractors. Good understanding of construction drawings, specifications, method statements, ITPs, and technical submissions. Experience working on major infrastructure projects is preferred. UAE infrastructure and Authority experience is an advantage. Strong communication, coordination, and problem-solving skills. Ability to work effectively within a multidisciplinary project team and manage multiple site activities.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151312825-infrastructure-engineer-dry-utilities",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "quality control",
-        "electrical",
-        "construction"
-      ],
-      "seniority": "Mid",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-23T07:42:26.750Z",
-      "first_seen": "2026-09-23T07:31:13.184070+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "smartrecruiters_c1aa0d748b5004",
@@ -10799,7 +10991,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-23T07:31:13.184070+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_ee0d3598f7f528",
@@ -10821,7 +11013,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-23T07:31:13.184070+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_effc8f4de10a8b",
@@ -10843,7 +11035,7 @@
       "nationals_only": null,
       "posted": "2026-09-20T00:00:00.0000000",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_0782e9c36baa5a",
@@ -10865,7 +11057,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T00:00:00.0000000",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_a1b0f00fa55ac6",
@@ -10912,7 +11104,7 @@
       },
       "posted": "2026-09-21",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_958bef8807dbdc",
@@ -10940,28 +11132,6 @@
       "posted": "2026-09-17",
       "first_seen": "2026-09-22T07:28:30.528585+00:00",
       "last_seen": "2026-10-07T08:18:10.701251+00:00"
-    },
-    {
-      "id": "workday_2f01a483571ece",
-      "title": "Senior Specialist, Product Management – Operational Intelligence Commercialisation",
-      "company": "Mastercard",
-      "location": "Dubai, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Dubai",
-      "description": "Our Purpose Mastercard powers economies and empowers people in 200&#43; countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential. Title and Summary Senior Specialist, Product Management – Operational Intelligence Commercialisation Overview This Senior Specialist role in Product Management will support the commercialisation and sales expansion of Operational Intelligence products across one of the five global regions. The role will focus on driving product adoption, identifying customer pain points, supporting sales enablement, and contributing to the development of commercialization strategies. The individual will work closely with regional Advisors & Consulting Services (A&CS) teams and the Global Product Management team to ensure alignment between product capabilities and market needs. Key Responsibilities -Collaborate with A&CS teams to support product commercialisation efforts and drive customer engagement -Assist in identifying short-term and long-term whitespace opportunities and new use cases based on customer feedback and market trends -Support internal and external partnership initiatives to accelerate go-to-market efforts -Contribute to pricing strategy discussions and help quantify product value for customers -Monitor product adoption and usage metrics, and support initiatives to improve customer engagement -Assist in developing KPIs and tools to track commercialization success -Contribute to the creation of region-specific commercial constructs and go-to-market strategies -Develop customer value narratives and case studies to support sales conversations -Partner with regional teams to create and deliver sales training materials -Build strong working relationships across cross-functional teams to support commercialization goals All About You -Consulting experience with a focus on go-to-market, pricing, and commercialisation in technology or data-driven solutions; experience in payments or financial services is preferred -Strong customer orientation and commercial acumen -Exposure to API and AI-based product commercialization is a plus -Ability to support strategic product initiatives and contribute to business transformation -Analytical mindset with a focus on solving customer problems and supporting sales efforts -Understanding of competitive landscape and industry trends -Experience working in cross-functional teams and managing multiple priorities -Bachelor’s degree in business or related field; MBA or equivalent experience is a plus -Prior experience in strategy consulting or product commercialization is beneficial -Strong communication and collaboration skills to work effectively with internal and external stakeholders Corporate Security Responsibility All activities involving access to Mastercard assets, information, and networks comes with an inherent risk to the organization and, therefore, it is expected that every person working for, or on behalf of, Mastercard is responsible for information security and must: Abide by Mastercard’s security policies and practices; Ensure the confidentiality and integrity of the information being accessed; Report any suspected information security violation or breach, and Complete all periodic mandatory security trainings in accordance with Mastercard’s guidelines.",
-      "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Dubai-United-Arab-Emirates/Senior-Specialist--Product-Management---Operational-Intelligence-Commercialisation_R-290812",
-      "source": "Workday:Mastercard",
-      "company_type": "employer",
-      "industry": "Financial Services / Fintech",
-      "salary": null,
-      "contact": null,
-      "skills": [],
-      "seniority": "Senior",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-22",
-      "first_seen": "2026-09-22T07:28:30.528585+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "smartrecruiters_304c3ef3df7f9e",
@@ -11064,7 +11234,7 @@
       },
       "posted": "2026-09-17",
       "first_seen": "2026-09-21T07:45:46.028411+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_e671b52ffc2b4c",
@@ -11141,7 +11311,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-19T07:08:16.796516+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_549ac6d2235d6e",
@@ -11374,33 +11544,6 @@
       "last_seen": "2026-09-30T08:11:16.397612+00:00"
     },
     {
-      "id": "workday_47de93a781d26c",
-      "title": "Services Specialist - Wireline",
-      "company": "Baker Hughes",
-      "location": "AE-OTHER UNITED ARAB EMIRATES",
-      "country": "United Arab Emirates",
-      "city": "",
-      "description": "Services Specialist - Wireline Would you like the opportunity to learn cutting-edge technology? Do you enjoy being part of a successful team? Join our Wireline Team! We are the leader in well construction and production. Our innovative physical and digital solutions improve efficiency, production and maximize reservoir value. Partner with the best As a Services Specialist - Wireline , you will be responsible for: Executing wireline operations in line with technical program, safety standards (HSE) and customer requirements Ensuring tools are fit-for-job before deploymen and equipment is properly maintained and handed over after operations Performing tool preparation, assembly, and function testing, and Real-time operational support during jobs Supporting equipment readiness through proper usage and car maintenance team by identifying issues early Maintaining accurate job reports and equipment status updates ​ Fuel your passion To be successful in this role you will: Have a minimum of 3-6 years of experience in wireline field operations (open hole / cased hole / Sondex tools) and running and deploying downhole tools at wellsite. Have basic maintenance, troubleshooting, and equipment repair experience Have hands-on Sondex tool experience (highly desirable / preferred) Have a Diploma or Bachelor’s degree in Electrical, Electronics, Mechatronics, or related technical discipline. Be familiar with Job Center / field reporting systems and have basic SAP exposure (equipment tracking, job documentation – optional) Be proficient in reporting job activities and tool status and using field digital acquisition systems Have strong field discipline and safety mindset Have the ability to work under pressure in remote/rig environments Be a team player with good communication at wellsite Have a practical, hands-on problem-solving attitude Work in a way that works for you We recognize that everyone is different and that the way in which people want to work and deliver at their best is different for everyone. Working with us Our people are at the heart of what we do at Baker Hughes. We know we are better when all of our people are developed, engaged and able to bring their whole authentic selves to work. We invest in the health and well-being of our workforce, train and reward talent and develop leaders at all levels to bring out the best in each other. Working for you Our inventions have revolutionized energy for over a century. But to keep going forward tomorrow, we know we have to push the boundaries today. We prioritize rewarding those who embrace change with a package that reflects how much we value their input. Join us, and you can expect: · Contemporary work-life balance policies and wellbeing activities Comprehensive private medical care options Safety net of life insurance and disability programs Tailored financial programs Additional elected or voluntary benefits The Baker Hughes internal title for this role is: Services Experienced Professional - On Site Services",
-      "url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/AE-OTHER-UNITED-ARAB-EMIRATES/Services-Specialist---Wireline_R165862",
-      "source": "Workday:Baker Hughes",
-      "company_type": "service",
-      "industry": "Energy / Oil & Gas",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "electrical",
-        "construction",
-        "hse",
-        "sap"
-      ],
-      "seniority": "Senior",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-22",
-      "first_seen": "2026-09-16T07:24:16.517862+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
-    },
-    {
       "id": "workday_f3cf58b664cae5",
       "title": "Head Of AML UAE (UAE Nationals Preferred)",
       "company": "Citi",
@@ -11425,7 +11568,7 @@
       },
       "posted": "2026-08-25",
       "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "greenhouse_c748c667d24d90",
@@ -11447,7 +11590,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T14:51:12-04:00",
       "first_seen": "2026-09-15T07:24:07.162600+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_b31fdfd2672f0f",
@@ -11499,7 +11642,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-14T07:41:43.306024+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_0d5d75bf1a6c92",
@@ -11524,7 +11667,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-09-13T07:17:40.093014+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_3aa7ee86ff2047",
@@ -11546,7 +11689,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-12T06:59:01.132025+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_ff5a84e88eee66",
@@ -11615,7 +11758,7 @@
       },
       "posted": "2026-07-07",
       "first_seen": "2026-09-11T07:07:11.774830+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_c53d47ff6ab5fa",
@@ -11749,7 +11892,7 @@
       "nationals_only": null,
       "posted": "2026-10-15T23:00:51.965Z",
       "first_seen": "2026-09-10T07:07:45.253325+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "greenhouse_85ea27f586e563",
@@ -11933,7 +12076,7 @@
       },
       "posted": "2026-09-09",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_b3525642bcc43a",
@@ -11960,7 +12103,7 @@
       },
       "posted": "2026-09-08",
       "first_seen": "2026-09-09T07:11:30.035851+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_daa15010de74c1",
@@ -11991,34 +12134,6 @@
       "posted": "2026-09-28",
       "first_seen": "2026-09-08T07:02:04.633525+00:00",
       "last_seen": "2026-10-07T08:18:10.701251+00:00"
-    },
-    {
-      "id": "smartrecruiters_98b2c3ffe0c18d",
-      "title": "Inspector - Civil",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "Civil Site Inspector (Infrastructure Projects) Job Summary The Civil Site Inspector (Infrastructure) is responsible for inspecting and monitoring civil infrastructure construction activities to ensure that all works are executed in accordance with contract requirements, approved drawings, technical specifications, authority regulations, and applicable quality standards. The Civil Site Inspector works under the supervision of the Assistant Resident Engineer and Resident Engineer, supporting the delivery of roads, earthworks, utilities, drainage, public realm, retaining structures, and associated civil infrastructure works through continuous site inspections, quality monitoring, testing, and documentation. Key Job Duties 1. Site Inspection & Supervision Inspect daily construction activities to ensure compliance with approved drawings, specifications, and contract requirements. Monitor contractor workmanship and verify that works are executed in accordance with approved Method Statements and Inspection & Test Plans (ITPs). Report non-conforming works and monitor implementation of corrective actions. Verify completed works prior to inspection approval. 2. Civil Infrastructure Inspection Inspect roads, pavements, kerbs, footpaths, cycle tracks, earthworks, utility trenches, drainage systems, chambers, manholes, retaining structures, and public realm works. Verify setting out, dimensions, levels, line and grade, compaction, and workmanship. Ensure compliance with approved construction details and authority standards. 3. Quality Assurance & Testing Witness field and laboratory testing activities, including earthworks, concrete, asphalt, backfilling, and compaction tests. Verify that approved materials are used in the works. Review Work Inspection Requests (WIRs) and Material Inspection Requests (MIRs). Ensure inspection and testing records are properly maintained. 4. Health, Safety & Environmental Compliance Monitor contractor compliance with approved HSE requirements and environmental regulations. Report unsafe practices and support implementation of corrective actions. Promote safe construction practices throughout the project. 5. Documentation & Reporting Prepare daily inspection reports and maintain accurate site records. Record construction progress, quality observations, and site issues. Assist in maintaining as-built records and project documentation. Report inspection findings to the Assistant Resident Engineer and Resident Engineer. 6. Testing, Commissioning & Handover Participate in snagging, de-snagging, testing, and commissioning inspections. Verify completion of works prior to handover. Assist in preparing final inspection records and asset handover documentation. Required Qualifications & Experience Education Diploma or Bachelor's Degree in Civil Engineering or a related engineering discipline. Experience Minimum 8–10 years of experience as a Civil Inspector on major infrastructure projects. Proven experience in roads, utilities, drainage, earthworks, public realm, and civil infrastructure works. Experience with UAE authority specifications and inspection procedures is highly desirable. Experience in testing & commissioning and project handover is an advantage. Technical Skills Strong knowledge of civil construction practices, QA/QC procedures, Inspection & Test Plans (ITPs), and international construction standards. Ability to interpret engineering drawings, shop drawings, and technical specifications. Proficiency in Microsoft Office and construction inspection documentation. Familiarity with document management systems such as Asite is an advantage. Behavioural & Management Competencies Strong inspection and observation skills with excellent attention to detail. Good communication and teamwork abilities. Ability to work effectively in a multidisciplinary project environment. Proactive, organized, and committed to quality, safety, and timely project delivery.",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151802832-inspector-civil",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "qa/qc",
-        "civil",
-        "construction",
-        "commissioning",
-        "hse"
-      ],
-      "seniority": "Mid",
-      "shutdown": true,
-      "nationals_only": null,
-      "posted": "2026-09-25T09:47:46.839Z",
-      "first_seen": "2026-09-08T07:02:04.633525+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
     },
     {
       "id": "adecco_f249d0fe25fd38",
@@ -12288,7 +12403,7 @@
       "nationals_only": null,
       "posted": "2026-10-07",
       "first_seen": "2026-09-04T07:03:58.062855+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_79a11aecbf67a1",
@@ -12360,7 +12475,7 @@
       "nationals_only": null,
       "posted": "2026-09-02T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_88c9a3a7dc32dc",
@@ -12382,7 +12497,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_734fcf321f28f8",
@@ -12426,7 +12541,7 @@
       "nationals_only": null,
       "posted": "2026-09-01T00:00:00.0000000",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_f5c7765480e4d0",
@@ -12456,35 +12571,7 @@
       },
       "posted": "2026-10-14",
       "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
-    },
-    {
-      "id": "smartrecruiters_f8e05e38d0e043",
-      "title": "Senior Engineer - Planning",
-      "company": "AECOM",
-      "location": "Abu Dhabi, UAE, United Arab Emirates",
-      "country": "United Arab Emirates",
-      "city": "Abu Dhabi",
-      "description": "We're looking for a Senior Engineer - Planning to join our organization in Abu Dhabi, United Arab Emirates. In this role, you will be responsible for developing and executing comprehensive planning strategies that drive project success and operational efficiency. The ideal candidate will demonstrate exceptional analytical capabilities, meticulous attention to detail, and the ability to make decisive recommendations that align with organizational objectives. You will work collaboratively with cross-functional teams to optimize resource allocation, manage complex timelines, and ensure projects are delivered on schedule and within budget. Develop and maintain detailed project plans, schedules, and timelines using industry-standard planning tools and methodologies Analyze project requirements and constraints to identify risks, dependencies, and opportunities for optimization Allocate resources effectively across multiple projects, ensuring optimal utilization and capacity planning Conduct feasibility studies and provide data-driven recommendations to senior leadership and stakeholders Monitor project progress against established baselines and implement corrective actions as needed Prepare and present comprehensive planning reports, forecasts, and performance metrics to management Collaborate with engineering teams, project managers, and clients to refine planning strategies and address challenges Estimate project costs, budgets, and resource requirements with accuracy and attention to detail Identify process improvement opportunities and implement streamlined planning procedures Mentor junior planning staff and contribute to the development of planning best practices within the organization Ensure compliance with organizational standards, regulatory requirements, and industry guidelines Minimum 8 years of engineering experience with at least 3 years in a planning or scheduling role Advanced proficiency with project planning software such as Microsoft Project, Primavera P6, or equivalent tools Strong analytical and problem-solving skills with the ability to interpret complex data and trends Demonstrated expertise in resource allocation, capacity planning, and budget forecasting Excellent organizational skills with the ability to manage multiple priorities and deadlines simultaneously Proficiency in Microsoft Excel and data analysis tools for reporting and forecasting Strong written and verbal communication skills with the ability to present findings to diverse audiences Experience in risk assessment, mitigation planning, and contingency management Knowledge of project management methodologies including Agile, Lean, or traditional waterfall approaches Proven track record of improving planning processes and driving operational efficiency Preferred: Experience working in the UAE or Middle East region with familiarity of local regulatory and market conditions Preferred: Experience leading or mentoring planning teams Preferred: Familiarity with engineering project management within infrastructure, construction, or industrial sectors",
-      "url": "https://jobs.smartrecruiters.com/AECOM2/744000151772365-senior-engineer-planning",
-      "source": "SmartRecruiters:AECOM",
-      "company_type": "employer",
-      "industry": "Construction / Infrastructure",
-      "salary": null,
-      "contact": null,
-      "skills": [
-        "primavera",
-        "p6",
-        "project management",
-        "construction",
-        "civil"
-      ],
-      "seniority": "Senior",
-      "shutdown": false,
-      "nationals_only": null,
-      "posted": "2026-09-25T07:11:20.177Z",
-      "first_seen": "2026-09-03T06:59:27.705533+00:00",
-      "last_seen": "2026-09-28T08:24:53.029450+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_462bd958a27613",
@@ -12506,7 +12593,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-09-02T06:55:48.239515+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_c91d970acd59bb",
@@ -12576,7 +12663,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-08-29T08:45:00.667472+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_14feb44e8394d3",
@@ -12602,7 +12689,7 @@
       "nationals_only": null,
       "posted": "2026-09-29",
       "first_seen": "2026-08-27T12:28:16.914679+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_83df1a560ba2d1",
@@ -12624,7 +12711,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-27T12:28:16.914679+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_b9f041ba290446",
@@ -12668,7 +12755,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-26T03:08:02.529733+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_600252180b988f",
@@ -12714,7 +12801,7 @@
       "nationals_only": null,
       "posted": "2026-09-14",
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_9ebe73ecf5a45f",
@@ -12723,7 +12810,7 @@
       "location": "AE-ABU DHABI-AL GHAITH YARD, MUSSAFAH INDUSTRIAL 16th STREET",
       "country": "United Arab Emirates",
       "city": "Abu Dhabi",
-      "description": "Field Service Engineer - Centrifugal Compressor Are you a Mechanical Field Service Engineer looking for an interesting and inspiring opportunity? Would you like to be part of our Gas Technology Services? Join our Industrial and Energy Technology Team! Our Industrial and Energy Technology (IET) operates across 120 countries and serves the entire energy value chain and industrial sector. We hold an extensive portfolio of rotating equipment, process flow, transmission technology and lifecycle services. Our Engineering Transformation teamwork to improve the quality of our Engineering processes. Partner with the best As a Field Service Engineer - Centrifugal Compressors, you will be coordinating and overseeing work at the field site, providing quality service to the customer. In addition, your Job role may include providing the planning necessary for the job including instructions to the crew and equipment. As a Field Service Engineer - Centrifugal Compressor, you will be responsible for: Providing technical advice and support to clients and craft labour in the maintenance of Baker Hughes-supplied Centrifugal Compressors. Unloading and Inspection of the Centrifugal Compressor & its major auxiliaries at the installation site and their placement on the foundation. Improving Geometric dimensional check of foundation, equipment and auxiliary skids positioning, levelling, and alignment Performing maintenance activities of various types of Nuovo Pignone Centrifugal Compressors MCL, BCL, PCL, and SRL supplied by Baker Hughes at customer sites. Performing minor & major inspections of Centrifugal Compressors. Involving assembly, disassembly, checking and adjusting clearances evaluating wear and damage state of Couplings, lubricated-tooth, and dry-elastic types, thrust bearings and journal bearings of various kinds, gas seals, labyrinth and honeycomb types, Oil seals, gauged floating rings types, Dry gas seals or oil mechanical seals, Labyrinth or honeycomb inner seals, Diaphragms or diaphragms bundle and volutes. Fuel your passion To be successful in this role you will: Have a BE/BTech in Mechanical Engineering with a minimum of 5 years OR a full-time 3-year Technical Diploma in Mechanical Engineering with a minimum of 8 years of relevant industry experience. Have working experience in Rotating equipment (Centrifugal Compressor - Vertical/Horizontal) in the Field at Customer Sites. Have excellent Functional/Technical, Customer Focus, Communication, Interpersonal, and Team working skills. Have prior experience in Installation and/or Maintenance activities of Centrifugal Compressors in the Field at Customer Sites Work in a way that works for you We recognize that everyone is different and that the way in which people want to work and deliver at their best is different for everyone too. In this role, we can offer the following flexible working patterns: When assignments are complete, in general, you won't be required to visit the office, however, you can operate from Home and perform basic task like completing previous assignment reports, mobilization-related aspects, etc before you take on your next projects. The company shall ensure a work-life balance for the individual. Working with us Our people are at the heart of what we do at Baker Hughes. We know we are better when all of our people are developed, engaged and able to bring their whole authentic selves to work. We invest in the health and well-being of our workforce, train and reward talent and develop leaders at all levels to bring out the best in each other. Working for you Our inventions have revolutionized energy for over a century. But to keep going forward tomorrow, we know we have to push the boundaries today. We prioritize rewarding those who embrace change with a package that reflects how much we value their input. Join us, and you can expect: Contemporary work-life balance policies and wellbeing activities Comprehensive private medical care options A safety net of life insura …",
+      "description": "Field Service Engineer - Centrifugal Compressor Are you a Mechanical Field Service Engineer looking for an interesting and inspiring opportunity? Would you like to be part of our Gas Technology Services? Join our Industrial and Energy Technology Team! Our Industrial and Energy Technology (IET) operates across 120 countries and serves the entire energy value chain and industrial sector. We hold an extensive portfolio of rotating equipment, process flow, transmission technology and lifecycle services. Our Engineering Transformation teamwork to improve the quality of our Engineering processes. Partner with the best As a Field Service Engineer - Centrifugal Compressors, you will be coordinating and overseeing work at the field site, providing quality service to the customer. In addition, your Job role may include providing the planning necessary for the job including instructions to the crew and equipment. As a Field Service Engineer - Centrifugal Compressor, you will be responsible for: Providing technical advice and support to clients and craft labour in the maintenance of Baker Hughes-supplied Centrifugal Compressors. Unloading and Inspection of the Centrifugal Compressor & its major auxiliaries at the installation site and their placement on the foundation. Improving Geometric dimensional check of foundation, equipment and auxiliary skids positioning, levelling, and alignment Performing maintenance activities of various types of Nuovo Pignone Centrifugal Compressors MCL, BCL, PCL, and SRL supplied by Baker Hughes at customer sites. Performing minor & major inspections of Centrifugal Compressors. Involving assembly, disassembly, checking and adjusting clearances evaluating wear and damage state of Couplings, lubricated-tooth, and dry-elastic types, thrust bearings and journal bearings of various kinds, gas seals, labyrinth and honeycomb types, Oil seals, gauged floating rings types, Dry gas seals or oil mechanical seals, Labyrinth or honeycomb inner seals, Diaphragms or diaphragms bundle and volutes. Fuel your passion To be successful in this role you will: Have a BE/BTech in Mechanical Engineering with a minimum of 5 years OR a full-time 3-year Technical Diploma in Mechanical Engineering with a minimum of 8 years of relevant industry experience. Have working experience in Rotating equipment (Centrifugal Compressor - Vertical/Horizontal) in the Field at Customer Sites. Have experience on major inspections on BCL (Nuovo Pignone) Have excellent Functional/Technical, Customer Focus, Communication, Interpersonal, and Team working skills. Have prior experience in Installation and/or Maintenance activities of Centrifugal Compressors in the Field at Customer Sites Work in a way that works for you We recognize that everyone is different and that the way in which people want to work and deliver at their best is different for everyone too. In this role, we can offer the following flexible working patterns: When assignments are complete, in general, you won't be required to visit the office, however, you can operate from Home and perform basic task like completing previous assignment reports, mobilization-related aspects, etc before you take on your next projects. The company shall ensure a work-life balance for the individual. Working with us Our people are at the heart of what we do at Baker Hughes. We know we are better when all of our people are developed, engaged and able to bring their whole authentic selves to work. We invest in the health and well-being of our workforce, train and reward talent and develop leaders at all levels to bring out the best in each other. Working for you Our inventions have revolutionized energy for over a century. But to keep going forward tomorrow, we know we have to push the boundaries today. We prioritize rewarding those who embrace change with a package that reflects how much we value their input. Join us, and you can expect: Contemporary work-life balance policies and wellbeing activities Comprehens …",
       "url": "https://bakerhughes.wd5.myworkdayjobs.com/en-US/BakerHughes/job/AE-ABU-DHABI-AL-GHAITH-YARD-MUSSAFAH-INDUSTRIAL-16th-STREET/Field-Service-Engineer---Centrifugal-Compressor_R167604",
       "source": "Workday:Baker Hughes",
       "company_type": "service",
@@ -12737,9 +12824,9 @@
       "seniority": "Mid",
       "shutdown": false,
       "nationals_only": null,
-      "posted": "2026-09-16",
+      "posted": "2026-10-19",
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_766dbed08a52d4",
@@ -12761,7 +12848,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_e9a913c36bc008",
@@ -12783,7 +12870,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_813eeb7a43342b",
@@ -12805,7 +12892,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_c0e57b6f0c1668",
@@ -12827,7 +12914,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_53db029847a594",
@@ -12849,7 +12936,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_424c4fd2592327",
@@ -12871,7 +12958,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-22T02:57:01.236021+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_bb9ba7c53b7cc3",
@@ -12900,7 +12987,7 @@
       },
       "posted": "2026-08-20",
       "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_02934e77ddefe7",
@@ -12926,7 +13013,7 @@
       "nationals_only": null,
       "posted": "2026-08-20",
       "first_seen": "2026-08-21T03:06:02.307828+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "smartrecruiters_2df0c627b61dcd",
@@ -12974,7 +13061,7 @@
       "nationals_only": null,
       "posted": "2026-08-19T09:20:20.297000+00:00",
       "first_seen": "2026-08-20T02:59:48.277457+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_daa66d2e630d1a",
@@ -13026,7 +13113,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-18T02:58:04.969253+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_85fb7755a4a609",
@@ -13048,7 +13135,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-18T02:58:04.969253+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_4731bbfa4e3912",
@@ -13143,7 +13230,7 @@
       },
       "posted": "2026-08-11",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_b099eec850fc62",
@@ -13165,7 +13252,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:03:02.599Z",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_38404546518948",
@@ -13187,7 +13274,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:02:02.93Z",
       "first_seen": "2026-08-12T04:11:07.353688+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_4624ddd93a308a",
@@ -13211,7 +13298,7 @@
       "nationals_only": null,
       "posted": "2026-08-10",
       "first_seen": "2026-08-11T03:47:53.603809+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_a1de8710b225ce",
@@ -13233,7 +13320,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-11T03:47:53.603809+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_d5229cfe181777",
@@ -13279,7 +13366,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-08T03:29:42.597132+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_42b264b9e100aa",
@@ -13303,7 +13390,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-08T03:29:42.597132+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_605b08c2d1a22e",
@@ -13327,7 +13414,7 @@
       "nationals_only": null,
       "posted": "2026-09-29T08:50:05.287Z",
       "first_seen": "2026-08-05T05:18:38.606907+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_686b9a5517da76",
@@ -13375,7 +13462,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_22d85ffd54f0e1",
@@ -13400,7 +13487,7 @@
       "nationals_only": null,
       "posted": "2026-04-07T07:45:21Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_d209856dbb77ec",
@@ -13422,7 +13509,7 @@
       "nationals_only": null,
       "posted": "2026-06-01T10:47:24Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_3c23827714f983",
@@ -13444,7 +13531,7 @@
       "nationals_only": null,
       "posted": "2026-06-02T11:13:12Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_5479644fa94fb2",
@@ -13466,7 +13553,7 @@
       "nationals_only": null,
       "posted": "2026-06-24T05:36:14Z",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_f51cddf0515e1c",
@@ -13532,7 +13619,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-08-01T05:30:52.087411+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_bcc952fd043a95",
@@ -13554,7 +13641,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-30T05:12:41.407004+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_189e58db4441f1",
@@ -13576,7 +13663,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-30T05:12:41.407004+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "greenhouse_87979f8d10dc55",
@@ -13598,7 +13685,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-07-30T05:12:41.407004+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_90277ec37be5c1",
@@ -13625,7 +13712,7 @@
       },
       "posted": "2026-07-27",
       "first_seen": "2026-07-28T05:18:32.378387+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_77248eb9cffdd1",
@@ -13647,7 +13734,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-28T05:18:32.378387+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_3682cb4a318aef",
@@ -13669,7 +13756,7 @@
       "nationals_only": null,
       "posted": "2026-09-30T23:02:10.933Z",
       "first_seen": "2026-07-25T05:18:21.995198+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_1504237378e112",
@@ -13721,7 +13808,7 @@
       },
       "posted": "2026-09-09",
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_248d794c04f476",
@@ -13743,7 +13830,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_565185809fa171",
@@ -13767,7 +13854,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-24T05:24:13.377229+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_9d28c5dd099a08",
@@ -13789,7 +13876,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-22T05:23:22.740680+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_e68d530d1b8f5b",
@@ -13862,7 +13949,7 @@
       },
       "posted": "2026-08-31",
       "first_seen": "2026-07-17T05:17:37.069139+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_364d3641ca3813",
@@ -13889,7 +13976,7 @@
       },
       "posted": "2026-07-09",
       "first_seen": "2026-07-16T05:14:49.887438+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_77cb72e365f123",
@@ -13935,7 +14022,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-15T04:55:21.982480+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "greenhouse_034f1501b44fef",
@@ -13981,7 +14068,7 @@
       "nationals_only": null,
       "posted": "2026-09-14T02:22:32-04:00",
       "first_seen": "2026-07-14T04:54:50.100096+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "lever_8712e5571ed4c9",
@@ -14049,7 +14136,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-06T06:40:33.963833+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_fa5f00d00c3ecf",
@@ -14073,7 +14160,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_50a6a676fea8ca",
@@ -14097,7 +14184,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-04T05:50:24.554678+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_5deb6a55e6e1ee",
@@ -14119,7 +14206,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-07-01T06:37:39.023390+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_03a6e5f8299469",
@@ -14147,7 +14234,7 @@
       },
       "posted": "2026-03-10",
       "first_seen": "2026-06-30T06:16:28.416198+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_8ddc0a422ee9a5",
@@ -14169,7 +14256,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-26T06:15:10.705122+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_98a9fdac5ee883",
@@ -14215,7 +14302,7 @@
       "nationals_only": null,
       "posted": null,
       "first_seen": "2026-06-25T06:12:04.339128+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_1e5b3350d431d5",
@@ -14259,7 +14346,7 @@
       "nationals_only": null,
       "posted": "2026-09-24T11:10:28.974Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_2e7efbf6433a80",
@@ -14281,7 +14368,7 @@
       "nationals_only": null,
       "posted": "2026-09-28T12:31:27.049Z",
       "first_seen": "2026-06-24T06:10:52.655621+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_d76300d1f2f000",
@@ -14397,7 +14484,7 @@
       },
       "posted": "2026-06-29",
       "first_seen": "2026-06-18T06:57:00.249783+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "nadia global_60466d10c34780",
@@ -14609,7 +14696,7 @@
       },
       "posted": "2026-06-02",
       "first_seen": "2026-06-04T06:46:48.564591+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "adecco_1d438e0e3bff61",
@@ -14679,7 +14766,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_3be53ac9b8a058",
@@ -14704,7 +14791,7 @@
       "nationals_only": null,
       "posted": "2026-10-14",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_0ac40216fc0c64",
@@ -14729,7 +14816,7 @@
       "nationals_only": null,
       "posted": "2026-10-15",
       "first_seen": "2026-06-01T07:25:53.508134+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_c599368f77c64b",
@@ -14751,7 +14838,7 @@
       "nationals_only": null,
       "posted": "2026-02-27T00:00:00.0000000",
       "first_seen": "2026-06-01T07:11:07.314658+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "jooble_0568f3c5d38c38",
@@ -14801,7 +14888,7 @@
       },
       "posted": "2026-04-28",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_40ec30ea38df3a",
@@ -14855,7 +14942,7 @@
       },
       "posted": "2026-03-03",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_d25655fd9c0a2b",
@@ -14882,7 +14969,7 @@
       },
       "posted": "2026-04-13",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_a81ffc2a760d08",
@@ -14907,7 +14994,7 @@
       },
       "posted": "2026-09-11",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_533e141f6ae318",
@@ -14931,7 +15018,7 @@
       "nationals_only": null,
       "posted": "2026-03-31",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_c8d5363f798de9",
@@ -14984,7 +15071,7 @@
       "nationals_only": null,
       "posted": "2026-08-30",
       "first_seen": "2026-06-01T06:52:46.088053+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_5c87f40917af87",
@@ -15011,7 +15098,7 @@
       },
       "posted": "2025-01-16",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     },
     {
       "id": "workday_540531d44b0712",
@@ -15033,7 +15120,7 @@
       "nationals_only": null,
       "posted": "2026-03-26",
       "first_seen": "2026-05-31T20:44:17.034244+00:00",
-      "last_seen": "2026-10-19T07:28:00.755851+00:00"
+      "last_seen": "2026-10-20T07:18:37.503603+00:00"
     }
   ]
 }
